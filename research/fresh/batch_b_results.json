@@ -1,0 +1,194 @@
+{
+ "B0 dip in uptrend": {
+  "setting": [
+   2.0,
+   72,
+   2.0,
+   10
+  ],
+  "grid": 81,
+  "fit_n": 175,
+  "fit_avg": 2.24,
+  "fit_account": 819,
+  "test_n": 97,
+  "test_avg": 0.21,
+  "test_pf": 1.08,
+  "test_years": {
+   "2025": 66.6,
+   "2026": -46.7
+  },
+  "test_account": 314,
+  "test_drop_pct": 21,
+  "pass": false
+ },
+ "B1 strength rotation": {
+  "setting": [
+   30,
+   7
+  ],
+  "grid": 3,
+  "fit_n": 249,
+  "fit_avg": 0.73,
+  "fit_account": 277,
+  "test_n": 123,
+  "test_avg": -0.77,
+  "test_pf": 0.87,
+  "test_years": {
+   "2025": -132.2,
+   "2026": 37.8
+  },
+  "test_account": 154,
+  "test_drop_pct": 66,
+  "pass": false
+ },
+ "B2 weekly losers": {
+  "setting": [
+   14,
+   3
+  ],
+  "grid": 4,
+  "fit_n": 249,
+  "fit_avg": -0.28,
+  "fit_account": 178,
+  "test_n": 123,
+  "test_avg": 0.33,
+  "test_pf": 1.11,
+  "test_years": {
+   "2025": -24.4,
+   "2026": 64.6
+  },
+  "test_account": 291,
+  "test_drop_pct": 39,
+  "pass": false
+ },
+ "B3 rip in downtrend": {
+  "setting": [
+   2.5,
+   10,
+   48
+  ],
+  "grid": 12,
+  "fit_n": 112,
+  "fit_avg": 0.82,
+  "fit_account": 403,
+  "test_n": 59,
+  "test_avg": 2.03,
+  "test_pf": 2.05,
+  "test_years": {
+   "2025": 147.0,
+   "2026": -27.0
+  },
+  "test_account": 307,
+  "test_drop_pct": 13,
+  "pass": false
+ },
+ "B4 flash dip": {
+  "setting": [
+   4,
+   5,
+   12
+  ],
+  "grid": 8,
+  "fit_n": 397,
+  "fit_avg": 0.16,
+  "fit_account": 271,
+  "test_n": 229,
+  "test_avg": -0.26,
+  "test_pf": 0.86,
+  "test_years": {
+   "2025": 4.8,
+   "2026": -65.3
+  },
+  "test_account": 213,
+  "test_drop_pct": 38,
+  "pass": false
+ },
+ "B5 quiet pullback": {
+  "setting": [
+   20,
+   72,
+   2
+  ],
+  "grid": 8,
+  "fit_n": 163,
+  "fit_avg": 0.31,
+  "fit_account": 297,
+  "test_n": 98,
+  "test_avg": -1.21,
+  "test_pf": 0.59,
+  "test_years": {
+   "2025": -38.9,
+   "2026": -80.0
+  },
+  "test_account": 193,
+  "test_drop_pct": 36,
+  "pass": false
+ },
+ "B6 NR7 breakout": {
+  "setting": [
+   4
+  ],
+  "grid": 2,
+  "fit_n": 1715,
+  "fit_avg": -0.3,
+  "fit_account": 75,
+  "test_n": 1023,
+  "test_avg": 0.04,
+  "test_pf": 1.02,
+  "test_years": {
+   "2025": 96.7,
+   "2026": -54.1
+  },
+  "test_account": 232,
+  "test_drop_pct": 51,
+  "pass": false
+ },
+ "B7 55d breakout": {
+  "setting": [
+   10,
+   20
+  ],
+  "grid": 4,
+  "fit_n": 181,
+  "fit_avg": 3.1,
+  "fit_account": 546,
+  "test_n": 113,
+  "test_avg": -0.59,
+  "test_pf": 0.91,
+  "test_years": {
+   "2025": -224.7,
+   "2026": 157.9
+  },
+  "test_account": 334,
+  "test_drop_pct": 22,
+  "pass": false
+ },
+ "B8 BTC trend alt beta": {
+  "setting": [
+   100,
+   7
+  ],
+  "grid": 4,
+  "fit_n": 36,
+  "fit_avg": 1.9,
+  "fit_account": 316,
+  "test_n": 18,
+  "test_avg": 8.64,
+  "test_pf": 13.27,
+  "test_years": {
+   "2025": 71.4,
+   "2026": 84.2
+  },
+  "test_account": 467,
+  "test_drop_pct": 3,
+  "pass": false
+ },
+ "B9 dip+rip": {
+  "fit_account": 980,
+  "fit_drop_pct": 23,
+  "test_account": 313,
+  "test_drop_pct": 27,
+  "test_n": 156,
+  "test_avg": 0.9
+ }
+}

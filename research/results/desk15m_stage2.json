@@ -1,0 +1,899 @@
+{
+ "prereg": "PREREGISTRATION_2026-09-27_desk15m.md",
+ "prereg_sha256": "adcf51495454a406c9d37304dea6fbd4ddffd68c49880f4807facce727ef0969",
+ "seed": 20260927,
+ "run_at": "2026-09-27T01:05:41+00:00",
+ "groups": [
+  {
+   "group": "B|long|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "B|long|30m",
+   "oos_sum_R": -4.554,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": "B|long|30m|N=20|k=2.5|s=1.5|r=2.0",
+     "train_pf": 1.1175,
+     "oos_R": -4.554,
+     "oos_trades": 143
+    }
+   ]
+  },
+  {
+   "group": "B|short|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "B|short|30m",
+   "oos_sum_R": -15.343,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "B|short|30m|N=48|k=1.5|s=1.5|r=2.0",
+     "train_pf": 1.11,
+     "oos_R": -15.343,
+     "oos_trades": 154
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "F|long|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "F|long|30m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "F|short|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "F|short|30m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "P|long|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "P|long|30m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "P|short|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "P|short|30m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "L|long|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "L|long|30m",
+   "oos_sum_R": -19.747,
+   "folds_positive": 1,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": "L|long|30m|m=3.0|s=1.5|r=2.0",
+     "train_pf": 3.247,
+     "oos_R": 8.295,
+     "oos_trades": 11
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": "L|long|30m|m=3.0|s=1.5|r=2.0",
+     "train_pf": 2.2235,
+     "oos_R": -10.789,
+     "oos_trades": 34
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "L|long|30m|m=3.0|s=1.0|r=2.0",
+     "train_pf": 1.3596,
+     "oos_R": -17.253,
+     "oos_trades": 21
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "L|short|15m",
+   "oos_sum_R": -12.772,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": "L|short|15m|m=3.0|s=1.0|r=2.0",
+     "train_pf": 1.3018,
+     "oos_R": -0.071,
+     "oos_trades": 5
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "L|short|15m|m=3.0|s=1.0|r=2.0",
+     "train_pf": 1.1432,
+     "oos_R": -1.84,
+     "oos_trades": 11
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": "L|short|15m|m=3.0|s=1.0|r=2.0",
+     "train_pf": 1.1966,
+     "oos_R": -10.861,
+     "oos_trades": 10
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "L|short|30m",
+   "oos_sum_R": -12.907,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": "L|short|30m|m=2.0|s=1.5|r=2.0",
+     "train_pf": 1.2662,
+     "oos_R": -8.385,
+     "oos_trades": 36
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "L|short|30m|m=2.0|s=1.5|r=2.0",
+     "train_pf": 1.1979,
+     "oos_R": -0.885,
+     "oos_trades": 18
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": "L|short|30m|m=3.0|s=1.5|r=2.0",
+     "train_pf": 1.4018,
+     "oos_R": -3.637,
+     "oos_trades": 11
+    }
+   ]
+  },
+  {
+   "group": "X|long|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "X|long|30m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "X|short|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "X|short|30m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  }
+ ]
+}

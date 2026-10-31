@@ -1,0 +1,209 @@
+/* ================================================================ SHARED LOOK (2026-10-16)
+   Every tab takes the Today page's look: the moving market-colour sky, glass cards, glowing headings, pill controls.
+   The mood colours (--m1/--m2/--m3) follow today's market condition, set on <html data-cell> by today.js / app.js.
+   Cards are translucent without backdrop blur (blur on dozens of cards costs frame rate; the sky is already soft). */
+:root, :root[data-theme="dark"] {
+  --m1: #22d3a6; --m2: #38bdf8; --m3: #b8f5df;
+  --glass: rgba(18, 21, 26, .66); --glass-2: rgba(255, 255, 255, .035); --glass-b: rgba(255, 255, 255, .08);
+  --sky: radial-gradient(1200px 600px at 10% -10%, #0d1b2a 0%, transparent 60%), linear-gradient(180deg, #07090d 0%, #0b0e13 60%, #0e0f11 100%);
+  --glow: 0 10px 40px -20px rgba(0, 0, 0, .6);
+}
+:root[data-theme="light"] {
+  --glass: rgba(255, 255, 255, .76); --glass-2: rgba(0, 0, 0, .025); --glass-b: rgba(0, 0, 0, .08);
+  --sky: radial-gradient(1200px 600px at 10% -10%, #e6f1f5 0%, transparent 60%), linear-gradient(180deg, #f6f7f9 0%, #f3f3f1 100%);
+  --glow: 0 10px 34px -22px rgba(0, 0, 0, .25);
+}
+:root[data-cell="Bull-Calm"] { --m1: #22d3a6; --m2: #38bdf8; --m3: #b8f5df; }
+:root[data-cell="Bull-Wild"] { --m1: #f59e0b; --m2: #f43f5e; --m3: #fde3a7; }
+:root[data-cell="Bear-Calm"] { --m1: #818cf8; --m2: #6366f1; --m3: #d4d8fe; }
+:root[data-cell="Bear-Wild"] { --m1: #f43f5e; --m2: #c026d3; --m3: #fecdd3; }
+
+/* the sky sits behind every tab */
+html { background: var(--bg); }
+body { background: transparent; }
+body > .td-sky { z-index: -1; }
+.view, #view-today { background: transparent; }
+
+/* ---------- top bar */
+.top { background: color-mix(in srgb, var(--bg) 70%, transparent); border-bottom: 1px solid var(--glass-b);
+  backdrop-filter: blur(16px) saturate(1.2); -webkit-backdrop-filter: blur(16px) saturate(1.2); }
+.brand .logo { background: linear-gradient(135deg, var(--m3), var(--m1), var(--m2)); -webkit-background-clip: text; background-clip: text;
+  color: transparent; filter: drop-shadow(0 0 6px color-mix(in srgb, var(--m1) 60%, transparent)); }
+.tab { position: relative; border-bottom: 0; transition: color .2s; }
+.tab::after { content: ""; position: absolute; left: 12px; right: 12px; bottom: 0; height: 2px; border-radius: 2px;
+  background: linear-gradient(90deg, var(--m1), var(--m2)); box-shadow: 0 0 10px var(--m1); transform: scaleX(0); transition: transform .25s ease; }
+.tab.active::after { transform: scaleX(1); }
+.tab.active { color: var(--text-primary); }
+.count { background: color-mix(in srgb, var(--m1) 22%, transparent); color: var(--text-primary); }
+.icon-btn { background: var(--glass); border: 1px solid var(--glass-b); border-radius: 999px; width: 32px; }
+
+/* ---------- page headings */
+.page { gap: 18px; }
+h1 { font-size: 26px; font-weight: 700; letter-spacing: -.02em; color: transparent;
+  background: linear-gradient(100deg, var(--m3) 0%, var(--m1) 45%, var(--m2) 100%); -webkit-background-clip: text; background-clip: text;
+  background-size: 200% 100%; animation: tdShimmer 12s ease-in-out infinite alternate; }
+h1 > * { -webkit-text-fill-color: initial; }
+.eyebrow { letter-spacing: .14em; }
+.page-head, .live-head { padding-bottom: 14px; border-bottom: 1px solid var(--glass-b); }
+.page-head p, .live-head p { max-width: 820px; }
+
+/* ---------- cards: glass, like Today */
+.card, .kpi, .alert, .event, .inc-flow > div, .fwd-strip .chipbox, .empty, .job, .live-error {
+  background: var(--glass); border: 1px solid var(--glass-b); border-radius: 16px; box-shadow: var(--glow); }
+.card { padding: 16px 18px; }
+.kpi { border-radius: 14px; }
+.empty { border-style: dashed; }
+.card h3::before { content: ""; display: inline-block; vertical-align: middle; margin: -2px 8px 0 0; width: 6px; height: 6px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--m1), var(--m2)); box-shadow: 0 0 10px var(--m1); }
+details.card > summary { color: var(--text-primary); }
+/* cards inside cards: the Today gauge tile */
+.card .kpi, .card .card, .side .card, .pick, .ctl, .levels div, .pick-nums div, .job, .card .empty {
+  background: color-mix(in srgb, var(--surface-2) 55%, transparent); border: 1px solid var(--glass-b); border-radius: 12px; box-shadow: none; }
+.pick-nums div, .levels div { border-radius: 10px; }
+.kpi .k, .levels .k, .pick-nums small { letter-spacing: .1em; }
+.kpi .v { transition: color .8s; }
+.live-kpis .kpi.hero { background: linear-gradient(135deg, color-mix(in srgb, var(--m1) 14%, var(--glass)), var(--glass)); }
+.live-kpis .kpi.hero .v { color: transparent; background: linear-gradient(100deg, var(--m3), var(--m1)); -webkit-background-clip: text; background-clip: text; }
+.live-kpis .kpi.hero .v small { -webkit-text-fill-color: var(--text-muted); }
+
+/* hover lift, as on the Today strategy tiles */
+.alert, .pick, .bot-card, .mcard { transition: transform .25s ease, border-color .25s, box-shadow .25s; }
+.alert:hover, .pick:hover:not(:disabled), .bot-card:hover, .mcard:hover { transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--m1) 40%, var(--glass-b)); }
+.pick.sel { border-color: color-mix(in srgb, var(--m1) 60%, transparent); background: color-mix(in srgb, var(--m1) 8%, var(--surface-2));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--m1) 25%, transparent), 0 14px 34px -18px var(--m1); }
+.pick.sel .pick-top .radio { border-color: var(--m1); background: radial-gradient(var(--m1) 45%, transparent 50%); }
+
+/* ---------- markets: glass panels around the chart */
+.watch, .side, .chart-col { background: var(--glass); }
+.watch { border-right: 1px solid var(--glass-b); } .side { border-left: 1px solid var(--glass-b); }
+.watch-head, .watch-cols, .toolbar, .pane { border-color: var(--glass-b); }
+.wrow:hover { background: color-mix(in srgb, var(--m1) 6%, transparent); }
+.wrow.sel { background: color-mix(in srgb, var(--m1) 12%, transparent); border-left-color: var(--m1); }
+.legend { background: color-mix(in srgb, var(--bg) 70%, transparent); border: 1px solid var(--glass-b); }
+.menu, .tip { background: color-mix(in srgb, var(--surface-2) 92%, transparent); border: 1px solid var(--glass-b); border-radius: 12px;
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+
+/* ---------- controls: pills */
+.btn, .ctl-go { border-radius: 999px; padding: 7px 18px; color: #04140e; background: linear-gradient(90deg, var(--m3), var(--m1));
+  box-shadow: 0 6px 20px -8px var(--m1); transition: transform .15s, opacity .2s; }
+.btn:hover:not(:disabled), .ctl-go:hover:not(:disabled) { transform: translateY(-1px); }
+.ctl-go.danger { background: linear-gradient(90deg, #f87171, var(--critical)); color: #fff; box-shadow: 0 6px 20px -8px var(--critical); }
+.ctl-go.go { background: linear-gradient(90deg, #86efac, var(--good)); color: #04140e; box-shadow: 0 6px 20px -8px var(--good); }
+.chip { border-radius: 999px; padding: 4px 11px; background: transparent; border: 1px solid var(--glass-b); transition: all .2s; }
+.chip:hover:not(:disabled) { color: var(--text-primary); border-color: var(--text-muted); }
+.chip.on { color: var(--text-primary); border-color: var(--m1); background: color-mix(in srgb, var(--m1) 14%, transparent); }
+.seg { border-radius: 999px; background: color-mix(in srgb, var(--surface-2) 55%, transparent); border-color: var(--glass-b); }
+.seg button { border-radius: 999px; }
+.seg button.on { color: var(--text-primary); background: color-mix(in srgb, var(--m1) 18%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--m1) 45%, transparent); }
+input, .dec-form textarea { background: color-mix(in srgb, var(--surface-2) 60%, transparent); border: 1px solid var(--glass-b); border-radius: 10px; }
+input:focus, .dec-form textarea:focus { outline: none; border-color: color-mix(in srgb, var(--m1) 60%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--m1) 15%, transparent); }
+.ind-toggles input, .modal-box input[type="checkbox"] { box-shadow: none; }
+.ctl { border-radius: 12px; }
+.pill, .tagc, .vb, .state, .alert .dir { border-radius: 999px; }
+
+/* ---------- tables */
+th { background: color-mix(in srgb, var(--surface-1) 92%, transparent); border-bottom: 1px solid var(--glass-b); font-size: 11px;
+  letter-spacing: .06em; text-transform: uppercase; }
+td { border-bottom: 1px solid color-mix(in srgb, var(--glass-b) 70%, transparent); }
+tr:hover td { background: color-mix(in srgb, var(--m1) 6%, transparent); }
+.table-wrap { border-radius: 10px; }
+.health li, .rules li { border-bottom-color: var(--glass-b); }
+
+/* ---------- modal */
+.modal { background: rgba(0, 0, 0, .45); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.modal-box { background: color-mix(in srgb, var(--surface-1) 94%, transparent); border: 1px solid var(--glass-b); border-radius: 18px; position: relative; }
+.modal-box::before { content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--m1) 70%, transparent), transparent 40%, transparent 60%, color-mix(in srgb, var(--m2) 60%, transparent));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+
+/* ---------- entrance, as on Today (static sections only, so refreshing numbers do not re-animate) */
+.view.active > .page > section, .view.active > .page > .page-head, .view.active > .page > .live-head,
+.view.active > .page > .live-grid, .view.active > .page > .grid2, .view.active > .page > .kpis, .view.active > .page > details {
+  animation: tdIn .6s cubic-bezier(.2, .7, .2, 1) both; }
+.view.active > .page > :nth-child(2) { animation-delay: .04s; } .view.active > .page > :nth-child(3) { animation-delay: .08s; }
+.view.active > .page > :nth-child(4) { animation-delay: .12s; } .view.active > .page > :nth-child(n+5) { animation-delay: .16s; }
+
+@media (prefers-reduced-motion: reduce) {
+  h1, .view.active > .page > * { animation: none !important; }
+  .tab::after { transition: none; }
+}
+
+/* ---------- live: controls fixed top right, header stays on screen */
+#view-live .live-head { position: sticky; top: 0; z-index: 5; margin: -20px -24px 0; padding: 16px 24px 14px;
+  background: color-mix(in srgb, var(--bg) 72%, transparent); backdrop-filter: blur(16px) saturate(1.2); -webkit-backdrop-filter: blur(16px) saturate(1.2); }
+#view-live .live-head-r { flex-direction: column; align-items: flex-end; gap: 8px; }
+.live-head-meta { display: flex; align-items: center; gap: 10px; }
+.ctl-top { display: flex; gap: 8px; }
+.ctl-top .ctl { padding: 8px 14px; min-width: 128px; }
+.ctl-top .ctl b { font-size: 13px; } .ctl-top .ctl span { font-size: 10.5px; white-space: nowrap; }
+#liveJob { margin-top: 0; }
+
+/* ---------- live: strategy drawers (one line each, details fold out) */
+.pick-row { display: flex; flex-direction: column; gap: 8px; }
+.pick { padding: 0; gap: 0; text-align: left; }
+.pick.nopick { opacity: 1; }
+.pick.nopick:not(.sel) .pick-top .radio { opacity: .35; }
+.pick-top { width: 100%; display: flex; align-items: center; gap: 10px; padding: 12px 16px; background: none; border: 0; text-align: left; color: inherit; }
+.pick-top h4 { margin: 0; font-size: 14px; white-space: nowrap; }
+.pick-key { margin-left: auto; white-space: nowrap; font-size: 12px; color: var(--text-secondary); }
+.pick-key small { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--text-muted); }
+.pick-key b { font-family: "JetBrains Mono", monospace; color: var(--text-primary); }
+.chev { font-style: normal; color: var(--text-muted); transition: transform .25s ease; }
+.pick.open .chev { transform: rotate(180deg); color: var(--m1); }
+.pick-body { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .3s ease; }
+.pick-body > div { overflow: hidden; display: flex; flex-direction: column; gap: 10px; padding: 0 16px; }
+.pick.open .pick-body { grid-template-rows: 1fr; }
+.pick.open .pick-body > div { padding-bottom: 14px; border-top: 1px solid var(--glass-b); padding-top: 12px; }
+.pick:hover:not(.sel) { transform: none; }
+@media (max-width: 900px) {
+  #view-live .live-head { flex-direction: column; align-items: stretch; margin: -16px -16px 0; padding: 12px 16px; }
+  #view-live .live-head-r { align-items: stretch; }
+  .ctl-top .ctl { min-width: 0; flex: 1; } .ctl-top .ctl span { display: none; }
+  .pick-key { display: none; }
+}
+#view-live .live-head > div:first-child { min-width: 0; }
+#liveSub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* ---------- paper bots: same drawers as the live strategies */
+#botsCards.bots-grid { display: flex; flex-direction: column; gap: 8px; }
+.bot-card .pick-top { cursor: pointer; flex-wrap: nowrap; }
+.bot-card .pick-top h4 { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.bot-card .pick-top .live-badge { flex: none; }
+.bot-card .pick-key { margin-left: 0; } .bot-card .live-badge + .pick-key { margin-left: auto; }
+.bot-card .pick-key.k2 { padding-left: 4px; }
+.bot-card .pick-key.up b { color: var(--up); } .bot-card .pick-key.down b { color: var(--down); }
+.bot-card .bots-ctl { flex: none; margin-left: 6px; }
+.bot-card .bots-ctl .chip { padding: 3px 10px; }
+.bot-card table { margin-top: 2px; }
+@media (max-width: 900px) { .bot-card .pick-top { flex-wrap: wrap; } .bot-card .pick-key { display: inline; } }
+
+/* ---------- live: guard rails as numbers in the KPI row (no drawn rail) */
+.live-kpis { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr) minmax(0, .75fr) minmax(0, 1.5fr); }
+.live-kpis .kpi.guard .d b { font-family: "JetBrains Mono", monospace; color: var(--text-secondary); font-weight: 600; }
+@media (max-width: 900px) { .live-kpis { grid-template-columns: 1fr 1fr; } }
+#livePos .empty, #livePos td.empty { padding: 12px; border: 0; box-shadow: none; background: none; }
+
+/* ---------- strategies tab: same drawers as paper bots */
+.strat-card .pick-top .pill { flex: none; }
+.strat-sum { display: flex; align-items: center; gap: 10px; margin-left: auto; min-width: 0; }
+.strat-sum .pick-key { margin-left: 0; }
+.strat-sum .pick-key b.up { color: var(--up); } .strat-sum .pick-key b.down { color: var(--down); }
+.strat-card .v4card { margin-bottom: 0; }
+.strat-card .pick-body .card-head { margin-bottom: 0; }
+@media (max-width: 900px) { .strat-sum { flex-wrap: wrap; margin-left: 0; } }
+
+/* ---------- incubator: one drawer per idea */
+.inc-card .pick-top .pill { flex: none; }
+.inc-card .prog { width: 90px; }
+#incCards .bots-kpis { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+@media (max-width: 900px) { #incCards .bots-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* ---------- scanner: sections below the alerts as drawers */
+#scanDrawers { margin-top: 16px; }
+#scanDrawers .seg { align-self: flex-start; }
+
+/* ---------- research: one drawer per family */
+#resCards .pick-top .vb { flex: none; }
+#resCards .res-runs th { cursor: pointer; }

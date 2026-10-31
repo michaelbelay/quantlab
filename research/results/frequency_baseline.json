@@ -1,0 +1,17 @@
+{
+  "pairs": 127,
+  "years": 5.68,
+  "aggregate_trades": 6977,
+  "aggregate_per_year": 1228,
+  "slots": 20,
+  "capped_trades": 4689,
+  "capped_per_year": 825,
+  "refusal_pct": 32.8,
+  "per_pair_per_year": 9.67,
+  "longest_gap_days": 14.8,
+  "longest_gap_start": "2021-05-19",
+  "median_gap_hours": 0.0,
+  "p90_gap_days": 1.17,
+  "profit_factor": 1.267,
+  "expectancy": 1.0154
+}

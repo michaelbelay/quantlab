@@ -1,0 +1,4 @@
+VolSysLong_2h_25                   futA   reject    188.92% dd=22.52% tr=261 loses in recent regime (-30.87%)
+VolSysLong_3h_30                   futA   reject    433.97% dd=23.23% tr=94 too few trades (94 < 100);positive in only 5/11 periods
+VolSysLong_3h_20                   futA   reject    259.15% dd=25.22% tr=334 loses in recent regime (-26.69%)
+VolSysLong_4h_20                   futA   reject    158.95% dd=27.75% tr=244 loses in recent regime (-17.02%)

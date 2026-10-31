@@ -1,0 +1,28 @@
+{
+ "updated": "2026-10-31T22:25:07+00:00",
+ "forward_start": "2026-10-15 00:00:00+00:00",
+ "rule": "DVOL z90 <= -1.5 and 10d return < 0 -> short 7d, stop 3.0x sigma24; BTC+ETH",
+ "latest_close": {
+  "BTC": {
+   "day": "2026-10-30",
+   "dvol": 40.59,
+   "z": 1.41,
+   "r10_pct": -7.08,
+   "signal": false
+  },
+  "ETH": {
+   "day": "2026-10-30",
+   "dvol": 55.24,
+   "z": 1.3,
+   "r10_pct": -8.71,
+   "signal": false
+  }
+ },
+ "closed_trades": 0,
+ "avg_pct": null,
+ "pf": null,
+ "account": 300.0,
+ "max_drop_pct": 0.0,
+ "open": [],
+ "trades": []
+}

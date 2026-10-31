@@ -1,0 +1,96 @@
+{
+ "checked_at": "2026-10-23T07:17:15+00:00",
+ "window": [
+  "2026-10-16 07:00:00+00:00",
+  "2026-10-23 07:00:00+00:00"
+ ],
+ "profile": "NFIFull",
+ "strategy": "NostalgiaForInfinityX8",
+ "coins": 220,
+ "level": "red",
+ "lines": [
+  "The bot is not running right now.",
+  "1 trade differs from the backtest with no explanation.",
+  "Only 2 closed live trades so far - too few to judge the strategy itself (needs 10)."
+ ],
+ "part1": {
+  "backtest_trades": 3,
+  "live_trades": 2,
+  "carried_in": 0,
+  "matched": [
+   {
+    "pair": "HUMA/USDT:USDT",
+    "side": "long",
+    "bt_open": "2026-10-22 16:10:00+00:00",
+    "live_open": "2026-10-22 16:13:21.207017+00:00",
+    "bt_pct": 3.02,
+    "live_pct": -8.31
+   },
+   {
+    "pair": "BTW/USDT:USDT",
+    "side": "long",
+    "bt_open": "2026-10-22 20:05:00+00:00",
+    "live_open": "2026-10-22 20:07:41.908774+00:00",
+    "bt_pct": -19.73,
+    "live_pct": -39.57
+   }
+  ],
+  "missed": [
+   {
+    "pair": "FF/USDT:USDT",
+    "side": "short",
+    "bt_open": "2026-10-22 19:50:00+00:00",
+    "bt_pct": 2.58,
+    "why": "unexplained"
+   }
+  ],
+  "extra": [],
+  "fill_gap_pct": -15.585,
+  "downtime": [
+   {
+    "kind": "offline",
+    "from": "2026-10-22 17:09:29+00:00",
+    "to": "2026-10-22 17:14:56+00:00",
+    "hours": 0.1
+   },
+   {
+    "kind": "offline",
+    "from": "2026-10-22 17:14:56+00:00",
+    "to": "2026-10-22 17:21:25+00:00",
+    "hours": 0.1
+   },
+   {
+    "kind": "paused",
+    "from": "2026-10-22 20:48:46+00:00",
+    "to": "2026-10-23 07:00:00+00:00",
+    "hours": 10.2
+   }
+  ],
+  "compared_from": "2026-10-22 15:24:10+00:00"
+ },
+ "part2": {
+  "live": {
+   "since": "2026-10-22 15:24:10+00:00",
+   "trades": 2,
+   "closed": 2,
+   "open": 0,
+   "win_pct": 0.0,
+   "avg_pct": -23.94,
+   "quiet_h": 10.9,
+   "quiet_since": "2026-10-22 20:07:41.908774+00:00",
+   "quiet_from_start": false
+  },
+  "backtest_30m": {
+   "trades": 692,
+   "win_pct": 97.4,
+   "avg_pct": 7.84,
+   "gap_h_p50": 4.0,
+   "gap_h_p90": 106.7,
+   "gap_h_p99": 303.9,
+   "gap_h_max": 548.4,
+   "month_win_min_pct": 80.0,
+   "period": "2024-04..2026-09"
+  }
+ },
+ "secs": 1033
+}

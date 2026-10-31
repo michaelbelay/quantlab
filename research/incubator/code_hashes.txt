@@ -1,0 +1,2 @@
+b61c6856da7c7cd9ed296c4b49a646017b2a8038d3afeb2d5cf274acd5938d31 research/incubator/incubator.py
+3ba0b5a6a24ff9c319bf45d07f34f0eab00708d34b50744ec114735b99b288af research/downtrend.py

@@ -1,0 +1,81 @@
+{
+ "V1 panic buy": {
+  "setting": [
+   2,
+   7
+  ],
+  "fit_n": 36,
+  "fit_avg": 3.04,
+  "fit_account": 483,
+  "test_n": 12,
+  "test_avg": -0.42,
+  "test_pf": 0.86,
+  "test_years": {
+   "2025": -16.9,
+   "2026": 11.8
+  },
+  "test_account": 290,
+  "test_drop_pct": 15,
+  "grid_positive_on_test": "1/4",
+  "pass": false
+ },
+ "V2 variance premium": {
+  "setting": [
+   1.5,
+   7
+  ],
+  "fit_n": 111,
+  "fit_avg": 0.58,
+  "fit_account": 360,
+  "test_n": 64,
+  "test_avg": 1.05,
+  "test_pf": 1.47,
+  "test_years": {
+   "2025": 66.5,
+   "2026": 0.9
+  },
+  "test_account": 400,
+  "test_drop_pct": 15,
+  "grid_positive_on_test": "4/4",
+  "pass": true
+ },
+ "V3 fear fading": {
+  "setting": [
+   5
+  ],
+  "fit_n": 62,
+  "fit_avg": -0.22,
+  "fit_account": 264,
+  "test_n": 26,
+  "test_avg": -1.16,
+  "test_pf": 0.49,
+  "test_years": {
+   "2025": -35.7,
+   "2026": 5.6
+  },
+  "test_account": 256,
+  "test_drop_pct": 23,
+  "grid_positive_on_test": "0/2",
+  "pass": false
+ },
+ "V4 complacency short": {
+  "setting": [
+   1.5,
+   7
+  ],
+  "fit_n": 53,
+  "fit_avg": 2.23,
+  "fit_account": 521,
+  "test_n": 26,
+  "test_avg": 2.19,
+  "test_pf": 2.4,
+  "test_years": {
+   "2025": 23.6,
+   "2026": 33.4
+  },
+  "test_account": 391,
+  "test_drop_pct": 7,
+  "grid_positive_on_test": "4/4",
+  "pass": true
+ }
+}

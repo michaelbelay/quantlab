@@ -1,0 +1,37 @@
+{
+ "updated": "2026-10-31T22:30:05+00:00",
+ "forward_start": "2026-10-18",
+ "register": "C:\\quantlab\\FORWARD_2026-10-17_crashday.md",
+ "rule": "BTC day <= -2 sigma20 and <= -4%, cell Bear-Wild at the close -> L/S BTC+ETH 72h stop 3 sigma24; F = flush_f1 on D/D+1",
+ "summary": {
+  "events": 0,
+  "events_closed": 0,
+  "L": {
+   "events": 0
+  },
+  "S": {
+   "events": 0
+  },
+  "F": {
+   "events": 0
+  },
+  "flush_trades": 0,
+  "stage": "running (0/10 events)"
+ },
+ "latest_close": {
+  "day": "2026-10-30",
+  "btc_ret_pct": -0.83,
+  "crash_line_pct": -4.0,
+  "crash": false,
+  "cell": "Bear-Calm"
+ },
+ "days": [
+  {
+   "day": "2026-10-29",
+   "btc_ret_pct": -4.12,
+   "sigma20_pct": 1.27,
+   "cell": "Bear-Calm",
+   "role": "context"
+  }
+ ]
+}

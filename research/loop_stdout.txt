@@ -1,0 +1,6 @@
+VolSys_3h_15                       futA   reject     -2.57% dd=41.85% tr=1243 not profitable (-2.57%);drawdown too deep (41.85%);profit depends on a single co
+VolSys_3h_30                       futA   pass      392.07% dd=16.95% tr=144 
+VolSys_3h_30                       futB   reject     31.36% dd=55.36% tr=169  <-- holdout
+VolSys_2h_18                       futA   reject     61.31% dd=67.78% tr=1030 drawdown too deep (67.78%);profit depends on a single coin;loses in recent regim
+VolSys_2h_25                       futA   pass      163.58% dd=29.96% tr=422 
+VolSys_2h_25                       futB   reject    190.91% dd=29.11% tr=347  <-- holdout

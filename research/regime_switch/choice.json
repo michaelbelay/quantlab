@@ -1,0 +1,52 @@
+{
+ "choice": {
+  "UP_LOVOL": [
+   "9ef3c32f80d4"
+  ],
+  "UP_HIVOL": [
+   "602db68df71a"
+  ],
+  "DN_LOVOL": [],
+  "DN_HIVOL": []
+ },
+ "types_filled": 2,
+ "stop": false,
+ "names": {
+  "9ef3c32f80d4": {
+   "name": "streak_exhaustion \u00b7 volume \u00b7 long",
+   "status": "REJECTED",
+   "stage": "G2"
+  },
+  "602db68df71a": {
+   "name": "channel \u00b7 not_flat \u00b7 long",
+   "status": "REJECTED",
+   "stage": "G2"
+  }
+ },
+ "selected_cells": [
+  {
+   "id": "602db68df71a",
+   "type": "UP_HIVOL",
+   "trades": 1349,
+   "pf": 1.6051534137923522,
+   "pf2": 1.5339471048838416,
+   "t": 3.9857425309452856,
+   "net": 2604.084537202005,
+   "half1": 187.88904076133366,
+   "half2": 2416.1954964406714,
+   "pass": true
+  },
+  {
+   "id": "9ef3c32f80d4",
+   "type": "UP_LOVOL",
+   "trades": 4271,
+   "pf": 1.1848281481155993,
+   "pf2": 1.0988683589871646,
+   "t": 3.133771791000722,
+   "net": 1971.3047225015298,
+   "half1": 1010.0086960041984,
+   "half2": 961.2960264973312,
+   "pass": true
+  }
+ ]
+}

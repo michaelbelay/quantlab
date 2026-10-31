@@ -1,0 +1,9 @@
+fee 0.003  VolSysRegime_2h_25     futA  pass      375.62%  dd=14.75%  tr=314  recent=68.24
+fee 0.003  VolSysRegime_2h_25     futB  pass      207.78%  dd=26.09%  tr=292  recent=21.89
+fee 0.003  VolSysRegime_1d        futA  pass       80.38%  dd=28.58%  tr=271  recent=27.34
+fee 0.003  VolSysRegime_1d        futB  pass      210.28%  dd=32.56%  tr=265  recent=22.97
+fee 0.004  VolSysRegime_2h_25     futA  pass      363.13%  dd=15.56%  tr=314  recent=64.05
+fee 0.004  VolSysRegime_2h_25     futB  pass      195.85%  dd=26.39%  tr=292  recent=17.92
+fee 0.004  VolSysRegime_1d        futA  pass       69.83%  dd=30.51%  tr=271  recent=23.98
+fee 0.004  VolSysRegime_1d        futB  pass      199.48%  dd=34.23%  tr=265  recent=19.61
+STRESS COMPLETE

@@ -1,0 +1,65 @@
+{
+  "note": "Strategy library for the Today tab. Numbers come from registered tests only; 'fit' per market condition (Bull/Bear x Calm/Wild, BTC daily). Update when a test result changes.",
+  "strategies": [
+    {
+      "id": "majors-trend",
+      "name": "MajorsTrend",
+      "style": "Long-term trend",
+      "horizon": "days to weeks",
+      "markets": "BTC · ETH · BNB, long only, 1x",
+      "status": "green",
+      "status_text": "Passed on never-used data (2017-2020)",
+      "evidence": "2017-2026: 300 → 5,732, worst drop 38%",
+      "live": "Live slot (port 8101), parked",
+      "fit_rule": "majors_trend",
+      "fit": {}
+    },
+    {
+      "id": "vbreak4live",
+      "name": "VBreak4Live",
+      "style": "Swing breakouts",
+      "horizon": "hours to days",
+      "markets": "Top-133 coins by volume, long + short, 1x, 20 slots",
+      "status": "yellow",
+      "status_text": "Passes in Bull + Calm only (2026-10-11)",
+      "evidence": "Bull + Calm: PF 1.55 (1.48 at 2x costs), 300 → 478, worst drop 30%",
+      "live": "Ran live 2026-09-24 → 10-04 (closed by Michael, +6 USDT)",
+      "fit": {
+        "Bull-Calm": {"level": "good", "why": "Its passing condition: PF 1.55, 300 → 478 when trading only here."},
+        "Bull-Wild": {"level": "avoid", "why": "Tested PF 0.98 here: breakouts reverse in wild markets."},
+        "Bear-Calm": {"level": "mixed", "why": "Tested PF 1.18, but the drop reached 43% (limit 40%)."},
+        "Bear-Wild": {"level": "avoid", "why": "Tested PF 0.73 here: its worst condition."}
+      }
+    },
+    {
+      "id": "slot-bear",
+      "name": "Bear-market strategy",
+      "style": "Research gap",
+      "horizon": "—",
+      "markets": "—",
+      "status": "research",
+      "status_text": "Nothing tested earns in bear markets yet",
+      "evidence": "Top research priority: the universal strategy sits in cash here until one passes.",
+      "live": "—",
+      "fit": {
+        "Bull-Calm": {"level": "none", "why": "Not built yet."}, "Bull-Wild": {"level": "none", "why": "Not built yet."},
+        "Bear-Calm": {"level": "none", "why": "Not built yet."}, "Bear-Wild": {"level": "none", "why": "Being measured: crash-day forward log since 2026-10-18 (bounce long, continuation short, flush setup vs cash), verdict at 10 crash events (~2 years)."}
+      }
+    },
+    {
+      "id": "slot-day",
+      "name": "Day trading (15m–1h)",
+      "style": "Research gap",
+      "horizon": "minutes to hours",
+      "markets": "—",
+      "status": "research",
+      "status_text": "0 of 192 fast strategies survived costs so far",
+      "evidence": "Needs bigger moves per trade than fees (0.2% round trip).",
+      "live": "—",
+      "fit": {
+        "Bull-Calm": {"level": "none", "why": "Not built yet."}, "Bull-Wild": {"level": "none", "why": "Not built yet."},
+        "Bear-Calm": {"level": "none", "why": "Not built yet."}, "Bear-Wild": {"level": "none", "why": "Not built yet."}
+      }
+    }
+  ]
+}

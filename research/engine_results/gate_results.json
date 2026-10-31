@@ -1,0 +1,919 @@
+{
+ "unavailable": {
+  "dev": [],
+  "holdout": [
+   "SHIB",
+   "PEPE",
+   "U",
+   "BFUSD",
+   "RAY",
+   "LUNC",
+   "FLOKI"
+  ]
+ },
+ "candidates": {
+  "volatility_breakout_b2|btc|both": {
+   "dev": {
+    "aggregate": {
+     "trades": 6635,
+     "ret_pct": 589.0,
+     "pf": 1.275
+    },
+    "cost2x": {
+     "trades": 6672,
+     "ret_pct": 450.1,
+     "pf": 1.201
+    },
+    "slip2x": {
+     "trades": 6672,
+     "ret_pct": 516.8,
+     "pf": 1.236
+    },
+    "funding2x": {
+     "trades": 6635,
+     "ret_pct": 553.2,
+     "pf": 1.256
+    },
+    "portfolio_10": {
+     "ret_pct": 287.3,
+     "taken": 3483,
+     "skipped": 3152,
+     "max_dd": 55.9,
+     "final_equity": 3873.5
+    },
+    "portfolio_20": {
+     "ret_pct": 452.7,
+     "taken": 5311,
+     "skipped": 1324,
+     "max_dd": 37.2,
+     "final_equity": 5527.3
+    },
+    "long_pnl": 6625.0,
+    "short_pnl": -734.7,
+    "long_trades": 3457,
+    "short_trades": 3178,
+    "funding_paid": 358.1,
+    "bull2021": 129.5,
+    "bear2022": 36.3,
+    "recovery2023_24": 272.0,
+    "recent2025_26": 151.3
+   },
+   "holdout": {
+    "aggregate": {
+     "trades": 6303,
+     "ret_pct": 239.2,
+     "pf": 1.116
+    },
+    "cost2x": {
+     "trades": 6331,
+     "ret_pct": 109.9,
+     "pf": 1.051
+    },
+    "slip2x": {
+     "trades": 6331,
+     "ret_pct": 173.2,
+     "pf": 1.083
+    },
+    "funding2x": {
+     "trades": 6303,
+     "ret_pct": 194.8,
+     "pf": 1.094
+    },
+    "portfolio_10": {
+     "ret_pct": 91.3,
+     "taken": 3434,
+     "skipped": 2869,
+     "max_dd": 68.3,
+     "final_equity": 1913.3
+    },
+    "portfolio_20": {
+     "ret_pct": 47.0,
+     "taken": 5158,
+     "skipped": 1145,
+     "max_dd": 53.6,
+     "final_equity": 1470.2
+    },
+    "long_pnl": 3596.2,
+    "short_pnl": -1204.5,
+    "long_trades": 3140,
+    "short_trades": 3163,
+    "funding_paid": 443.8,
+    "bull2021": 70.5,
+    "bear2022": 28.3,
+    "recovery2023_24": 50.2,
+    "recent2025_26": 90.1,
+    "original16": {
+     "coins": 9,
+     "trades": 1640,
+     "ret_pct": 116.7,
+     "pf": 1.257
+    },
+    "unseen": {
+     "coins": 54,
+     "trades": 4663,
+     "ret_pct": 122.4,
+     "pf": 1.076
+    }
+   }
+  },
+  "volatility_breakout_b2|btc+vol|both": {
+   "dev": {
+    "aggregate": {
+     "trades": 6572,
+     "ret_pct": 600.3,
+     "pf": 1.283
+    },
+    "cost2x": {
+     "trades": 6609,
+     "ret_pct": 462.3,
+     "pf": 1.208
+    },
+    "slip2x": {
+     "trades": 6609,
+     "ret_pct": 528.4,
+     "pf": 1.244
+    },
+    "funding2x": {
+     "trades": 6572,
+     "ret_pct": 564.4,
+     "pf": 1.264
+    },
+    "portfolio_10": {
+     "ret_pct": 854.2,
+     "taken": 3482,
+     "skipped": 3090,
+     "max_dd": 64.2,
+     "final_equity": 9541.8
+    },
+    "portfolio_20": {
+     "ret_pct": 416.9,
+     "taken": 5301,
+     "skipped": 1271,
+     "max_dd": 44.7,
+     "final_equity": 5169.2
+    },
+    "long_pnl": 6727.9,
+    "short_pnl": -724.8,
+    "long_trades": 3432,
+    "short_trades": 3140,
+    "funding_paid": 358.7,
+    "bull2021": 126.9,
+    "bear2022": 41.9,
+    "recovery2023_24": 267.5,
+    "recent2025_26": 164.0
+   },
+   "holdout": {
+    "aggregate": {
+     "trades": 6245,
+     "ret_pct": 250.2,
+     "pf": 1.123
+    },
+    "cost2x": {
+     "trades": 6272,
+     "ret_pct": 122.0,
+     "pf": 1.057
+    },
+    "slip2x": {
+     "trades": 6272,
+     "ret_pct": 184.7,
+     "pf": 1.089
+    },
+    "funding2x": {
+     "trades": 6245,
+     "ret_pct": 206.4,
+     "pf": 1.1
+    },
+    "portfolio_10": {
+     "ret_pct": 61.8,
+     "taken": 3372,
+     "skipped": 2873,
+     "max_dd": 66.4,
+     "final_equity": 1617.9
+    },
+    "portfolio_20": {
+     "ret_pct": 44.5,
+     "taken": 5090,
+     "skipped": 1155,
+     "max_dd": 49.9,
+     "final_equity": 1444.6
+    },
+    "long_pnl": 3606.2,
+    "short_pnl": -1103.9,
+    "long_trades": 3126,
+    "short_trades": 3119,
+    "funding_paid": 438.7,
+    "bull2021": 73.6,
+    "bear2022": 31.3,
+    "recovery2023_24": 49.6,
+    "recent2025_26": 95.7,
+    "original16": {
+     "coins": 9,
+     "trades": 1620,
+     "ret_pct": 127.1,
+     "pf": 1.284
+    },
+    "unseen": {
+     "coins": 54,
+     "trades": 4625,
+     "ret_pct": 123.2,
+     "pf": 1.077
+    }
+   }
+  },
+  "volatility_breakout_b4|btc|both": {
+   "dev": {
+    "aggregate": {
+     "trades": 3976,
+     "ret_pct": 489.6,
+     "pf": 1.34
+    },
+    "cost2x": {
+     "trades": 3992,
+     "ret_pct": 401.7,
+     "pf": 1.268
+    },
+    "slip2x": {
+     "trades": 3992,
+     "ret_pct": 441.6,
+     "pf": 1.301
+    },
+    "funding2x": {
+     "trades": 3976,
+     "ret_pct": 463.0,
+     "pf": 1.319
+    },
+    "portfolio_10": {
+     "ret_pct": 1202.7,
+     "taken": 2486,
+     "skipped": 1490,
+     "max_dd": 51.1,
+     "final_equity": 13026.9
+    },
+    "portfolio_20": {
+     "ret_pct": 593.5,
+     "taken": 3421,
+     "skipped": 555,
+     "max_dd": 39.1,
+     "final_equity": 6934.6
+    },
+    "long_pnl": 5404.1,
+    "short_pnl": -508.1,
+    "long_trades": 2134,
+    "short_trades": 1842,
+    "funding_paid": 266.2,
+    "bull2021": 131.6,
+    "bear2022": 79.8,
+    "recovery2023_24": 283.3,
+    "recent2025_26": -5.2
+   },
+   "holdout": {
+    "aggregate": {
+     "trades": 3859,
+     "ret_pct": 272.2,
+     "pf": 1.19
+    },
+    "cost2x": {
+     "trades": 3864,
+     "ret_pct": 190.7,
+     "pf": 1.128
+    },
+    "slip2x": {
+     "trades": 3864,
+     "ret_pct": 229.3,
+     "pf": 1.158
+    },
+    "funding2x": {
+     "trades": 3859,
+     "ret_pct": 245.9,
+     "pf": 1.17
+    },
+    "portfolio_10": {
+     "ret_pct": 533.9,
+     "taken": 2396,
+     "skipped": 1463,
+     "max_dd": 34.3,
+     "final_equity": 6339.0
+    },
+    "portfolio_20": {
+     "ret_pct": 169.0,
+     "taken": 3269,
+     "skipped": 590,
+     "max_dd": 33.6,
+     "final_equity": 2689.6
+    },
+    "long_pnl": 3423.4,
+    "short_pnl": -701.9,
+    "long_trades": 2019,
+    "short_trades": 1840,
+    "funding_paid": 262.7,
+    "bull2021": 54.6,
+    "bear2022": 64.1,
+    "recovery2023_24": 129.5,
+    "recent2025_26": 24.0,
+    "original16": {
+     "coins": 9,
+     "trades": 1018,
+     "ret_pct": 88.2,
+     "pf": 1.277
+    },
+    "unseen": {
+     "coins": 54,
+     "trades": 2841,
+     "ret_pct": 184.0,
+     "pf": 1.165
+    }
+   }
+  },
+  "volatility_breakout_b4|btc+vol|both": {
+   "dev": {
+    "aggregate": {
+     "trades": 3926,
+     "ret_pct": 489.1,
+     "pf": 1.342
+    },
+    "cost2x": {
+     "trades": 3942,
+     "ret_pct": 402.0,
+     "pf": 1.27
+    },
+    "slip2x": {
+     "trades": 3942,
+     "ret_pct": 441.5,
+     "pf": 1.303
+    },
+    "funding2x": {
+     "trades": 3926,
+     "ret_pct": 462.4,
+     "pf": 1.32
+    },
+    "portfolio_10": {
+     "ret_pct": 936.5,
+     "taken": 2480,
+     "skipped": 1446,
+     "max_dd": 64.2,
+     "final_equity": 10365.4
+    },
+    "portfolio_20": {
+     "ret_pct": 512.0,
+     "taken": 3396,
+     "skipped": 530,
+     "max_dd": 43.3,
+     "final_equity": 6119.8
+    },
+    "long_pnl": 5402.0,
+    "short_pnl": -511.0,
+    "long_trades": 2116,
+    "short_trades": 1810,
+    "funding_paid": 267.4,
+    "bull2021": 132.6,
+    "bear2022": 81.6,
+    "recovery2023_24": 278.8,
+    "recent2025_26": -3.9
+   },
+   "holdout": {
+    "aggregate": {
+     "trades": 3803,
+     "ret_pct": 280.4,
+     "pf": 1.198
+    },
+    "cost2x": {
+     "trades": 3808,
+     "ret_pct": 199.7,
+     "pf": 1.136
+    },
+    "slip2x": {
+     "trades": 3808,
+     "ret_pct": 237.8,
+     "pf": 1.165
+    },
+    "funding2x": {
+     "trades": 3803,
+     "ret_pct": 254.2,
+     "pf": 1.178
+    },
+    "portfolio_10": {
+     "ret_pct": 318.6,
+     "taken": 2392,
+     "skipped": 1411,
+     "max_dd": 37.4,
+     "final_equity": 4186.4
+    },
+    "portfolio_20": {
+     "ret_pct": 165.6,
+     "taken": 3237,
+     "skipped": 566,
+     "max_dd": 34.9,
+     "final_equity": 2655.6
+    },
+    "long_pnl": 3515.2,
+    "short_pnl": -711.7,
+    "long_trades": 1992,
+    "short_trades": 1811,
+    "funding_paid": 261.3,
+    "bull2021": 55.4,
+    "bear2022": 65.7,
+    "recovery2023_24": 122.6,
+    "recent2025_26": 36.6,
+    "original16": {
+     "coins": 9,
+     "trades": 1011,
+     "ret_pct": 89.9,
+     "pf": 1.283
+    },
+    "unseen": {
+     "coins": 54,
+     "trades": 2792,
+     "ret_pct": 190.4,
+     "pf": 1.174
+    }
+   }
+  },
+  "trend_resume|btc|long": {
+   "dev": {
+    "aggregate": {
+     "trades": 11202,
+     "ret_pct": 749.8,
+     "pf": 1.244
+    },
+    "cost2x": {
+     "trades": 11354,
+     "ret_pct": 527.6,
+     "pf": 1.162
+    },
+    "slip2x": {
+     "trades": 11354,
+     "ret_pct": 641.2,
+     "pf": 1.203
+    },
+    "funding2x": {
+     "trades": 11202,
+     "ret_pct": 630.6,
+     "pf": 1.202
+    },
+    "portfolio_10": {
+     "ret_pct": 9.7,
+     "taken": 3580,
+     "skipped": 7622,
+     "max_dd": 79.8,
+     "final_equity": 1097.2
+    },
+    "portfolio_20": {
+     "ret_pct": 102.5,
+     "taken": 6738,
+     "skipped": 4464,
+     "max_dd": 73.9,
+     "final_equity": 2024.8
+    },
+    "long_pnl": 7498.4,
+    "short_pnl": 0.0,
+    "long_trades": 11202,
+    "short_trades": 0,
+    "funding_paid": 1192.6,
+    "bull2021": 408.6,
+    "bear2022": -180.3,
+    "recovery2023_24": 538.5,
+    "recent2025_26": -17.0
+   },
+   "holdout": {
+    "aggregate": {
+     "trades": 11210,
+     "ret_pct": 436.7,
+     "pf": 1.143
+    },
+    "cost2x": {
+     "trades": 11354,
+     "ret_pct": 219.5,
+     "pf": 1.068
+    },
+    "slip2x": {
+     "trades": 11354,
+     "ret_pct": 333.0,
+     "pf": 1.106
+    },
+    "funding2x": {
+     "trades": 11210,
+     "ret_pct": 313.8,
+     "pf": 1.1
+    },
+    "portfolio_10": {
+     "ret_pct": 27.5,
+     "taken": 3558,
+     "skipped": 7652,
+     "max_dd": 88.3,
+     "final_equity": 1274.9
+    },
+    "portfolio_20": {
+     "ret_pct": 142.8,
+     "taken": 6740,
+     "skipped": 4470,
+     "max_dd": 80.3,
+     "final_equity": 2428.5
+    },
+    "long_pnl": 4367.5,
+    "short_pnl": 0.0,
+    "long_trades": 11210,
+    "short_trades": 0,
+    "funding_paid": 1229.2,
+    "bull2021": 439.6,
+    "bear2022": -125.0,
+    "recovery2023_24": 300.6,
+    "recent2025_26": -178.4,
+    "original16": {
+     "coins": 9,
+     "trades": 2577,
+     "ret_pct": 178.0,
+     "pf": 1.287
+    },
+    "unseen": {
+     "coins": 54,
+     "trades": 8633,
+     "ret_pct": 258.8,
+     "pf": 1.106
+    }
+   }
+  },
+  "rsi_reset|btc|long": {
+   "dev": {
+    "aggregate": {
+     "trades": 9718,
+     "ret_pct": 548.3,
+     "pf": 1.204
+    },
+    "cost2x": {
+     "trades": 9861,
+     "ret_pct": 349.5,
+     "pf": 1.122
+    },
+    "slip2x": {
+     "trades": 9861,
+     "ret_pct": 448.1,
+     "pf": 1.162
+    },
+    "funding2x": {
+     "trades": 9718,
+     "ret_pct": 438.8,
+     "pf": 1.16
+    },
+    "portfolio_10": {
+     "ret_pct": -8.3,
+     "taken": 3424,
+     "skipped": 6294,
+     "max_dd": 82.6,
+     "final_equity": 916.8
+    },
+    "portfolio_20": {
+     "ret_pct": 20.6,
+     "taken": 6343,
+     "skipped": 3375,
+     "max_dd": 74.8,
+     "final_equity": 1206.2
+    },
+    "long_pnl": 5482.9,
+    "short_pnl": 0.0,
+    "long_trades": 9718,
+    "short_trades": 0,
+    "funding_paid": 1095.3,
+    "bull2021": 253.1,
+    "bear2022": -139.4,
+    "recovery2023_24": 431.1,
+    "recent2025_26": 3.5
+   },
+   "holdout": {
+    "aggregate": {
+     "trades": 9925,
+     "ret_pct": 268.7,
+     "pf": 1.098
+    },
+    "cost2x": {
+     "trades": 10030,
+     "ret_pct": 63.8,
+     "pf": 1.022
+    },
+    "slip2x": {
+     "trades": 10030,
+     "ret_pct": 164.1,
+     "pf": 1.058
+    },
+    "funding2x": {
+     "trades": 9925,
+     "ret_pct": 154.3,
+     "pf": 1.055
+    },
+    "portfolio_10": {
+     "ret_pct": 197.0,
+     "taken": 3509,
+     "skipped": 6416,
+     "max_dd": 88.2,
+     "final_equity": 2970.0
+    },
+    "portfolio_20": {
+     "ret_pct": 117.0,
+     "taken": 6445,
+     "skipped": 3480,
+     "max_dd": 79.7,
+     "final_equity": 2170.3
+    },
+    "long_pnl": 2687.3,
+    "short_pnl": 0.0,
+    "long_trades": 9925,
+    "short_trades": 0,
+    "funding_paid": 1144.3,
+    "bull2021": 420.8,
+    "bear2022": -115.6,
+    "recovery2023_24": 152.3,
+    "recent2025_26": -188.8,
+    "original16": {
+     "coins": 9,
+     "trades": 2302,
+     "ret_pct": 156.3,
+     "pf": 1.281
+    },
+    "unseen": {
+     "coins": 54,
+     "trades": 7623,
+     "ret_pct": 112.4,
+     "pf": 1.052
+    }
+   }
+  },
+  "vwap_reversion|btc|long": {
+   "dev": {
+    "aggregate": {
+     "trades": 8523,
+     "ret_pct": 535.9,
+     "pf": 1.215
+    },
+    "cost2x": {
+     "trades": 8641,
+     "ret_pct": 334.1,
+     "pf": 1.127
+    },
+    "slip2x": {
+     "trades": 8641,
+     "ret_pct": 420.5,
+     "pf": 1.164
+    },
+    "funding2x": {
+     "trades": 8523,
+     "ret_pct": 459.3,
+     "pf": 1.181
+    },
+    "portfolio_10": {
+     "ret_pct": -71.6,
+     "taken": 3216,
+     "skipped": 5307,
+     "max_dd": 93.7,
+     "final_equity": 284.4
+    },
+    "portfolio_20": {
+     "ret_pct": -22.5,
+     "taken": 5450,
+     "skipped": 3073,
+     "max_dd": 74.7,
+     "final_equity": 775.4
+    },
+    "long_pnl": 5359.1,
+    "short_pnl": 0.0,
+    "long_trades": 8523,
+    "short_trades": 0,
+    "funding_paid": 766.0,
+    "bull2021": 111.3,
+    "bear2022": -182.0,
+    "recovery2023_24": 336.6,
+    "recent2025_26": 269.9
+   },
+   "holdout": {
+    "aggregate": {
+     "trades": 8640,
+     "ret_pct": 191.2,
+     "pf": 1.076
+    },
+    "cost2x": {
+     "trades": 8785,
+     "ret_pct": 3.1,
+     "pf": 1.001
+    },
+    "slip2x": {
+     "trades": 8785,
+     "ret_pct": 90.9,
+     "pf": 1.035
+    },
+    "funding2x": {
+     "trades": 8640,
+     "ret_pct": 111.4,
+     "pf": 1.043
+    },
+    "portfolio_10": {
+     "ret_pct": -80.0,
+     "taken": 3261,
+     "skipped": 5379,
+     "max_dd": 93.5,
+     "final_equity": 200.3
+    },
+    "portfolio_20": {
+     "ret_pct": -57.1,
+     "taken": 5560,
+     "skipped": 3080,
+     "max_dd": 81.6,
+     "final_equity": 428.6
+    },
+    "long_pnl": 1912.4,
+    "short_pnl": 0.0,
+    "long_trades": 8640,
+    "short_trades": 0,
+    "funding_paid": 798.1,
+    "bull2021": -3.3,
+    "bear2022": -90.0,
+    "recovery2023_24": 187.5,
+    "recent2025_26": 97.1,
+    "original16": {
+     "coins": 9,
+     "trades": 1837,
+     "ret_pct": -12.0,
+     "pf": 0.974
+    },
+    "unseen": {
+     "coins": 54,
+     "trades": 6803,
+     "ret_pct": 203.2,
+     "pf": 1.098
+    }
+   }
+  },
+  "failed_breakout|btc|long": {
+   "dev": {
+    "aggregate": {
+     "trades": 10845,
+     "ret_pct": 488.0,
+     "pf": 1.153
+    },
+    "cost2x": {
+     "trades": 11002,
+     "ret_pct": 283.2,
+     "pf": 1.084
+    },
+    "slip2x": {
+     "trades": 11002,
+     "ret_pct": 393.3,
+     "pf": 1.12
+    },
+    "funding2x": {
+     "trades": 10845,
+     "ret_pct": 376.3,
+     "pf": 1.116
+    },
+    "portfolio_10": {
+     "ret_pct": 13.4,
+     "taken": 3348,
+     "skipped": 7497,
+     "max_dd": 86.8,
+     "final_equity": 1133.7
+    },
+    "portfolio_20": {
+     "ret_pct": 24.6,
+     "taken": 6230,
+     "skipped": 4615,
+     "max_dd": 80.3,
+     "final_equity": 1246.0
+    },
+    "long_pnl": 4879.9,
+    "short_pnl": 0.0,
+    "long_trades": 10845,
+    "short_trades": 0,
+    "funding_paid": 1116.8,
+    "bull2021": 311.6,
+    "bear2022": -221.9,
+    "recovery2023_24": 335.8,
+    "recent2025_26": 62.5
+   },
+   "holdout": {
+    "aggregate": {
+     "trades": 10753,
+     "ret_pct": 341.1,
+     "pf": 1.11
+    },
+    "cost2x": {
+     "trades": 10934,
+     "ret_pct": 121.9,
+     "pf": 1.037
+    },
+    "slip2x": {
+     "trades": 10934,
+     "ret_pct": 231.2,
+     "pf": 1.073
+    },
+    "funding2x": {
+     "trades": 10753,
+     "ret_pct": 223.4,
+     "pf": 1.071
+    },
+    "portfolio_10": {
+     "ret_pct": -52.5,
+     "taken": 3347,
+     "skipped": 7406,
+     "max_dd": 92.6,
+     "final_equity": 475.5
+    },
+    "portfolio_20": {
+     "ret_pct": -8.8,
+     "taken": 6245,
+     "skipped": 4508,
+     "max_dd": 83.4,
+     "final_equity": 911.8
+    },
+    "long_pnl": 3410.6,
+    "short_pnl": 0.0,
+    "long_trades": 10753,
+    "short_trades": 0,
+    "funding_paid": 1176.5,
+    "bull2021": 249.6,
+    "bear2022": -95.6,
+    "recovery2023_24": 303.0,
+    "recent2025_26": -116.0,
+    "original16": {
+     "coins": 9,
+     "trades": 2393,
+     "ret_pct": 81.2,
+     "pf": 1.137
+    },
+    "unseen": {
+     "coins": 54,
+     "trades": 8360,
+     "ret_pct": 259.9,
+     "pf": 1.104
+    }
+   }
+  }
+ },
+ "walkforward": {
+  "folds": [
+   {
+    "oos": "2022-07-01->2023-01-01",
+    "picked": "trend_resume|btc|long",
+    "train_ret": 294.5,
+    "oos_ret": -66.1,
+    "oos_portfolio_ret": -27.0,
+    "oos_trades": 631
+   },
+   {
+    "oos": "2023-01-01->2023-07-01",
+    "picked": "volatility_breakout_b4|btc+vol|both",
+    "train_ret": 109.0,
+    "oos_ret": 61.0,
+    "oos_portfolio_ret": 65.1,
+    "oos_trades": 339
+   },
+   {
+    "oos": "2023-07-01->2024-01-01",
+    "picked": "volatility_breakout_b4|btc|both",
+    "train_ret": 153.3,
+    "oos_ret": 54.8,
+    "oos_portfolio_ret": 35.8,
+    "oos_trades": 253
+   },
+   {
+    "oos": "2024-01-01->2024-07-01",
+    "picked": "trend_resume|btc|long",
+    "train_ret": 180.7,
+    "oos_ret": 74.6,
+    "oos_portfolio_ret": -20.5,
+    "oos_trades": 896
+   },
+   {
+    "oos": "2024-07-01->2025-01-01",
+    "picked": "trend_resume|btc|long",
+    "train_ret": 321.5,
+    "oos_ret": 217.0,
+    "oos_portfolio_ret": 20.4,
+    "oos_trades": 1002
+   },
+   {
+    "oos": "2025-01-01->2025-07-01",
+    "picked": "trend_resume|btc|long",
+    "train_ret": 446.4,
+    "oos_ret": -150.9,
+    "oos_portfolio_ret": -42.1,
+    "oos_trades": 1414
+   },
+   {
+    "oos": "2025-07-01->2026-01-01",
+    "picked": "trend_resume|btc|long",
+    "train_ret": 140.7,
+    "oos_ret": -72.8,
+    "oos_portfolio_ret": -16.6,
+    "oos_trades": 1626
+   },
+   {
+    "oos": "2026-01-01->2026-10-01",
+    "picked": "rsi_reset|btc|long",
+    "train_ret": 43.1,
+    "oos_ret": 162.3,
+    "oos_portfolio_ret": 29.1,
+    "oos_trades": 2151
+   }
+  ],
+  "oos_sum": 279.9,
+  "folds_positive": "5/8",
+  "folds_positive_portfolio": "4/8"
+ }
+}

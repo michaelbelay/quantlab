@@ -1,0 +1,25 @@
+{
+ "note": "coin list of the earlier live bot, 2026-10 (for research scripts)",
+ "pair_whitelist": [
+  "BTC/USDT:USDT",
+  "ETH/USDT:USDT",
+  "ZEC/USDT:USDT",
+  "SOL/USDT:USDT",
+  "XRP/USDT:USDT",
+  "HYPE/USDT:USDT",
+  "NEAR/USDT:USDT",
+  "DOGE/USDT:USDT",
+  "UNI/USDT:USDT",
+  "BNB/USDT:USDT",
+  "SUI/USDT:USDT",
+  "ENA/USDT:USDT",
+  "1000PEPE/USDT:USDT",
+  "QNT/USDT:USDT",
+  "ARB/USDT:USDT",
+  "WLD/USDT:USDT",
+  "PUMP/USDT:USDT",
+  "LINK/USDT:USDT",
+  "ADA/USDT:USDT",
+  "TAO/USDT:USDT"
+ ]
+}

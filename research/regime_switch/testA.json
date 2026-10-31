@@ -1,0 +1,32 @@
+{
+ "scope": "A: 133 development coins",
+ "trades": 13243,
+ "pf": 0.985896615769604,
+ "pf_2x": 0.922125387600172,
+ "net": -554.4987141612469,
+ "day_t": -0.16502385106675554,
+ "years": {
+  "2024": -2002.810354674653,
+  "2025": -1864.1402240594377,
+  "2026": 3312.451864572844
+ },
+ "per_day": -0.5589704779851279,
+ "no_switch_net": -4866.948927203992,
+ "no_switch_per_day": -4.906198515326604,
+ "random_pct": 78.60000000000001,
+ "random_median": -3211.364258775973,
+ "per_type": {
+  "UP_LOVOL": -2937.829438697212,
+  "UP_HIVOL": 2383.3307245359656,
+  "DN_LOVOL": 0.0,
+  "DN_HIVOL": 0.0
+ },
+ "checks": {
+  "A1 PF>=1.10 and PF2x>=1.00": false,
+  "A2 day t>=2": false,
+  "A3 >=2 of 3 years positive": false,
+  "A4 beats no-switch per day": true,
+  "A5 random switch >= p95": false
+ },
+ "pass": false
+}

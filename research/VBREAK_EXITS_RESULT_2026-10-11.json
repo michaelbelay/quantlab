@@ -1,0 +1,156 @@
+{
+ "preregistration_sha256": "45df5b48522c1c175504b9fb5250f71237681b03cd35db09752171674bc9190a",
+ "coins": 127,
+ "missing_data": [],
+ "designs": {
+  "BASE": {
+   "trades": 2475,
+   "pf": 2.153,
+   "pf_x2": 2.047,
+   "net": 9487.4,
+   "win_pct": 26.9,
+   "exits": {
+    "stop": 1774,
+    "timeout": 522,
+    "reverse": 178,
+    "eod": 1
+   },
+   "years_net": {
+    "2021": 699.1,
+    "2022": 543.5,
+    "2023": 1888.7,
+    "2024": 3668.6,
+    "2025": 532.8,
+    "2026": 2154.8
+   },
+   "book_final": 2606.66,
+   "book_dd": 19.2,
+   "book_trades": 1189
+  },
+  "BE2": {
+   "trades": 2740,
+   "pf": 2.28,
+   "pf_x2": 2.079,
+   "net": 6651.9,
+   "win_pct": 17.0,
+   "exits": {
+    "breakeven": 1332,
+    "stop": 1008,
+    "timeout": 301,
+    "reverse": 99
+   },
+   "years_net": {
+    "2021": 102.0,
+    "2022": 357.1,
+    "2023": 1363.0,
+    "2024": 2314.9,
+    "2025": 637.8,
+    "2026": 1877.0
+   },
+   "book_final": 946.62,
+   "book_dd": 12.5,
+   "book_trades": 1478,
+   "vs_base": {
+    "book_final_higher": false,
+    "pf_x2_higher": true,
+    "dd_not_worse_2pt": true,
+    "years_better_4of6": false,
+    "BETTER": false
+   }
+  },
+  "BE3": {
+   "trades": 2631,
+   "pf": 2.303,
+   "pf_x2": 2.139,
+   "net": 7985.2,
+   "win_pct": 21.2,
+   "exits": {
+    "stop": 1207,
+    "breakeven": 934,
+    "timeout": 369,
+    "reverse": 121
+   },
+   "years_net": {
+    "2021": 420.2,
+    "2022": 328.6,
+    "2023": 1643.1,
+    "2024": 2794.8,
+    "2025": 673.9,
+    "2026": 2124.6
+   },
+   "book_final": 1394.25,
+   "book_dd": 14.4,
+   "book_trades": 1362,
+   "vs_base": {
+    "book_final_higher": false,
+    "pf_x2_higher": true,
+    "dd_not_worse_2pt": true,
+    "years_better_4of6": false,
+    "BETTER": false
+   }
+  },
+  "TR3": {
+   "trades": 2870,
+   "pf": 1.68,
+   "pf_x2": 1.564,
+   "net": 4440.1,
+   "win_pct": 44.4,
+   "exits": {
+    "breakeven": 1547,
+    "stop": 1319,
+    "timeout": 2,
+    "reverse": 2
+   },
+   "years_net": {
+    "2021": 133.6,
+    "2022": 383.4,
+    "2023": 776.8,
+    "2024": 854.3,
+    "2025": 1252.3,
+    "2026": 1039.7
+   },
+   "book_final": 762.63,
+   "book_dd": 10.3,
+   "book_trades": 1651,
+   "vs_base": {
+    "book_final_higher": false,
+    "pf_x2_higher": false,
+    "dd_not_worse_2pt": true,
+    "years_better_4of6": false,
+    "BETTER": false
+   }
+  },
+  "TR5": {
+   "trades": 2807,
+   "pf": 1.636,
+   "pf_x2": 1.54,
+   "net": 4916.3,
+   "win_pct": 41.8,
+   "exits": {
+    "stop": 1587,
+    "breakeven": 1171,
+    "timeout": 27,
+    "reverse": 21,
+    "eod": 1
+   },
+   "years_net": {
+    "2021": 25.3,
+    "2022": 421.6,
+    "2023": 1051.9,
+    "2024": 967.7,
+    "2025": 1151.4,
+    "2026": 1298.3
+   },
+   "book_final": 750.69,
+   "book_dd": 9.9,
+   "book_trades": 1576,
+   "vs_base": {
+    "book_final_higher": false,
+    "pf_x2_higher": false,
+    "dd_not_worse_2pt": true,
+    "years_better_4of6": false,
+    "BETTER": false
+   }
+  }
+ }
+}

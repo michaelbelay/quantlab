@@ -1,0 +1,19 @@
+# Pre-registered 2026-10-04; see FOCUS_2026-10-04_trend_continuation.md. Do not edit after the run.
+name: tc_dd
+origin: d9ca7c18acee
+family: trend_continuation
+fixed:
+  spec: {params: {}, trend_mode: both, min_score: 0.0}
+  cfg: {leverage: 1.0, entry_mode: instant, breakeven_after_tp1: false, max_bars: 400, tp_mode: none, tp_atr: [], tp_frac: []}
+grid:
+  filters: [[vol_expanding], [vol_expanding, btc_regime], [vol_expanding, volume]]
+  regime:
+    - {trend: [strong_up, strong_down, weak_up, weak_down]}
+    - {trend: [strong_up, strong_down]}
+  direction: [both, long]
+  stop:
+    - {stop_mode: structure, stop_atr: 2.0}
+    - {stop_mode: atr, stop_atr: 3.0}
+    - {stop_mode: atr, stop_atr: 8.0}
+drawdown_portfolio: live     # p10 | p20 | live (20 slots, <= 10 same direction)
+chunk: 12                    # candidates per batch (memory)

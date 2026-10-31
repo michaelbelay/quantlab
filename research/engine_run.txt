@@ -1,0 +1,83 @@
+=== tournament (dev, leverage 2.0x) ===
+1746 candidates, 8 pairs
+  simulated 50/1746  (15s)
+  simulated 100/1746  (28s)
+  simulated 150/1746  (38s)
+  simulated 200/1746  (48s)
+  simulated 250/1746  (58s)
+  simulated 300/1746  (68s)
+  simulated 350/1746  (78s)
+  simulated 400/1746  (87s)
+  simulated 450/1746  (97s)
+  simulated 500/1746  (107s)
+  simulated 550/1746  (116s)
+  simulated 600/1746  (126s)
+  simulated 650/1746  (136s)
+  simulated 700/1746  (158s)
+  simulated 750/1746  (173s)
+  simulated 800/1746  (195s)
+  simulated 850/1746  (210s)
+  simulated 900/1746  (220s)
+  simulated 950/1746  (237s)
+  simulated 1000/1746  (258s)
+  simulated 1050/1746  (271s)
+  simulated 1100/1746  (289s)
+  simulated 1150/1746  (310s)
+  simulated 1200/1746  (335s)
+  simulated 1250/1746  (356s)
+  simulated 1300/1746  (389s)
+  simulated 1350/1746  (411s)
+  simulated 1400/1746  (426s)
+  simulated 1450/1746  (435s)
+  simulated 1500/1746  (453s)
+  simulated 1550/1746  (465s)
+  simulated 1600/1746  (470s)
+  simulated 1650/1746  (487s)
+  simulated 1700/1746  (504s)
+simulation done
+
+qualified: 66/1674   (disqualified: 1608 -- zero/low trades, unprofitable, liquidations)
+
+TOP 15 BY COMPOSITE SCORE (full period, dev coins)
+                                                        id  score  trades  ret_pct    pf  expectancy_r  t_stat  max_dd  win_rate  consistency
+volatility_breakout|any|btc_regime|with|atr3|no_tp_trai... 0.5191     427   145.90 1.442        0.4137    2.63   14.40      26.9        0.833
+volatility_breakout|any|btc_regime|with|atr3|no_tp_trai... 0.5180     686   236.78 1.489        0.4377    2.91   14.29      26.5        0.750
+volatility_breakout|any|btc_regime|with|atr2|no_tp_trai... 0.4939     734   204.94 1.501        0.5719    2.86   15.87      19.3        0.750
+volatility_breakout|any|btc_regime+volume|with|atr3|no_... 0.4856     425   141.92 1.429        0.4054    2.57   14.61      26.6        0.750
+volatility_breakout|any|btc_regime+volume|with|atr2|no_... 0.4831     728   197.78 1.485        0.5561    2.77   16.10      19.0        0.750
+volatility_breakout|any|btc_regime+volume|with|atr3|no_... 0.4662     681   221.90 1.457        0.4147    2.74   15.59      25.8        0.667
+volatility_breakout|any|not_flat|with|atr3|no_tp_trail|... 0.3931     455   108.47 1.297        0.3528    2.39   19.47      25.9        0.750
+volatility_breakout|any|nofilt|with|atr3|no_tp_trail|be... 0.3931     455   108.47 1.297        0.3528    2.39   19.47      25.9        0.750
+volatility_breakout|any|nofilt|both|atr3|no_tp_trail|be... 0.3931     455   108.47 1.297        0.3528    2.39   19.47      25.9        0.750
+volatility_breakout|any|btc_regime|both|atr3|no_tp_trai... 0.3931     455   108.47 1.297        0.3528    2.39   19.47      25.9        0.750
+volatility_breakout|any|not_flat|both|atr3|no_tp_trail|... 0.3931     455   108.47 1.297        0.3528    2.39   19.47      25.9        0.750
+volatility_breakout|any|nofilt|with|atr2|no_tp_trail|be... 0.3756     826   166.19 1.356        0.4622    2.58   19.92      18.5        0.667
+volatility_breakout|any|btc_regime|both|atr2|no_tp_trai... 0.3756     826   166.19 1.356        0.4622    2.58   19.92      18.5        0.667
+volatility_breakout|any|not_flat|both|atr2|no_tp_trail|... 0.3756     826   166.19 1.356        0.4622    2.58   19.92      18.5        0.667
+volatility_breakout|any|nofilt|both|atr2|no_tp_trail|be... 0.3756     826   166.19 1.356        0.4622    2.58   19.92      18.5        0.667
+
+=== WALK-FORWARD (select on train, measure on unseen next window) ===
+  train 2021-01->2022-07  oos 2022-07->2023-01  ranked=411  oos= -11.65%  (418 trades)  top=volatility_breakout|any|btc_regime+volume|both|wide|
+  train 2021-07->2023-01  oos 2023-01->2023-07  ranked=495  oos=  -5.49%  (315 trades)  top=volatility_breakout|any|not_flat|with|atr2|ladder_4|
+  train 2022-01->2023-07  oos 2023-07->2024-01  ranked=387  oos= +30.01%  (945 trades)  top=breakout|e|volume+not_flat|with|atr3|no_tp_trail|be_
+  train 2022-07->2024-01  oos 2024-01->2024-07  ranked=364  oos=  +8.88%  (244 trades)  top=volatility_breakout|any|btc_regime|with|atr3|no_tp_t
+  train 2023-01->2024-07  oos 2024-07->2025-01  ranked=276  oos= +46.26%  (336 trades)  top=volatility_breakout|any|btc_regime|with|wide|no_tp_t
+  train 2023-07->2025-01  oos 2025-01->2025-07  ranked=400  oos= -38.36%  (513 trades)  top=volatility_breakout|any|btc_regime|with|atr2|no_tp_t
+  train 2024-01->2025-07  oos 2025-07->2026-01  ranked=230  oos=  +5.16%  (760 trades)  top=breakout_retest|e|volume|with|atr3|runner|be_on|inst
+  train 2024-07->2026-01  oos 2026-01->2026-10  ranked=185  oos=  -8.32%  (979 trades)  top=breakout_retest|e|volume|with|wide|runner|be_on|inst
+
+STITCHED OUT-OF-SAMPLE: +26.49%  (4/8 windows positive, equal-weight top-5 each window)
+
+=== ROBUSTNESS (parameter neighbours, doubled costs, coin holdout) ===
+  volatility_breakout|any|btc_regime|with|atr3|no_tp_trail   inst=0.18 nbrs+=4/4 2xcost= +131.3% holdout=  +31.5% (381 tr)
+  volatility_breakout|any|btc_regime|with|atr3|no_tp_trail   inst=0.06 nbrs+=4/4 2xcost= +213.2% holdout=  +66.9% (636 tr)
+  volatility_breakout|any|btc_regime|with|atr2|no_tp_trail   inst=0.18 nbrs+=4/4 2xcost= +176.7% holdout=  +46.8% (678 tr)
+  volatility_breakout|any|btc_regime+volume|with|atr3|no_t   inst=0.17 nbrs+=4/4 2xcost= +127.4% holdout=  +31.8% (380 tr)
+  volatility_breakout|any|btc_regime+volume|with|atr2|no_t   inst=0.19 nbrs+=4/4 2xcost= +169.8% holdout=  +27.4% (677 tr)
+  volatility_breakout|any|btc_regime+volume|with|atr3|no_t   inst=0.03 nbrs+=4/4 2xcost= +198.5% holdout=  +47.7% (634 tr)
+  volatility_breakout|any|not_flat|with|atr3|no_tp_trail|b   inst=0.98 nbrs+=4/4 2xcost=  +93.0% holdout= +104.7% (432 tr)
+  volatility_breakout|any|nofilt|with|atr3|no_tp_trail|be_   inst=0.98 nbrs+=4/4 2xcost=  +93.0% holdout= +104.7% (432 tr)
+
+survived every robustness check: 6/8
+PORTFOLIO (low-correlation selection):
+    volatility_breakout|any|btc_regime|with|atr3|no_tp_trail|be_on|instant|bars3_atr_mult3.0

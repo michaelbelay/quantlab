@@ -1,0 +1,15 @@
+# Pre-registered 2026-10-04; see VALIDATE_2026-10-04_promising.md (part A). Do not edit after the run.
+name: val1
+validate_all: true
+drawdown_portfolio: live
+chunk: 8
+_cfg: &cfg {leverage: 1.0, stop_mode: atr, stop_atr: 2.0, tp_mode: none, tp_atr: [], tp_frac: [], entry_mode: instant, max_bars: 400}
+candidates:
+  - {label: vbreak4both, spec: {family: volatility_breakout, params: {bars: 4, atr_mult: 2.0}, filters: [btc_regime, volume], trend_mode: with, direction: both}, cfg: *cfg}
+  - {label: vb4-btc-both, spec: {family: volatility_breakout, params: {bars: 4, atr_mult: 2.0}, filters: [btc_regime], trend_mode: with, direction: both}, cfg: *cfg}
+  - {label: vb4-btc-long, spec: {family: volatility_breakout, params: {bars: 4, atr_mult: 2.0}, filters: [btc_regime], trend_mode: with, direction: long}, cfg: *cfg}
+  - {label: vb4-btcvol-long, spec: {family: volatility_breakout, params: {bars: 4, atr_mult: 2.0}, filters: [btc_regime, volume], trend_mode: with, direction: long}, cfg: *cfg}
+  - {label: vb2-btc-long, spec: {family: volatility_breakout, params: {bars: 2, atr_mult: 2.0}, filters: [btc_regime], trend_mode: with, direction: long}, cfg: *cfg}
+  - {label: vb2-btcvol-long, spec: {family: volatility_breakout, params: {bars: 2, atr_mult: 2.0}, filters: [btc_regime, volume], trend_mode: with, direction: long}, cfg: *cfg}
+  - {label: trend_resume-nofilt-long, spec: {family: trend_resume, params: {}, filters: [], trend_mode: with, direction: long}, cfg: *cfg}
+  - {label: trend_resume-notflat-long, spec: {family: trend_resume, params: {}, filters: [not_flat], trend_mode: with, direction: long}, cfg: *cfg}

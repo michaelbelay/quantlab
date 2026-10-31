@@ -1,0 +1,19 @@
+qualifying 721 -> distinct 386; simulating top 120
+pool simulated: 106
+
+PORTFOLIO (3 members, max pairwise corr 0.5, <= 2 per family)
+    120/yr  ret   118.4%  PF  1.49  DD  11.3%  volatility_breakout|any|btc_regime|with|atr3|no_tp_trail|be_on|instant|sh_sym|
+    133/yr  ret    71.1%  PF  1.39  DD  12.0%  rsi_divergence|r|volume|against|atr2|no_tp_trail|be_on|instant|sh_off
+    134/yr  ret    26.8%  PF  1.24  DD  11.2%  volatility_breakout|any|btc_regime+volume|with|wide|runner|be_on|instant|sh_we
+
+correlation of monthly returns:
+      S1    S2    S3
+S1  1.00  0.49  0.43
+S2  0.49  1.00  0.23
+S3  0.43  0.23  1.00
+
+COMBINED (dev coins): 2208 trades (387/yr), return +72.1%, PF 1.40, max DD 7.3%
+
+COMBINED (holdout coins, unseen): 2143 trades (376/yr), return +25.9%, PF 1.13, max DD 13.6%
+
+best single member (dev): ret +118.4%  PF 1.489  DD 11.3%

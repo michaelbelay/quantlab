@@ -1,0 +1,193 @@
+{
+ "prereg": "PREREGISTRATION_2026-09-28_desk_maker.md",
+ "prereg_sha256": "63613f147c42b7e4a008c5d33215dac4d653b78c54cfff64cf870e8c58922d9e",
+ "seed": 20260929,
+ "run_at": "2026-09-28T01:34:52+00:00",
+ "groups": [
+  {
+   "group": "long|15m",
+   "oos_sum_R": 0.0,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "long|30m",
+   "oos_sum_R": -32.857,
+   "folds_positive": 0,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": "M|long|30m|N=48|k=2.5|E=retest|s=1.5|r=2.0",
+     "train_pf": 1.1847,
+     "oos_R": -14.998,
+     "oos_trades": 42
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": "M|long|30m|N=20|k=2.5|E=retest|s=1.5|r=2.0",
+     "train_pf": 1.1128,
+     "oos_R": -17.859,
+     "oos_trades": 64
+    }
+   ]
+  },
+  {
+   "group": "short|15m",
+   "oos_sum_R": -17.118,
+   "folds_positive": 2,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": "M|short|15m|N=20|k=2.5|E=pullback|s=1.5|r=2.0",
+     "train_pf": 1.108,
+     "oos_R": 4.648,
+     "oos_trades": 310
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": "M|short|15m|N=20|k=2.5|E=pullback|s=1.5|r=2.0",
+     "train_pf": 1.102,
+     "oos_R": 11.369,
+     "oos_trades": 289
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "M|short|15m|N=20|k=2.5|E=pullback|s=1.5|r=2.0",
+     "train_pf": 1.1241,
+     "oos_R": -33.135,
+     "oos_trades": 259
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "short|30m",
+   "oos_sum_R": -11.935,
+   "folds_positive": 2,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": "M|short|30m|N=48|k=1.5|E=retest|s=1.0|r=2.0",
+     "train_pf": 1.2224,
+     "oos_R": 2.6,
+     "oos_trades": 162
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": "M|short|30m|N=48|k=1.5|E=pullback|s=1.5|r=2.0",
+     "train_pf": 1.1492,
+     "oos_R": -14.049,
+     "oos_trades": 174
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "M|short|30m|N=48|k=1.5|E=pullback|s=1.5|r=2.0",
+     "train_pf": 1.1966,
+     "oos_R": -20.683,
+     "oos_trades": 130
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": "M|short|30m|N=48|k=2.5|E=pullback|s=1.0|r=1.5",
+     "train_pf": 1.1225,
+     "oos_R": 20.197,
+     "oos_trades": 128
+    }
+   ]
+  }
+ ]
+}

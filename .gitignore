@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+data/
+*.pyc
+secrets/
+*.sqlite*
+*.log
+
+# data and results stay local (code and notes only on GitHub)
+runs/
+*.db
+*.db-*
+*.parquet
+*.csv
+*.zip
+*.feather
+*.npz
+*.npy
+*.pkl
+*.out
+*.bak*
+.git_old/
+
+# hash-locked registration (rotation_run.py checks it); stays local
+research/PREREGISTRATION_2026-09-28_rotation.md
+research/AMENDMENT_2026-09-29_rotation_v3.md

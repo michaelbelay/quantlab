@@ -1,0 +1,483 @@
+[
+ {
+  "strategy": "VolSysRegime_2h_25",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "regime-gated direction: longs in BTC uptrend, shorts in downtrend"
+ },
+ {
+  "strategy": "VolSysRegime_3h_20",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "regime-gated variant"
+ },
+ {
+  "strategy": "VolSysRegime_3h_30",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "regime-gated variant"
+ },
+ {
+  "strategy": "VolSysRegime_4h_20",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "regime-gated variant"
+ },
+ {
+  "strategy": "VolSysRegime_1d",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "regime clock on daily instead of 4h"
+ },
+ {
+  "strategy": "VolSysRegime_1x",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "regime-gated, unlevered"
+ },
+ {
+  "strategy": "VolSysLong_6h_20",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "long-only variant"
+ },
+ {
+  "strategy": "VolSysLong_1x",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "long-only, no leverage: isolate edge from leverage"
+ },
+ {
+  "strategy": "VolSysLongFiltered",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "long-only + BTC 200EMA regime filter"
+ },
+ {
+  "strategy": "VolSys_4h_20",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "stability: slower bar"
+ },
+ {
+  "strategy": "VolSys_4h_25",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "stability: slower bar, wider"
+ },
+ {
+  "strategy": "VolSys_6h_20",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "stability: much slower bar"
+ },
+ {
+  "strategy": "VolSys_6h_30",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "stability: much slower, wider"
+ },
+ {
+  "strategy": "VolSys_12h_20",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "stability: half-daily bar"
+ },
+ {
+  "strategy": "DonchianBreak",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "new: turtle breakout long/short 4h"
+ },
+ {
+  "strategy": "TSMomentum",
+  "cfg": "futA",
+  "path": "user_data/research_strategies",
+  "note": "new: time-series momentum 1d long/short"
+ },
+ {
+  "strategy": "AlmgrenChrissStrategy",
+  "cfg": "futA",
+  "note": "library:AlmgrenChrissStrategy.py"
+ },
+ {
+  "strategy": "FAdxSmaStrategy",
+  "cfg": "futA",
+  "note": "library:futures\\FAdxSmaStrategy.py"
+ },
+ {
+  "strategy": "FOttStrategy",
+  "cfg": "futA",
+  "note": "library:futures\\FOttStrategy.py"
+ },
+ {
+  "strategy": "FReinforcedStrategy",
+  "cfg": "futA",
+  "note": "library:futures\\FReinforcedStrategy.py"
+ },
+ {
+  "strategy": "FSampleStrategy",
+  "cfg": "futA",
+  "note": "library:futures\\FSampleStrategy.py"
+ },
+ {
+  "strategy": "FSupertrendStrategy",
+  "cfg": "futA",
+  "note": "library:futures\\FSupertrendStrategy.py"
+ },
+ {
+  "strategy": "TWAPStrategy",
+  "cfg": "futA",
+  "note": "library:TWAPStrategy.py"
+ },
+ {
+  "strategy": "TrendFollowingStrategy",
+  "cfg": "futA",
+  "note": "library:futures\\TrendFollowingStrategy.py"
+ },
+ {
+  "strategy": "VolatilitySystem",
+  "cfg": "futA",
+  "note": "library:futures\\VolatilitySystem.py"
+ },
+ {
+  "strategy": "ASDTSRockwellTrading",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\ASDTSRockwellTrading.py"
+ },
+ {
+  "strategy": "AdxSmas",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\AdxSmas.py"
+ },
+ {
+  "strategy": "AverageStrategy",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\AverageStrategy.py"
+ },
+ {
+  "strategy": "AwesomeMacd",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\AwesomeMacd.py"
+ },
+ {
+  "strategy": "Bandtastic",
+  "cfg": "spotA",
+  "note": "library:Bandtastic.py"
+ },
+ {
+  "strategy": "BbandRsi",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\BbandRsi.py"
+ },
+ {
+  "strategy": "BinHV27",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\BinHV27.py"
+ },
+ {
+  "strategy": "BinHV45",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\BinHV45.py"
+ },
+ {
+  "strategy": "BreakEven",
+  "cfg": "spotA",
+  "note": "library:BreakEven.py"
+ },
+ {
+  "strategy": "CCIStrategy",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\CCIStrategy.py"
+ },
+ {
+  "strategy": "CMCWinner",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\CMCWinner.py"
+ },
+ {
+  "strategy": "ClucMay72018",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\ClucMay72018.py"
+ },
+ {
+  "strategy": "ClucMay72018_SL",
+  "cfg": "spotA",
+  "note": "library:variants\\ClucMay72018_SL.py"
+ },
+ {
+  "strategy": "ClucMay72018_SLR",
+  "cfg": "spotA",
+  "note": "library:variants\\ClucMay72018_SLR.py"
+ },
+ {
+  "strategy": "CofiBitStrategy",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\CofiBitStrategy.py"
+ },
+ {
+  "strategy": "CombinedBinHAndCluc",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\CombinedBinHAndCluc.py"
+ },
+ {
+  "strategy": "CombinedBinHAndCluc_SL",
+  "cfg": "spotA",
+  "note": "library:variants\\CombinedBinHAndCluc_SL.py"
+ },
+ {
+  "strategy": "CombinedBinHAndCluc_SLR",
+  "cfg": "spotA",
+  "note": "library:variants\\CombinedBinHAndCluc_SLR.py"
+ },
+ {
+  "strategy": "CustomStoplossWithPSAR",
+  "cfg": "spotA",
+  "note": "library:CustomStoplossWithPSAR.py"
+ },
+ {
+  "strategy": "Diamond",
+  "cfg": "spotA",
+  "note": "library:Diamond.py"
+ },
+ {
+  "strategy": "DoesNothingStrategy",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\DoesNothingStrategy.py"
+ },
+ {
+  "strategy": "EMASkipPump",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\EMASkipPump.py"
+ },
+ {
+  "strategy": "EmaTrendPullback",
+  "cfg": "spotA",
+  "note": "library:EmaTrendPullback.py"
+ },
+ {
+  "strategy": "FixedRiskRewardLoss",
+  "cfg": "spotA",
+  "note": "library:FixedRiskRewardLoss.py"
+ },
+ {
+  "strategy": "backtest_validation_1",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\backtest_validation_1.py"
+ },
+ {
+  "strategy": "GodStra",
+  "cfg": "spotA",
+  "note": "library:GodStra.py"
+ },
+ {
+  "strategy": "Heracles",
+  "cfg": "spotA",
+  "note": "library:Heracles.py"
+ },
+ {
+  "strategy": "HourBasedStrategy",
+  "cfg": "spotA",
+  "note": "library:HourBasedStrategy.py"
+ },
+ {
+  "strategy": "InformativeSample",
+  "cfg": "spotA",
+  "note": "library:InformativeSample.py"
+ },
+ {
+  "strategy": "Low_BB",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\Low_BB.py"
+ },
+ {
+  "strategy": "MACDStrategy",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\MACDStrategy.py"
+ },
+ {
+  "strategy": "MACDStrategy_SL",
+  "cfg": "spotA",
+  "note": "library:variants\\MACDStrategy_SL.py"
+ },
+ {
+  "strategy": "MACDStrategy_SLR",
+  "cfg": "spotA",
+  "note": "library:variants\\MACDStrategy_SLR.py"
+ },
+ {
+  "strategy": "MACDStrategy_crossed",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\MACDStrategy_crossed.py"
+ },
+ {
+  "strategy": "MultiMa",
+  "cfg": "spotA",
+  "note": "library:MultiMa.py"
+ },
+ {
+  "strategy": "MultiRSI",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\MultiRSI.py"
+ },
+ {
+  "strategy": "PatternRecognition",
+  "cfg": "spotA",
+  "note": "library:PatternRecognition.py"
+ },
+ {
+  "strategy": "PowerTower",
+  "cfg": "spotA",
+  "note": "library:PowerTower.py"
+ },
+ {
+  "strategy": "Quickie",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\Quickie.py"
+ },
+ {
+  "strategy": "Quickie_SL",
+  "cfg": "spotA",
+  "note": "library:variants\\Quickie_SL.py"
+ },
+ {
+  "strategy": "Quickie_SLR",
+  "cfg": "spotA",
+  "note": "library:variants\\Quickie_SLR.py"
+ },
+ {
+  "strategy": "ReinforcedAverageStrategy",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\ReinforcedAverageStrategy.py"
+ },
+ {
+  "strategy": "ReinforcedQuickie",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\ReinforcedQuickie.py"
+ },
+ {
+  "strategy": "ReinforcedSmoothScalp",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\ReinforcedSmoothScalp.py"
+ },
+ {
+  "strategy": "SampleStrategy",
+  "cfg": "spotA",
+  "note": "library:sample_strategy.py"
+ },
+ {
+  "strategy": "Scalp",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\Scalp.py"
+ },
+ {
+  "strategy": "Simple",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\Simple.py"
+ },
+ {
+  "strategy": "Simple_SL",
+  "cfg": "spotA",
+  "note": "library:variants\\Simple_SL.py"
+ },
+ {
+  "strategy": "Simple_SLR",
+  "cfg": "spotA",
+  "note": "library:variants\\Simple_SLR.py"
+ },
+ {
+  "strategy": "SmoothOperator",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\SmoothOperator.py"
+ },
+ {
+  "strategy": "SmoothScalp",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\SmoothScalp.py"
+ },
+ {
+  "strategy": "Strategy001",
+  "cfg": "spotA",
+  "note": "library:Strategy001.py"
+ },
+ {
+  "strategy": "Strategy001_custom_exit",
+  "cfg": "spotA",
+  "note": "library:Strategy001_custom_exit.py"
+ },
+ {
+  "strategy": "Strategy002",
+  "cfg": "spotA",
+  "note": "library:Strategy002.py"
+ },
+ {
+  "strategy": "Strategy003",
+  "cfg": "spotA",
+  "note": "library:Strategy003.py"
+ },
+ {
+  "strategy": "Strategy004",
+  "cfg": "spotA",
+  "note": "library:Strategy004.py"
+ },
+ {
+  "strategy": "Strategy005",
+  "cfg": "spotA",
+  "note": "library:Strategy005.py"
+ },
+ {
+  "strategy": "Supertrend",
+  "cfg": "spotA",
+  "note": "library:Supertrend.py"
+ },
+ {
+  "strategy": "SwingHighToSky",
+  "cfg": "spotA",
+  "note": "library:SwingHighToSky.py"
+ },
+ {
+  "strategy": "TDSequentialStrategy",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\TDSequentialStrategy.py"
+ },
+ {
+  "strategy": "TechnicalExampleStrategy",
+  "cfg": "spotA",
+  "note": "library:berlinguyinca\\TechnicalExampleStrategy.py"
+ },
+ {
+  "strategy": "TrendFollowingStrategy_SL",
+  "cfg": "spotA",
+  "note": "library:variants\\TrendFollowingStrategy_SL.py"
+ },
+ {
+  "strategy": "TrendRiderStrategy",
+  "cfg": "spotA",
+  "note": "library:TrendRiderStrategy.py"
+ },
+ {
+  "strategy": "UniversalMACD",
+  "cfg": "spotA",
+  "note": "library:UniversalMACD.py"
+ },
+ {
+  "strategy": "VolatilitySystem_SL",
+  "cfg": "spotA",
+  "note": "library:variants\\VolatilitySystem_SL.py"
+ },
+ {
+  "strategy": "hlhb",
+  "cfg": "spotA",
+  "note": "library:hlhb.py"
+ },
+ {
+  "strategy": "mabStra",
+  "cfg": "spotA",
+  "note": "library:mabStra.py"
+ },
+ {
+  "strategy": "multi_tf",
+  "cfg": "spotA",
+  "note": "library:multi_tf.py"
+ }
+]

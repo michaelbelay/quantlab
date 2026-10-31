@@ -1,0 +1,263 @@
+{
+ "updated": "2026-10-31T02:30:03+00:00",
+ "data_until": "2026-10-31 01:00:00+00:00",
+ "market_type_today": "DN_LOVOL",
+ "ideas": {
+  "flush_f1": {
+   "name": "F1 crash bounce (DN, long 24h)",
+   "kind": "rule",
+   "source": "FLUSH_RESULT_2026-10-07",
+   "reason": "PF 2.54 in 2024-26 test A, failed only day t (3 crash days); needs new crash days",
+   "entered": "2026-10-07T21:52:35+00:00",
+   "start": "2026-10-07T21:00:00+00:00",
+   "rule": {
+    "min_trades": 30,
+    "min_days": 10,
+    "max_days": 730
+   },
+   "status": "TAMPERED",
+   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "forward": {
+    "trades": 32,
+    "days": 6,
+    "pf": 1.8935293547767587,
+    "pf_2x": 1.8116174961514282,
+    "avg_pct": 3.1919820742189575,
+    "day_avg_pct": 10.911445851485992,
+    "day_t": 0.7763977721623588,
+    "win_pct": 43.75,
+    "years": {
+     "2026": {
+      "net": 102.14342637500664,
+      "trades": 32
+     }
+    },
+    "first": "2026-10-23 20:00:00+00:00",
+    "last": "2026-10-28 02:00:00+00:00"
+   }
+  },
+  "switch_book": {
+   "name": "Regime switch book (2 uptrend specialists)",
+   "kind": "engine",
+   "source": "REGIME_SWITCH_RESULT_2026-10-07",
+   "reason": "failed test A, but the switch beat always-on (-554 vs -4867); does it hold forward",
+   "entered": "2026-10-07T21:52:36+00:00",
+   "start": "2026-10-07T21:00:00+00:00",
+   "rule": {
+    "min_trades": 50,
+    "min_days": 20,
+    "max_days": 365
+   },
+   "status": "TAMPERED",
+   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "forward": {
+    "trades": 1744,
+    "days": 16,
+    "pf": 0.5163025144648389,
+    "pf_2x": 0.4809688523563393,
+    "avg_pct": -1.5347579103930844,
+    "day_avg_pct": -1.1770940080056107,
+    "day_t": -1.9673409121512897,
+    "win_pct": 15.424311926605505,
+    "years": {
+     "2026": {
+      "net": -2676.617795725539,
+      "trades": 1744
+     }
+    },
+    "first": "2026-10-07 21:00:00+00:00",
+    "last": "2026-10-22 23:00:00+00:00"
+   }
+  },
+  "channel_uphivol": {
+   "name": "channel long in wild uptrends",
+   "kind": "engine",
+   "source": "REGIME_SWITCH_RESULT_2026-10-07",
+   "reason": "only cell positive in the 2024-26 window (+2383), post-hoc",
+   "entered": "2026-10-07T21:52:37+00:00",
+   "start": "2026-10-07T21:00:00+00:00",
+   "rule": {
+    "min_trades": 50,
+    "min_days": 20,
+    "max_days": 365
+   },
+   "status": "TAMPERED",
+   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "forward": {
+    "trades": 90,
+    "days": 1,
+    "pf": 1.4252399035507808,
+    "pf_2x": 1.3705346297778942,
+    "avg_pct": 1.7146729562140481,
+    "day_avg_pct": 1.7146729562140481,
+    "day_t": null,
+    "win_pct": 72.22222222222221,
+    "years": {
+     "2026": {
+      "net": 154.32056605926434,
+      "trades": 90
+     }
+    },
+    "first": "2026-10-08 01:00:00+00:00",
+    "last": "2026-10-08 19:00:00+00:00"
+   }
+  },
+  "absorption_up": {
+   "name": "Volume absorption (UP, long 48h)",
+   "kind": "rule",
+   "source": "discovery 2026-10-08",
+   "reason": "screen passed",
+   "entered": "2026-10-07T22:04:25+00:00",
+   "start": "2026-10-07T22:00:00+00:00",
+   "rule": {
+    "min_trades": 50,
+    "min_days": 20,
+    "max_days": 365
+   },
+   "status": "TAMPERED",
+   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "forward": {
+    "trades": 132,
+    "days": 15,
+    "pf": 0.7304906584213613,
+    "pf_2x": 0.7041141236156945,
+    "avg_pct": -1.612963520069047,
+    "day_avg_pct": -0.5438876877985327,
+    "day_t": -0.3136313077784179,
+    "win_pct": 28.78787878787879,
+    "years": {
+     "2026": {
+      "net": -212.91118464911423,
+      "trades": 132
+     }
+    },
+    "first": "2026-10-08 01:00:00+00:00",
+    "last": "2026-10-22 21:00:00+00:00"
+   }
+  },
+  "neg_funding_up_squeeze": {
+   "name": "Negative funding squeeze (UP, long 48h)",
+   "kind": "rule",
+   "source": "discovery 2026-10-12",
+   "reason": "screen passed",
+   "entered": "2026-10-12T07:05:38+00:00",
+   "start": "2026-10-12T07:00:00+00:00",
+   "rule": {
+    "min_trades": 50,
+    "min_days": 20,
+    "max_days": 365
+   },
+   "status": "TAMPERED",
+   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "forward": {
+    "trades": 153,
+    "days": 11,
+    "pf": 0.4010057954024062,
+    "pf_2x": 0.38429156515821616,
+    "avg_pct": -3.763927528375896,
+    "day_avg_pct": -3.3217618342628317,
+    "day_t": -4.424391991547235,
+    "win_pct": 22.875816993464053,
+    "years": {
+     "2026": {
+      "net": -575.8809118415121,
+      "trades": 153
+     }
+    },
+    "first": "2026-10-12 09:00:00+00:00",
+    "last": "2026-10-22 22:00:00+00:00"
+   }
+  },
+  "channel_uphivol_fast": {
+   "name": "channel long in wild uptrends (fast verdict)",
+   "kind": "engine",
+   "source": "channel_uphivol, faster verdict",
+   "reason": "Michael 2026-10-12: speed up the channel verdict; same engine as channel_uphivol, 10 days instead of 20",
+   "entered": "2026-10-12T12:48:26+00:00",
+   "start": "2026-10-12T12:00:00+00:00",
+   "rule": {
+    "min_trades": 30,
+    "min_days": 10,
+    "max_days": 365
+   },
+   "status": "TAMPERED",
+   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "forward": {
+    "trades": 0,
+    "days": 0
+   }
+  },
+  "smooth_trend_uplovol": {
+   "name": "Smooth trend (UP_LOVOL, long 72h)",
+   "kind": "rule",
+   "source": "discovery 2026-10-19",
+   "reason": "screen passed",
+   "entered": "2026-10-19T07:05:49+00:00",
+   "start": "2026-10-19T07:00:00+00:00",
+   "rule": {
+    "min_trades": 50,
+    "min_days": 20,
+    "max_days": 365
+   },
+   "status": "TAMPERED",
+   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "forward": {
+    "trades": 12,
+    "days": 4,
+    "pf": 0.07234260612685188,
+    "pf_2x": 0.07032501546965833,
+    "avg_pct": -13.591046614010258,
+    "day_avg_pct": -18.588997081765676,
+    "day_t": -1.6105728447995993,
+    "win_pct": 8.333333333333332,
+    "years": {
+     "2026": {
+      "net": -163.0925593681231,
+      "trades": 12
+     }
+    },
+    "first": "2026-10-19 07:00:00+00:00",
+    "last": "2026-10-22 23:00:00+00:00"
+   }
+  },
+  "dn_coil_short": {
+   "name": "Downtrend coil (DN, short 48h)",
+   "kind": "rule",
+   "source": "discovery 2026-10-26",
+   "reason": "screen passed",
+   "entered": "2026-10-26T08:06:59+00:00",
+   "start": "2026-10-26T08:00:00+00:00",
+   "rule": {
+    "min_trades": 50,
+    "min_days": 20,
+    "max_days": 365
+   },
+   "status": "TAMPERED",
+   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "forward": {
+    "trades": 62,
+    "days": 3,
+    "pf": 0.10093426927103451,
+    "pf_2x": 0.08837434244622215,
+    "avg_pct": -3.669379657000751,
+    "day_avg_pct": -5.083588017287262,
+    "day_t": -3.4569914067329375,
+    "win_pct": 19.35483870967742,
+    "years": {
+     "2026": {
+      "net": -227.5015387340466,
+      "trades": 62
+     }
+    },
+    "first": "2026-10-26 08:00:00+00:00",
+    "last": "2026-10-28 15:00:00+00:00"
+   }
+  }
+ },
+ "screens": {
+  "total": 41,
+  "passed": 4
+ },
+ "code_ok": false,
+ "changes": []
+}

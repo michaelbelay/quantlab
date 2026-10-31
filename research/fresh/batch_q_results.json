@@ -1,0 +1,87 @@
+{
+ "Q1 MAX effect": {
+  "setting(L,N,hold)": [
+   60,
+   3,
+   14
+  ],
+  "fit_account": 423,
+  "fit_drop_pct": 36,
+  "test_account": 218,
+  "test_drop_pct": 66,
+  "test_years_usdt": {
+   "2025": 149.8,
+   "2026": -232.0
+  },
+  "grid_positive_on_test": "0/8",
+  "pass": false
+ },
+ "Q2 idiosyncratic vol": {
+  "setting(L,N,hold)": [
+   60,
+   3,
+   7
+  ],
+  "fit_account": 425,
+  "fit_drop_pct": 44,
+  "test_account": 102,
+  "test_drop_pct": 74,
+  "test_years_usdt": {
+   "2025": -16.9,
+   "2026": -181.1
+  },
+  "grid_positive_on_test": "0/8",
+  "pass": false
+ },
+ "Q3 skewness": {
+  "setting(L,N,hold)": [
+   60,
+   3,
+   14
+  ],
+  "fit_account": 352,
+  "fit_drop_pct": 36,
+  "test_account": 350,
+  "test_drop_pct": 35,
+  "test_years_usdt": {
+   "2025": 121.5,
+   "2026": -71.9
+  },
+  "grid_positive_on_test": "4/8",
+  "pass": false
+ },
+ "Q4 abnormal volume": {
+  "setting(L,N,hold)": [
+   7,
+   3,
+   7
+  ],
+  "fit_account": 342,
+  "fit_drop_pct": 46,
+  "test_account": 162,
+  "test_drop_pct": 57,
+  "test_years_usdt": {
+   "2025": -59.3,
+   "2026": -78.7
+  },
+  "grid_positive_on_test": "0/4",
+  "pass": false
+ },
+ "Q5 low-vol long-only": {
+  "setting(L,N,hold)": [
+   30,
+   3,
+   14
+  ],
+  "fit_account": 867,
+  "fit_drop_pct": 36,
+  "test_account": 296,
+  "test_drop_pct": 21,
+  "test_years_usdt": {
+   "2025": 49.5,
+   "2026": -53.8
+  },
+  "grid_positive_on_test": "1/8",
+  "pass": false
+ }
+}

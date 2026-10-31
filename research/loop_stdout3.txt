@@ -1,0 +1,27 @@
+VolSysRegime_2h_25                 futA   pass      388.12% dd=13.96% tr=314 
+VolSysRegime_2h_25                 futB   pass      219.71% dd=25.79% tr=292  <-- holdout
+VolSysRegime_3h_20                 futA   pass      404.73% dd=10.32% tr=410 
+VolSysRegime_3h_20                 futB   reject    153.02% dd=34.64% tr=387  <-- holdout
+VolSysRegime_3h_30                 futA   pass      372.13% dd=15.19% tr=127 
+VolSysRegime_3h_30                 futB   reject     29.25% dd=29.98% tr=139  <-- holdout
+VolSysRegime_4h_20                 futA   pass      224.83% dd=20.99% tr=310 
+VolSysRegime_4h_20                 futB   reject     51.52% dd=52.42% tr=294  <-- holdout
+VolSysRegime_1d                    futA   pass       90.92% dd=26.8% tr=271 
+VolSysRegime_1d                    futB   pass      221.07% dd=30.9% tr=265  <-- holdout
+VolSysRegime_1x                    futA   pass      246.13% dd=9.14% tr=306 
+VolSysRegime_1x                    futB   pass      147.96% dd=13.57% tr=285  <-- holdout
+VolSysLong_6h_20                   futA   reject    118.24% dd=32.63% tr=156 loses in recent regime (-9.87%)
+VolSysLong_1x                      futA   reject      98.0% dd=16.04% tr=260 loses in recent regime (-10.98%)
+VolSysLongFiltered                 futA   pass      347.85% dd=11.74% tr=173 
+VolSysLongFiltered                 futB   pass      313.28% dd=11.98% tr=152  <-- holdout
+VolSys_4h_20                       futA   pass      352.91% dd=24.14% tr=374 
+VolSys_4h_20                       futB   pass      197.45% dd=22.59% tr=366  <-- holdout
+VolSys_4h_25                       futA   pass      313.71% dd=17.16% tr=189 
+VolSys_4h_25                       futB   reject     85.31% dd=48.66% tr=192  <-- holdout
+VolSys_6h_20                       futA   reject    111.16% dd=36.92% tr=255 drawdown too deep (36.92%);loses in recent regime (-25.93%)
+VolSys_6h_30                       futA   reject    -68.72% dd=79.14% tr=70 too few trades (70 < 100);not profitable (-68.72%);drawdown too deep (79.14%);po
+VolSys_12h_20                      futA   reject    100.25% dd=47.6% tr=129 drawdown too deep (47.6%);positive in only 5/11 periods;profit depends on a sing
+DonchianBreak                      futA   reject    -92.22% dd=92.56% tr=908 not profitable (-92.22%);drawdown too deep (92.56%);positive in only 1/6 periods
+TSMomentum                         futA   reject    108.41% dd=53.71% tr=1478 drawdown too deep (53.71%)
+AlmgrenChrissStrategy              futA   failed         0% dd=0% tr=0 
+FAdxSmaStrategy                    futA   reject    -28.22% dd=29.36% tr=739 not profitable (-28.22%);positive in only 2/11 periods;only 0/8 coins profitable

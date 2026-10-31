@@ -1,0 +1,193 @@
+{
+ "id": "volatility_breakout|any|btc_regime|with|atr3|no_tp_trail|be_on|instant|bars3_atr_mult2.5",
+ "family": "volatility_breakout",
+ "filters": [
+  "btc_regime"
+ ],
+ "trend_mode": "with",
+ "regime_gate": null,
+ "params": {
+  "bars": 3,
+  "atr_mult": 2.5
+ },
+ "timeframe": "1h",
+ "direction": "long+short",
+ "stop": "atr x3.0",
+ "tp": "none () frac ()",
+ "breakeven_after_tp1": true,
+ "trailing": 0,
+ "entry_mode": "instant",
+ "score": 0.518,
+ "score_terms": {
+  "reliability": 0.749,
+  "profit_factor": 0.489,
+  "expectancy": 0.818,
+  "consistency": 0.5,
+  "activity": 1.0,
+  "drawdown": 0.408,
+  "instability": 0.0,
+  "exposure": 0.0
+ },
+ "score_explained": "score=0.518  [reliability=+0.749  profit_factor=+0.489  expectancy=+0.818  consistency=+0.500  activity=+1.000  drawdown=+0.408  instability=+0.000  exposure=+0.000]",
+ "dev": {
+  "trades": 686,
+  "ret_pct": 236.78,
+  "win_rate": 26.5,
+  "pf": 1.489,
+  "expectancy_r": 0.4377,
+  "expectancy_usd": 3.45,
+  "expectancy_pct": 1.7258,
+  "t_stat": 2.91,
+  "max_dd": 14.29,
+  "avg_win": 39.63,
+  "avg_loss": -9.61,
+  "avg_bars": 157.6,
+  "long_trades": 369,
+  "short_trades": 317,
+  "long_pct": 280.68,
+  "short_pct": -43.9,
+  "tp1": 0.0,
+  "tp2": 0.0,
+  "tp3": 0.0,
+  "tp4": 0.0,
+  "liquidations": 0,
+  "max_consec_loss": 16,
+  "disqualified": false,
+  "reason": "",
+  "sharpe": 0.69,
+  "sortino": 42.22
+ },
+ "dev_consistency": 0.75,
+ "dev_halfyears": {
+  "2021H1": 54.78,
+  "2021H2": 67.76,
+  "2022H1": 20.8,
+  "2022H2": -1.85,
+  "2023H1": 17.55,
+  "2023H2": 29.48,
+  "2024H1": 0.49,
+  "2024H2": 85.83,
+  "2025H1": -27.45,
+  "2025H2": -16.54,
+  "2026H1": 4.37,
+  "2026H2": 1.56
+ },
+ "dev_regime_pnl": {
+  "range": {
+   "n": 54,
+   "pct": -19.17
+  },
+  "strong_down": {
+   "n": 251,
+   "pct": -64.76
+  },
+  "strong_up": {
+   "n": 278,
+   "pct": 236.55
+  },
+  "weak_down": {
+   "n": 44,
+   "pct": 16.33
+  },
+  "weak_up": {
+   "n": 59,
+   "pct": 67.84
+  }
+ },
+ "dev_vol_regime_pnl": {
+  "high": {
+   "n": 355,
+   "pct": 127.59
+  },
+  "low": {
+   "n": 1,
+   "pct": -0.45
+  },
+  "normal": {
+   "n": 330,
+   "pct": 109.64
+  }
+ },
+ "holdout": {
+  "trades": 636,
+  "ret_pct": 66.93,
+  "win_rate": 24.5,
+  "pf": 1.12,
+  "expectancy_r": 0.2068,
+  "expectancy_usd": 1.05,
+  "expectancy_pct": 0.5262,
+  "t_stat": 1.39,
+  "max_dd": 37.77,
+  "avg_win": 39.95,
+  "avg_loss": -11.59,
+  "avg_bars": 151.6,
+  "long_trades": 333,
+  "short_trades": 303,
+  "long_pct": 159.2,
+  "short_pct": -92.27,
+  "tp1": 0.0,
+  "tp2": 0.0,
+  "tp3": 0.0,
+  "tp4": 0.0,
+  "liquidations": 0,
+  "max_consec_loss": 13,
+  "disqualified": false,
+  "reason": "",
+  "sharpe": 0.35,
+  "sortino": 22.38
+ },
+ "holdout_consistency": 0.583,
+ "holdout_halfyears": {
+  "2021H1": 78.87,
+  "2021H2": -40.63,
+  "2022H1": 22.59,
+  "2022H2": 24.52,
+  "2023H1": -8.99,
+  "2023H2": 27.85,
+  "2024H1": 6.78,
+  "2024H2": -0.89,
+  "2025H1": -38.6,
+  "2025H2": -33.27,
+  "2026H1": 27.03,
+  "2026H2": 1.69
+ },
+ "holdout_regime_pnl": {
+  "range": {
+   "n": 49,
+   "pct": 4.08
+  },
+  "strong_down": {
+   "n": 248,
+   "pct": -111.84
+  },
+  "strong_up": {
+   "n": 250,
+   "pct": 118.74
+  },
+  "weak_down": {
+   "n": 46,
+   "pct": 19.95
+  },
+  "weak_up": {
+   "n": 43,
+   "pct": 35.99
+  }
+ },
+ "robustness": {
+  "instability": 0.057,
+  "neighbours_profitable": 4,
+  "n": 4,
+  "neighbour_returns": [
+   211.2,
+   192.2,
+   236.8,
+   236.8
+  ],
+  "mean_neighbour_score": 0.489
+ },
+ "cost_stress": {
+  "ret_pct_2x_costs": 213.19,
+  "pf_2x_costs": 1.426,
+  "trades_2x_costs": 687
+ }
+}

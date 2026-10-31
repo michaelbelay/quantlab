@@ -1,0 +1,114 @@
+[
+ {
+  "train": "2021-01->2022-07",
+  "oos": "2022-07->2023-01",
+  "candidates": 2616,
+  "picks": [
+   "volatility_breakout|any|btc_regime+volume|both|wide|no_tp_trail|be_on|instant|sh_sym|bars3_atr_mult2.0",
+   "volatility_breakout|any|btc_regime|with|wide|ladder_4|be_on|instant|sh_tp_weakdn|bars2_atr_mult2.5",
+   "volatility_breakout|any|btc_regime+volume|both|atr2|no_tp_trail|be_on|instant|sh_weakdn|bars2_atr_mult2.0",
+   "volatility_breakout|any|not_flat|with|wide|no_tp_trail|be_on|instant|sh_sym|bars3_atr_mult2.0",
+   "volatility_breakout|any|not_flat|both|wide|no_tp_trail|be_on|instant|sh_sym|bars3_atr_mult2.0"
+  ],
+  "oos_pct": -11.47,
+  "oos_trades": 455
+ },
+ {
+  "train": "2021-07->2023-01",
+  "oos": "2023-01->2023-07",
+  "candidates": 1640,
+  "picks": [
+   "volatility_breakout|any|not_flat|with|atr2|ladder_4|be_on|instant|sh_sym|bars4_atr_mult3.0",
+   "volatility_breakout|any|not_flat|both|atr2|ladder_4|be_on|instant|sh_sym|bars4_atr_mult3.0",
+   "volatility_breakout|any|nofilt|with|atr2|ladder_4|be_on|instant|sh_sym|bars4_atr_mult3.0",
+   "volatility_breakout|any|nofilt|both|atr2|ladder_4|be_on|instant|sh_sym|bars4_atr_mult3.0",
+   "volatility_breakout|any|btc_regime|both|atr2|ladder_4|be_on|instant|sh_sym|bars4_atr_mult3.0"
+  ],
+  "oos_pct": -5.49,
+  "oos_trades": 315
+ },
+ {
+  "train": "2022-01->2023-07",
+  "oos": "2023-07->2024-01",
+  "candidates": 1476,
+  "picks": [
+   "volatility_breakout|any|btc_regime+volume|both|atr2|no_tp_trail|be_on|instant|sh_weakdn|bars2_atr_mult3.0",
+   "volatility_breakout|any|not_flat|with|atr2|no_tp_trail|be_on|instant|sh_weakdn|bars2_atr_mult3.0",
+   "volatility_breakout|any|not_flat|both|atr2|no_tp_trail|be_on|instant|sh_weakdn|bars2_atr_mult3.0",
+   "volatility_breakout|any|nofilt|with|atr2|no_tp_trail|be_on|instant|sh_weakdn|bars2_atr_mult3.0",
+   "volatility_breakout|any|nofilt|both|atr2|no_tp_trail|be_on|instant|sh_weakdn|bars2_atr_mult3.0"
+  ],
+  "oos_pct": 40.45,
+  "oos_trades": 220
+ },
+ {
+  "train": "2022-07->2024-01",
+  "oos": "2024-01->2024-07",
+  "candidates": 1953,
+  "picks": [
+   "breakout|e|not_flat+vwap|with|atr2|no_tp_trail|be_on|instant|sh_off",
+   "breakout|e|not_flat+vwap|both|atr2|no_tp_trail|be_on|instant|sh_off",
+   "volatility_breakout|any|not_flat|with|atr2|no_tp_trail|be_on|instant|sh_off|bars2_atr_mult3.0",
+   "volatility_breakout|any|not_flat|both|atr2|no_tp_trail|be_on|instant|sh_off|bars2_atr_mult3.0",
+   "volatility_breakout|any|nofilt|with|atr2|no_tp_trail|be_on|instant|sh_off|bars2_atr_mult3.0"
+  ],
+  "oos_pct": 4.82,
+  "oos_trades": 216
+ },
+ {
+  "train": "2023-01->2024-07",
+  "oos": "2024-07->2025-01",
+  "candidates": 1726,
+  "picks": [
+   "volatility_breakout|any|not_flat|with|atr3|no_tp_trail|be_on|instant|sh_off|bars2_atr_mult2.0",
+   "volatility_breakout|any|not_flat|both|atr3|no_tp_trail|be_on|instant|sh_off|bars2_atr_mult2.0",
+   "volatility_breakout|any|btc_regime+volume|both|atr3|no_tp_trail|be_on|instant|sh_off|bars2_atr_mult2.0",
+   "volatility_breakout|any|nofilt|with|atr3|no_tp_trail|be_on|instant|sh_off|bars2_atr_mult2.0",
+   "volatility_breakout|any|nofilt|both|atr3|no_tp_trail|be_on|instant|sh_off|bars2_atr_mult2.0"
+  ],
+  "oos_pct": 76.51,
+  "oos_trades": 470
+ },
+ {
+  "train": "2023-07->2025-01",
+  "oos": "2025-01->2025-07",
+  "candidates": 2356,
+  "picks": [
+   "volatility_breakout|any|btc_regime|with|atr2|no_tp_trail|be_on|instant|sh_weakdn|bars2_atr_mult2.5",
+   "volatility_breakout|any|btc_regime+volume|with|atr2|no_tp_trail|be_on|instant|sh_weakdn|bars2_atr_mult2.5",
+   "volatility_breakout|any|btc_regime|with|atr2|no_tp_trail|be_on|instant|sh_sym|bars3_atr_mult2.0",
+   "volatility_breakout|any|btc_regime+volume|with|atr2|no_tp_trail|be_on|instant|sh_sym|bars3_atr_mult2.0",
+   "volatility_breakout|any|not_flat|with|atr2|no_tp_trail|be_on|instant|sh_weakdn|bars4_atr_mult2.5"
+  ],
+  "oos_pct": -20.82,
+  "oos_trades": 361
+ },
+ {
+  "train": "2024-01->2025-07",
+  "oos": "2025-07->2026-01",
+  "candidates": 1630,
+  "picks": [
+   "volatility_breakout|any|btc_regime+volume|both|atr2|no_tp_trail|be_on|instant|sh_tp_weakdn|bars4_atr_mult2.0",
+   "breakout_retest|e|volume|with|atr3|no_tp_trail|be_on|instant|sh_tp_weakdn",
+   "breakout_retest|e|volume|both|atr3|no_tp_trail|be_on|instant|sh_tp_weakdn",
+   "breakout_retest|e|volume+not_flat|with|atr3|no_tp_trail|be_on|instant|sh_tp_weakdn",
+   "breakout_retest|e|volume+not_flat|both|atr3|no_tp_trail|be_on|instant|sh_tp_weakdn"
+  ],
+  "oos_pct": -23.18,
+  "oos_trades": 523
+ },
+ {
+  "train": "2024-07->2026-01",
+  "oos": "2026-01->2026-10",
+  "candidates": 1110,
+  "picks": [
+   "volatility_breakout|any|not_flat|with|wide|runner|be_on|instant|sh_tp_weakdn|bars3_atr_mult2.5",
+   "volatility_breakout|any|not_flat|both|wide|runner|be_on|instant|sh_tp_weakdn|bars3_atr_mult2.5",
+   "volatility_breakout|any|nofilt|with|wide|runner|be_on|instant|sh_tp_weakdn|bars3_atr_mult2.5",
+   "volatility_breakout|any|nofilt|both|wide|runner|be_on|instant|sh_tp_weakdn|bars3_atr_mult2.5",
+   "volatility_breakout|any|btc_regime|both|wide|runner|be_on|instant|sh_tp_weakdn|bars3_atr_mult2.5"
+  ],
+  "oos_pct": -4.49,
+  "oos_trades": 470
+ }
+]

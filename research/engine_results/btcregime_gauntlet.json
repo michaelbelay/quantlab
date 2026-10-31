@@ -1,0 +1,266 @@
+{
+ "holdout_coins": 63,
+ "unavailable": [
+  "SHIB",
+  "PEPE",
+  "U",
+  "BFUSD",
+  "RAY",
+  "LUNC",
+  "FLOKI"
+ ],
+ "slots": 20,
+ "results": {
+  "LIVE  btc_regime+volume": {
+   "aggregate": {
+    "trades": 3803,
+    "ret_pct": 280.4,
+    "pf": 1.198
+   },
+   "cost2x": {
+    "trades": 3808,
+    "ret_pct": 199.7,
+    "pf": 1.136
+   },
+   "slip2x": {
+    "trades": 3808,
+    "ret_pct": 237.8,
+    "pf": 1.165
+   },
+   "funding2x": {
+    "trades": 3803,
+    "ret_pct": 254.2,
+    "pf": 1.178
+   },
+   "portfolio_20": {
+    "ret_pct": 165.6,
+    "taken": 3237,
+    "skipped": 566,
+    "max_dd": 34.9,
+    "final_equity": 2655.6
+   },
+   "portfolio_10": {
+    "ret_pct": 318.6,
+    "taken": 2392,
+    "skipped": 1411,
+    "max_dd": 37.4,
+    "final_equity": 4186.4
+   },
+   "funding_paid": 261.3,
+   "expectancy": 0.7372,
+   "win_pct": 19.3,
+   "trades_per_year": 669,
+   "bull2021": 55.4,
+   "bear2022": 65.7,
+   "recovery2023_24": 122.6,
+   "recent2025_26": 36.6,
+   "folds": [
+    {
+     "window": "2022-07->2023-01",
+     "trades": 242,
+     "agg_ret": 23.0,
+     "pf_ret": 8.3,
+     "pf_dd": 13.1
+    },
+    {
+     "window": "2023-01->2023-07",
+     "trades": 307,
+     "agg_ret": 84.2,
+     "pf_ret": 38.8,
+     "pf_dd": 14.7
+    },
+    {
+     "window": "2023-07->2024-01",
+     "trades": 272,
+     "agg_ret": 9.3,
+     "pf_ret": 3.3,
+     "pf_dd": 10.6
+    },
+    {
+     "window": "2024-01->2024-07",
+     "trades": 358,
+     "agg_ret": -0.2,
+     "pf_ret": -6.0,
+     "pf_dd": 20.8
+    },
+    {
+     "window": "2024-07->2025-01",
+     "trades": 403,
+     "agg_ret": 29.4,
+     "pf_ret": -0.6,
+     "pf_dd": 20.7
+    },
+    {
+     "window": "2025-01->2025-07",
+     "trades": 384,
+     "agg_ret": -8.3,
+     "pf_ret": 7.9,
+     "pf_dd": 18.1
+    },
+    {
+     "window": "2025-07->2026-01",
+     "trades": 546,
+     "agg_ret": -65.0,
+     "pf_ret": -10.6,
+     "pf_dd": 18.6
+    },
+    {
+     "window": "2026-01->2026-10",
+     "trades": 725,
+     "agg_ret": 109.9,
+     "pf_ret": 39.3,
+     "pf_dd": 22.9
+    }
+   ],
+   "wf_oos_sum": 80.4,
+   "wf_folds_positive": 5
+  },
+  "CANDIDATE  volume only": {
+   "aggregate": {
+    "trades": 4620,
+    "ret_pct": 212.1,
+    "pf": 1.124
+   },
+   "cost2x": {
+    "trades": 4628,
+    "ret_pct": 118.5,
+    "pf": 1.067
+   },
+   "slip2x": {
+    "trades": 4628,
+    "ret_pct": 164.8,
+    "pf": 1.095
+   },
+   "funding2x": {
+    "trades": 4620,
+    "ret_pct": 188.4,
+    "pf": 1.11
+   },
+   "portfolio_20": {
+    "ret_pct": 114.6,
+    "taken": 4017,
+    "skipped": 603,
+    "max_dd": 55.0,
+    "final_equity": 2145.6
+   },
+   "portfolio_10": {
+    "ret_pct": 315.3,
+    "taken": 2956,
+    "skipped": 1664,
+    "max_dd": 59.9,
+    "final_equity": 4152.5
+   },
+   "funding_paid": 237.1,
+   "expectancy": 0.4592,
+   "win_pct": 18.5,
+   "trades_per_year": 813,
+   "bull2021": 74.9,
+   "bear2022": 120.0,
+   "recovery2023_24": 57.2,
+   "recent2025_26": -40.0,
+   "folds": [
+    {
+     "window": "2022-07->2023-01",
+     "trades": 281,
+     "agg_ret": 21.7,
+     "pf_ret": 9.5,
+     "pf_dd": 10.5
+    },
+    {
+     "window": "2023-01->2023-07",
+     "trades": 399,
+     "agg_ret": 40.0,
+     "pf_ret": 15.8,
+     "pf_dd": 23.4
+    },
+    {
+     "window": "2023-07->2024-01",
+     "trades": 326,
+     "agg_ret": -14.1,
+     "pf_ret": -8.2,
+     "pf_dd": 16.2
+    },
+    {
+     "window": "2024-01->2024-07",
+     "trades": 406,
+     "agg_ret": 13.9,
+     "pf_ret": 2.4,
+     "pf_dd": 20.6
+    },
+    {
+     "window": "2024-07->2025-01",
+     "trades": 459,
+     "agg_ret": 17.4,
+     "pf_ret": -10.4,
+     "pf_dd": 22.4
+    },
+    {
+     "window": "2025-01->2025-07",
+     "trades": 472,
+     "agg_ret": -37.8,
+     "pf_ret": -0.4,
+     "pf_dd": 21.4
+    },
+    {
+     "window": "2025-07->2026-01",
+     "trades": 641,
+     "agg_ret": -90.8,
+     "pf_ret": -26.4,
+     "pf_dd": 31.7
+    },
+    {
+     "window": "2026-01->2026-10",
+     "trades": 965,
+     "agg_ret": 88.7,
+     "pf_ret": 46.7,
+     "pf_dd": 27.3
+    }
+   ],
+   "wf_oos_sum": 29.0,
+   "wf_folds_positive": 4
+  }
+ },
+ "adopted": false,
+ "gates": [
+  {
+   "name": "GATE 1  2x costs PF >= 1.10",
+   "pass": 0.0,
+   "detail": "1.067"
+  },
+  {
+   "name": "GATE 2  2x funding PF > 1.00",
+   "pass": 1.0,
+   "detail": "1.11"
+  },
+  {
+   "name": "GATE 3  2x slippage PF > 1.00",
+   "pass": 1.0,
+   "detail": "1.095"
+  },
+  {
+   "name": "GATE 4  positive in all 4 regimes",
+   "pass": false,
+   "detail": "bull2021=+74.9 bear2022=+120.0 recovery2023_24=+57.2 recent2025_26=-40.0"
+  },
+  {
+   "name": "GATE 5  WF sum > 0 and >= 4/8 folds",
+   "pass": true,
+   "detail": "sum +29.0%, 4/8 folds"
+  },
+  {
+   "name": "SUP 6   portfolio-20 return >= LIVE",
+   "pass": false,
+   "detail": "+114.6% vs LIVE +165.6%"
+  },
+  {
+   "name": "SUP 7   portfolio-20 max DD <= LIVE",
+   "pass": false,
+   "detail": "55.0% vs LIVE 34.9%"
+  },
+  {
+   "name": "SUP 8   WF OOS sum >= LIVE",
+   "pass": false,
+   "detail": "+29.0% vs LIVE +80.4%"
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+=== tournament (dev, leverage 2.0x) ===
+6984 candidates, 8 pairs
+  simulated 50/6984  (10s)
+  simulated 100/6984  (18s)
+  simulated 150/6984  (27s)
+  simulated 200/6984  (34s)
+  simulated 250/6984  (42s)
+  simulated 300/6984  (50s)
+  simulated 350/6984  (59s)
+  simulated 400/6984  (68s)
+  simulated 450/6984  (77s)
+  simulated 500/6984  (86s)
+  simulated 550/6984  (94s)
+  simulated 600/6984  (102s)
+  simulated 650/6984  (110s)
+  simulated 700/6984  (121s)
+  simulated 750/6984  (129s)
+  simulated 800/6984  (139s)
+  simulated 850/6984  (147s)
+  simulated 900/6984  (156s)
+  simulated 950/6984  (163s)
+  simulated 1000/6984  (173s)
+  simulated 1050/6984  (183s)
+  simulated 1100/6984  (192s)
+  simulated 1150/6984  (201s)
+  simulated 1200/6984  (210s)
+  simulated 1250/6984  (219s)
+  simulated 1300/6984  (227s)
+  simulated 1350/6984  (237s)
+  simulated 1400/6984  (246s)
+  simulated 1450/6984  (255s)
+  simulated 1500/6984  (263s)
+  simulated 1550/6984  (272s)
+  simulated 1600/6984  (279s)
+  simulated 1650/6984  (289s)
+  simulated 1700/6984  (298s)
+  simulated 1750/6984  (307s)
+  simulated 1800/6984  (316s)
+  simulated 1850/6984  (324s)
+  simulated 1900/6984  (332s)
+  simulated 1950/6984  (339s)
+  simulated 2000/6984  (350s)
+  simulated 2050/6984  (358s)
+  simulated 2100/6984  (369s)
+  simulated 2150/6984  (377s)
+  simulated 2200/6984  (385s)
+  simulated 2250/6984  (392s)
+  simulated 2300/6984  (402s)
+  simulated 2350/6984  (412s)
+  simulated 2400/6984  (421s)
+  simulated 2450/6984  (430s)
+  simulated 2500/6984  (437s)
+  simulated 2550/6984  (446s)
+  simulated 2600/6984  (455s)
+  simulated 2650/6984  (478s)
+  simulated 2700/6984  (498s)
+  simulated 2750/6984  (516s)
+  simulated 2800/6984  (536s)
+  simulated 2850/6984  (551s)
+  simulated 2900/6984  (566s)
+  simulated 2950/6984  (581s)
+  simulated 3000/6984  (591s)
+  simulated 3050/6984  (609s)
+  simulated 3100/6984  (633s)
+  simulated 3150/6984  (651s)
+  simulated 3200/6984  (671s)
+  simulated 3250/6984  (690s)
+  simulated 3300/6984  (704s)
+  simulated 3350/6984  (722s)
+  simulated 3400/6984  (735s)
+  simulated 3450/6984  (743s)
+  simulated 3500/6984  (750s)
+  simulated 3550/6984  (760s)
+  simulated 3600/6984  (775s)
+  simulated 3650/6984  (790s)
+  simulated 3700/6984  (801s)
+  simulated 3750/6984  (814s)
+  simulated 3800/6984  (838s)
+  simulated 3850/6984  (862s)
+  simulated 3900/6984  (889s)
+  simulated 3950/6984  (905s)
+  simulated 4000/6984  (918s)
+  simulated 4050/6984  (930s)
+  simulated 4100/6984  (943s)
+  simulated 4150/6984  (953s)
+  simulated 4200/6984  (968s)
+  simulated 4250/6984  (986s)
+  simulated 4300/6984  (1004s)
+  simulated 4350/6984  (1018s)
+  simulated 4400/6984  (1031s)
+  simulated 4450/6984  (1074s)
+  simulated 4500/6984  (1093s)
+  simulated 4550/6984  (1112s)
+  simulated 4600/6984  (1136s)
+  simulated 4650/6984  (1159s)
+  simulated 4700/6984  (1229s)
+  simulated 4750/6984  (1252s)
+  simulated 4800/6984  (1276s)
+  simulated 4850/6984  (1298s)
+  simulated 4900/6984  (1318s)
+  simulated 4950/6984  (1339s)
+  simulated 5000/6984  (1361s)
+  simulated 5050/6984  (1466s)
+  simulated 5100/6984  (1488s)
+  simulated 5150/6984  (1512s)
+  simulated 5200/6984  (1534s)
+  simulated 5250/6984  (1556s)
+  simulated 5300/6984  (1572s)
+  simulated 5350/6984  (1586s)
+  simulated 5400/6984  (1602s)
+  simulated 5450/6984  (1615s)
+  simulated 5500/6984  (1631s)
+  simulated 5550/6984  (1645s)
+  simulated 5600/6984  (1653s)
+  simulated 5650/6984  (1661s)
+  simulated 5700/6984  (1669s)
+  simulated 5750/6984  (1677s)
+  simulated 5800/6984  (1685s)
+  simulated 5850/6984  (1696s)
+  simulated 5900/6984  (1716s)
+  simulated 5950/6984  (1729s)
+  simulated 6000/6984  (1887s)
+  simulated 6050/6984  (1905s)
+  simulated 6100/6984  (1922s)
+  simulated 6150/6984  (1932s)
+  simulated 6200/6984  (1938s)
+  simulated 6250/6984  (1943s)
+  simulated 6300/6984  (1950s)
+  simulated 6350/6984  (1956s)
+  simulated 6400/6984  (1962s)
+  simulated 6450/6984  (1978s)
+  simulated 6500/6984  (1995s)
+  simulated 6550/6984  (2012s)
+  simulated 6600/6984  (2024s)
+  simulated 6650/6984  (2035s)
+  simulated 6700/6984  (2046s)
+  simulated 6750/6984  (2064s)
+  simulated 6800/6984  (2082s)
+  simulated 6850/6984  (2099s)
+  simulated 6900/6984  (2109s)
+  simulated 6950/6984  (2121s)
+simulation done
+
+qualified: 442/6696   (disqualified: 6254 -- zero/low trades, unprofitable, liquidations)
+
+TOP 15 BY COMPOSITE SCORE (full period, dev coins)
+                                                        id  score  trades  ret_pct    pf  expectancy_r  t_stat  max_dd  win_rate  consistency
+volatility_breakout|any|btc_regime|with|atr3|no_tp_trai... 0.6632     272   203.06 2.075        0.6908    3.07    9.26      26.1        0.667
+volatility_breakout|any|btc_regime|with|atr2|no_tp_trai... 0.6406     281   141.98 1.940        0.8487    2.91   12.18      19.6        0.750
+volatility_breakout|any|btc_regime+volume|with|atr2|no_... 0.6381     279   140.76 1.937        0.8466    2.88   12.26      19.4        0.750
+volatility_breakout|any|btc_regime+volume|with|atr3|no_... 0.6343     270   199.08 2.054        0.6798    3.00    9.38      25.6        0.583
+volatility_breakout|any|btc_regime|with|atr3|no_tp_trai... 0.6323     277   185.39 2.020        0.6066    2.84   12.00      31.0        0.667
+volatility_breakout|any|not_flat|both|atr3|no_tp_trail|... 0.6146     299   193.21 1.885        0.5752    2.81   10.99      25.1        0.667
+volatility_breakout|any|btc_regime|both|atr3|no_tp_trai... 0.6146     299   193.21 1.885        0.5752    2.81   10.99      25.1        0.667
+volatility_breakout|any|nofilt|both|atr3|no_tp_trail|be... 0.6146     299   193.21 1.885        0.5752    2.81   10.99      25.1        0.667
+volatility_breakout|any|nofilt|with|atr3|no_tp_trail|be... 0.6146     299   193.21 1.885        0.5752    2.81   10.99      25.1        0.667
+volatility_breakout|any|not_flat|with|atr3|no_tp_trail|... 0.6146     299   193.21 1.885        0.5752    2.81   10.99      25.1        0.667
+volatility_breakout|any|btc_regime|with|atr3|no_tp_trai... 0.6033     242   183.15 2.051        0.6791    2.79   12.00      24.8        0.583
+volatility_breakout|any|btc_regime+volume|with|atr3|no_... 0.6024     275   181.41 1.998        0.5951    2.77   12.15      30.5        0.583
+volatility_breakout|any|btc_regime+volume|with|atr3|no_... 0.5979     240   179.17 2.029        0.6665    2.72   12.16      24.2        0.583
+volatility_breakout|any|btc_regime|with|atr2|no_tp_trai... 0.5917     248   123.18 1.886        0.8229    2.61   11.84      17.7        0.667
+volatility_breakout|any|btc_regime|with|atr2|no_tp_trai... 0.5878     286   126.03 1.861        0.7359    2.68   11.65      24.8        0.667
+
+=== WALK-FORWARD (select on train, measure on unseen next window) ===
+  train 2021-01->2022-07  oos 2022-07->2023-01  ranked=2616  oos= -11.47%  (455 trades)  top=volatility_breakout|any|btc_regime+volume|both|wide|
+  train 2021-07->2023-01  oos 2023-01->2023-07  ranked=1640  oos=  -5.49%  (315 trades)  top=volatility_breakout|any|not_flat|with|atr2|ladder_4|
+  train 2022-01->2023-07  oos 2023-07->2024-01  ranked=1476  oos= +40.45%  (220 trades)  top=volatility_breakout|any|btc_regime+volume|both|atr2|
+  train 2022-07->2024-01  oos 2024-01->2024-07  ranked=1953  oos=  +4.82%  (216 trades)  top=breakout|e|not_flat+vwap|with|atr2|no_tp_trail|be_on
+  train 2023-01->2024-07  oos 2024-07->2025-01  ranked=1726  oos= +76.51%  (470 trades)  top=volatility_breakout|any|not_flat|with|atr3|no_tp_tra
+  train 2023-07->2025-01  oos 2025-01->2025-07  ranked=2356  oos= -20.82%  (361 trades)  top=volatility_breakout|any|btc_regime|with|atr2|no_tp_t
+  train 2024-01->2025-07  oos 2025-07->2026-01  ranked=1630  oos= -23.18%  (523 trades)  top=volatility_breakout|any|btc_regime+volume|both|atr2|
+  train 2024-07->2026-01  oos 2026-01->2026-10  ranked=1110  oos=  -4.49%  (470 trades)  top=volatility_breakout|any|not_flat|with|wide|runner|be
+
+STITCHED OUT-OF-SAMPLE: +56.33%  (3/8 windows positive, equal-weight top-5 each window)
+
+=== ROBUSTNESS (parameter neighbours, doubled costs, coin holdout) ===
+  volatility_breakout|any|btc_regime|with|atr3|no_tp_trail   inst=0.04 nbrs+=4/4 2xcost= +193.7% holdout= +120.4% (236 tr)
+  volatility_breakout|any|btc_regime|with|atr2|no_tp_trail   inst=0.04 nbrs+=4/4 2xcost= +126.3% holdout= +107.0% (241 tr)
+  volatility_breakout|any|btc_regime+volume|with|atr2|no_t   inst=0.04 nbrs+=4/4 2xcost= +125.2% holdout= +107.2% (240 tr)
+  volatility_breakout|any|btc_regime+volume|with|atr3|no_t   inst=0.03 nbrs+=4/4 2xcost= +189.8% holdout= +120.7% (235 tr)
+  volatility_breakout|any|btc_regime|with|atr3|no_tp_trail   inst=0.04 nbrs+=4/4 2xcost= +175.9% holdout= +108.9% (240 tr)
+  volatility_breakout|any|not_flat|both|atr3|no_tp_trail|b   inst=0.05 nbrs+=4/4 2xcost= +183.0% holdout= +235.1% (286 tr)
+  volatility_breakout|any|btc_regime|both|atr3|no_tp_trail   inst=0.05 nbrs+=4/4 2xcost= +183.0% holdout= +235.1% (286 tr)
+  volatility_breakout|any|nofilt|both|atr3|no_tp_trail|be_   inst=0.05 nbrs+=4/4 2xcost= +183.0% holdout= +235.1% (286 tr)
+
+survived every robustness check: 8/8
+PORTFOLIO (low-correlation selection):
+    volatility_breakout|any|btc_regime|with|atr3|no_tp_trail|be_on|instant|sh_weakdn|bars3_atr

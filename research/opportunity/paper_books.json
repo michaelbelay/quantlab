@@ -1,0 +1,13 @@
+{
+  "note": "Paper books on the scanner's forward log (forward.db). Registered BEFORE any of their trades existed: only signals whose trigger candle opens at or after 'start' count (that candle closes 06:00 UTC, after registration at 05:18 UTC). Each signal = 50 USDT margin at 3x (150 USDT position), entry/target/stop/time exactly as the forward log records them, 0.2% round-trip costs and funding included (ret_pct); a loss is capped at the 50 USDT margin. Nothing is traded. Rules and settings are not changed afterwards; a new idea gets a new book with its own start.",
+  "books": [
+    {"id": "three_rules", "label": "3 rules: FUND_HI · SQUEEZE · FUND_DIV_DN",
+     "why": "Michael 2026-10-17: the only rules positive in both halves of the first 11 days (10-06..11 and 10-12..17); small samples (25 / 16 / 3 trades)",
+     "start": "2026-10-17T05:00:00Z", "rules": ["FUND_HI", "SQUEEZE", "FUND_DIV_DN"], "max_cluster": null,
+     "margin_usdt": 50, "leverage": 3},
+    {"id": "no_mass_events", "label": "All rules, skip market-wide events (more than 20 coins)",
+     "why": "scanner improvement test 2026-10-17: the 3 hours when 20+ coins fired the same rule (all BRK_LO20 shorts) lost every time, -694 of the -1260 in 11 days; only 3 events, so it is judged on new data",
+     "start": "2026-10-17T05:00:00Z", "rules": null, "max_cluster": 20,
+     "margin_usdt": 50, "leverage": 3}
+  ]
+}

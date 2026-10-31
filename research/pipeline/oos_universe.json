@@ -1,0 +1,3189 @@
+{
+ "created": "2026-10-04T09:38:59+00:00",
+ "rule": "(fixed here, before any return is computed on these coins):\n  * every USDT-margined perpetual in Binance's public archive, delisted ones included\n    (the 859-symbol list in user_data/rotation_data);\n  * minus the 140 coins the research engine has used (user_data/universe/split_140.json,\n    dev AND legacy holdout - both are development data since 2026-10-04);\n  * minus the 15 desk holdout coins sealed for the short-1h confirmation (pause note \u00a71c);\n  * minus stablecoin / index contracts;\n  * minus non-crypto underlyings: Binance exchangeInfo underlyingType EQUITY / KR_EQUITY /\n    COMMODITY (\"TradFi\" perpetuals on stocks, gold, oil...). Added 2026-10-04 before any return\n    was computed; symbols no longer listed (delisted) are crypto by construction of the archive;\n\n  * at least 2,160 hourly bars (90 days) and a median daily quote volume >= 5,000,000 USDT\n    over the symbol's own life (liquidity only - no price or return is looked at).",
+ "period": [
+  "2021-01-01",
+  "2026-09-25"
+ ],
+ "kept": [
+  "0GUSDT",
+  "1000000MOGUSDT",
+  "1000BONKUSDT",
+  "1000FLOKIUSDT",
+  "1000LUNCUSDT",
+  "1000RATSUSDT",
+  "1000SATSUSDT",
+  "1000SHIBUSDT",
+  "1000XECUSDT",
+  "1MBABYDOGEUSDT",
+  "4USDT",
+  "ACEUSDT",
+  "ACHUSDT",
+  "ACTUSDT",
+  "AEROUSDT",
+  "AEVOUSDT",
+  "AGLDUSDT",
+  "AIAUSDT",
+  "AIGENSYNUSDT",
+  "AIUSDT",
+  "AIXBTUSDT",
+  "AKROUSDT",
+  "ALCHUSDT",
+  "ALICEUSDT",
+  "ALLOUSDT",
+  "ALPHAUSDT",
+  "ALTUSDT",
+  "ANIMEUSDT",
+  "ANKRUSDT",
+  "ANTUSDT",
+  "API3USDT",
+  "APRUSDT",
+  "ARCUSDT",
+  "ARKMUSDT",
+  "ARPAUSDT",
+  "ARXUSDT",
+  "ASTRUSDT",
+  "ATAUSDT",
+  "AUCTIONUSDT",
+  "AUDIOUSDT",
+  "AVAAIUSDT",
+  "AVNTUSDT",
+  "AXLUSDT",
+  "BABYUSDT",
+  "BAKEUSDT",
+  "BALUSDT",
+  "BANANAS31USDT",
+  "BANANAUSDT",
+  "BANDUSDT",
+  "BANKUSDT",
+  "BARDUSDT",
+  "BASEDUSDT",
+  "BASUSDT",
+  "BATUSDT",
+  "BBUSDT",
+  "BEAMXUSDT",
+  "BEATUSDT",
+  "BELUSDT",
+  "BERAUSDT",
+  "BIGTIMEUSDT",
+  "BILLUSDT",
+  "BIOUSDT",
+  "BLESSUSDT",
+  "BLURUSDT",
+  "BLZUSDT",
+  "BNXUSDT",
+  "BOMEUSDT",
+  "BRETTUSDT",
+  "BSBUSDT",
+  "BSVUSDT",
+  "BTTUSDT",
+  "BTWUSDT",
+  "BUSDT",
+  "BZRXUSDT",
+  "C98USDT",
+  "CAPUSDT",
+  "CELOUSDT",
+  "CELRUSDT",
+  "CFGUSDT",
+  "CHILLGUYUSDT",
+  "CHIPUSDT",
+  "CHRUSDT",
+  "CKBUSDT",
+  "CLOUSDT",
+  "COLLECTUSDT",
+  "COOKIEUSDT",
+  "COTIUSDT",
+  "CTSIUSDT",
+  "CYBERUSDT",
+  "CYSUSDT",
+  "DARUSDT",
+  "DENTUSDT",
+  "DEXEUSDT",
+  "DODOUSDT",
+  "DOGSUSDT",
+  "DUSKUSDT",
+  "DYMUSDT",
+  "EDUUSDT",
+  "ENJUSDT",
+  "ENSOUSDT",
+  "EOSUSDT",
+  "EPICUSDT",
+  "ESPORTSUSDT",
+  "FIDAUSDT",
+  "FLMUSDT",
+  "FLOWUSDT",
+  "FRONTUSDT",
+  "FTMUSDT",
+  "FXSUSDT",
+  "GALUSDT",
+  "GASUSDT",
+  "GENIUSUSDT",
+  "GIGGLEUSDT",
+  "GLMUSDT",
+  "GMTUSDT",
+  "GMXUSDT",
+  "GOATUSDT",
+  "GPSUSDT",
+  "GRIFFAINUSDT",
+  "GTCUSDT",
+  "GUNUSDT",
+  "GWEIUSDT",
+  "HEMIUSDT",
+  "HIFIUSDT",
+  "HIGHUSDT",
+  "HMSTRUSDT",
+  "HNTUSDT",
+  "HOMEUSDT",
+  "HOOKUSDT",
+  "HOTUSDT",
+  "HUMAUSDT",
+  "HYPERUSDT",
+  "ICXUSDT",
+  "IDUSDT",
+  "IOSTUSDT",
+  "IOTXUSDT",
+  "IOUSDT",
+  "IPUSDT",
+  "JELLYJELLYUSDT",
+  "KAITOUSDT",
+  "KAVAUSDT",
+  "KEEPUSDT",
+  "KERNELUSDT",
+  "KLAYUSDT",
+  "KNCUSDT",
+  "KSMUSDT",
+  "LABUSDT",
+  "LAUSDT",
+  "LAYERUSDT",
+  "LEVERUSDT",
+  "LIGHTUSDT",
+  "LINAUSDT",
+  "LINEAUSDT",
+  "LISTAUSDT",
+  "LPTUSDT",
+  "LQTYUSDT",
+  "LRCUSDT",
+  "LUNA2USDT",
+  "LUNAUSDT",
+  "LYNUSDT",
+  "MAGICUSDT",
+  "MAGMAUSDT",
+  "MANTAUSDT",
+  "MASKUSDT",
+  "MATICUSDT",
+  "MAVUSDT",
+  "MBLUSDT",
+  "MEMEUSDT",
+  "MERLUSDT",
+  "MEUSDT",
+  "MEWUSDT",
+  "MKRUSDT",
+  "MMTUSDT",
+  "MOODENGUSDT",
+  "MOVEUSDT",
+  "MTLUSDT",
+  "MUBARAKUSDT",
+  "MYXUSDT",
+  "NEIROETHUSDT",
+  "NEIROUSDT",
+  "NFPUSDT",
+  "NILUSDT",
+  "NKNUSDT",
+  "NMRUSDT",
+  "NOTUSDT",
+  "NUUSDT",
+  "OCEANUSDT",
+  "OGNUSDT",
+  "OMGUSDT",
+  "OMNIUSDT",
+  "OMUSDT",
+  "ONEUSDT",
+  "ONTUSDT",
+  "OPGUSDT",
+  "OPNUSDT",
+  "ORCAUSDT",
+  "ORDIUSDT",
+  "PARTIUSDT",
+  "PEOPLEUSDT",
+  "PHBUSDT",
+  "PIPPINUSDT",
+  "PIXELUSDT",
+  "PLAYUSDT",
+  "PLUMEUSDT",
+  "PNUTUSDT",
+  "POLYXUSDT",
+  "POPCATUSDT",
+  "PORTALUSDT",
+  "POWERUSDT",
+  "PTBUSDT",
+  "QTUMUSDT",
+  "RAVEUSDT",
+  "RAYSOLUSDT",
+  "RDNTUSDT",
+  "REEFUSDT",
+  "RENUSDT",
+  "RESOLVUSDT",
+  "REUSDT",
+  "REZUSDT",
+  "RIVERUSDT",
+  "RLCUSDT",
+  "RNDRUSDT",
+  "ROBOUSDT",
+  "ROSEUSDT",
+  "RSRUSDT",
+  "RVNUSDT",
+  "SAHARAUSDT",
+  "SFPUSDT",
+  "SIRENUSDT",
+  "SKLUSDT",
+  "SKYAIUSDT",
+  "SLXUSDT",
+  "SOONUSDT",
+  "SPELLUSDT",
+  "SPKUSDT",
+  "SRMUSDT",
+  "SSVUSDT",
+  "STGUSDT",
+  "STMXUSDT",
+  "STORJUSDT",
+  "SUPERUSDT",
+  "SUSHIUSDT",
+  "SWARMSUSDT",
+  "SXPUSDT",
+  "THEUSDT",
+  "TNSRUSDT",
+  "TOMOUSDT",
+  "TONUSDT",
+  "TRADOORUSDT",
+  "TRBUSDT",
+  "TRIAUSDT",
+  "TRUUSDT",
+  "TSTUSDT",
+  "TURBOUSDT",
+  "TUSDT",
+  "TUTUSDT",
+  "UMAUSDT",
+  "UNFIUSDT",
+  "USTCUSDT",
+  "USUALUSDT",
+  "VANAUSDT",
+  "VANRYUSDT",
+  "WALUSDT",
+  "WAVESUSDT",
+  "WCTUSDT",
+  "WOOUSDT",
+  "WUSDT",
+  "XAIUSDT",
+  "XAUTUSDT",
+  "XEMUSDT",
+  "XVGUSDT",
+  "YFIIUSDT",
+  "YFIUSDT",
+  "YGGUSDT",
+  "ZBTUSDT",
+  "ZEREBROUSDT",
+  "ZETAUSDT",
+  "ZILUSDT",
+  "ZORAUSDT",
+  "ZRXUSDT"
+ ],
+ "n_kept": 280,
+ "n_considered": 859,
+ "excluded": [
+  {
+   "symbol": "1000000BOBUSDT",
+   "kept": false,
+   "why": "median daily volume 859,010 < 5,000,000"
+  },
+  {
+   "symbol": "1000BTTCUSDT",
+   "kept": false,
+   "why": "1807 bars < 2160"
+  },
+  {
+   "symbol": "1000CATUSDT",
+   "kept": false,
+   "why": "median daily volume 4,818,467 < 5,000,000"
+  },
+  {
+   "symbol": "1000CHEEMSUSDT",
+   "kept": false,
+   "why": "median daily volume 3,125,853 < 5,000,000"
+  },
+  {
+   "symbol": "1000PEPEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "1000WHYUSDT",
+   "kept": false,
+   "why": "median daily volume 1,141,180 < 5,000,000"
+  },
+  {
+   "symbol": "1000XUSDT",
+   "kept": false,
+   "why": "median daily volume 1,012,718 < 5,000,000"
+  },
+  {
+   "symbol": "1INCHUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "2ZUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "42USDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "A2ZUSDT",
+   "kept": false,
+   "why": "median daily volume 875,505 < 5,000,000"
+  },
+  {
+   "symbol": "AAOIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "AAPLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "AAVEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ACUUSDT",
+   "kept": false,
+   "why": "median daily volume 1,621,671 < 5,000,000"
+  },
+  {
+   "symbol": "ACXUSDT",
+   "kept": false,
+   "why": "median daily volume 1,761,334 < 5,000,000"
+  },
+  {
+   "symbol": "ADAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ADBEUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "AERGOUSDT",
+   "kept": false,
+   "why": "median daily volume 3,947,117 < 5,000,000"
+  },
+  {
+   "symbol": "AGIXUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "AGTUSDT",
+   "kept": false,
+   "why": "median daily volume 3,663,235 < 5,000,000"
+  },
+  {
+   "symbol": "AI16ZUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "AINUSDT",
+   "kept": false,
+   "why": "median daily volume 2,049,095 < 5,000,000"
+  },
+  {
+   "symbol": "AIOTUSDT",
+   "kept": false,
+   "why": "median daily volume 3,890,000 < 5,000,000"
+  },
+  {
+   "symbol": "AIOUSDT",
+   "kept": false,
+   "why": "median daily volume 2,658,572 < 5,000,000"
+  },
+  {
+   "symbol": "AKEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "AKTUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ALABUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "ALGOUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ALLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (INDEX)"
+  },
+  {
+   "symbol": "ALPACAUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "ALPINEUSDT",
+   "kept": false,
+   "why": "median daily volume 1,659,291 < 5,000,000"
+  },
+  {
+   "symbol": "AMATUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "AMBUSDT",
+   "kept": false,
+   "why": "median daily volume 3,745,766 < 5,000,000"
+  },
+  {
+   "symbol": "AMDUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "AMZNUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "ANCUSDT",
+   "kept": false,
+   "why": "1588 bars < 2160"
+  },
+  {
+   "symbol": "ANTHROPICUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (PREMARKET)"
+  },
+  {
+   "symbol": "APEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "APPUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "APTUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ARBUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ARIAUSDT",
+   "kept": false,
+   "why": "median daily volume 2,452,712 < 5,000,000"
+  },
+  {
+   "symbol": "ARKUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ARMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "ARUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ASMLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "ASRUSDT",
+   "kept": false,
+   "why": "median daily volume 1,734,506 < 5,000,000"
+  },
+  {
+   "symbol": "ASTERUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ASTSUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "ATHUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ATOMUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ATUSDT",
+   "kept": false,
+   "why": "median daily volume 3,554,373 < 5,000,000"
+  },
+  {
+   "symbol": "AUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "AVAUSDT",
+   "kept": false,
+   "why": "median daily volume 1,602,820 < 5,000,000"
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "AVGOUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "AWEUSDT",
+   "kept": false,
+   "why": "median daily volume 2,233,013 < 5,000,000"
+  },
+  {
+   "symbol": "AXSUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "AXTIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "AZTECUSDT",
+   "kept": false,
+   "why": "median daily volume 2,377,063 < 5,000,000"
+  },
+  {
+   "symbol": "B2USDT",
+   "kept": false,
+   "why": "median daily volume 2,273,638 < 5,000,000"
+  },
+  {
+   "symbol": "B3USDT",
+   "kept": false,
+   "why": "median daily volume 1,379,813 < 5,000,000"
+  },
+  {
+   "symbol": "BABAUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BADGERUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "BANUSDT",
+   "kept": false,
+   "why": "median daily volume 3,777,071 < 5,000,000"
+  },
+  {
+   "symbol": "BBXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BCHUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "BDXNUSDT",
+   "kept": false,
+   "why": "median daily volume 3,654,161 < 5,000,000"
+  },
+  {
+   "symbol": "BEUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BICOUSDT",
+   "kept": false,
+   "why": "median daily volume 3,967,585 < 5,000,000"
+  },
+  {
+   "symbol": "BIDUSDT",
+   "kept": false,
+   "why": "median daily volume 824,441 < 5,000,000"
+  },
+  {
+   "symbol": "BIRBUSDT",
+   "kept": false,
+   "why": "median daily volume 2,178,028 < 5,000,000"
+  },
+  {
+   "symbol": "BITOUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BLUAIUSDT",
+   "kept": false,
+   "why": "median daily volume 3,982,253 < 5,000,000"
+  },
+  {
+   "symbol": "BMNRUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BMTUSDT",
+   "kept": false,
+   "why": "median daily volume 2,513,227 < 5,000,000"
+  },
+  {
+   "symbol": "BNBUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "BNCUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BNTUSDT",
+   "kept": false,
+   "why": "median daily volume 2,384,041 < 5,000,000"
+  },
+  {
+   "symbol": "BOBUSDT",
+   "kept": false,
+   "why": "median daily volume 640,567 < 5,000,000"
+  },
+  {
+   "symbol": "BONDUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "BOTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BREVUSDT",
+   "kept": false,
+   "why": "median daily volume 2,249,274 < 5,000,000"
+  },
+  {
+   "symbol": "BRKBUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BROCCOLI714USDT",
+   "kept": false,
+   "why": "median daily volume 4,469,670 < 5,000,000"
+  },
+  {
+   "symbol": "BROCCOLIF3BUSDT",
+   "kept": false,
+   "why": "median daily volume 1,611,510 < 5,000,000"
+  },
+  {
+   "symbol": "BRUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "BSPUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BSWUSDT",
+   "kept": false,
+   "why": "median daily volume 670,902 < 5,000,000"
+  },
+  {
+   "symbol": "BTCSTUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "BTCUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "BTRUSDT",
+   "kept": false,
+   "why": "median daily volume 3,146,058 < 5,000,000"
+  },
+  {
+   "symbol": "BTSUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "BULLAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "BXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "BZUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (COMMODITY)"
+  },
+  {
+   "symbol": "CAKEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "CARVUSDT",
+   "kept": false,
+   "why": "median daily volume 1,071,691 < 5,000,000"
+  },
+  {
+   "symbol": "CATIUSDT",
+   "kept": false,
+   "why": "median daily volume 4,549,645 < 5,000,000"
+  },
+  {
+   "symbol": "CATUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "CBRSUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "CCUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "CETUSUSDT",
+   "kept": false,
+   "why": "median daily volume 4,946,915 < 5,000,000"
+  },
+  {
+   "symbol": "CFXUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "CGPTUSDT",
+   "kept": false,
+   "why": "median daily volume 2,421,336 < 5,000,000"
+  },
+  {
+   "symbol": "CHESSUSDT",
+   "kept": false,
+   "why": "median daily volume 2,583,829 < 5,000,000"
+  },
+  {
+   "symbol": "CHZUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "CIENUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "CLANKERUSDT",
+   "kept": false,
+   "why": "median daily volume 1,422,979 < 5,000,000"
+  },
+  {
+   "symbol": "CLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (COMMODITY)"
+  },
+  {
+   "symbol": "COAIUSDT",
+   "kept": false,
+   "why": "median daily volume 4,062,721 < 5,000,000"
+  },
+  {
+   "symbol": "COCOSUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "COHRUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "COINUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "COMBOUSDT",
+   "kept": false,
+   "why": "median daily volume 2,257,567 < 5,000,000"
+  },
+  {
+   "symbol": "COMMONUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "COMPUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "COPPERUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (COMMODITY)"
+  },
+  {
+   "symbol": "COSTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "COSUSDT",
+   "kept": false,
+   "why": "median daily volume 1,634,121 < 5,000,000"
+  },
+  {
+   "symbol": "COWUSDT",
+   "kept": false,
+   "why": "median daily volume 4,597,724 < 5,000,000"
+  },
+  {
+   "symbol": "CRCLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "CRDOUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "CRMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "CROSSUSDT",
+   "kept": false,
+   "why": "median daily volume 1,722,776 < 5,000,000"
+  },
+  {
+   "symbol": "CRVUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "CRWDUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "CRWVUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "CSCOUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "CSOPSAMSUNG2LUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "CSOPSKHYNIX2LUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "CTKUSDT",
+   "kept": false,
+   "why": "median daily volume 4,574,529 < 5,000,000"
+  },
+  {
+   "symbol": "CTRUSDT",
+   "kept": false,
+   "why": "median daily volume 1,211,425 < 5,000,000"
+  },
+  {
+   "symbol": "CUDISUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "CUSDT",
+   "kept": false,
+   "why": "median daily volume 3,537,898 < 5,000,000"
+  },
+  {
+   "symbol": "CVCUSDT",
+   "kept": false,
+   "why": "median daily volume 727,839 < 5,000,000"
+  },
+  {
+   "symbol": "CVXUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "CXMTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (CN_EQUITY)"
+  },
+  {
+   "symbol": "DAMUSDT",
+   "kept": false,
+   "why": "median daily volume 919,174 < 5,000,000"
+  },
+  {
+   "symbol": "DASHUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "DATAIPUSDT",
+   "kept": false,
+   "why": "2034 bars < 2160"
+  },
+  {
+   "symbol": "DEEPUSDT",
+   "kept": false,
+   "why": "median daily volume 3,813,503 < 5,000,000"
+  },
+  {
+   "symbol": "DEGENUSDT",
+   "kept": false,
+   "why": "median daily volume 1,992,391 < 5,000,000"
+  },
+  {
+   "symbol": "DEGOUSDT",
+   "kept": false,
+   "why": "median daily volume 2,510,896 < 5,000,000"
+  },
+  {
+   "symbol": "DELLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "DFUSDT",
+   "kept": false,
+   "why": "median daily volume 1,080,292 < 5,000,000"
+  },
+  {
+   "symbol": "DGBUSDT",
+   "kept": false,
+   "why": "median daily volume 3,128,975 < 5,000,000"
+  },
+  {
+   "symbol": "DIAUSDT",
+   "kept": false,
+   "why": "median daily volume 2,151,717 < 5,000,000"
+  },
+  {
+   "symbol": "DISUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "DJTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "DKNGUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "DMCUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "DODOXUSDT",
+   "kept": false,
+   "why": "median daily volume 2,835,945 < 5,000,000"
+  },
+  {
+   "symbol": "DOGEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "DOLOUSDT",
+   "kept": false,
+   "why": "median daily volume 3,190,560 < 5,000,000"
+  },
+  {
+   "symbol": "DOODUSDT",
+   "kept": false,
+   "why": "median daily volume 2,454,538 < 5,000,000"
+  },
+  {
+   "symbol": "DOSUSDT",
+   "kept": false,
+   "why": "1089 bars < 2160"
+  },
+  {
+   "symbol": "DOTECOUSDT",
+   "kept": false,
+   "why": "723 bars < 2160"
+  },
+  {
+   "symbol": "DOTUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "DRAMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "DRIFTUSDT",
+   "kept": false,
+   "why": "median daily volume 4,631,429 < 5,000,000"
+  },
+  {
+   "symbol": "DUSDT",
+   "kept": false,
+   "why": "median daily volume 2,010,719 < 5,000,000"
+  },
+  {
+   "symbol": "DYDXUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "EBAYUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "EDENUSDT",
+   "kept": false,
+   "why": "median daily volume 4,791,185 < 5,000,000"
+  },
+  {
+   "symbol": "EDGEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "EGLDUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "EIGENUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ELSAUSDT",
+   "kept": false,
+   "why": "median daily volume 1,601,234 < 5,000,000"
+  },
+  {
+   "symbol": "ENAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ENSUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "EPTUSDT",
+   "kept": false,
+   "why": "median daily volume 877,810 < 5,000,000"
+  },
+  {
+   "symbol": "ERAUSDT",
+   "kept": false,
+   "why": "median daily volume 3,107,231 < 5,000,000"
+  },
+  {
+   "symbol": "ESPUSDT",
+   "kept": false,
+   "why": "median daily volume 4,648,602 < 5,000,000"
+  },
+  {
+   "symbol": "ETCUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ETHFIUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ETHUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ETHWUSDT",
+   "kept": false,
+   "why": "median daily volume 2,518,015 < 5,000,000"
+  },
+  {
+   "symbol": "EULUSDT",
+   "kept": false,
+   "why": "median daily volume 3,548,733 < 5,000,000"
+  },
+  {
+   "symbol": "EVAAUSDT",
+   "kept": false,
+   "why": "median daily volume 4,433,205 < 5,000,000"
+  },
+  {
+   "symbol": "EWJUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "EWTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "EWYUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "EWZUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "FARTCOINUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "FETUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "FFUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "FHEUSDT",
+   "kept": false,
+   "why": "median daily volume 4,350,384 < 5,000,000"
+  },
+  {
+   "symbol": "FIGHTUSDT",
+   "kept": false,
+   "why": "median daily volume 2,172,763 < 5,000,000"
+  },
+  {
+   "symbol": "FILUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "FIOUSDT",
+   "kept": false,
+   "why": "median daily volume 1,621,496 < 5,000,000"
+  },
+  {
+   "symbol": "FISUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "FLEXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "FLNCUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "FLOCKUSDT",
+   "kept": false,
+   "why": "median daily volume 2,062,009 < 5,000,000"
+  },
+  {
+   "symbol": "FLUIDUSDT",
+   "kept": false,
+   "why": "median daily volume 1,183,113 < 5,000,000"
+  },
+  {
+   "symbol": "FLUXUSDT",
+   "kept": false,
+   "why": "median daily volume 1,842,107 < 5,000,000"
+  },
+  {
+   "symbol": "FOGOUSDT",
+   "kept": false,
+   "why": "median daily volume 2,755,074 < 5,000,000"
+  },
+  {
+   "symbol": "FOLKSUSDT",
+   "kept": false,
+   "why": "median daily volume 4,671,435 < 5,000,000"
+  },
+  {
+   "symbol": "FORMUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "FORTHUSDT",
+   "kept": false,
+   "why": "median daily volume 633,057 < 5,000,000"
+  },
+  {
+   "symbol": "FRAXUSDT",
+   "kept": false,
+   "why": "median daily volume 957,302 < 5,000,000"
+  },
+  {
+   "symbol": "FTTUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "FUNUSDT",
+   "kept": false,
+   "why": "median daily volume 2,509,250 < 5,000,000"
+  },
+  {
+   "symbol": "FUSDT",
+   "kept": false,
+   "why": "median daily volume 2,427,204 < 5,000,000"
+  },
+  {
+   "symbol": "FWDIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "GALAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "GDXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "GEVUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "GHSTUSDT",
+   "kept": false,
+   "why": "median daily volume 1,216,559 < 5,000,000"
+  },
+  {
+   "symbol": "GIGADEVUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "GLMRUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "GLWUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "GMEUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "GOOGLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "GRAMUSDT",
+   "kept": false,
+   "why": "2056 bars < 2160"
+  },
+  {
+   "symbol": "GRASSUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "GRTUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "GRVTUSDT",
+   "kept": false,
+   "why": "1356 bars < 2160"
+  },
+  {
+   "symbol": "GSUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "GUAUSDT",
+   "kept": false,
+   "why": "median daily volume 4,383,243 < 5,000,000"
+  },
+  {
+   "symbol": "GUSDT",
+   "kept": false,
+   "why": "median daily volume 2,446,306 < 5,000,000"
+  },
+  {
+   "symbol": "HAEDALUSDT",
+   "kept": false,
+   "why": "median daily volume 2,069,210 < 5,000,000"
+  },
+  {
+   "symbol": "HANAUSDT",
+   "kept": false,
+   "why": "median daily volume 2,797,032 < 5,000,000"
+  },
+  {
+   "symbol": "HANMIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (KR_EQUITY)"
+  },
+  {
+   "symbol": "HBARUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "HDUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "HEIUSDT",
+   "kept": false,
+   "why": "median daily volume 3,874,268 < 5,000,000"
+  },
+  {
+   "symbol": "HFTUSDT",
+   "kept": false,
+   "why": "median daily volume 4,460,192 < 5,000,000"
+  },
+  {
+   "symbol": "HIMSUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "HIPPOUSDT",
+   "kept": false,
+   "why": "median daily volume 3,983,964 < 5,000,000"
+  },
+  {
+   "symbol": "HIVEUSDT",
+   "kept": false,
+   "why": "median daily volume 1,922,364 < 5,000,000"
+  },
+  {
+   "symbol": "HK0700USDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "HK1810USDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "HOLOUSDT",
+   "kept": false,
+   "why": "median daily volume 4,332,225 < 5,000,000"
+  },
+  {
+   "symbol": "HOODUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "HPEUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "HUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "HYPEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "HYUNDAIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (KR_EQUITY)"
+  },
+  {
+   "symbol": "IBMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "ICNTUSDT",
+   "kept": false,
+   "why": "median daily volume 3,322,862 < 5,000,000"
+  },
+  {
+   "symbol": "ICPUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "IDEXUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "IDOLUSDT",
+   "kept": false,
+   "why": "median daily volume 2,064,744 < 5,000,000"
+  },
+  {
+   "symbol": "ILVUSDT",
+   "kept": false,
+   "why": "median daily volume 4,596,165 < 5,000,000"
+  },
+  {
+   "symbol": "IMXUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "INITUSDT",
+   "kept": false,
+   "why": "median daily volume 4,683,651 < 5,000,000"
+  },
+  {
+   "symbol": "INJUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "INTCUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "INTWUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "INUSDT",
+   "kept": false,
+   "why": "median daily volume 3,411,095 < 5,000,000"
+  },
+  {
+   "symbol": "INXUSDT",
+   "kept": false,
+   "why": "median daily volume 2,440,071 < 5,000,000"
+  },
+  {
+   "symbol": "IONQUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "IOTAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "IRENUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "IRUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "IRYSUSDT",
+   "kept": false,
+   "why": "median daily volume 2,881,848 < 5,000,000"
+  },
+  {
+   "symbol": "IWMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "JASMYUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "JCTUSDT",
+   "kept": false,
+   "why": "median daily volume 3,661,169 < 5,000,000"
+  },
+  {
+   "symbol": "JOEUSDT",
+   "kept": false,
+   "why": "median daily volume 4,374,055 < 5,000,000"
+  },
+  {
+   "symbol": "JPMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "JSTUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "JTOUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "JUPUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "KAIAUSDT",
+   "kept": false,
+   "why": "median daily volume 3,973,441 < 5,000,000"
+  },
+  {
+   "symbol": "KASUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "KATUSDT",
+   "kept": false,
+   "why": "median daily volume 4,445,806 < 5,000,000"
+  },
+  {
+   "symbol": "KDAUSDT",
+   "kept": false,
+   "why": "median daily volume 2,608,885 < 5,000,000"
+  },
+  {
+   "symbol": "KEYUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "KGENUSDT",
+   "kept": false,
+   "why": "median daily volume 2,843,307 < 5,000,000"
+  },
+  {
+   "symbol": "KITEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "KLACUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "KMNOUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "KODEX200USDT",
+   "kept": false,
+   "why": "non-crypto underlying (KR_EQUITY)"
+  },
+  {
+   "symbol": "KOMAUSDT",
+   "kept": false,
+   "why": "median daily volume 2,349,955 < 5,000,000"
+  },
+  {
+   "symbol": "KORUUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "KOUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "KSTRUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "KUAISHOUUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "LDOUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "LENDUSDT",
+   "kept": false,
+   "why": "empty data file"
+  },
+  {
+   "symbol": "LGELECTRONICSUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (KR_EQUITY)"
+  },
+  {
+   "symbol": "LINKUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "LITEUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "LITUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "LLYUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "LOKAUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "LOOMUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "LRCXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "LSKUSDT",
+   "kept": false,
+   "why": "median daily volume 2,901,617 < 5,000,000"
+  },
+  {
+   "symbol": "LTCUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "LUMIAUSDT",
+   "kept": false,
+   "why": "median daily volume 2,703,855 < 5,000,000"
+  },
+  {
+   "symbol": "LYTEUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MANAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "MANTRAUSDT",
+   "kept": false,
+   "why": "median daily volume 3,586,007 < 5,000,000"
+  },
+  {
+   "symbol": "MARAUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MAVIAUSDT",
+   "kept": false,
+   "why": "median daily volume 2,499,102 < 5,000,000"
+  },
+  {
+   "symbol": "MBOXUSDT",
+   "kept": false,
+   "why": "median daily volume 2,943,357 < 5,000,000"
+  },
+  {
+   "symbol": "MDTUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "MEGAUSDT",
+   "kept": false,
+   "why": "median daily volume 3,670,356 < 5,000,000"
+  },
+  {
+   "symbol": "MEITUANUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "MELANIAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "MEMEFIUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "METAUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "METISUSDT",
+   "kept": false,
+   "why": "median daily volume 4,038,389 < 5,000,000"
+  },
+  {
+   "symbol": "METUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "MILKUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "MINAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "MINIMAXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "MIRAUSDT",
+   "kept": false,
+   "why": "median daily volume 3,320,142 < 5,000,000"
+  },
+  {
+   "symbol": "MITOUSDT",
+   "kept": false,
+   "why": "median daily volume 2,670,383 < 5,000,000"
+  },
+  {
+   "symbol": "MLNUSDT",
+   "kept": false,
+   "why": "median daily volume 1,258,977 < 5,000,000"
+  },
+  {
+   "symbol": "MOCAUSDT",
+   "kept": false,
+   "why": "median daily volume 2,362,208 < 5,000,000"
+  },
+  {
+   "symbol": "MONUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "MORPHOUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "MOVRUSDT",
+   "kept": false,
+   "why": "median daily volume 4,456,117 < 5,000,000"
+  },
+  {
+   "symbol": "MRKUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MRNAUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MRVLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MSFTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MSTRUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "MUUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MUUUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MVLLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "MYROUSDT",
+   "kept": false,
+   "why": "median daily volume 4,768,821 < 5,000,000"
+  },
+  {
+   "symbol": "NAORISUSDT",
+   "kept": false,
+   "why": "median daily volume 3,834,519 < 5,000,000"
+  },
+  {
+   "symbol": "NATGASUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (COMMODITY)"
+  },
+  {
+   "symbol": "NAVERUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (KR_EQUITY)"
+  },
+  {
+   "symbol": "NBISUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "NEARUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "NEOUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "NETUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "NEWTUSDT",
+   "kept": false,
+   "why": "median daily volume 2,698,817 < 5,000,000"
+  },
+  {
+   "symbol": "NFLXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "NIGHTUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "NOKUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "NOMUSDT",
+   "kept": false,
+   "why": "median daily volume 4,243,209 < 5,000,000"
+  },
+  {
+   "symbol": "NOWUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "NTRNUSDT",
+   "kept": false,
+   "why": "median daily volume 2,845,143 < 5,000,000"
+  },
+  {
+   "symbol": "NULSUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "NVDAUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "NVOUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "NXPCUSDT",
+   "kept": false,
+   "why": "median daily volume 4,136,011 < 5,000,000"
+  },
+  {
+   "symbol": "OBOLUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "OGUSDT",
+   "kept": false,
+   "why": "median daily volume 3,162,720 < 5,000,000"
+  },
+  {
+   "symbol": "OLUSDT",
+   "kept": false,
+   "why": "median daily volume 629,124 < 5,000,000"
+  },
+  {
+   "symbol": "ONDOUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ONDSUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "ONGUSDT",
+   "kept": false,
+   "why": "median daily volume 3,215,398 < 5,000,000"
+  },
+  {
+   "symbol": "ONUSDT",
+   "kept": false,
+   "why": "median daily volume 2,629,580 < 5,000,000"
+  },
+  {
+   "symbol": "OPENAIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (PREMARKET)"
+  },
+  {
+   "symbol": "OPENUSDT",
+   "kept": false,
+   "why": "median daily volume 4,904,061 < 5,000,000"
+  },
+  {
+   "symbol": "OPUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ORBSUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "ORCLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "ORDERUSDT",
+   "kept": false,
+   "why": "median daily volume 1,547,526 < 5,000,000"
+  },
+  {
+   "symbol": "OUSDT",
+   "kept": false,
+   "why": "median daily volume 4,057,600 < 5,000,000"
+  },
+  {
+   "symbol": "OXTUSDT",
+   "kept": false,
+   "why": "median daily volume 2,342,861 < 5,000,000"
+  },
+  {
+   "symbol": "PANWUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "PAXGUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "PAYPUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "PDDUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "PENDLEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "PENGUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "PENGUUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "PERPUSDT",
+   "kept": false,
+   "why": "median daily volume 3,818,427 < 5,000,000"
+  },
+  {
+   "symbol": "PHAROSUSDT",
+   "kept": false,
+   "why": "median daily volume 2,219,486 < 5,000,000"
+  },
+  {
+   "symbol": "PHAUSDT",
+   "kept": false,
+   "why": "median daily volume 3,655,499 < 5,000,000"
+  },
+  {
+   "symbol": "PIEVERSEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "PLTRUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "POLUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "PONKEUSDT",
+   "kept": false,
+   "why": "median daily volume 1,621,337 < 5,000,000"
+  },
+  {
+   "symbol": "POPMARTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "PORT3USDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "POWRUSDT",
+   "kept": false,
+   "why": "median daily volume 3,552,184 < 5,000,000"
+  },
+  {
+   "symbol": "PRLUSDT",
+   "kept": false,
+   "why": "median daily volume 4,420,693 < 5,000,000"
+  },
+  {
+   "symbol": "PROMPTUSDT",
+   "kept": false,
+   "why": "median daily volume 2,431,407 < 5,000,000"
+  },
+  {
+   "symbol": "PROMUSDT",
+   "kept": false,
+   "why": "median daily volume 3,742,906 < 5,000,000"
+  },
+  {
+   "symbol": "PROVEUSDT",
+   "kept": false,
+   "why": "median daily volume 3,050,865 < 5,000,000"
+  },
+  {
+   "symbol": "PUFFERUSDT",
+   "kept": false,
+   "why": "median daily volume 859,988 < 5,000,000"
+  },
+  {
+   "symbol": "PUMPBTCUSDT",
+   "kept": false,
+   "why": "median daily volume 1,214,593 < 5,000,000"
+  },
+  {
+   "symbol": "PUMPUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "PUNDIXUSDT",
+   "kept": false,
+   "why": "median daily volume 1,382,792 < 5,000,000"
+  },
+  {
+   "symbol": "PYPLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "PYTHUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "QCOMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "QNTUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "QNTXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "QQQUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "QUICKUSDT",
+   "kept": false,
+   "why": "median daily volume 1,252,720 < 5,000,000"
+  },
+  {
+   "symbol": "QUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "RADUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "RAMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "RAREUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "RAYUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "RDDTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "RECALLUSDT",
+   "kept": false,
+   "why": "median daily volume 1,712,049 < 5,000,000"
+  },
+  {
+   "symbol": "REDUSDT",
+   "kept": false,
+   "why": "median daily volume 4,224,694 < 5,000,000"
+  },
+  {
+   "symbol": "REIUSDT",
+   "kept": false,
+   "why": "median daily volume 1,326,992 < 5,000,000"
+  },
+  {
+   "symbol": "RENDERUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "RIFUSDT",
+   "kept": false,
+   "why": "median daily volume 3,716,893 < 5,000,000"
+  },
+  {
+   "symbol": "RIVNUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "RKLBUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "RLSUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "RONINUSDT",
+   "kept": false,
+   "why": "median daily volume 4,019,812 < 5,000,000"
+  },
+  {
+   "symbol": "RPLUSDT",
+   "kept": false,
+   "why": "median daily volume 2,979,959 < 5,000,000"
+  },
+  {
+   "symbol": "RUNEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "RVVUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "SAFEUSDT",
+   "kept": false,
+   "why": "median daily volume 2,223,314 < 5,000,000"
+  },
+  {
+   "symbol": "SAGAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SAMSUNGEMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (KR_EQUITY)"
+  },
+  {
+   "symbol": "SAMSUNGUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (KR_EQUITY)"
+  },
+  {
+   "symbol": "SANDUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SANTOSUSDT",
+   "kept": false,
+   "why": "median daily volume 2,311,502 < 5,000,000"
+  },
+  {
+   "symbol": "SAPIENUSDT",
+   "kept": false,
+   "why": "median daily volume 3,630,522 < 5,000,000"
+  },
+  {
+   "symbol": "SCRTUSDT",
+   "kept": false,
+   "why": "median daily volume 1,544,195 < 5,000,000"
+  },
+  {
+   "symbol": "SCRUSDT",
+   "kept": false,
+   "why": "median daily volume 3,103,782 < 5,000,000"
+  },
+  {
+   "symbol": "SCUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "SEIUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SENTUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SHAZUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SHELLUSDT",
+   "kept": false,
+   "why": "median daily volume 3,382,428 < 5,000,000"
+  },
+  {
+   "symbol": "SHOPUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SIGNUSDT",
+   "kept": false,
+   "why": "median daily volume 4,460,332 < 5,000,000"
+  },
+  {
+   "symbol": "SKATEUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "SKDDUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SKHYNIXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (KR_EQUITY)"
+  },
+  {
+   "symbol": "SKHYUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SKRUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SKUUUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SKYUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SLERFUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "SLPUSDT",
+   "kept": false,
+   "why": "median daily volume 574,267 < 5,000,000"
+  },
+  {
+   "symbol": "SMCIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SMHUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SNDKUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SNOWUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SNTUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "SNXUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SNXXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SOFIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SOLUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SOLVUSDT",
+   "kept": false,
+   "why": "median daily volume 4,898,844 < 5,000,000"
+  },
+  {
+   "symbol": "SOMIUSDT",
+   "kept": false,
+   "why": "median daily volume 4,732,447 < 5,000,000"
+  },
+  {
+   "symbol": "SONICUSDT",
+   "kept": false,
+   "why": "median daily volume 2,122,276 < 5,000,000"
+  },
+  {
+   "symbol": "SONYUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SOPHUSDT",
+   "kept": false,
+   "why": "median daily volume 3,935,802 < 5,000,000"
+  },
+  {
+   "symbol": "SOXLUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SOXSUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SPACEUSDT",
+   "kept": false,
+   "why": "median daily volume 4,133,253 < 5,000,000"
+  },
+  {
+   "symbol": "SPCXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SPORTFUNUSDT",
+   "kept": false,
+   "why": "median daily volume 1,798,791 < 5,000,000"
+  },
+  {
+   "symbol": "SPXUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SPYUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SQDUSDT",
+   "kept": false,
+   "why": "median daily volume 2,653,346 < 5,000,000"
+  },
+  {
+   "symbol": "SQQQUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "STABLEUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "STARUSDT",
+   "kept": false,
+   "why": "median daily volume 2,861,077 < 5,000,000"
+  },
+  {
+   "symbol": "STBLUSDT",
+   "kept": false,
+   "why": "median daily volume 2,415,603 < 5,000,000"
+  },
+  {
+   "symbol": "STEEMUSDT",
+   "kept": false,
+   "why": "median daily volume 2,523,561 < 5,000,000"
+  },
+  {
+   "symbol": "STOUSDT",
+   "kept": false,
+   "why": "median daily volume 4,917,293 < 5,000,000"
+  },
+  {
+   "symbol": "STPTUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "STRAXUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "STRCUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "STRKUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "STXUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "STXXUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "SUIUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SUNUSDT",
+   "kept": false,
+   "why": "median daily volume 2,947,420 < 5,000,000"
+  },
+  {
+   "symbol": "SUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SWELLUSDT",
+   "kept": false,
+   "why": "median daily volume 1,453,285 < 5,000,000"
+  },
+  {
+   "symbol": "SXTUSDT",
+   "kept": false,
+   "why": "median daily volume 3,373,310 < 5,000,000"
+  },
+  {
+   "symbol": "SYNUSDT",
+   "kept": false,
+   "why": "median daily volume 4,550,348 < 5,000,000"
+  },
+  {
+   "symbol": "SYRUPUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "SYSUSDT",
+   "kept": false,
+   "why": "median daily volume 1,609,370 < 5,000,000"
+  },
+  {
+   "symbol": "TACUSDT",
+   "kept": false,
+   "why": "median daily volume 2,042,390 < 5,000,000"
+  },
+  {
+   "symbol": "TAGUSDT",
+   "kept": false,
+   "why": "median daily volume 2,428,024 < 5,000,000"
+  },
+  {
+   "symbol": "TAIKOUSDT",
+   "kept": false,
+   "why": "median daily volume 944,303 < 5,000,000"
+  },
+  {
+   "symbol": "TAKEUSDT",
+   "kept": false,
+   "why": "median daily volume 3,704,506 < 5,000,000"
+  },
+  {
+   "symbol": "TANSSIUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "TAOUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "TAUSDT",
+   "kept": false,
+   "why": "median daily volume 3,343,941 < 5,000,000"
+  },
+  {
+   "symbol": "TBTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "TEMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "TENCENTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "TERUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "THETAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "TIAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "TLMUSDT",
+   "kept": false,
+   "why": "median daily volume 4,112,656 < 5,000,000"
+  },
+  {
+   "symbol": "TMFUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "TOKENUSDT",
+   "kept": false,
+   "why": "median daily volume 4,137,872 < 5,000,000"
+  },
+  {
+   "symbol": "TOSHIUSDT",
+   "kept": false,
+   "why": "median daily volume 1,792,502 < 5,000,000"
+  },
+  {
+   "symbol": "TOWNSUSDT",
+   "kept": false,
+   "why": "median daily volume 2,605,820 < 5,000,000"
+  },
+  {
+   "symbol": "TQQQUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "TREEUSDT",
+   "kept": false,
+   "why": "median daily volume 3,073,755 < 5,000,000"
+  },
+  {
+   "symbol": "TROYUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "TRUMPUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "TRUSTUSDT",
+   "kept": false,
+   "why": "median daily volume 1,704,878 < 5,000,000"
+  },
+  {
+   "symbol": "TRUTHUSDT",
+   "kept": false,
+   "why": "median daily volume 3,426,299 < 5,000,000"
+  },
+  {
+   "symbol": "TRXUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "TSLAUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "TSMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "TTWOUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "TURTLEUSDT",
+   "kept": false,
+   "why": "median daily volume 1,300,817 < 5,000,000"
+  },
+  {
+   "symbol": "TWTUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "TXNUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "TZAUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "UAIUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "UBERUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "UBUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "UNITREEUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (CN_EQUITY)"
+  },
+  {
+   "symbol": "UNIUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "URNMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "USARUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "USELESSUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "USUSDT",
+   "kept": false,
+   "why": "median daily volume 3,855,835 < 5,000,000"
+  },
+  {
+   "symbol": "UVXYUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "UXLINKUSDT",
+   "kept": false,
+   "why": "median daily volume 2,749,328 < 5,000,000"
+  },
+  {
+   "symbol": "VELODROMEUSDT",
+   "kept": false,
+   "why": "median daily volume 1,697,072 < 5,000,000"
+  },
+  {
+   "symbol": "VELVETUSDT",
+   "kept": false,
+   "why": "median daily volume 4,222,182 < 5,000,000"
+  },
+  {
+   "symbol": "VETUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "VFYUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "VICUSDT",
+   "kept": false,
+   "why": "median daily volume 1,274,758 < 5,000,000"
+  },
+  {
+   "symbol": "VIDTUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "VINEUSDT",
+   "kept": false,
+   "why": "median daily volume 4,747,580 < 5,000,000"
+  },
+  {
+   "symbol": "VIRTUALUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "VOXELUSDT",
+   "kept": false,
+   "why": "median daily volume 2,563,764 < 5,000,000"
+  },
+  {
+   "symbol": "VRTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "VSTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "VTHOUSDT",
+   "kept": false,
+   "why": "median daily volume 1,526,182 < 5,000,000"
+  },
+  {
+   "symbol": "VUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "VVVUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "WAXPUSDT",
+   "kept": false,
+   "why": "median daily volume 2,660,850 < 5,000,000"
+  },
+  {
+   "symbol": "WDCUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "WENUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "WETUSDT",
+   "kept": false,
+   "why": "median daily volume 2,277,332 < 5,000,000"
+  },
+  {
+   "symbol": "WIFUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "WLDUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "WLFIUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "WMTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "XAGUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (COMMODITY)"
+  },
+  {
+   "symbol": "XANUSDT",
+   "kept": false,
+   "why": "median daily volume 2,962,193 < 5,000,000"
+  },
+  {
+   "symbol": "XAUUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (COMMODITY)"
+  },
+  {
+   "symbol": "XBIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "XCNUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "XLEUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "XLMUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "XMRUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "XNYUSDT",
+   "kept": false,
+   "why": "median daily volume 3,043,031 < 5,000,000"
+  },
+  {
+   "symbol": "XPDUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (COMMODITY)"
+  },
+  {
+   "symbol": "XPINUSDT",
+   "kept": false,
+   "why": "median daily volume 2,867,274 < 5,000,000"
+  },
+  {
+   "symbol": "XPLUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "XPTUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (COMMODITY)"
+  },
+  {
+   "symbol": "XRPUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "XTZUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "XVSUSDT",
+   "kept": false,
+   "why": "median daily volume 3,853,012 < 5,000,000"
+  },
+  {
+   "symbol": "YALAUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "YBUSDT",
+   "kept": false,
+   "why": "median daily volume 2,926,205 < 5,000,000"
+  },
+  {
+   "symbol": "ZAMAUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ZECUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ZENUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ZESTUSDT",
+   "kept": false,
+   "why": "median daily volume 2,278,087 < 5,000,000"
+  },
+  {
+   "symbol": "ZHIPUUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "ZHONGJIUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (HK_EQUITY)"
+  },
+  {
+   "symbol": "ZKCUSDT",
+   "kept": false,
+   "why": "median daily volume 2,876,661 < 5,000,000"
+  },
+  {
+   "symbol": "ZKJUSDT",
+   "kept": false,
+   "why": "median daily volume 950,364 < 5,000,000"
+  },
+  {
+   "symbol": "ZKPUSDT",
+   "kept": false,
+   "why": "median daily volume 3,230,109 < 5,000,000"
+  },
+  {
+   "symbol": "ZKUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "ZMUSDT",
+   "kept": false,
+   "why": "non-crypto underlying (EQUITY)"
+  },
+  {
+   "symbol": "ZRCUSDT",
+   "kept": false,
+   "why": "median daily volume 0 < 5,000,000"
+  },
+  {
+   "symbol": "ZROUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "\u5e01\u5b89\u4eba\u751fUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  },
+  {
+   "symbol": "\u6211\u8e0f\u9a6c\u6765\u4e86USDT",
+   "kept": false,
+   "why": "median daily volume 3,537,846 < 5,000,000"
+  },
+  {
+   "symbol": "\u725b\u6765USDT",
+   "kept": false,
+   "why": "637 bars < 2160"
+  },
+  {
+   "symbol": "\u9f99\u867eUSDT",
+   "kept": false,
+   "why": "used by the research engine (split_140) or sealed (desk)"
+  }
+ ]
+}

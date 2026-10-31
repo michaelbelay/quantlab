@@ -1,0 +1,115 @@
+{
+ "bot_name": "nfi_bt_2025-12_2025-12",
+ "dry_run": true,
+ "dry_run_wallet": 55870.419914,
+ "stake_currency": "USDT",
+ "stake_amount": "unlimited",
+ "trading_mode": "futures",
+ "margin_mode": "isolated",
+ "exchange": {
+  "name": "binance",
+  "key": "",
+  "secret": "",
+  "ccxt_config": {},
+  "ccxt_async_config": {},
+  "pair_whitelist": [
+   "A/USDT:USDT",
+   "AAVE/USDT:USDT",
+   "ADA/USDT:USDT",
+   "ALGO/USDT:USDT",
+   "APT/USDT:USDT",
+   "ARB/USDT:USDT",
+   "ATOM/USDT:USDT",
+   "AVAX/USDT:USDT",
+   "COMP/USDT:USDT",
+   "CRV/USDT:USDT",
+   "DASH/USDT:USDT",
+   "DOGE/USDT:USDT",
+   "DOT/USDT:USDT",
+   "ENA/USDT:USDT",
+   "FET/USDT:USDT",
+   "FIL/USDT:USDT",
+   "GALA/USDT:USDT",
+   "GRT/USDT:USDT",
+   "HBAR/USDT:USDT",
+   "ICP/USDT:USDT",
+   "IMX/USDT:USDT",
+   "INJ/USDT:USDT",
+   "JUP/USDT:USDT",
+   "LDO/USDT:USDT",
+   "NEAR/USDT:USDT",
+   "NEO/USDT:USDT",
+   "ONDO/USDT:USDT",
+   "OP/USDT:USDT",
+   "PENGU/USDT:USDT",
+   "POL/USDT:USDT",
+   "QNT/USDT:USDT",
+   "RENDER/USDT:USDT",
+   "SEI/USDT:USDT",
+   "SNX/USDT:USDT",
+   "SOL/USDT:USDT",
+   "SUI/USDT:USDT",
+   "TAO/USDT:USDT",
+   "TIA/USDT:USDT",
+   "TRX/USDT:USDT",
+   "UNI/USDT:USDT",
+   "VET/USDT:USDT",
+   "VIRTUAL/USDT:USDT",
+   "WIF/USDT:USDT",
+   "WLD/USDT:USDT",
+   "XLM/USDT:USDT",
+   "XRP/USDT:USDT",
+   "XTZ/USDT:USDT",
+   "ZEC/USDT:USDT"
+  ],
+  "pair_blacklist": []
+ },
+ "pairlists": [
+  {
+   "method": "StaticPairList"
+  }
+ ],
+ "telegram": {
+  "enabled": false,
+  "token": "",
+  "chat_id": ""
+ },
+ "db_url": "sqlite://",
+ "dataformat_ohlcv": "feather",
+ "timeframe": "5m",
+ "max_open_trades": 6,
+ "tradable_balance_ratio": 0.99,
+ "order_types": {
+  "entry": "limit",
+  "exit": "limit",
+  "emergency_exit": "limit",
+  "force_entry": "limit",
+  "force_exit": "limit",
+  "stoploss": "limit",
+  "stoploss_on_exchange": false,
+  "stoploss_on_exchange_interval": 60,
+  "stoploss_on_exchange_limit_ratio": 0.99
+ },
+ "entry_pricing": {
+  "price_side": "other",
+  "use_order_book": true,
+  "order_book_top": 1,
+  "price_last_balance": 0,
+  "check_depth_of_market": {
+   "enabled": false,
+   "bids_to_ask_delta": 1
+  }
+ },
+ "exit_pricing": {
+  "price_side": "other",
+  "use_order_book": true,
+  "order_book_top": 1,
+  "price_last_balance": 0
+ },
+ "unfilledtimeout": {
+  "entry": 3,
+  "exit": 2,
+  "exit_timeout_count": 0,
+  "unit": "minutes"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "trades": 19686,
+ "net_usdt": -1206.2,
+ "avg_net_pct": -0.204,
+ "win_pct": 28.4,
+ "years_usdt": {
+  "2022": -337.6,
+  "2023": -219.5,
+  "2024": -291.1,
+  "2025": -209.7,
+  "2026": -148.2
+ },
+ "last12_usdt": -217.7,
+ "max_dd_pct": -404.4,
+ "avg_hold_h": 9.5,
+ "max_hold_h": 168,
+ "avg_win_usdt": 0.26,
+ "avg_loss_usdt": -0.19,
+ "exits": {
+  "stop": 17979,
+  "week_end": 1147,
+  "cross": 560
+ },
+ "verdict": "\ud83d\udd34"
+}

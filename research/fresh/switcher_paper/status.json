@@ -1,0 +1,348 @@
+{
+ "updated_utc": "2026-10-31 22:00:00+00:00",
+ "coins": 220,
+ "forward_from": "2026-10-25 19:00",
+ "pick_this_week": "cash",
+ "picks": {
+  "2026-09-28": "M",
+  "2026-10-05": "M",
+  "2026-10-12": "cash",
+  "2026-10-19": "M",
+  "2026-10-26": "cash"
+ },
+ "equity": 297.0,
+ "realized": -3.0,
+ "open_pnl": 0.0,
+ "trades_closed": 20,
+ "positions_open": 0,
+ "checked_utc": "2026-10-31 22:06:08",
+ "wallet": 300.0,
+ "weeks": [
+  {
+   "week": "2026-08-10",
+   "pick": "(backtest)",
+   "R_known": -0.96,
+   "R": -0.48,
+   "M": 14.8
+  },
+  {
+   "week": "2026-08-17",
+   "pick": "(backtest)",
+   "R_known": -0.79,
+   "R": -1.49,
+   "M": 4.47
+  },
+  {
+   "week": "2026-08-24",
+   "pick": "(backtest)",
+   "R_known": 2.85,
+   "R": 2.69,
+   "M": 2.38
+  },
+  {
+   "week": "2026-08-31",
+   "pick": "(backtest)",
+   "R_known": -0.19,
+   "R": -0.31,
+   "M": 3.41
+  },
+  {
+   "week": "2026-09-07",
+   "pick": "(backtest)",
+   "R_known": -0.46,
+   "R": -0.41,
+   "M": -0.12
+  },
+  {
+   "week": "2026-09-14",
+   "pick": "(backtest)",
+   "R_known": -1.57,
+   "R": -1.74,
+   "M": 0.04
+  },
+  {
+   "week": "2026-09-21",
+   "pick": "(backtest)",
+   "R_known": -2.6,
+   "R": -2.13,
+   "M": -5.84
+  },
+  {
+   "week": "2026-09-28",
+   "pick": "M",
+   "R_known": -0.7,
+   "R": -1.76,
+   "M": -11.83
+  },
+  {
+   "week": "2026-10-05",
+   "pick": "M",
+   "R_known": -2.06,
+   "R": -0.83,
+   "M": 7.25
+  },
+  {
+   "week": "2026-10-12",
+   "pick": "cash",
+   "R_known": 0.19,
+   "R": 0.05,
+   "M": 9.22
+  },
+  {
+   "week": "2026-10-19",
+   "pick": "M",
+   "R_known": 0.88,
+   "R": 0.86,
+   "M": -5.47
+  },
+  {
+   "week": "2026-10-26",
+   "pick": "cash",
+   "R_known": 2.63,
+   "R": null,
+   "M": null
+  }
+ ],
+ "positions": [
+  {
+   "book": "M",
+   "pair": "Q/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.060314,
+   "now": 0.056608,
+   "usdt": -0.95,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "AGT/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.06215,
+   "now": 0.06084,
+   "usdt": -0.35,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "BR/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.4298,
+   "now": 0.4945,
+   "usdt": -2.29,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "COTI/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.010422,
+   "now": 0.010425,
+   "usdt": -0.03,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "BLUR/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.00757,
+   "now": 0.00758,
+   "usdt": -0.05,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "SOPH/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.001447,
+   "now": 0.001451,
+   "usdt": -0.07,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "LSK/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.16174,
+   "now": 0.1589,
+   "usdt": 0.23,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "BILL/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.006147,
+   "now": 0.005962,
+   "usdt": 0.42,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "LYN/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.01357,
+   "now": 0.01361,
+   "usdt": -0.07,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "US/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.004777,
+   "now": 0.004597,
+   "usdt": 0.54,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "APR/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.04375,
+   "now": 0.03823,
+   "usdt": 1.86,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "AIN/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.0378,
+   "now": 0.03809,
+   "usdt": 0.09,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "ICNT/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.1837,
+   "now": 0.1807,
+   "usdt": -0.27,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "MAGIC/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.08264,
+   "now": 0.08231,
+   "usdt": -0.09,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "BAT/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.15233,
+   "now": 0.15157,
+   "usdt": -0.1,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "RLC/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.5286,
+   "now": 0.5401,
+   "usdt": 0.3,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "QNT/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 195.02,
+   "now": 189.79,
+   "usdt": -0.43,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "GTC/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.25241,
+   "now": 0.2305,
+   "usdt": -1.33,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "BTW/USDT:USDT",
+   "side": "long",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 1.6534,
+   "now": 1.6173,
+   "usdt": -0.36,
+   "is_open": false
+  },
+  {
+   "book": "M",
+   "pair": "PLAY/USDT:USDT",
+   "side": "short",
+   "idea": "basket",
+   "open": "2026-10-25 19:00:00+00:00",
+   "close": "2026-10-26 00:00:00+00:00",
+   "entry": 0.01515,
+   "now": 0.01515,
+   "usdt": -0.03,
+   "is_open": false
+  }
+ ]
+}

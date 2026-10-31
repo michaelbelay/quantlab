@@ -1,0 +1,162 @@
+{
+ "raw_return": {
+  "folds": [
+   {
+    "oos": "2022-07-01->2023-01-01",
+    "picked": "trend_resume|btc|long",
+    "train_score": 294.483,
+    "oos_agg": -66.1,
+    "oos_portfolio": -27.0,
+    "oos_dd": 33.0,
+    "oos_trades": 631
+   },
+   {
+    "oos": "2023-01-01->2023-07-01",
+    "picked": "volatility_breakout_b4|btc+vol|both",
+    "train_score": 109.033,
+    "oos_agg": 61.0,
+    "oos_portfolio": 65.1,
+    "oos_dd": 10.1,
+    "oos_trades": 339
+   },
+   {
+    "oos": "2023-07-01->2024-01-01",
+    "picked": "volatility_breakout_b4|btc|both",
+    "train_score": 153.271,
+    "oos_agg": 54.8,
+    "oos_portfolio": 35.8,
+    "oos_dd": 10.1,
+    "oos_trades": 253
+   },
+   {
+    "oos": "2024-01-01->2024-07-01",
+    "picked": "trend_resume|btc|long",
+    "train_score": 180.733,
+    "oos_agg": 74.6,
+    "oos_portfolio": -20.5,
+    "oos_dd": 26.0,
+    "oos_trades": 896
+   },
+   {
+    "oos": "2024-07-01->2025-01-01",
+    "picked": "trend_resume|btc|long",
+    "train_score": 321.495,
+    "oos_agg": 217.0,
+    "oos_portfolio": 20.4,
+    "oos_dd": 21.2,
+    "oos_trades": 1002
+   },
+   {
+    "oos": "2025-01-01->2025-07-01",
+    "picked": "trend_resume|btc|long",
+    "train_score": 446.414,
+    "oos_agg": -150.9,
+    "oos_portfolio": -42.1,
+    "oos_dd": 57.1,
+    "oos_trades": 1414
+   },
+   {
+    "oos": "2025-07-01->2026-01-01",
+    "picked": "trend_resume|btc|long",
+    "train_score": 140.713,
+    "oos_agg": -72.8,
+    "oos_portfolio": -16.6,
+    "oos_dd": 48.4,
+    "oos_trades": 1626
+   },
+   {
+    "oos": "2026-01-01->2026-10-01",
+    "picked": "rsi_reset|btc|long",
+    "train_score": 43.144,
+    "oos_agg": 162.3,
+    "oos_portfolio": 29.1,
+    "oos_dd": 36.4,
+    "oos_trades": 2151
+   }
+  ],
+  "agg_sum": 279.9,
+  "portfolio_sum": 44.2,
+  "folds_positive_agg": "5/8",
+  "folds_positive_portfolio": "4/8"
+ },
+ "profit_factor": {
+  "folds": [
+   {
+    "oos": "2022-07-01->2023-01-01",
+    "picked": "volatility_breakout_b4|btc+vol|both",
+    "train_score": 1.948,
+    "oos_agg": 13.6,
+    "oos_portfolio": 0.7,
+    "oos_dd": 17.9,
+    "oos_trades": 268
+   },
+   {
+    "oos": "2023-01-01->2023-07-01",
+    "picked": "volatility_breakout_b4|btc+vol|both",
+    "train_score": 1.518,
+    "oos_agg": 61.0,
+    "oos_portfolio": 65.1,
+    "oos_dd": 10.1,
+    "oos_trades": 339
+   },
+   {
+    "oos": "2023-07-01->2024-01-01",
+    "picked": "volatility_breakout_b4|btc+vol|both",
+    "train_score": 1.675,
+    "oos_agg": 54.8,
+    "oos_portfolio": 27.1,
+    "oos_dd": 9.3,
+    "oos_trades": 250
+   },
+   {
+    "oos": "2024-01-01->2024-07-01",
+    "picked": "volatility_breakout_b4|btc|both",
+    "train_score": 1.573,
+    "oos_agg": 122.6,
+    "oos_portfolio": 86.0,
+    "oos_dd": 12.4,
+    "oos_trades": 343
+   },
+   {
+    "oos": "2024-07-01->2025-01-01",
+    "picked": "volatility_breakout_b4|btc|both",
+    "train_score": 1.854,
+    "oos_agg": 41.8,
+    "oos_portfolio": 18.3,
+    "oos_dd": 29.7,
+    "oos_trades": 361
+   },
+   {
+    "oos": "2025-01-01->2025-07-01",
+    "picked": "trend_resume|btc|long",
+    "train_score": 1.633,
+    "oos_agg": -150.9,
+    "oos_portfolio": -42.1,
+    "oos_dd": 57.1,
+    "oos_trades": 1414
+   },
+   {
+    "oos": "2025-07-01->2026-01-01",
+    "picked": "volatility_breakout_b4|btc|both",
+    "train_score": 1.218,
+    "oos_agg": -33.8,
+    "oos_portfolio": -11.9,
+    "oos_dd": 39.0,
+    "oos_trades": 593
+   },
+   {
+    "oos": "2026-01-01->2026-10-01",
+    "picked": "rsi_reset|btc|long",
+    "train_score": 1.043,
+    "oos_agg": 162.3,
+    "oos_portfolio": 29.1,
+    "oos_dd": 36.4,
+    "oos_trades": 2151
+   }
+  ],
+  "agg_sum": 271.3,
+  "portfolio_sum": 172.3,
+  "folds_positive_agg": "6/8",
+  "folds_positive_portfolio": "6/8"
+ }
+}

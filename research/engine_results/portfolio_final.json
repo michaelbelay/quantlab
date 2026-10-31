@@ -1,0 +1,19 @@
+{
+ "members": [
+  "volatility_breakout|any|btc_regime|with|atr3|no_tp_trail|be_on|instant|sh_sym|bars3_atr_mult2.5",
+  "rsi_divergence|r|volume|against|atr2|no_tp_trail|be_on|instant|sh_off",
+  "volatility_breakout|any|btc_regime+volume|with|wide|runner|be_on|instant|sh_weakdn|bars2_atr_mult2.5"
+ ],
+ "dev": {
+  "trades": 2208,
+  "ret_pct": 72.11,
+  "pf": 1.405,
+  "max_dd": 7.34
+ },
+ "holdout": {
+  "trades": 2143,
+  "ret_pct": 25.9,
+  "pf": 1.125,
+  "max_dd": 13.57
+ }
+}

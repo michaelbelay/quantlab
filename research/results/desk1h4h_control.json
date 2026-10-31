@@ -1,0 +1,648 @@
+{
+ "prereg": "PREREGISTRATION_2026-09-28_desk1h4h.md",
+ "prereg_sha256": "969e9aacde51cf1ed7a3b3812608d0f33c6fc37b7a3ec10da774778cfeb5788e",
+ "seed": 20260928,
+ "run_at": "2026-09-28T00:57:10+00:00",
+ "rows": [
+  {
+   "id": "C|long|1h|N=20|k=1.5|s=1.0|r=1.5",
+   "trades": 7332,
+   "coins_traded": 15,
+   "coins_positive": 1,
+   "expectancy_R": -0.1058,
+   "pf": 0.8399,
+   "per_week": 89.88,
+   "pf_2x": 0.6785
+  },
+  {
+   "id": "C|long|1h|N=20|k=1.5|s=1.0|r=2.0",
+   "trades": 6604,
+   "coins_traded": 15,
+   "coins_positive": 5,
+   "expectancy_R": -0.0858,
+   "pf": 0.8812,
+   "per_week": 80.96,
+   "pf_2x": 0.7354
+  },
+  {
+   "id": "C|long|1h|N=20|k=1.5|s=1.5|r=1.5",
+   "trades": 5910,
+   "coins_traded": 15,
+   "coins_positive": 5,
+   "expectancy_R": -0.0381,
+   "pf": 0.9368,
+   "per_week": 72.45,
+   "pf_2x": 0.8106
+  },
+  {
+   "id": "C|long|1h|N=20|k=1.5|s=1.5|r=2.0",
+   "trades": 5255,
+   "coins_traded": 15,
+   "coins_positive": 7,
+   "expectancy_R": -0.0332,
+   "pf": 0.9491,
+   "per_week": 64.42,
+   "pf_2x": 0.8373
+  },
+  {
+   "id": "C|long|1h|N=20|k=2.5|s=1.0|r=1.5",
+   "trades": 7332,
+   "coins_traded": 15,
+   "coins_positive": 1,
+   "expectancy_R": -0.1058,
+   "pf": 0.8399,
+   "per_week": 89.88,
+   "pf_2x": 0.6785
+  },
+  {
+   "id": "C|long|1h|N=20|k=2.5|s=1.0|r=2.0",
+   "trades": 6604,
+   "coins_traded": 15,
+   "coins_positive": 5,
+   "expectancy_R": -0.0858,
+   "pf": 0.8812,
+   "per_week": 80.96,
+   "pf_2x": 0.7354
+  },
+  {
+   "id": "C|long|1h|N=20|k=2.5|s=1.5|r=1.5",
+   "trades": 5910,
+   "coins_traded": 15,
+   "coins_positive": 5,
+   "expectancy_R": -0.0381,
+   "pf": 0.9368,
+   "per_week": 72.45,
+   "pf_2x": 0.8106
+  },
+  {
+   "id": "C|long|1h|N=20|k=2.5|s=1.5|r=2.0",
+   "trades": 5255,
+   "coins_traded": 15,
+   "coins_positive": 7,
+   "expectancy_R": -0.0332,
+   "pf": 0.9491,
+   "per_week": 64.42,
+   "pf_2x": 0.8373
+  },
+  {
+   "id": "C|long|1h|N=48|k=1.5|s=1.0|r=1.5",
+   "trades": 4488,
+   "coins_traded": 15,
+   "coins_positive": 1,
+   "expectancy_R": -0.085,
+   "pf": 0.8698,
+   "per_week": 55.02,
+   "pf_2x": 0.7027
+  },
+  {
+   "id": "C|long|1h|N=48|k=1.5|s=1.0|r=2.0",
+   "trades": 4036,
+   "coins_traded": 15,
+   "coins_positive": 4,
+   "expectancy_R": -0.0731,
+   "pf": 0.8989,
+   "per_week": 49.48,
+   "pf_2x": 0.7516
+  },
+  {
+   "id": "C|long|1h|N=48|k=1.5|s=1.5|r=1.5",
+   "trades": 3609,
+   "coins_traded": 15,
+   "coins_positive": 10,
+   "expectancy_R": -0.0009,
+   "pf": 0.9984,
+   "per_week": 44.24,
+   "pf_2x": 0.8701
+  },
+  {
+   "id": "C|long|1h|N=48|k=1.5|s=1.5|r=2.0",
+   "trades": 3199,
+   "coins_traded": 15,
+   "coins_positive": 10,
+   "expectancy_R": 0.0019,
+   "pf": 1.0029,
+   "per_week": 39.22,
+   "pf_2x": 0.8877
+  },
+  {
+   "id": "C|long|1h|N=48|k=2.5|s=1.0|r=1.5",
+   "trades": 4488,
+   "coins_traded": 15,
+   "coins_positive": 1,
+   "expectancy_R": -0.085,
+   "pf": 0.8698,
+   "per_week": 55.02,
+   "pf_2x": 0.7027
+  },
+  {
+   "id": "C|long|1h|N=48|k=2.5|s=1.0|r=2.0",
+   "trades": 4036,
+   "coins_traded": 15,
+   "coins_positive": 4,
+   "expectancy_R": -0.0731,
+   "pf": 0.8989,
+   "per_week": 49.48,
+   "pf_2x": 0.7516
+  },
+  {
+   "id": "C|long|1h|N=48|k=2.5|s=1.5|r=1.5",
+   "trades": 3609,
+   "coins_traded": 15,
+   "coins_positive": 10,
+   "expectancy_R": -0.0009,
+   "pf": 0.9984,
+   "per_week": 44.24,
+   "pf_2x": 0.8701
+  },
+  {
+   "id": "C|long|1h|N=48|k=2.5|s=1.5|r=2.0",
+   "trades": 3199,
+   "coins_traded": 15,
+   "coins_positive": 10,
+   "expectancy_R": 0.0019,
+   "pf": 1.0029,
+   "per_week": 39.22,
+   "pf_2x": 0.8877
+  },
+  {
+   "id": "C|long|4h|N=20|k=1.5|s=1.0|r=1.5",
+   "trades": 1907,
+   "coins_traded": 15,
+   "coins_positive": 7,
+   "expectancy_R": 0.009,
+   "pf": 1.0151,
+   "per_week": 23.38,
+   "pf_2x": 0.9215
+  },
+  {
+   "id": "C|long|4h|N=20|k=1.5|s=1.0|r=2.0",
+   "trades": 1719,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0497,
+   "pf": 1.077,
+   "per_week": 21.07,
+   "pf_2x": 0.9878
+  },
+  {
+   "id": "C|long|4h|N=20|k=1.5|s=1.5|r=1.5",
+   "trades": 1554,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0156,
+   "pf": 1.0289,
+   "per_week": 19.05,
+   "pf_2x": 0.9545
+  },
+  {
+   "id": "C|long|4h|N=20|k=1.5|s=1.5|r=2.0",
+   "trades": 1407,
+   "coins_traded": 15,
+   "coins_positive": 8,
+   "expectancy_R": 0.0244,
+   "pf": 1.0429,
+   "per_week": 17.25,
+   "pf_2x": 0.9755
+  },
+  {
+   "id": "C|long|4h|N=20|k=2.5|s=1.0|r=1.5",
+   "trades": 1907,
+   "coins_traded": 15,
+   "coins_positive": 7,
+   "expectancy_R": 0.009,
+   "pf": 1.0151,
+   "per_week": 23.38,
+   "pf_2x": 0.9215
+  },
+  {
+   "id": "C|long|4h|N=20|k=2.5|s=1.0|r=2.0",
+   "trades": 1719,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0497,
+   "pf": 1.077,
+   "per_week": 21.07,
+   "pf_2x": 0.9878
+  },
+  {
+   "id": "C|long|4h|N=20|k=2.5|s=1.5|r=1.5",
+   "trades": 1554,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0156,
+   "pf": 1.0289,
+   "per_week": 19.05,
+   "pf_2x": 0.9545
+  },
+  {
+   "id": "C|long|4h|N=20|k=2.5|s=1.5|r=2.0",
+   "trades": 1407,
+   "coins_traded": 15,
+   "coins_positive": 8,
+   "expectancy_R": 0.0244,
+   "pf": 1.0429,
+   "per_week": 17.25,
+   "pf_2x": 0.9755
+  },
+  {
+   "id": "C|long|4h|N=48|k=1.5|s=1.0|r=1.5",
+   "trades": 1136,
+   "coins_traded": 15,
+   "coins_positive": 8,
+   "expectancy_R": 0.0381,
+   "pf": 1.0652,
+   "per_week": 13.93,
+   "pf_2x": 0.9681
+  },
+  {
+   "id": "C|long|4h|N=48|k=1.5|s=1.0|r=2.0",
+   "trades": 1033,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0814,
+   "pf": 1.128,
+   "per_week": 12.66,
+   "pf_2x": 1.0316
+  },
+  {
+   "id": "C|long|4h|N=48|k=1.5|s=1.5|r=1.5",
+   "trades": 921,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0466,
+   "pf": 1.088,
+   "per_week": 11.29,
+   "pf_2x": 1.0082
+  },
+  {
+   "id": "C|long|4h|N=48|k=1.5|s=1.5|r=2.0",
+   "trades": 844,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0632,
+   "pf": 1.1128,
+   "per_week": 10.35,
+   "pf_2x": 1.0409
+  },
+  {
+   "id": "C|long|4h|N=48|k=2.5|s=1.0|r=1.5",
+   "trades": 1136,
+   "coins_traded": 15,
+   "coins_positive": 8,
+   "expectancy_R": 0.0381,
+   "pf": 1.0652,
+   "per_week": 13.93,
+   "pf_2x": 0.9681
+  },
+  {
+   "id": "C|long|4h|N=48|k=2.5|s=1.0|r=2.0",
+   "trades": 1033,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0814,
+   "pf": 1.128,
+   "per_week": 12.66,
+   "pf_2x": 1.0316
+  },
+  {
+   "id": "C|long|4h|N=48|k=2.5|s=1.5|r=1.5",
+   "trades": 921,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0466,
+   "pf": 1.088,
+   "per_week": 11.29,
+   "pf_2x": 1.0082
+  },
+  {
+   "id": "C|long|4h|N=48|k=2.5|s=1.5|r=2.0",
+   "trades": 844,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0632,
+   "pf": 1.1128,
+   "per_week": 10.35,
+   "pf_2x": 1.0409
+  },
+  {
+   "id": "C|short|1h|N=20|k=1.5|s=1.0|r=1.5",
+   "trades": 7147,
+   "coins_traded": 15,
+   "coins_positive": 2,
+   "expectancy_R": -0.0842,
+   "pf": 0.8708,
+   "per_week": 87.62,
+   "pf_2x": 0.7202
+  },
+  {
+   "id": "C|short|1h|N=20|k=1.5|s=1.0|r=2.0",
+   "trades": 6433,
+   "coins_traded": 15,
+   "coins_positive": 3,
+   "expectancy_R": -0.0776,
+   "pf": 0.8919,
+   "per_week": 78.86,
+   "pf_2x": 0.7529
+  },
+  {
+   "id": "C|short|1h|N=20|k=1.5|s=1.5|r=1.5",
+   "trades": 5718,
+   "coins_traded": 15,
+   "coins_positive": 3,
+   "expectancy_R": -0.0256,
+   "pf": 0.9568,
+   "per_week": 70.1,
+   "pf_2x": 0.8328
+  },
+  {
+   "id": "C|short|1h|N=20|k=1.5|s=1.5|r=2.0",
+   "trades": 5160,
+   "coins_traded": 15,
+   "coins_positive": 5,
+   "expectancy_R": -0.0345,
+   "pf": 0.9463,
+   "per_week": 63.26,
+   "pf_2x": 0.8328
+  },
+  {
+   "id": "C|short|1h|N=20|k=2.5|s=1.0|r=1.5",
+   "trades": 7147,
+   "coins_traded": 15,
+   "coins_positive": 2,
+   "expectancy_R": -0.0842,
+   "pf": 0.8708,
+   "per_week": 87.62,
+   "pf_2x": 0.7202
+  },
+  {
+   "id": "C|short|1h|N=20|k=2.5|s=1.0|r=2.0",
+   "trades": 6433,
+   "coins_traded": 15,
+   "coins_positive": 3,
+   "expectancy_R": -0.0776,
+   "pf": 0.8919,
+   "per_week": 78.86,
+   "pf_2x": 0.7529
+  },
+  {
+   "id": "C|short|1h|N=20|k=2.5|s=1.5|r=1.5",
+   "trades": 5718,
+   "coins_traded": 15,
+   "coins_positive": 3,
+   "expectancy_R": -0.0256,
+   "pf": 0.9568,
+   "per_week": 70.1,
+   "pf_2x": 0.8328
+  },
+  {
+   "id": "C|short|1h|N=20|k=2.5|s=1.5|r=2.0",
+   "trades": 5160,
+   "coins_traded": 15,
+   "coins_positive": 5,
+   "expectancy_R": -0.0345,
+   "pf": 0.9463,
+   "per_week": 63.26,
+   "pf_2x": 0.8328
+  },
+  {
+   "id": "C|short|1h|N=48|k=1.5|s=1.0|r=1.5",
+   "trades": 4365,
+   "coins_traded": 15,
+   "coins_positive": 7,
+   "expectancy_R": -0.027,
+   "pf": 0.9568,
+   "per_week": 53.51,
+   "pf_2x": 0.796
+  },
+  {
+   "id": "C|short|1h|N=48|k=1.5|s=1.0|r=2.0",
+   "trades": 3926,
+   "coins_traded": 15,
+   "coins_positive": 8,
+   "expectancy_R": 0.0068,
+   "pf": 1.0099,
+   "per_week": 48.13,
+   "pf_2x": 0.86
+  },
+  {
+   "id": "C|short|1h|N=48|k=1.5|s=1.5|r=1.5",
+   "trades": 3524,
+   "coins_traded": 15,
+   "coins_positive": 10,
+   "expectancy_R": 0.0327,
+   "pf": 1.0576,
+   "per_week": 43.2,
+   "pf_2x": 0.9371
+  },
+  {
+   "id": "C|short|1h|N=48|k=1.5|s=1.5|r=2.0",
+   "trades": 3188,
+   "coins_traded": 15,
+   "coins_positive": 11,
+   "expectancy_R": 0.0363,
+   "pf": 1.0589,
+   "per_week": 39.08,
+   "pf_2x": 0.9469
+  },
+  {
+   "id": "C|short|1h|N=48|k=2.5|s=1.0|r=1.5",
+   "trades": 4365,
+   "coins_traded": 15,
+   "coins_positive": 7,
+   "expectancy_R": -0.027,
+   "pf": 0.9568,
+   "per_week": 53.51,
+   "pf_2x": 0.796
+  },
+  {
+   "id": "C|short|1h|N=48|k=2.5|s=1.0|r=2.0",
+   "trades": 3926,
+   "coins_traded": 15,
+   "coins_positive": 8,
+   "expectancy_R": 0.0068,
+   "pf": 1.0099,
+   "per_week": 48.13,
+   "pf_2x": 0.86
+  },
+  {
+   "id": "C|short|1h|N=48|k=2.5|s=1.5|r=1.5",
+   "trades": 3524,
+   "coins_traded": 15,
+   "coins_positive": 10,
+   "expectancy_R": 0.0327,
+   "pf": 1.0576,
+   "per_week": 43.2,
+   "pf_2x": 0.9371
+  },
+  {
+   "id": "C|short|1h|N=48|k=2.5|s=1.5|r=2.0",
+   "trades": 3188,
+   "coins_traded": 15,
+   "coins_positive": 11,
+   "expectancy_R": 0.0363,
+   "pf": 1.0589,
+   "per_week": 39.08,
+   "pf_2x": 0.9469
+  },
+  {
+   "id": "C|short|4h|N=20|k=1.5|s=1.0|r=1.5",
+   "trades": 1740,
+   "coins_traded": 15,
+   "coins_positive": 8,
+   "expectancy_R": 0.0352,
+   "pf": 1.0623,
+   "per_week": 21.33,
+   "pf_2x": 0.9708
+  },
+  {
+   "id": "C|short|4h|N=20|k=1.5|s=1.0|r=2.0",
+   "trades": 1584,
+   "coins_traded": 15,
+   "coins_positive": 10,
+   "expectancy_R": 0.0807,
+   "pf": 1.1341,
+   "per_week": 19.42,
+   "pf_2x": 1.0476
+  },
+  {
+   "id": "C|short|4h|N=20|k=1.5|s=1.5|r=1.5",
+   "trades": 1465,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0738,
+   "pf": 1.1566,
+   "per_week": 17.96,
+   "pf_2x": 1.0799
+  },
+  {
+   "id": "C|short|4h|N=20|k=1.5|s=1.5|r=2.0",
+   "trades": 1351,
+   "coins_traded": 15,
+   "coins_positive": 11,
+   "expectancy_R": 0.0676,
+   "pf": 1.1347,
+   "per_week": 16.56,
+   "pf_2x": 1.0552
+  },
+  {
+   "id": "C|short|4h|N=20|k=2.5|s=1.0|r=1.5",
+   "trades": 1740,
+   "coins_traded": 15,
+   "coins_positive": 8,
+   "expectancy_R": 0.0352,
+   "pf": 1.0623,
+   "per_week": 21.33,
+   "pf_2x": 0.9708
+  },
+  {
+   "id": "C|short|4h|N=20|k=2.5|s=1.0|r=2.0",
+   "trades": 1584,
+   "coins_traded": 15,
+   "coins_positive": 10,
+   "expectancy_R": 0.0807,
+   "pf": 1.1341,
+   "per_week": 19.42,
+   "pf_2x": 1.0476
+  },
+  {
+   "id": "C|short|4h|N=20|k=2.5|s=1.5|r=1.5",
+   "trades": 1465,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0738,
+   "pf": 1.1566,
+   "per_week": 17.96,
+   "pf_2x": 1.0799
+  },
+  {
+   "id": "C|short|4h|N=20|k=2.5|s=1.5|r=2.0",
+   "trades": 1351,
+   "coins_traded": 15,
+   "coins_positive": 11,
+   "expectancy_R": 0.0676,
+   "pf": 1.1347,
+   "per_week": 16.56,
+   "pf_2x": 1.0552
+  },
+  {
+   "id": "C|short|4h|N=48|k=1.5|s=1.0|r=1.5",
+   "trades": 992,
+   "coins_traded": 15,
+   "coins_positive": 6,
+   "expectancy_R": -0.0128,
+   "pf": 0.9784,
+   "per_week": 12.16,
+   "pf_2x": 0.8969
+  },
+  {
+   "id": "C|short|4h|N=48|k=1.5|s=1.0|r=2.0",
+   "trades": 908,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0436,
+   "pf": 1.0693,
+   "per_week": 11.13,
+   "pf_2x": 0.9872
+  },
+  {
+   "id": "C|short|4h|N=48|k=1.5|s=1.5|r=1.5",
+   "trades": 842,
+   "coins_traded": 15,
+   "coins_positive": 11,
+   "expectancy_R": 0.0398,
+   "pf": 1.0789,
+   "per_week": 10.32,
+   "pf_2x": 1.0093
+  },
+  {
+   "id": "C|short|4h|N=48|k=1.5|s=1.5|r=2.0",
+   "trades": 774,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0354,
+   "pf": 1.0663,
+   "per_week": 9.49,
+   "pf_2x": 0.987
+  },
+  {
+   "id": "C|short|4h|N=48|k=2.5|s=1.0|r=1.5",
+   "trades": 992,
+   "coins_traded": 15,
+   "coins_positive": 6,
+   "expectancy_R": -0.0128,
+   "pf": 0.9784,
+   "per_week": 12.16,
+   "pf_2x": 0.8969
+  },
+  {
+   "id": "C|short|4h|N=48|k=2.5|s=1.0|r=2.0",
+   "trades": 908,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0436,
+   "pf": 1.0693,
+   "per_week": 11.13,
+   "pf_2x": 0.9872
+  },
+  {
+   "id": "C|short|4h|N=48|k=2.5|s=1.5|r=1.5",
+   "trades": 842,
+   "coins_traded": 15,
+   "coins_positive": 11,
+   "expectancy_R": 0.0398,
+   "pf": 1.0789,
+   "per_week": 10.32,
+   "pf_2x": 1.0093
+  },
+  {
+   "id": "C|short|4h|N=48|k=2.5|s=1.5|r=2.0",
+   "trades": 774,
+   "coins_traded": 15,
+   "coins_positive": 9,
+   "expectancy_R": 0.0354,
+   "pf": 1.0663,
+   "per_week": 9.49,
+   "pf_2x": 0.987
+  }
+ ]
+}

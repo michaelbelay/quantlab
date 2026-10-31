@@ -1,0 +1,1733 @@
+{
+ "note": "post-hoc diagnostic, zero costs, dev coins x dev period; not a gate",
+ "rows": [
+  {
+   "id": "B|long|15m|N=20|k=1.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 7193,
+   "gross_exp_R": -0.0268,
+   "gross_pf": 0.9556
+  },
+  {
+   "id": "B|long|15m|N=20|k=1.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 6911,
+   "gross_exp_R": -0.0213,
+   "gross_pf": 0.9677
+  },
+  {
+   "id": "B|long|15m|N=20|k=1.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 6629,
+   "gross_exp_R": 0.0058,
+   "gross_pf": 1.0105
+  },
+  {
+   "id": "B|long|15m|N=20|k=1.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 6303,
+   "gross_exp_R": 0.001,
+   "gross_pf": 1.0017
+  },
+  {
+   "id": "B|long|30m|N=20|k=1.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 2807,
+   "gross_exp_R": 0.0131,
+   "gross_pf": 1.0222
+  },
+  {
+   "id": "B|long|30m|N=20|k=1.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 2726,
+   "gross_exp_R": 0.0348,
+   "gross_pf": 1.0543
+  },
+  {
+   "id": "B|long|30m|N=20|k=1.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 2648,
+   "gross_exp_R": 0.0139,
+   "gross_pf": 1.025
+  },
+  {
+   "id": "B|long|30m|N=20|k=1.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 2546,
+   "gross_exp_R": 0.0382,
+   "gross_pf": 1.0654
+  },
+  {
+   "id": "B|short|15m|N=20|k=1.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 7099,
+   "gross_exp_R": 0.0113,
+   "gross_pf": 1.0191
+  },
+  {
+   "id": "B|short|15m|N=20|k=1.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 6758,
+   "gross_exp_R": 0.0118,
+   "gross_pf": 1.0182
+  },
+  {
+   "id": "B|short|15m|N=20|k=1.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 6478,
+   "gross_exp_R": 0.0391,
+   "gross_pf": 1.073
+  },
+  {
+   "id": "B|short|15m|N=20|k=1.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 6153,
+   "gross_exp_R": 0.0455,
+   "gross_pf": 1.0804
+  },
+  {
+   "id": "B|short|30m|N=20|k=1.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 3233,
+   "gross_exp_R": 0.0145,
+   "gross_pf": 1.0247
+  },
+  {
+   "id": "B|short|30m|N=20|k=1.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 3104,
+   "gross_exp_R": 0.0162,
+   "gross_pf": 1.0252
+  },
+  {
+   "id": "B|short|30m|N=20|k=1.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 2987,
+   "gross_exp_R": 0.0305,
+   "gross_pf": 1.0573
+  },
+  {
+   "id": "B|short|30m|N=20|k=1.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 2869,
+   "gross_exp_R": 0.038,
+   "gross_pf": 1.0673
+  },
+  {
+   "id": "B|long|15m|N=20|k=2.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 3568,
+   "gross_exp_R": -0.0244,
+   "gross_pf": 0.9598
+  },
+  {
+   "id": "B|long|15m|N=20|k=2.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 3483,
+   "gross_exp_R": -0.0106,
+   "gross_pf": 0.9839
+  },
+  {
+   "id": "B|long|15m|N=20|k=2.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 3405,
+   "gross_exp_R": 0.0165,
+   "gross_pf": 1.0296
+  },
+  {
+   "id": "B|long|15m|N=20|k=2.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 3295,
+   "gross_exp_R": 0.0246,
+   "gross_pf": 1.0417
+  },
+  {
+   "id": "B|long|30m|N=20|k=2.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1347,
+   "gross_exp_R": 0.0658,
+   "gross_pf": 1.1152
+  },
+  {
+   "id": "B|long|30m|N=20|k=2.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1325,
+   "gross_exp_R": 0.0883,
+   "gross_pf": 1.1405
+  },
+  {
+   "id": "B|long|30m|N=20|k=2.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1303,
+   "gross_exp_R": 0.0939,
+   "gross_pf": 1.1789
+  },
+  {
+   "id": "B|long|30m|N=20|k=2.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1265,
+   "gross_exp_R": 0.1471,
+   "gross_pf": 1.2635
+  },
+  {
+   "id": "B|short|15m|N=20|k=2.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 3640,
+   "gross_exp_R": 0.0199,
+   "gross_pf": 1.0339
+  },
+  {
+   "id": "B|short|15m|N=20|k=2.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 3510,
+   "gross_exp_R": 0.0378,
+   "gross_pf": 1.059
+  },
+  {
+   "id": "B|short|15m|N=20|k=2.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 3425,
+   "gross_exp_R": 0.0752,
+   "gross_pf": 1.1429
+  },
+  {
+   "id": "B|short|15m|N=20|k=2.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 3284,
+   "gross_exp_R": 0.0957,
+   "gross_pf": 1.1723
+  },
+  {
+   "id": "B|short|30m|N=20|k=2.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1585,
+   "gross_exp_R": 0.019,
+   "gross_pf": 1.0325
+  },
+  {
+   "id": "B|short|30m|N=20|k=2.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1549,
+   "gross_exp_R": 0.0337,
+   "gross_pf": 1.0524
+  },
+  {
+   "id": "B|short|30m|N=20|k=2.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1506,
+   "gross_exp_R": 0.0623,
+   "gross_pf": 1.118
+  },
+  {
+   "id": "B|short|30m|N=20|k=2.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1472,
+   "gross_exp_R": 0.053,
+   "gross_pf": 1.0927
+  },
+  {
+   "id": "B|long|15m|N=48|k=1.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 5104,
+   "gross_exp_R": -0.0154,
+   "gross_pf": 0.9744
+  },
+  {
+   "id": "B|long|15m|N=48|k=1.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 4912,
+   "gross_exp_R": -0.0189,
+   "gross_pf": 0.9715
+  },
+  {
+   "id": "B|long|15m|N=48|k=1.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 4712,
+   "gross_exp_R": 0.0094,
+   "gross_pf": 1.0169
+  },
+  {
+   "id": "B|long|15m|N=48|k=1.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 4486,
+   "gross_exp_R": 0.0136,
+   "gross_pf": 1.0233
+  },
+  {
+   "id": "B|long|30m|N=48|k=1.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 2074,
+   "gross_exp_R": 0.0167,
+   "gross_pf": 1.0284
+  },
+  {
+   "id": "B|long|30m|N=48|k=1.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 2009,
+   "gross_exp_R": 0.0377,
+   "gross_pf": 1.0588
+  },
+  {
+   "id": "B|long|30m|N=48|k=1.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1953,
+   "gross_exp_R": 0.0312,
+   "gross_pf": 1.0569
+  },
+  {
+   "id": "B|long|30m|N=48|k=1.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1876,
+   "gross_exp_R": 0.0461,
+   "gross_pf": 1.0794
+  },
+  {
+   "id": "B|short|15m|N=48|k=1.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 4917,
+   "gross_exp_R": 0.0013,
+   "gross_pf": 1.0022
+  },
+  {
+   "id": "B|short|15m|N=48|k=1.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 4685,
+   "gross_exp_R": 0.0022,
+   "gross_pf": 1.0034
+  },
+  {
+   "id": "B|short|15m|N=48|k=1.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 4476,
+   "gross_exp_R": 0.0227,
+   "gross_pf": 1.0419
+  },
+  {
+   "id": "B|short|15m|N=48|k=1.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 4237,
+   "gross_exp_R": 0.0233,
+   "gross_pf": 1.0407
+  },
+  {
+   "id": "B|short|30m|N=48|k=1.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 2181,
+   "gross_exp_R": 0.0615,
+   "gross_pf": 1.1085
+  },
+  {
+   "id": "B|short|30m|N=48|k=1.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 2099,
+   "gross_exp_R": 0.0772,
+   "gross_pf": 1.1241
+  },
+  {
+   "id": "B|short|30m|N=48|k=1.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 2024,
+   "gross_exp_R": 0.0827,
+   "gross_pf": 1.161
+  },
+  {
+   "id": "B|short|30m|N=48|k=1.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1940,
+   "gross_exp_R": 0.0913,
+   "gross_pf": 1.1657
+  },
+  {
+   "id": "B|long|15m|N=48|k=2.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 2766,
+   "gross_exp_R": -0.0203,
+   "gross_pf": 0.9665
+  },
+  {
+   "id": "B|long|15m|N=48|k=2.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 2710,
+   "gross_exp_R": -0.0176,
+   "gross_pf": 0.9735
+  },
+  {
+   "id": "B|long|15m|N=48|k=2.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 2652,
+   "gross_exp_R": 0.0147,
+   "gross_pf": 1.0262
+  },
+  {
+   "id": "B|long|15m|N=48|k=2.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 2570,
+   "gross_exp_R": 0.0242,
+   "gross_pf": 1.0408
+  },
+  {
+   "id": "B|long|30m|N=48|k=2.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1077,
+   "gross_exp_R": 0.0468,
+   "gross_pf": 1.0808
+  },
+  {
+   "id": "B|long|30m|N=48|k=2.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1058,
+   "gross_exp_R": 0.0558,
+   "gross_pf": 1.0872
+  },
+  {
+   "id": "B|long|30m|N=48|k=2.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1039,
+   "gross_exp_R": 0.0717,
+   "gross_pf": 1.1343
+  },
+  {
+   "id": "B|long|30m|N=48|k=2.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1008,
+   "gross_exp_R": 0.1216,
+   "gross_pf": 1.2147
+  },
+  {
+   "id": "B|short|15m|N=48|k=2.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 2788,
+   "gross_exp_R": 0.0091,
+   "gross_pf": 1.0154
+  },
+  {
+   "id": "B|short|15m|N=48|k=2.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 2682,
+   "gross_exp_R": 0.0204,
+   "gross_pf": 1.0316
+  },
+  {
+   "id": "B|short|15m|N=48|k=2.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 2614,
+   "gross_exp_R": 0.0586,
+   "gross_pf": 1.11
+  },
+  {
+   "id": "B|short|15m|N=48|k=2.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 2506,
+   "gross_exp_R": 0.0593,
+   "gross_pf": 1.1049
+  },
+  {
+   "id": "B|short|30m|N=48|k=2.5|s=1.0|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1178,
+   "gross_exp_R": 0.0868,
+   "gross_pf": 1.1556
+  },
+  {
+   "id": "B|short|30m|N=48|k=2.5|s=1.0|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1154,
+   "gross_exp_R": 0.1121,
+   "gross_pf": 1.1822
+  },
+  {
+   "id": "B|short|30m|N=48|k=2.5|s=1.5|r=1.5",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1121,
+   "gross_exp_R": 0.1377,
+   "gross_pf": 1.2768
+  },
+  {
+   "id": "B|short|30m|N=48|k=2.5|s=1.5|r=2.0",
+   "family": "B",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1091,
+   "gross_exp_R": 0.1214,
+   "gross_pf": 1.2219
+  },
+  {
+   "id": "F|long|15m|N=20|s=1.0|r=1.5",
+   "family": "F",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 13787,
+   "gross_exp_R": -0.0527,
+   "gross_pf": 0.9133
+  },
+  {
+   "id": "F|long|15m|N=20|s=1.0|r=2.0",
+   "family": "F",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 13687,
+   "gross_exp_R": -0.0631,
+   "gross_pf": 0.9039
+  },
+  {
+   "id": "F|long|15m|N=20|s=1.5|r=1.5",
+   "family": "F",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 12408,
+   "gross_exp_R": -0.0413,
+   "gross_pf": 0.9243
+  },
+  {
+   "id": "F|long|15m|N=20|s=1.5|r=2.0",
+   "family": "F",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 12344,
+   "gross_exp_R": -0.0433,
+   "gross_pf": 0.9235
+  },
+  {
+   "id": "F|long|30m|N=20|s=1.0|r=1.5",
+   "family": "F",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 5917,
+   "gross_exp_R": -0.071,
+   "gross_pf": 0.8847
+  },
+  {
+   "id": "F|long|30m|N=20|s=1.0|r=2.0",
+   "family": "F",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 5876,
+   "gross_exp_R": -0.0879,
+   "gross_pf": 0.8681
+  },
+  {
+   "id": "F|long|30m|N=20|s=1.5|r=1.5",
+   "family": "F",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 5354,
+   "gross_exp_R": -0.0593,
+   "gross_pf": 0.8931
+  },
+  {
+   "id": "F|long|30m|N=20|s=1.5|r=2.0",
+   "family": "F",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 5323,
+   "gross_exp_R": -0.0757,
+   "gross_pf": 0.8691
+  },
+  {
+   "id": "F|short|15m|N=20|s=1.0|r=1.5",
+   "family": "F",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 8936,
+   "gross_exp_R": 0.0174,
+   "gross_pf": 1.03
+  },
+  {
+   "id": "F|short|15m|N=20|s=1.0|r=2.0",
+   "family": "F",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 8868,
+   "gross_exp_R": 0.0268,
+   "gross_pf": 1.0431
+  },
+  {
+   "id": "F|short|15m|N=20|s=1.5|r=1.5",
+   "family": "F",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 8329,
+   "gross_exp_R": 0.0087,
+   "gross_pf": 1.0167
+  },
+  {
+   "id": "F|short|15m|N=20|s=1.5|r=2.0",
+   "family": "F",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 8281,
+   "gross_exp_R": 0.0141,
+   "gross_pf": 1.0259
+  },
+  {
+   "id": "F|short|30m|N=20|s=1.0|r=1.5",
+   "family": "F",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 3382,
+   "gross_exp_R": -0.0171,
+   "gross_pf": 0.9712
+  },
+  {
+   "id": "F|short|30m|N=20|s=1.0|r=2.0",
+   "family": "F",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 3354,
+   "gross_exp_R": -0.0227,
+   "gross_pf": 0.9646
+  },
+  {
+   "id": "F|short|30m|N=20|s=1.5|r=1.5",
+   "family": "F",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 3158,
+   "gross_exp_R": -0.0114,
+   "gross_pf": 0.9785
+  },
+  {
+   "id": "F|short|30m|N=20|s=1.5|r=2.0",
+   "family": "F",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 3148,
+   "gross_exp_R": 0.0026,
+   "gross_pf": 1.0047
+  },
+  {
+   "id": "F|long|15m|N=48|s=1.0|r=1.5",
+   "family": "F",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 8794,
+   "gross_exp_R": -0.055,
+   "gross_pf": 0.9098
+  },
+  {
+   "id": "F|long|15m|N=48|s=1.0|r=2.0",
+   "family": "F",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 8740,
+   "gross_exp_R": -0.0677,
+   "gross_pf": 0.8973
+  },
+  {
+   "id": "F|long|15m|N=48|s=1.5|r=1.5",
+   "family": "F",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 7925,
+   "gross_exp_R": -0.038,
+   "gross_pf": 0.9304
+  },
+  {
+   "id": "F|long|15m|N=48|s=1.5|r=2.0",
+   "family": "F",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 7888,
+   "gross_exp_R": -0.0409,
+   "gross_pf": 0.9276
+  },
+  {
+   "id": "F|long|30m|N=48|s=1.0|r=1.5",
+   "family": "F",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 3722,
+   "gross_exp_R": -0.087,
+   "gross_pf": 0.8598
+  },
+  {
+   "id": "F|long|30m|N=48|s=1.0|r=2.0",
+   "family": "F",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 3700,
+   "gross_exp_R": -0.1073,
+   "gross_pf": 0.8401
+  },
+  {
+   "id": "F|long|30m|N=48|s=1.5|r=1.5",
+   "family": "F",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 3380,
+   "gross_exp_R": -0.078,
+   "gross_pf": 0.8602
+  },
+  {
+   "id": "F|long|30m|N=48|s=1.5|r=2.0",
+   "family": "F",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 3365,
+   "gross_exp_R": -0.0835,
+   "gross_pf": 0.8554
+  },
+  {
+   "id": "F|short|15m|N=48|s=1.0|r=1.5",
+   "family": "F",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 5391,
+   "gross_exp_R": -0.0007,
+   "gross_pf": 0.9988
+  },
+  {
+   "id": "F|short|15m|N=48|s=1.0|r=2.0",
+   "family": "F",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 5349,
+   "gross_exp_R": 0.0036,
+   "gross_pf": 1.0056
+  },
+  {
+   "id": "F|short|15m|N=48|s=1.5|r=1.5",
+   "family": "F",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 5041,
+   "gross_exp_R": -0.0181,
+   "gross_pf": 0.9663
+  },
+  {
+   "id": "F|short|15m|N=48|s=1.5|r=2.0",
+   "family": "F",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 5010,
+   "gross_exp_R": -0.0256,
+   "gross_pf": 0.9544
+  },
+  {
+   "id": "F|short|30m|N=48|s=1.0|r=1.5",
+   "family": "F",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 2016,
+   "gross_exp_R": 0.006,
+   "gross_pf": 1.0103
+  },
+  {
+   "id": "F|short|30m|N=48|s=1.0|r=2.0",
+   "family": "F",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1999,
+   "gross_exp_R": 0.0053,
+   "gross_pf": 1.0084
+  },
+  {
+   "id": "F|short|30m|N=48|s=1.5|r=1.5",
+   "family": "F",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1888,
+   "gross_exp_R": -0.0024,
+   "gross_pf": 0.9955
+  },
+  {
+   "id": "F|short|30m|N=48|s=1.5|r=2.0",
+   "family": "F",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 1879,
+   "gross_exp_R": 0.0021,
+   "gross_pf": 1.0038
+  },
+  {
+   "id": "P|long|15m|tol=0.001|s=1.0|r=1.5",
+   "family": "P",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 20970,
+   "gross_exp_R": -0.0341,
+   "gross_pf": 0.9431
+  },
+  {
+   "id": "P|long|15m|tol=0.001|s=1.0|r=2.0",
+   "family": "P",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 19298,
+   "gross_exp_R": -0.0417,
+   "gross_pf": 0.9356
+  },
+  {
+   "id": "P|long|15m|tol=0.001|s=1.5|r=1.5",
+   "family": "P",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 16203,
+   "gross_exp_R": -0.032,
+   "gross_pf": 0.9408
+  },
+  {
+   "id": "P|long|15m|tol=0.001|s=1.5|r=2.0",
+   "family": "P",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 15475,
+   "gross_exp_R": -0.0281,
+   "gross_pf": 0.9501
+  },
+  {
+   "id": "P|long|30m|tol=0.001|s=1.0|r=1.5",
+   "family": "P",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 9160,
+   "gross_exp_R": -0.0392,
+   "gross_pf": 0.935
+  },
+  {
+   "id": "P|long|30m|tol=0.001|s=1.0|r=2.0",
+   "family": "P",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 8605,
+   "gross_exp_R": -0.0248,
+   "gross_pf": 0.9617
+  },
+  {
+   "id": "P|long|30m|tol=0.001|s=1.5|r=1.5",
+   "family": "P",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 7384,
+   "gross_exp_R": -0.0364,
+   "gross_pf": 0.9336
+  },
+  {
+   "id": "P|long|30m|tol=0.001|s=1.5|r=2.0",
+   "family": "P",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 7070,
+   "gross_exp_R": -0.0297,
+   "gross_pf": 0.9481
+  },
+  {
+   "id": "P|short|15m|tol=0.001|s=1.0|r=1.5",
+   "family": "P",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 27878,
+   "gross_exp_R": 0.0282,
+   "gross_pf": 1.0488
+  },
+  {
+   "id": "P|short|15m|tol=0.001|s=1.0|r=2.0",
+   "family": "P",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 25501,
+   "gross_exp_R": 0.0403,
+   "gross_pf": 1.0644
+  },
+  {
+   "id": "P|short|15m|tol=0.001|s=1.5|r=1.5",
+   "family": "P",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 21252,
+   "gross_exp_R": 0.0271,
+   "gross_pf": 1.052
+  },
+  {
+   "id": "P|short|15m|tol=0.001|s=1.5|r=2.0",
+   "family": "P",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 20121,
+   "gross_exp_R": 0.0287,
+   "gross_pf": 1.0525
+  },
+  {
+   "id": "P|short|30m|tol=0.001|s=1.0|r=1.5",
+   "family": "P",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 12963,
+   "gross_exp_R": 0.0382,
+   "gross_pf": 1.0668
+  },
+  {
+   "id": "P|short|30m|tol=0.001|s=1.0|r=2.0",
+   "family": "P",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 11997,
+   "gross_exp_R": 0.0552,
+   "gross_pf": 1.089
+  },
+  {
+   "id": "P|short|30m|tol=0.001|s=1.5|r=1.5",
+   "family": "P",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 10114,
+   "gross_exp_R": 0.0449,
+   "gross_pf": 1.0869
+  },
+  {
+   "id": "P|short|30m|tol=0.001|s=1.5|r=2.0",
+   "family": "P",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 9624,
+   "gross_exp_R": 0.049,
+   "gross_pf": 1.0904
+  },
+  {
+   "id": "P|long|15m|tol=0.003|s=1.0|r=1.5",
+   "family": "P",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 25430,
+   "gross_exp_R": -0.0306,
+   "gross_pf": 0.949
+  },
+  {
+   "id": "P|long|15m|tol=0.003|s=1.0|r=2.0",
+   "family": "P",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 22638,
+   "gross_exp_R": -0.0309,
+   "gross_pf": 0.9521
+  },
+  {
+   "id": "P|long|15m|tol=0.003|s=1.5|r=1.5",
+   "family": "P",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 18544,
+   "gross_exp_R": -0.0266,
+   "gross_pf": 0.9507
+  },
+  {
+   "id": "P|long|15m|tol=0.003|s=1.5|r=2.0",
+   "family": "P",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 17304,
+   "gross_exp_R": -0.0196,
+   "gross_pf": 0.9652
+  },
+  {
+   "id": "P|long|30m|tol=0.003|s=1.0|r=1.5",
+   "family": "P",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 10852,
+   "gross_exp_R": -0.0417,
+   "gross_pf": 0.931
+  },
+  {
+   "id": "P|long|30m|tol=0.003|s=1.0|r=2.0",
+   "family": "P",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 9930,
+   "gross_exp_R": -0.0278,
+   "gross_pf": 0.9572
+  },
+  {
+   "id": "P|long|30m|tol=0.003|s=1.5|r=1.5",
+   "family": "P",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 8360,
+   "gross_exp_R": -0.0369,
+   "gross_pf": 0.933
+  },
+  {
+   "id": "P|long|30m|tol=0.003|s=1.5|r=2.0",
+   "family": "P",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 7888,
+   "gross_exp_R": -0.0285,
+   "gross_pf": 0.9503
+  },
+  {
+   "id": "P|short|15m|tol=0.003|s=1.0|r=1.5",
+   "family": "P",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 33966,
+   "gross_exp_R": 0.0277,
+   "gross_pf": 1.048
+  },
+  {
+   "id": "P|short|15m|tol=0.003|s=1.0|r=2.0",
+   "family": "P",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 29918,
+   "gross_exp_R": 0.0353,
+   "gross_pf": 1.0563
+  },
+  {
+   "id": "P|short|15m|tol=0.003|s=1.5|r=1.5",
+   "family": "P",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 24369,
+   "gross_exp_R": 0.0267,
+   "gross_pf": 1.051
+  },
+  {
+   "id": "P|short|15m|tol=0.003|s=1.5|r=2.0",
+   "family": "P",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 22366,
+   "gross_exp_R": 0.0285,
+   "gross_pf": 1.0521
+  },
+  {
+   "id": "P|short|30m|tol=0.003|s=1.0|r=1.5",
+   "family": "P",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 15243,
+   "gross_exp_R": 0.0477,
+   "gross_pf": 1.0838
+  },
+  {
+   "id": "P|short|30m|tol=0.003|s=1.0|r=2.0",
+   "family": "P",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 13671,
+   "gross_exp_R": 0.0631,
+   "gross_pf": 1.1022
+  },
+  {
+   "id": "P|short|30m|tol=0.003|s=1.5|r=1.5",
+   "family": "P",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 11293,
+   "gross_exp_R": 0.0472,
+   "gross_pf": 1.0914
+  },
+  {
+   "id": "P|short|30m|tol=0.003|s=1.5|r=2.0",
+   "family": "P",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 10546,
+   "gross_exp_R": 0.053,
+   "gross_pf": 1.0983
+  },
+  {
+   "id": "L|long|15m|m=2.0|s=1.0|r=1.5",
+   "family": "L",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 897,
+   "gross_exp_R": -0.0214,
+   "gross_pf": 0.964
+  },
+  {
+   "id": "L|long|15m|m=2.0|s=1.0|r=2.0",
+   "family": "L",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 897,
+   "gross_exp_R": -0.0423,
+   "gross_pf": 0.935
+  },
+  {
+   "id": "L|long|15m|m=2.0|s=1.5|r=1.5",
+   "family": "L",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 897,
+   "gross_exp_R": -0.073,
+   "gross_pf": 0.8726
+  },
+  {
+   "id": "L|long|15m|m=2.0|s=1.5|r=2.0",
+   "family": "L",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 897,
+   "gross_exp_R": -0.076,
+   "gross_pf": 0.8718
+  },
+  {
+   "id": "L|long|30m|m=2.0|s=1.0|r=1.5",
+   "family": "L",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 618,
+   "gross_exp_R": -0.0511,
+   "gross_pf": 0.9158
+  },
+  {
+   "id": "L|long|30m|m=2.0|s=1.0|r=2.0",
+   "family": "L",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 618,
+   "gross_exp_R": -0.0399,
+   "gross_pf": 0.9392
+  },
+  {
+   "id": "L|long|30m|m=2.0|s=1.5|r=1.5",
+   "family": "L",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 618,
+   "gross_exp_R": -0.017,
+   "gross_pf": 0.9683
+  },
+  {
+   "id": "L|long|30m|m=2.0|s=1.5|r=2.0",
+   "family": "L",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 618,
+   "gross_exp_R": 0.0142,
+   "gross_pf": 1.0256
+  },
+  {
+   "id": "L|short|15m|m=2.0|s=1.0|r=1.5",
+   "family": "L",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 294,
+   "gross_exp_R": 0.0255,
+   "gross_pf": 1.0436
+  },
+  {
+   "id": "L|short|15m|m=2.0|s=1.0|r=2.0",
+   "family": "L",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 294,
+   "gross_exp_R": 0.0403,
+   "gross_pf": 1.0632
+  },
+  {
+   "id": "L|short|15m|m=2.0|s=1.5|r=1.5",
+   "family": "L",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 294,
+   "gross_exp_R": -0.0081,
+   "gross_pf": 0.9856
+  },
+  {
+   "id": "L|short|15m|m=2.0|s=1.5|r=2.0",
+   "family": "L",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 293,
+   "gross_exp_R": -0.0865,
+   "gross_pf": 0.8574
+  },
+  {
+   "id": "L|short|30m|m=2.0|s=1.0|r=1.5",
+   "family": "L",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 226,
+   "gross_exp_R": -0.0359,
+   "gross_pf": 0.9405
+  },
+  {
+   "id": "L|short|30m|m=2.0|s=1.0|r=2.0",
+   "family": "L",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 226,
+   "gross_exp_R": -0.0693,
+   "gross_pf": 0.8959
+  },
+  {
+   "id": "L|short|30m|m=2.0|s=1.5|r=1.5",
+   "family": "L",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 226,
+   "gross_exp_R": 0.0229,
+   "gross_pf": 1.0413
+  },
+  {
+   "id": "L|short|30m|m=2.0|s=1.5|r=2.0",
+   "family": "L",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 226,
+   "gross_exp_R": 0.0613,
+   "gross_pf": 1.1076
+  },
+  {
+   "id": "L|long|15m|m=3.0|s=1.0|r=1.5",
+   "family": "L",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 402,
+   "gross_exp_R": -0.0766,
+   "gross_pf": 0.8753
+  },
+  {
+   "id": "L|long|15m|m=3.0|s=1.0|r=2.0",
+   "family": "L",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 402,
+   "gross_exp_R": -0.0669,
+   "gross_pf": 0.898
+  },
+  {
+   "id": "L|long|15m|m=3.0|s=1.5|r=1.5",
+   "family": "L",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 402,
+   "gross_exp_R": -0.1213,
+   "gross_pf": 0.794
+  },
+  {
+   "id": "L|long|15m|m=3.0|s=1.5|r=2.0",
+   "family": "L",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 402,
+   "gross_exp_R": -0.1239,
+   "gross_pf": 0.7956
+  },
+  {
+   "id": "L|long|30m|m=3.0|s=1.0|r=1.5",
+   "family": "L",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 267,
+   "gross_exp_R": -0.0451,
+   "gross_pf": 0.9251
+  },
+  {
+   "id": "L|long|30m|m=3.0|s=1.0|r=2.0",
+   "family": "L",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 267,
+   "gross_exp_R": 0.0516,
+   "gross_pf": 1.0833
+  },
+  {
+   "id": "L|long|30m|m=3.0|s=1.5|r=1.5",
+   "family": "L",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 267,
+   "gross_exp_R": -0.0214,
+   "gross_pf": 0.9598
+  },
+  {
+   "id": "L|long|30m|m=3.0|s=1.5|r=2.0",
+   "family": "L",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 267,
+   "gross_exp_R": 0.0046,
+   "gross_pf": 1.0083
+  },
+  {
+   "id": "L|short|15m|m=3.0|s=1.0|r=1.5",
+   "family": "L",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 115,
+   "gross_exp_R": 0.1609,
+   "gross_pf": 1.3034
+  },
+  {
+   "id": "L|short|15m|m=3.0|s=1.0|r=2.0",
+   "family": "L",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 115,
+   "gross_exp_R": 0.1627,
+   "gross_pf": 1.27
+  },
+  {
+   "id": "L|short|15m|m=3.0|s=1.5|r=1.5",
+   "family": "L",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 115,
+   "gross_exp_R": 0.0578,
+   "gross_pf": 1.1068
+  },
+  {
+   "id": "L|short|15m|m=3.0|s=1.5|r=2.0",
+   "family": "L",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 115,
+   "gross_exp_R": -0.1198,
+   "gross_pf": 0.8095
+  },
+  {
+   "id": "L|short|30m|m=3.0|s=1.0|r=1.5",
+   "family": "L",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 93,
+   "gross_exp_R": 0.0215,
+   "gross_pf": 1.0364
+  },
+  {
+   "id": "L|short|30m|m=3.0|s=1.0|r=2.0",
+   "family": "L",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 93,
+   "gross_exp_R": -0.021,
+   "gross_pf": 0.9686
+  },
+  {
+   "id": "L|short|30m|m=3.0|s=1.5|r=1.5",
+   "family": "L",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 93,
+   "gross_exp_R": 0.0587,
+   "gross_pf": 1.1049
+  },
+  {
+   "id": "L|short|30m|m=3.0|s=1.5|r=2.0",
+   "family": "L",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 93,
+   "gross_exp_R": 0.0003,
+   "gross_pf": 1.0004
+  },
+  {
+   "id": "X|long|15m|d=0.1|s=1.0|r=1.5",
+   "family": "X",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 5653,
+   "gross_exp_R": -0.0262,
+   "gross_pf": 0.9556
+  },
+  {
+   "id": "X|long|15m|d=0.1|s=1.0|r=2.0",
+   "family": "X",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 4775,
+   "gross_exp_R": -0.0226,
+   "gross_pf": 0.9644
+  },
+  {
+   "id": "X|long|15m|d=0.1|s=1.5|r=1.5",
+   "family": "X",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 3509,
+   "gross_exp_R": -0.0185,
+   "gross_pf": 0.9644
+  },
+  {
+   "id": "X|long|15m|d=0.1|s=1.5|r=2.0",
+   "family": "X",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 3122,
+   "gross_exp_R": -0.0092,
+   "gross_pf": 0.9826
+  },
+  {
+   "id": "X|long|30m|d=0.1|s=1.0|r=1.5",
+   "family": "X",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 2895,
+   "gross_exp_R": -0.0336,
+   "gross_pf": 0.9431
+  },
+  {
+   "id": "X|long|30m|d=0.1|s=1.0|r=2.0",
+   "family": "X",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 2510,
+   "gross_exp_R": -0.0331,
+   "gross_pf": 0.9478
+  },
+  {
+   "id": "X|long|30m|d=0.1|s=1.5|r=1.5",
+   "family": "X",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1906,
+   "gross_exp_R": -0.0262,
+   "gross_pf": 0.9495
+  },
+  {
+   "id": "X|long|30m|d=0.1|s=1.5|r=2.0",
+   "family": "X",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 1685,
+   "gross_exp_R": -0.0043,
+   "gross_pf": 0.9918
+  },
+  {
+   "id": "X|short|15m|d=0.1|s=1.0|r=1.5",
+   "family": "X",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 15507,
+   "gross_exp_R": 0.0235,
+   "gross_pf": 1.0407
+  },
+  {
+   "id": "X|short|15m|d=0.1|s=1.0|r=2.0",
+   "family": "X",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 12721,
+   "gross_exp_R": 0.0288,
+   "gross_pf": 1.0461
+  },
+  {
+   "id": "X|short|15m|d=0.1|s=1.5|r=1.5",
+   "family": "X",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 9179,
+   "gross_exp_R": 0.027,
+   "gross_pf": 1.0522
+  },
+  {
+   "id": "X|short|15m|d=0.1|s=1.5|r=2.0",
+   "family": "X",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 8089,
+   "gross_exp_R": 0.0345,
+   "gross_pf": 1.0647
+  },
+  {
+   "id": "X|short|30m|d=0.1|s=1.0|r=1.5",
+   "family": "X",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 7731,
+   "gross_exp_R": 0.0234,
+   "gross_pf": 1.0406
+  },
+  {
+   "id": "X|short|30m|d=0.1|s=1.0|r=2.0",
+   "family": "X",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 6455,
+   "gross_exp_R": 0.042,
+   "gross_pf": 1.0676
+  },
+  {
+   "id": "X|short|30m|d=0.1|s=1.5|r=1.5",
+   "family": "X",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 4716,
+   "gross_exp_R": 0.0193,
+   "gross_pf": 1.0375
+  },
+  {
+   "id": "X|short|30m|d=0.1|s=1.5|r=2.0",
+   "family": "X",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 4191,
+   "gross_exp_R": 0.0202,
+   "gross_pf": 1.0378
+  },
+  {
+   "id": "X|long|15m|d=0.2|s=1.0|r=1.5",
+   "family": "X",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 12390,
+   "gross_exp_R": -0.013,
+   "gross_pf": 0.978
+  },
+  {
+   "id": "X|long|15m|d=0.2|s=1.0|r=2.0",
+   "family": "X",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 10358,
+   "gross_exp_R": -0.0044,
+   "gross_pf": 0.9931
+  },
+  {
+   "id": "X|long|15m|d=0.2|s=1.5|r=1.5",
+   "family": "X",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 7569,
+   "gross_exp_R": -0.0069,
+   "gross_pf": 0.9869
+  },
+  {
+   "id": "X|long|15m|d=0.2|s=1.5|r=2.0",
+   "family": "X",
+   "direction": "long",
+   "tf": "15m",
+   "trades": 6712,
+   "gross_exp_R": 0.0024,
+   "gross_pf": 1.0045
+  },
+  {
+   "id": "X|long|30m|d=0.2|s=1.0|r=1.5",
+   "family": "X",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 6298,
+   "gross_exp_R": -0.0065,
+   "gross_pf": 0.9888
+  },
+  {
+   "id": "X|long|30m|d=0.2|s=1.0|r=2.0",
+   "family": "X",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 5341,
+   "gross_exp_R": -0.008,
+   "gross_pf": 0.9872
+  },
+  {
+   "id": "X|long|30m|d=0.2|s=1.5|r=1.5",
+   "family": "X",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 4020,
+   "gross_exp_R": -0.0092,
+   "gross_pf": 0.9824
+  },
+  {
+   "id": "X|long|30m|d=0.2|s=1.5|r=2.0",
+   "family": "X",
+   "direction": "long",
+   "tf": "30m",
+   "trades": 3584,
+   "gross_exp_R": 0.0057,
+   "gross_pf": 1.0106
+  },
+  {
+   "id": "X|short|15m|d=0.2|s=1.0|r=1.5",
+   "family": "X",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 23895,
+   "gross_exp_R": 0.0243,
+   "gross_pf": 1.0422
+  },
+  {
+   "id": "X|short|15m|d=0.2|s=1.0|r=2.0",
+   "family": "X",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 19557,
+   "gross_exp_R": 0.0285,
+   "gross_pf": 1.0457
+  },
+  {
+   "id": "X|short|15m|d=0.2|s=1.5|r=1.5",
+   "family": "X",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 14228,
+   "gross_exp_R": 0.0244,
+   "gross_pf": 1.0471
+  },
+  {
+   "id": "X|short|15m|d=0.2|s=1.5|r=2.0",
+   "family": "X",
+   "direction": "short",
+   "tf": "15m",
+   "trades": 12508,
+   "gross_exp_R": 0.0304,
+   "gross_pf": 1.0568
+  },
+  {
+   "id": "X|short|30m|d=0.2|s=1.0|r=1.5",
+   "family": "X",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 11877,
+   "gross_exp_R": 0.0274,
+   "gross_pf": 1.0476
+  },
+  {
+   "id": "X|short|30m|d=0.2|s=1.0|r=2.0",
+   "family": "X",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 9872,
+   "gross_exp_R": 0.0365,
+   "gross_pf": 1.0586
+  },
+  {
+   "id": "X|short|30m|d=0.2|s=1.5|r=1.5",
+   "family": "X",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 7259,
+   "gross_exp_R": 0.016,
+   "gross_pf": 1.0308
+  },
+  {
+   "id": "X|short|30m|d=0.2|s=1.5|r=2.0",
+   "family": "X",
+   "direction": "short",
+   "tf": "30m",
+   "trades": 6400,
+   "gross_exp_R": 0.0209,
+   "gross_pf": 1.0393
+  }
+ ]
+}

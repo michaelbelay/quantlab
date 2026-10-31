@@ -1,0 +1,202 @@
+{
+ "prereg": "PREREGISTRATION_2026-09-28_desk1h4h.md",
+ "prereg_sha256": "969e9aacde51cf1ed7a3b3812608d0f33c6fc37b7a3ec10da774778cfeb5788e",
+ "seed": 20260928,
+ "run_at": "2026-09-28T00:57:10+00:00",
+ "groups": [
+  {
+   "group": "long|1h",
+   "oos_sum_R": -14.1,
+   "folds_positive": 2,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": "B|long|1h|N=20|k=2.5|s=1.5|r=2.0",
+     "train_pf": 1.1182,
+     "oos_R": -7.908,
+     "oos_trades": 36
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": "B|long|1h|N=48|k=2.5|s=1.5|r=2.0",
+     "train_pf": 1.1081,
+     "oos_R": 2.062,
+     "oos_trades": 31
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "B|long|1h|N=48|k=2.5|s=1.5|r=2.0",
+     "train_pf": 1.1325,
+     "oos_R": -0.415,
+     "oos_trades": 43
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": "B|long|1h|N=48|k=2.5|s=1.5|r=2.0",
+     "train_pf": 1.3007,
+     "oos_R": 1.16,
+     "oos_trades": 32
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": "B|long|1h|N=48|k=2.5|s=1.5|r=2.0",
+     "train_pf": 1.288,
+     "oos_R": -8.999,
+     "oos_trades": 28
+    }
+   ]
+  },
+  {
+   "group": "long|4h",
+   "oos_sum_R": 7.913,
+   "folds_positive": 3,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "B|long|4h|N=48|k=1.5|s=1.5|r=2.0",
+     "train_pf": 1.1745,
+     "oos_R": 4.862,
+     "oos_trades": 8
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": "B|long|4h|N=48|k=1.5|s=1.5|r=2.0",
+     "train_pf": 1.552,
+     "oos_R": 4.3,
+     "oos_trades": 9
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": "B|long|4h|N=20|k=1.5|s=1.5|r=2.0",
+     "train_pf": 2.2591,
+     "oos_R": -3.295,
+     "oos_trades": 8
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": "B|long|4h|N=48|k=1.5|s=1.5|r=2.0",
+     "train_pf": 2.0317,
+     "oos_R": 2.046,
+     "oos_trades": 7
+    }
+   ]
+  },
+  {
+   "group": "short|1h",
+   "oos_sum_R": 15.569,
+   "folds_positive": 3,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": "B|short|1h|N=48|k=2.5|s=1.0|r=2.0",
+     "train_pf": 2.2065,
+     "oos_R": 22.49,
+     "oos_trades": 48
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": "B|short|1h|N=48|k=2.5|s=1.0|r=2.0",
+     "train_pf": 2.1329,
+     "oos_R": 4.289,
+     "oos_trades": 42
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "B|short|1h|N=48|k=2.5|s=1.0|r=2.0",
+     "train_pf": 2.2371,
+     "oos_R": -0.032,
+     "oos_trades": 27
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": "B|short|1h|N=20|k=2.5|s=1.0|r=2.0",
+     "train_pf": 1.4201,
+     "oos_R": 7.822,
+     "oos_trades": 48
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": "B|short|1h|N=20|k=2.5|s=1.5|r=1.5",
+     "train_pf": 1.3284,
+     "oos_R": -19.0,
+     "oos_trades": 84
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  },
+  {
+   "group": "short|4h",
+   "oos_sum_R": -11.142,
+   "folds_positive": 1,
+   "pass": false,
+   "folds": [
+    {
+     "test": "2025-03-01..2025-05-01",
+     "picked": "B|short|4h|N=20|k=1.5|s=1.5|r=1.5",
+     "train_pf": 2.581,
+     "oos_R": 7.478,
+     "oos_trades": 10
+    },
+    {
+     "test": "2025-05-01..2025-07-01",
+     "picked": "B|short|4h|N=20|k=1.5|s=1.5|r=2.0",
+     "train_pf": 2.9612,
+     "oos_R": -4.802,
+     "oos_trades": 16
+    },
+    {
+     "test": "2025-07-01..2025-09-01",
+     "picked": "B|short|4h|N=20|k=1.5|s=1.5|r=2.0",
+     "train_pf": 1.6108,
+     "oos_R": -2.38,
+     "oos_trades": 9
+    },
+    {
+     "test": "2025-09-01..2025-11-01",
+     "picked": "B|short|4h|N=20|k=1.5|s=1.0|r=1.5",
+     "train_pf": 1.2877,
+     "oos_R": -11.438,
+     "oos_trades": 11
+    },
+    {
+     "test": "2025-11-01..2026-01-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    },
+    {
+     "test": "2026-01-01..2026-03-01",
+     "picked": null,
+     "oos_R": 0.0,
+     "oos_trades": 0
+    }
+   ]
+  }
+ ]
+}

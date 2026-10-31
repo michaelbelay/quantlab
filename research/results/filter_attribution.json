@@ -1,0 +1,74 @@
+{
+  "LIVE  btc_regime + volume": {
+    "raw": {
+      "trades": 6977,
+      "per_year": 1228.1201,
+      "pf": 1.2668,
+      "expectancy": 1.0154,
+      "win_pct": 19.5786,
+      "net": 7084.1968
+    },
+    "live": {
+      "trades": 3279,
+      "per_year": 577.183,
+      "pf": 1.3764,
+      "expectancy": 1.4142,
+      "win_pct": 17.2004,
+      "net": 4637.2003
+    }
+  },
+  "drop volume": {
+    "raw": {
+      "trades": 7077,
+      "per_year": 1245.7225,
+      "pf": 1.2632,
+      "expectancy": 0.997,
+      "win_pct": 19.6411,
+      "net": 7056.0877
+    },
+    "live": {
+      "trades": 3287,
+      "per_year": 578.5912,
+      "pf": 1.366,
+      "expectancy": 1.3682,
+      "win_pct": 17.2498,
+      "net": 4497.2971
+    }
+  },
+  "drop btc_regime": {
+    "raw": {
+      "trades": 8486,
+      "per_year": 1490.8665,
+      "pf": 1.2081,
+      "expectancy": 0.7912,
+      "win_pct": 19.1021,
+      "net": 6714.4014
+    },
+    "live": {
+      "trades": 4335,
+      "per_year": 761.5963,
+      "pf": 1.3237,
+      "expectancy": 1.2266,
+      "win_pct": 17.1626,
+      "net": 5317.4059
+    }
+  },
+  "no filters at all": {
+    "raw": {
+      "trades": 8604,
+      "per_year": 1511.5974,
+      "pf": 1.204,
+      "expectancy": 0.7717,
+      "win_pct": 19.119,
+      "net": 6640.1258
+    },
+    "live": {
+      "trades": 4362,
+      "per_year": 766.3398,
+      "pf": 1.3079,
+      "expectancy": 1.1656,
+      "win_pct": 17.1022,
+      "net": 5084.4967
+    }
+  }
+}

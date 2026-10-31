@@ -1,0 +1,70 @@
+{
+ "events": 230,
+ "traded": 136,
+ "no_candles": 91,
+ "avg_net_pct": 2.17,
+ "median_net_pct": 0.05,
+ "win_pct": 50.7,
+ "total_usdt_at_30": 88.5,
+ "avg_win_usdt": 4.62,
+ "avg_loss_usdt": -3.44,
+ "worst_usdt": -4.59,
+ "stops": 45,
+ "avg_hours": 53.2,
+ "avg_move_before_entry_pct": -3.77,
+ "years": {
+  "2022": {
+   "n": 18,
+   "avg_pct": 1.51
+  },
+  "2023": {
+   "n": 31,
+   "avg_pct": -0.9
+  },
+  "2024": {
+   "n": 25,
+   "avg_pct": 0.31
+  },
+  "2025": {
+   "n": 24,
+   "avg_pct": 8.05
+  },
+  "2026": {
+   "n": 38,
+   "avg_pct": 2.49
+  }
+ },
+ "verdict": "\ud83d\udfe1 paper forward test",
+ "missing_sample": [
+  "BCD",
+  "CND",
+  "MTH",
+  "NCASH",
+  "YOYO",
+  "HEGIC",
+  "GRS",
+  "NAS",
+  "GO",
+  "EZ",
+  "QSP",
+  "BRD",
+  "NXS",
+  "NAV",
+  "MDA",
+  "SPARTA",
+  "DNT",
+  "NBS",
+  "BTG",
+  "TCT",
+  "MITH",
+  "TRIBE",
+  "REP",
+  "GALAUSD",
+  "ZILUSD",
+  "VETUSD",
+  "BEAM",
+  "AION",
+  "MIR",
+  "WABI"
+ ]
+}

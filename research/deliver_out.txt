@@ -1,0 +1,30 @@
+==============================================================================================================
+SPOT  (long only -- shorting is not possible on spot)
+==============================================================================================================
+130 spot configs profitable; top 6 by consistency:
+  bars2_m2.0_vol_atr2                                    194/yr  ret   199.7%  PF  1.76  DD  15.1%  cons 0.83  L   199.7% / S    0.0%
+  bars2_m2.0_nofilt_atr2                                 196/yr  ret   197.5%  PF  1.75  DD  15.3%  cons 0.83  L   197.5% / S    0.0%
+  bars2_m2.0_vol_atr3                                    174/yr  ret   196.8%  PF  1.62  DD  18.3%  cons 0.83  L   196.8% / S    0.0%
+  bars2_m2.0_btc+vol_atr2                                159/yr  ret   195.1%  PF  1.94  DD  11.4%  cons 0.83  L   195.1% / S    0.0%
+  bars2_m2.0_btc_atr2                                    160/yr  ret   194.5%  PF  1.94  DD  11.5%  cons 0.83  L   194.5% / S    0.0%
+  bars2_m2.0_nofilt_atr3                                 176/yr  ret   193.7%  PF  1.60  DD  18.6%  cons 0.83  L   193.7% / S    0.0%
+
+  SPOT PICK : bars2_m2.0_vol_atr2
+  dev                                                    194/yr  ret   199.7%  PF  1.76  DD  15.1%  cons 0.83  L   199.7% / S    0.0%
+  holdout (unseen coins)                                 185/yr  ret   197.1%  PF  1.69  DD   9.0%  cons 0.75  L   197.1% / S    0.0%
+  half-years: {'2021H1': np.float64(47.95), '2021H2': np.float64(46.92), '2022H1': np.float64(0.6), '2022H2': np.float64(2.91), '2023H1': np.float64(23.51), '2023H2': np.float64(46.91), '2024H1': np.float64(8.73), '2024H2': np.float64(38.42), '2025H1': np.float64(1.16), '2025H2': np.float64(-5.95), '2026H1': np.float64(-22.48), '2026H2': np.float64(10.99)}
+
+==============================================================================================================
+FUTURES  (long and short, aiming for balanced contribution)
+==============================================================================================================
+72 futures configs profitable, 2 with shorts >= 20% of gross P&L
+top 6 by short-balance + consistency:
+  bars4_m2.5_sh-weakdn_atr2                               64/yr  ret   122.3%  PF  2.28  DD   7.5%  cons 0.75  L    96.5% / S   25.8%  shortShare 21%
+  bars4_m2.0_sh-weakdn_atr2                              114/yr  ret   172.7%  PF  2.06  DD  11.4%  cons 0.75  L   137.8% / S   34.9%  shortShare 20%
+
+  FUTURES PICK : bars4_m2.5_sh-weakdn_atr2
+  dev                                                     64/yr  ret   122.3%  PF  2.28  DD   7.5%  cons 0.75  L    96.5% / S   25.8%
+  holdout (unseen coins)                                  57/yr  ret    76.7%  PF  1.71  DD   7.7%  cons 0.58  L    64.5% / S   12.2%
+  half-years: {'2021H1': np.float64(3.04), '2021H2': np.float64(4.68), '2022H1': np.float64(22.37), '2022H2': np.float64(-5.87), '2023H1': np.float64(12.04), '2023H2': np.float64(32.23), '2024H1': np.float64(4.02), '2024H2': np.float64(49.9), '2025H1': np.float64(-3.52), '2025H2': np.float64(1.55), '2026H1': np.float64(-6.42), '2026H2': np.float64(8.3)}
+
+done

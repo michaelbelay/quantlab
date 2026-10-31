@@ -1,0 +1,2 @@
+2803d8253532ef7fad2404d6186446bd2022932cd0a6f020d40320d43500ae95 *research/cap300/channel_sim.py
+re-frozen after crash fix (.eq -> ['eq']) before any result was printed

@@ -1,0 +1,145 @@
+{
+ "G1 slow flow in trend": {
+  "setting": [
+   72,
+   2,
+   72
+  ],
+  "fit_n": 960,
+  "fit_avg": 1.44,
+  "fit_account": 1303,
+  "test_n": 692,
+  "test_avg": 0.29,
+  "test_pf": 1.11,
+  "test_years": {
+   "2025": 30.2,
+   "2026": 171.0
+  },
+  "test_account": 450,
+  "test_drop_pct": 28,
+  "grid_positive_on_test": "8/8",
+  "overlap_with_flowtrend": 0.63,
+  "pass": false
+ },
+ "G2 sustained flow": {
+  "setting": [
+   1.5
+  ],
+  "fit_n": 713,
+  "fit_avg": 0.87,
+  "fit_account": 713,
+  "test_n": 471,
+  "test_avg": 0.56,
+  "test_pf": 1.27,
+  "test_years": {
+   "2025": 226.1,
+   "2026": 37.6
+  },
+  "test_account": 422,
+  "test_drop_pct": 21,
+  "grid_positive_on_test": "2/2",
+  "overlap_with_flowtrend": 1.0,
+  "pass": true
+ },
+ "G3 market flow majors": {
+  "setting": [
+   1,
+   48
+  ],
+  "fit_n": 876,
+  "fit_avg": 0.12,
+  "fit_account": 335,
+  "test_n": 514,
+  "test_avg": 0.13,
+  "test_pf": 1.09,
+  "test_years": {
+   "2025": 104.3,
+   "2026": -39.8
+  },
+  "test_account": 328,
+  "test_drop_pct": 14,
+  "grid_positive_on_test": "4/4",
+  "overlap_with_flowtrend": 0.35,
+  "pass": false
+ },
+ "G4 own flow vs market": {
+  "setting": [
+   1.5
+  ],
+  "fit_n": 1175,
+  "fit_avg": 0.49,
+  "fit_account": 679,
+  "test_n": 783,
+  "test_avg": -0.21,
+  "test_pf": 0.92,
+  "test_years": {
+   "2025": 36.8,
+   "2026": -203.8
+  },
+  "test_account": 213,
+  "test_drop_pct": 46,
+  "grid_positive_on_test": "1/2",
+  "overlap_with_flowtrend": 0.63,
+  "pass": false
+ },
+ "G5 flow no crowding": {
+  "setting": [
+   0.1
+  ],
+  "fit_n": 1088,
+  "fit_avg": 0.57,
+  "fit_account": 613,
+  "test_n": 690,
+  "test_avg": 0.55,
+  "test_pf": 1.27,
+  "test_years": {
+   "2025": 362.4,
+   "2026": 18.3
+  },
+  "test_account": 457,
+  "test_drop_pct": 25,
+  "grid_positive_on_test": "2/2",
+  "overlap_with_flowtrend": 1.0,
+  "pass": true
+ },
+ "G6 spot-led buying": {
+  "setting": [
+   2
+  ],
+  "fit_n": 1175,
+  "fit_avg": 0.09,
+  "fit_account": 332,
+  "test_n": 612,
+  "test_avg": -0.01,
+  "test_pf": 1.0,
+  "test_years": {
+   "2025": 48.9,
+   "2026": -53.1
+  },
+  "test_account": 285,
+  "test_drop_pct": 20,
+  "grid_positive_on_test": "1/2",
+  "overlap_with_flowtrend": 0.38,
+  "pass": false
+ },
+ "G7 spot vs perp": {
+  "setting": [
+   2.5
+  ],
+  "fit_n": 917,
+  "fit_avg": -0.5,
+  "fit_account": 136,
+  "test_n": 631,
+  "test_avg": -0.37,
+  "test_pf": 0.84,
+  "test_years": {
+   "2025": -242.2,
+   "2026": 9.7
+  },
+  "test_account": 189,
+  "test_drop_pct": 41,
+  "grid_positive_on_test": "0/2",
+  "overlap_with_flowtrend": 0.4,
+  "pass": false
+ }
+}

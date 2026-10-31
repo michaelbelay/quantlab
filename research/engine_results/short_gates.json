@@ -1,0 +1,1150 @@
+{
+ "breakdown|nofilt": {
+  "dev": {
+   "trades": 12570,
+   "ret": -452.1,
+   "pf": 0.885,
+   "coins": 70,
+   "coins_prof": 21
+  },
+  "holdout": {
+   "trades": 12174,
+   "ret": -211.8,
+   "pf": 0.942,
+   "coins": 63,
+   "coins_prof": 27
+  },
+  "cost2x": {
+   "trades": 12715,
+   "ret": -716.1,
+   "pf": 0.828,
+   "coins": 70,
+   "coins_prof": 12
+  },
+  "slip2x": {
+   "trades": 12715,
+   "ret": -589.0,
+   "pf": 0.854,
+   "coins": 70,
+   "coins_prof": 15
+  },
+  "portfolio_10": {
+   "ret_pct": -94.9,
+   "taken": 4222,
+   "skipped": 8348,
+   "max_dd": 95.1,
+   "final_equity": 51.3
+  },
+  "bull2021": -235.6,
+  "bear2022": 194.7,
+  "recovery2023_24": -281.8,
+  "recent2025_26": -129.5
+ },
+ "breakdown|btc": {
+  "dev": {
+   "trades": 8599,
+   "ret": -287.6,
+   "pf": 0.894,
+   "coins": 70,
+   "coins_prof": 24
+  },
+  "holdout": {
+   "trades": 8229,
+   "ret": -160.9,
+   "pf": 0.936,
+   "coins": 63,
+   "coins_prof": 24
+  },
+  "cost2x": {
+   "trades": 8682,
+   "ret": -460.3,
+   "pf": 0.838,
+   "coins": 70,
+   "coins_prof": 16
+  },
+  "slip2x": {
+   "trades": 8682,
+   "ret": -373.5,
+   "pf": 0.865,
+   "coins": 70,
+   "coins_prof": 21
+  },
+  "portfolio_10": {
+   "ret_pct": -75.1,
+   "taken": 2773,
+   "skipped": 5826,
+   "max_dd": 79.4,
+   "final_equity": 248.6
+  },
+  "bull2021": -187.1,
+  "bear2022": 109.0,
+  "recovery2023_24": -143.7,
+  "recent2025_26": -65.9
+ },
+ "breakdown|btc+vol": {
+  "dev": {
+   "trades": 8139,
+   "ret": -249.4,
+   "pf": 0.902,
+   "coins": 70,
+   "coins_prof": 23
+  },
+  "holdout": {
+   "trades": 7875,
+   "ret": -175.1,
+   "pf": 0.927,
+   "coins": 63,
+   "coins_prof": 23
+  },
+  "cost2x": {
+   "trades": 8221,
+   "ret": -417.6,
+   "pf": 0.845,
+   "coins": 70,
+   "coins_prof": 19
+  },
+  "slip2x": {
+   "trades": 8221,
+   "ret": -335.4,
+   "pf": 0.872,
+   "coins": 70,
+   "coins_prof": 20
+  },
+  "portfolio_10": {
+   "ret_pct": -85.0,
+   "taken": 2790,
+   "skipped": 5349,
+   "max_dd": 85.2,
+   "final_equity": 149.9
+  },
+  "bull2021": -165.1,
+  "bear2022": 120.3,
+  "recovery2023_24": -128.1,
+  "recent2025_26": -76.5
+ },
+ "resistance_rejection|nofilt": {
+  "dev": {
+   "trades": 11817,
+   "ret": -370.0,
+   "pf": 0.894,
+   "coins": 70,
+   "coins_prof": 23
+  },
+  "holdout": {
+   "trades": 11513,
+   "ret": -217.9,
+   "pf": 0.934,
+   "coins": 63,
+   "coins_prof": 24
+  },
+  "cost2x": {
+   "trades": 11925,
+   "ret": -599.7,
+   "pf": 0.836,
+   "coins": 70,
+   "coins_prof": 14
+  },
+  "slip2x": {
+   "trades": 11925,
+   "ret": -480.5,
+   "pf": 0.865,
+   "coins": 70,
+   "coins_prof": 18
+  },
+  "portfolio_10": {
+   "ret_pct": -94.8,
+   "taken": 4881,
+   "skipped": 6936,
+   "max_dd": 95.0,
+   "final_equity": 52.0
+  },
+  "bull2021": -138.0,
+  "bear2022": 145.6,
+  "recovery2023_24": -279.9,
+  "recent2025_26": -97.8
+ },
+ "resistance_rejection|btc": {
+  "dev": {
+   "trades": 6483,
+   "ret": -299.3,
+   "pf": 0.848,
+   "coins": 70,
+   "coins_prof": 18
+  },
+  "holdout": {
+   "trades": 6370,
+   "ret": -283.0,
+   "pf": 0.851,
+   "coins": 63,
+   "coins_prof": 18
+  },
+  "cost2x": {
+   "trades": 6529,
+   "ret": -433.8,
+   "pf": 0.79,
+   "coins": 70,
+   "coins_prof": 13
+  },
+  "slip2x": {
+   "trades": 6529,
+   "ret": -368.5,
+   "pf": 0.817,
+   "coins": 70,
+   "coins_prof": 15
+  },
+  "portfolio_10": {
+   "ret_pct": -57.4,
+   "taken": 2639,
+   "skipped": 3844,
+   "max_dd": 68.6,
+   "final_equity": 426.2
+  },
+  "bull2021": -93.2,
+  "bear2022": 35.6,
+  "recovery2023_24": -125.3,
+  "recent2025_26": -116.5
+ },
+ "resistance_rejection|btc+vol": {
+  "dev": {
+   "trades": 4007,
+   "ret": -416.1,
+   "pf": 0.686,
+   "coins": 70,
+   "coins_prof": 14
+  },
+  "holdout": {
+   "trades": 3883,
+   "ret": -288.7,
+   "pf": 0.765,
+   "coins": 63,
+   "coins_prof": 18
+  },
+  "cost2x": {
+   "trades": 4024,
+   "ret": -493.7,
+   "pf": 0.644,
+   "coins": 70,
+   "coins_prof": 12
+  },
+  "slip2x": {
+   "trades": 4024,
+   "ret": -453.4,
+   "pf": 0.665,
+   "coins": 70,
+   "coins_prof": 13
+  },
+  "portfolio_10": {
+   "ret_pct": -86.4,
+   "taken": 2348,
+   "skipped": 1659,
+   "max_dd": 86.4,
+   "final_equity": 136.4
+  },
+  "bull2021": -77.6,
+  "bear2022": -39.1,
+  "recovery2023_24": -133.2,
+  "recent2025_26": -166.3
+ },
+ "breakdown_retest|nofilt": {
+  "dev": {
+   "trades": 11002,
+   "ret": -414.0,
+   "pf": 0.878,
+   "coins": 70,
+   "coins_prof": 19
+  },
+  "holdout": {
+   "trades": 10664,
+   "ret": -313.4,
+   "pf": 0.903,
+   "coins": 63,
+   "coins_prof": 18
+  },
+  "cost2x": {
+   "trades": 11094,
+   "ret": -625.0,
+   "pf": 0.825,
+   "coins": 70,
+   "coins_prof": 11
+  },
+  "slip2x": {
+   "trades": 11094,
+   "ret": -514.0,
+   "pf": 0.852,
+   "coins": 70,
+   "coins_prof": 16
+  },
+  "portfolio_10": {
+   "ret_pct": -82.7,
+   "taken": 3867,
+   "skipped": 7135,
+   "max_dd": 85.2,
+   "final_equity": 173.3
+  },
+  "bull2021": -190.7,
+  "bear2022": 180.8,
+  "recovery2023_24": -252.7,
+  "recent2025_26": -151.4
+ },
+ "breakdown_retest|btc": {
+  "dev": {
+   "trades": 7839,
+   "ret": -175.6,
+   "pf": 0.927,
+   "coins": 70,
+   "coins_prof": 22
+  },
+  "holdout": {
+   "trades": 7649,
+   "ret": -241.4,
+   "pf": 0.897,
+   "coins": 63,
+   "coins_prof": 17
+  },
+  "cost2x": {
+   "trades": 7911,
+   "ret": -337.0,
+   "pf": 0.866,
+   "coins": 70,
+   "coins_prof": 17
+  },
+  "slip2x": {
+   "trades": 7911,
+   "ret": -257.9,
+   "pf": 0.895,
+   "coins": 70,
+   "coins_prof": 20
+  },
+  "portfolio_10": {
+   "ret_pct": -25.6,
+   "taken": 2690,
+   "skipped": 5149,
+   "max_dd": 62.0,
+   "final_equity": 744.2
+  },
+  "bull2021": -141.7,
+  "bear2022": 130.2,
+  "recovery2023_24": -134.2,
+  "recent2025_26": -29.9
+ },
+ "breakdown_retest|btc+vol": {
+  "dev": {
+   "trades": 7326,
+   "ret": -127.1,
+   "pf": 0.943,
+   "coins": 70,
+   "coins_prof": 26
+  },
+  "holdout": {
+   "trades": 7213,
+   "ret": -224.4,
+   "pf": 0.898,
+   "coins": 63,
+   "coins_prof": 20
+  },
+  "cost2x": {
+   "trades": 7393,
+   "ret": -280.9,
+   "pf": 0.88,
+   "coins": 70,
+   "coins_prof": 20
+  },
+  "slip2x": {
+   "trades": 7393,
+   "ret": -207.0,
+   "pf": 0.909,
+   "coins": 70,
+   "coins_prof": 24
+  },
+  "portfolio_10": {
+   "ret_pct": -9.0,
+   "taken": 2567,
+   "skipped": 4759,
+   "max_dd": 57.5,
+   "final_equity": 910.4
+  },
+  "bull2021": -133.8,
+  "bear2022": 133.6,
+  "recovery2023_24": -120.2,
+  "recent2025_26": -6.6
+ },
+ "vwap_rejection|nofilt": {
+  "dev": {
+   "trades": 8712,
+   "ret": -45.8,
+   "pf": 0.982,
+   "coins": 70,
+   "coins_prof": 33
+  },
+  "holdout": {
+   "trades": 8732,
+   "ret": 23.4,
+   "pf": 1.009,
+   "coins": 63,
+   "coins_prof": 36
+  },
+  "cost2x": {
+   "trades": 8777,
+   "ret": -217.3,
+   "pf": 0.92,
+   "coins": 70,
+   "coins_prof": 26
+  },
+  "slip2x": {
+   "trades": 8777,
+   "ret": -129.5,
+   "pf": 0.951,
+   "coins": 70,
+   "coins_prof": 30
+  },
+  "portfolio_10": {
+   "ret_pct": -65.3,
+   "taken": 3885,
+   "skipped": 4827,
+   "max_dd": 72.9,
+   "final_equity": 346.8
+  },
+  "bull2021": -133.8,
+  "bear2022": 161.2,
+  "recovery2023_24": -137.5,
+  "recent2025_26": 64.3
+ },
+ "vwap_rejection|btc": {
+  "dev": {
+   "trades": 5060,
+   "ret": -248.8,
+   "pf": 0.845,
+   "coins": 70,
+   "coins_prof": 23
+  },
+  "holdout": {
+   "trades": 5068,
+   "ret": -270.1,
+   "pf": 0.827,
+   "coins": 63,
+   "coins_prof": 19
+  },
+  "cost2x": {
+   "trades": 5095,
+   "ret": -349.3,
+   "pf": 0.792,
+   "coins": 70,
+   "coins_prof": 18
+  },
+  "slip2x": {
+   "trades": 5095,
+   "ret": -298.3,
+   "pf": 0.818,
+   "coins": 70,
+   "coins_prof": 21
+  },
+  "portfolio_10": {
+   "ret_pct": -59.7,
+   "taken": 2366,
+   "skipped": 2694,
+   "max_dd": 65.3,
+   "final_equity": 403.0
+  },
+  "bull2021": -87.8,
+  "bear2022": -32.8,
+  "recovery2023_24": -114.9,
+  "recent2025_26": -13.3
+ },
+ "vwap_rejection|btc+vol": {
+  "dev": {
+   "trades": 3650,
+   "ret": -184.9,
+   "pf": 0.846,
+   "coins": 70,
+   "coins_prof": 25
+  },
+  "holdout": {
+   "trades": 3524,
+   "ret": -201.5,
+   "pf": 0.822,
+   "coins": 63,
+   "coins_prof": 19
+  },
+  "cost2x": {
+   "trades": 3669,
+   "ret": -262.3,
+   "pf": 0.792,
+   "coins": 70,
+   "coins_prof": 22
+  },
+  "slip2x": {
+   "trades": 3669,
+   "ret": -225.7,
+   "pf": 0.816,
+   "coins": 70,
+   "coins_prof": 23
+  },
+  "portfolio_10": {
+   "ret_pct": -66.7,
+   "taken": 2080,
+   "skipped": 1570,
+   "max_dd": 68.9,
+   "final_equity": 333.2
+  },
+  "bull2021": -52.5,
+  "bear2022": -35.9,
+  "recovery2023_24": -94.8,
+  "recent2025_26": -1.6
+ },
+ "lower_high|nofilt": {
+  "dev": {
+   "trades": 15919,
+   "ret": -565.5,
+   "pf": 0.89,
+   "coins": 70,
+   "coins_prof": 18
+  },
+  "holdout": {
+   "trades": 15472,
+   "ret": -379.2,
+   "pf": 0.922,
+   "coins": 63,
+   "coins_prof": 19
+  },
+  "cost2x": {
+   "trades": 16133,
+   "ret": -883.3,
+   "pf": 0.837,
+   "coins": 70,
+   "coins_prof": 10
+  },
+  "slip2x": {
+   "trades": 16133,
+   "ret": -722.0,
+   "pf": 0.863,
+   "coins": 70,
+   "coins_prof": 15
+  },
+  "portfolio_10": {
+   "ret_pct": -96.1,
+   "taken": 4759,
+   "skipped": 11160,
+   "max_dd": 96.2,
+   "final_equity": 39.2
+  },
+  "bull2021": -256.2,
+  "bear2022": 183.4,
+  "recovery2023_24": -447.4,
+  "recent2025_26": -45.3
+ },
+ "lower_high|btc": {
+  "dev": {
+   "trades": 10555,
+   "ret": -161.5,
+   "pf": 0.952,
+   "coins": 70,
+   "coins_prof": 28
+  },
+  "holdout": {
+   "trades": 10284,
+   "ret": -50.2,
+   "pf": 0.984,
+   "coins": 63,
+   "coins_prof": 35
+  },
+  "cost2x": {
+   "trades": 10711,
+   "ret": -383.4,
+   "pf": 0.892,
+   "coins": 70,
+   "coins_prof": 21
+  },
+  "slip2x": {
+   "trades": 10711,
+   "ret": -276.2,
+   "pf": 0.92,
+   "coins": 70,
+   "coins_prof": 23
+  },
+  "portfolio_10": {
+   "ret_pct": -62.1,
+   "taken": 3047,
+   "skipped": 7508,
+   "max_dd": 74.9,
+   "final_equity": 379.0
+  },
+  "bull2021": -200.2,
+  "bear2022": 152.6,
+  "recovery2023_24": -75.5,
+  "recent2025_26": -38.3
+ },
+ "lower_high|btc+vol": {
+  "dev": {
+   "trades": 9971,
+   "ret": -179.5,
+   "pf": 0.944,
+   "coins": 70,
+   "coins_prof": 28
+  },
+  "holdout": {
+   "trades": 9698,
+   "ret": -115.2,
+   "pf": 0.962,
+   "coins": 63,
+   "coins_prof": 25
+  },
+  "cost2x": {
+   "trades": 10111,
+   "ret": -393.5,
+   "pf": 0.883,
+   "coins": 70,
+   "coins_prof": 21
+  },
+  "slip2x": {
+   "trades": 10111,
+   "ret": -292.4,
+   "pf": 0.911,
+   "coins": 70,
+   "coins_prof": 26
+  },
+  "portfolio_10": {
+   "ret_pct": -65.1,
+   "taken": 2997,
+   "skipped": 6974,
+   "max_dd": 69.9,
+   "final_equity": 348.8
+  },
+  "bull2021": -198.3,
+  "bear2022": 134.8,
+  "recovery2023_24": -81.8,
+  "recent2025_26": -34.2
+ },
+ "bear_trend_continuation|nofilt": {
+  "dev": {
+   "trades": 10795,
+   "ret": -39.6,
+   "pf": 0.987,
+   "coins": 70,
+   "coins_prof": 30
+  },
+  "holdout": {
+   "trades": 10615,
+   "ret": 2.0,
+   "pf": 1.001,
+   "coins": 63,
+   "coins_prof": 31
+  },
+  "cost2x": {
+   "trades": 10919,
+   "ret": -250.8,
+   "pf": 0.925,
+   "coins": 70,
+   "coins_prof": 25
+  },
+  "slip2x": {
+   "trades": 10919,
+   "ret": -141.6,
+   "pf": 0.956,
+   "coins": 70,
+   "coins_prof": 28
+  },
+  "portfolio_10": {
+   "ret_pct": -75.2,
+   "taken": 3867,
+   "skipped": 6928,
+   "max_dd": 76.6,
+   "final_equity": 247.8
+  },
+  "bull2021": -127.1,
+  "bear2022": 217.2,
+  "recovery2023_24": -145.1,
+  "recent2025_26": 15.4
+ },
+ "bear_trend_continuation|btc": {
+  "dev": {
+   "trades": 8726,
+   "ret": -58.7,
+   "pf": 0.977,
+   "coins": 70,
+   "coins_prof": 30
+  },
+  "holdout": {
+   "trades": 8409,
+   "ret": -5.0,
+   "pf": 0.998,
+   "coins": 63,
+   "coins_prof": 26
+  },
+  "cost2x": {
+   "trades": 8839,
+   "ret": -235.4,
+   "pf": 0.913,
+   "coins": 70,
+   "coins_prof": 26
+  },
+  "slip2x": {
+   "trades": 8839,
+   "ret": -147.0,
+   "pf": 0.944,
+   "coins": 70,
+   "coins_prof": 28
+  },
+  "portfolio_10": {
+   "ret_pct": -28.0,
+   "taken": 2837,
+   "skipped": 5889,
+   "max_dd": 63.6,
+   "final_equity": 719.9
+  },
+  "bull2021": -133.9,
+  "bear2022": 160.7,
+  "recovery2023_24": -101.7,
+  "recent2025_26": 16.2
+ },
+ "bear_trend_continuation|btc+vol": {
+  "dev": {
+   "trades": 8161,
+   "ret": -83.4,
+   "pf": 0.965,
+   "coins": 70,
+   "coins_prof": 30
+  },
+  "holdout": {
+   "trades": 7877,
+   "ret": -23.7,
+   "pf": 0.99,
+   "coins": 63,
+   "coins_prof": 24
+  },
+  "cost2x": {
+   "trades": 8284,
+   "ret": -256.7,
+   "pf": 0.899,
+   "coins": 70,
+   "coins_prof": 26
+  },
+  "slip2x": {
+   "trades": 8284,
+   "ret": -173.9,
+   "pf": 0.93,
+   "coins": 70,
+   "coins_prof": 26
+  },
+  "portfolio_10": {
+   "ret_pct": -12.0,
+   "taken": 2743,
+   "skipped": 5418,
+   "max_dd": 62.0,
+   "final_equity": 879.9
+  },
+  "bull2021": -118.2,
+  "bear2022": 145.9,
+  "recovery2023_24": -122.7,
+  "recent2025_26": 11.6
+ },
+ "bear_divergence|nofilt": {
+  "dev": {
+   "trades": 8402,
+   "ret": -454.5,
+   "pf": 0.834,
+   "coins": 70,
+   "coins_prof": 18
+  },
+  "holdout": {
+   "trades": 8219,
+   "ret": -329.9,
+   "pf": 0.872,
+   "coins": 63,
+   "coins_prof": 21
+  },
+  "cost2x": {
+   "trades": 8480,
+   "ret": -635.9,
+   "pf": 0.779,
+   "coins": 70,
+   "coins_prof": 13
+  },
+  "slip2x": {
+   "trades": 8480,
+   "ret": -551.1,
+   "pf": 0.803,
+   "coins": 70,
+   "coins_prof": 16
+  },
+  "portfolio_10": {
+   "ret_pct": -98.0,
+   "taken": 4544,
+   "skipped": 3858,
+   "max_dd": 98.0,
+   "final_equity": 20.5
+  },
+  "bull2021": -111.3,
+  "bear2022": 23.6,
+  "recovery2023_24": -280.3,
+  "recent2025_26": -86.5
+ },
+ "bear_divergence|btc": {
+  "dev": {
+   "trades": 2120,
+   "ret": -124.5,
+   "pf": 0.838,
+   "coins": 70,
+   "coins_prof": 25
+  },
+  "holdout": {
+   "trades": 2055,
+   "ret": -83.9,
+   "pf": 0.885,
+   "coins": 63,
+   "coins_prof": 26
+  },
+  "cost2x": {
+   "trades": 2128,
+   "ret": -171.9,
+   "pf": 0.786,
+   "coins": 70,
+   "coins_prof": 19
+  },
+  "slip2x": {
+   "trades": 2128,
+   "ret": -150.6,
+   "pf": 0.808,
+   "coins": 70,
+   "coins_prof": 21
+  },
+  "portfolio_10": {
+   "ret_pct": -74.9,
+   "taken": 1566,
+   "skipped": 554,
+   "max_dd": 75.4,
+   "final_equity": 251.2
+  },
+  "bull2021": -36.1,
+  "bear2022": -17.8,
+  "recovery2023_24": -50.0,
+  "recent2025_26": -20.6
+ },
+ "bear_divergence|btc+vol": {
+  "dev": {
+   "trades": 1652,
+   "ret": -122.7,
+   "pf": 0.809,
+   "coins": 70,
+   "coins_prof": 25
+  },
+  "holdout": {
+   "trades": 1617,
+   "ret": -42.0,
+   "pf": 0.931,
+   "coins": 63,
+   "coins_prof": 29
+  },
+  "cost2x": {
+   "trades": 1657,
+   "ret": -159.6,
+   "pf": 0.761,
+   "coins": 70,
+   "coins_prof": 24
+  },
+  "slip2x": {
+   "trades": 1657,
+   "ret": -143.1,
+   "pf": 0.781,
+   "coins": 70,
+   "coins_prof": 25
+  },
+  "portfolio_10": {
+   "ret_pct": -79.1,
+   "taken": 1366,
+   "skipped": 286,
+   "max_dd": 79.6,
+   "final_equity": 209.3
+  },
+  "bull2021": -31.7,
+  "bear2022": -8.7,
+  "recovery2023_24": -52.8,
+  "recent2025_26": -29.6
+ },
+ "volume_breakdown|nofilt": {
+  "dev": {
+   "trades": 11673,
+   "ret": -342.6,
+   "pf": 0.906,
+   "coins": 70,
+   "coins_prof": 21
+  },
+  "holdout": {
+   "trades": 11351,
+   "ret": -163.2,
+   "pf": 0.953,
+   "coins": 63,
+   "coins_prof": 24
+  },
+  "cost2x": {
+   "trades": 11796,
+   "ret": -579.6,
+   "pf": 0.849,
+   "coins": 70,
+   "coins_prof": 16
+  },
+  "slip2x": {
+   "trades": 11796,
+   "ret": -461.7,
+   "pf": 0.877,
+   "coins": 70,
+   "coins_prof": 19
+  },
+  "portfolio_10": {
+   "ret_pct": -94.3,
+   "taken": 4102,
+   "skipped": 7571,
+   "max_dd": 94.6,
+   "final_equity": 56.7
+  },
+  "bull2021": -226.3,
+  "bear2022": 242.3,
+  "recovery2023_24": -291.3,
+  "recent2025_26": -67.4
+ },
+ "volume_breakdown|btc": {
+  "dev": {
+   "trades": 7991,
+   "ret": -30.7,
+   "pf": 0.988,
+   "coins": 70,
+   "coins_prof": 30
+  },
+  "holdout": {
+   "trades": 7719,
+   "ret": 3.5,
+   "pf": 1.001,
+   "coins": 63,
+   "coins_prof": 27
+  },
+  "cost2x": {
+   "trades": 8084,
+   "ret": -188.0,
+   "pf": 0.927,
+   "coins": 70,
+   "coins_prof": 25
+  },
+  "slip2x": {
+   "trades": 8084,
+   "ret": -107.1,
+   "pf": 0.958,
+   "coins": 70,
+   "coins_prof": 28
+  },
+  "portfolio_10": {
+   "ret_pct": -47.7,
+   "taken": 2681,
+   "skipped": 5310,
+   "max_dd": 69.5,
+   "final_equity": 522.5
+  },
+  "bull2021": -162.0,
+  "bear2022": 194.5,
+  "recovery2023_24": -64.6,
+  "recent2025_26": 1.4
+ },
+ "volume_breakdown|btc+vol": {
+  "dev": {
+   "trades": 7991,
+   "ret": -30.7,
+   "pf": 0.988,
+   "coins": 70,
+   "coins_prof": 30
+  },
+  "holdout": {
+   "trades": 7719,
+   "ret": 3.5,
+   "pf": 1.001,
+   "coins": 63,
+   "coins_prof": 27
+  },
+  "cost2x": {
+   "trades": 8084,
+   "ret": -188.0,
+   "pf": 0.927,
+   "coins": 70,
+   "coins_prof": 25
+  },
+  "slip2x": {
+   "trades": 8084,
+   "ret": -107.1,
+   "pf": 0.958,
+   "coins": 70,
+   "coins_prof": 28
+  },
+  "portfolio_10": {
+   "ret_pct": -47.7,
+   "taken": 2681,
+   "skipped": 5310,
+   "max_dd": 69.5,
+   "final_equity": 522.5
+  },
+  "bull2021": -162.0,
+  "bear2022": 194.5,
+  "recovery2023_24": -64.6,
+  "recent2025_26": 1.4
+ },
+ "downside_vol_expansion|nofilt": {
+  "dev": {
+   "trades": 9232,
+   "ret": -555.8,
+   "pf": 0.834,
+   "coins": 70,
+   "coins_prof": 15
+  },
+  "holdout": {
+   "trades": 8659,
+   "ret": -338.4,
+   "pf": 0.89,
+   "coins": 63,
+   "coins_prof": 21
+  },
+  "cost2x": {
+   "trades": 9297,
+   "ret": -744.2,
+   "pf": 0.787,
+   "coins": 70,
+   "coins_prof": 12
+  },
+  "slip2x": {
+   "trades": 9297,
+   "ret": -651.3,
+   "pf": 0.809,
+   "coins": 70,
+   "coins_prof": 14
+  },
+  "portfolio_10": {
+   "ret_pct": -98.6,
+   "taken": 3991,
+   "skipped": 5241,
+   "max_dd": 98.6,
+   "final_equity": 14.3
+  },
+  "bull2021": -195.2,
+  "bear2022": 190.8,
+  "recovery2023_24": -430.1,
+  "recent2025_26": -121.2
+ },
+ "downside_vol_expansion|btc": {
+  "dev": {
+   "trades": 5031,
+   "ret": -179.4,
+   "pf": 0.9,
+   "coins": 70,
+   "coins_prof": 27
+  },
+  "holdout": {
+   "trades": 4728,
+   "ret": -95.0,
+   "pf": 0.943,
+   "coins": 63,
+   "coins_prof": 25
+  },
+  "cost2x": {
+   "trades": 5067,
+   "ret": -287.8,
+   "pf": 0.847,
+   "coins": 70,
+   "coins_prof": 23
+  },
+  "slip2x": {
+   "trades": 5067,
+   "ret": -237.2,
+   "pf": 0.871,
+   "coins": 70,
+   "coins_prof": 27
+  },
+  "portfolio_10": {
+   "ret_pct": -66.4,
+   "taken": 2109,
+   "skipped": 2922,
+   "max_dd": 69.6,
+   "final_equity": 336.2
+  },
+  "bull2021": -83.2,
+  "bear2022": 166.4,
+  "recovery2023_24": -108.3,
+  "recent2025_26": -154.4
+ },
+ "downside_vol_expansion|btc+vol": {
+  "dev": {
+   "trades": 5023,
+   "ret": -180.0,
+   "pf": 0.9,
+   "coins": 70,
+   "coins_prof": 27
+  },
+  "holdout": {
+   "trades": 4727,
+   "ret": -103.3,
+   "pf": 0.938,
+   "coins": 63,
+   "coins_prof": 25
+  },
+  "cost2x": {
+   "trades": 5059,
+   "ret": -288.3,
+   "pf": 0.847,
+   "coins": 70,
+   "coins_prof": 23
+  },
+  "slip2x": {
+   "trades": 5059,
+   "ret": -237.7,
+   "pf": 0.871,
+   "coins": 70,
+   "coins_prof": 27
+  },
+  "portfolio_10": {
+   "ret_pct": -67.8,
+   "taken": 2089,
+   "skipped": 2934,
+   "max_dd": 74.9,
+   "final_equity": 321.6
+  },
+  "bull2021": -83.2,
+  "bear2022": 166.3,
+  "recovery2023_24": -110.4,
+  "recent2025_26": -152.7
+ },
+ "vb_b4_shortleg|btc+vol": {
+  "dev": {
+   "trades": 1891,
+   "ret": -47.0,
+   "pf": 0.938,
+   "coins": 70,
+   "coins_prof": 28
+  },
+  "holdout": {
+   "trades": 1874,
+   "ret": -43.5,
+   "pf": 0.942,
+   "coins": 63,
+   "coins_prof": 30
+  },
+  "cost2x": {
+   "trades": 1894,
+   "ret": -84.3,
+   "pf": 0.892,
+   "coins": 70,
+   "coins_prof": 26
+  },
+  "slip2x": {
+   "trades": 1894,
+   "ret": -65.3,
+   "pf": 0.915,
+   "coins": 70,
+   "coins_prof": 27
+  },
+  "portfolio_10": {
+   "ret_pct": -29.3,
+   "taken": 1090,
+   "skipped": 801,
+   "max_dd": 41.7,
+   "final_equity": 707.3
+  },
+  "bull2021": -15.3,
+  "bear2022": 111.2,
+  "recovery2023_24": -51.1,
+  "recent2025_26": -91.8
+ }
+}

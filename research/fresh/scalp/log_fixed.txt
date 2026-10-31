@@ -1,0 +1,25 @@
+BTC {'S1_bb_fade': 3440, 'S2_trend_pullback': 28567, 'S3_vol_breakout': 8177, 'S4_spike_fade': 980, 'S5_vwap_fade': 177608}
+ETH {'S1_bb_fade': 3733, 'S2_trend_pullback': 27593, 'S3_vol_breakout': 7873, 'S4_spike_fade': 1185, 'S5_vwap_fade': 173007}
+ZEC {'S1_bb_fade': 3072, 'S2_trend_pullback': 28393, 'S3_vol_breakout': 6226, 'S4_spike_fade': 834, 'S5_vwap_fade': 171918}
+SOL {'S1_bb_fade': 3051, 'S2_trend_pullback': 28369, 'S3_vol_breakout': 6512, 'S4_spike_fade': 652, 'S5_vwap_fade': 177165}
+XRP {'S1_bb_fade': 3234, 'S2_trend_pullback': 28620, 'S3_vol_breakout': 6258, 'S4_spike_fade': 769, 'S5_vwap_fade': 169218}
+HYPE {'S1_bb_fade': 1272, 'S2_trend_pullback': 14370, 'S3_vol_breakout': 3165, 'S4_spike_fade': 184, 'S5_vwap_fade': 86632}
+NEAR {'S1_bb_fade': 2668, 'S2_trend_pullback': 28720, 'S3_vol_breakout': 5595, 'S4_spike_fade': 369, 'S5_vwap_fade': 170840}
+DOGE {'S1_bb_fade': 3306, 'S2_trend_pullback': 28806, 'S3_vol_breakout': 6501, 'S4_spike_fade': 772, 'S5_vwap_fade': 174688}
+UNI {'S1_bb_fade': 3016, 'S2_trend_pullback': 28688, 'S3_vol_breakout': 5819, 'S4_spike_fade': 681, 'S5_vwap_fade': 172467}
+BNB {'S1_bb_fade': 3290, 'S2_trend_pullback': 29865, 'S3_vol_breakout': 6954, 'S4_spike_fade': 771, 'S5_vwap_fade': 177816}
+SUI {'S1_bb_fade': 3007, 'S2_trend_pullback': 28711, 'S3_vol_breakout': 5986, 'S4_spike_fade': 588, 'S5_vwap_fade': 171413}
+ENA {'S1_bb_fade': 2760, 'S2_trend_pullback': 27124, 'S3_vol_breakout': 5471, 'S4_spike_fade': 459, 'S5_vwap_fade': 162308}
+1000PEPE {'S1_bb_fade': 3433, 'S2_trend_pullback': 28143, 'S3_vol_breakout': 6048, 'S4_spike_fade': 707, 'S5_vwap_fade': 172576}
+QNT {'S1_bb_fade': 3090, 'S2_trend_pullback': 29055, 'S3_vol_breakout': 5529, 'S4_spike_fade': 834, 'S5_vwap_fade': 172835}
+ARB {'S1_bb_fade': 3106, 'S2_trend_pullback': 28669, 'S3_vol_breakout': 5821, 'S4_spike_fade': 529, 'S5_vwap_fade': 175370}
+WLD {'S1_bb_fade': 2975, 'S2_trend_pullback': 28118, 'S3_vol_breakout': 5926, 'S4_spike_fade': 623, 'S5_vwap_fade': 169692}
+PUMP {'S1_bb_fade': 1692, 'S2_trend_pullback': 15030, 'S3_vol_breakout': 3438, 'S4_spike_fade': 434, 'S5_vwap_fade': 89287}
+LINK {'S1_bb_fade': 2740, 'S2_trend_pullback': 29092, 'S3_vol_breakout': 5750, 'S4_spike_fade': 587, 'S5_vwap_fade': 178746}
+ADA {'S1_bb_fade': 3091, 'S2_trend_pullback': 29206, 'S3_vol_breakout': 5910, 'S4_spike_fade': 604, 'S5_vwap_fade': 171270}
+TAO {'S1_bb_fade': 2572, 'S2_trend_pullback': 26629, 'S3_vol_breakout': 5462, 'S4_spike_fade': 471, 'S5_vwap_fade': 158203}
+S1_bb_fade {"trades": 42724, "avg_pct": -0.084, "win_pct": 38.6, "avg_win_usdt": 0.07, "avg_loss_usdt": -0.05, "trades_10plus": 0, "worst_usdt": -2.13, "best_usdt": 4.0, "final": 0.64, "max_dd_pct": -99.8, "by_year": {"2024": -268.2, "2025": -27.9, "2026": -3.3}, "long": [20340, -0.063], "short": [22384, -0.104], "exits": {"stop": 22848, "time": 12713, "target": 7163}, "report_only_fee_0.02pct": {"final": 45.62, "avg_pct": -0.024}, "signals": 58548}
+S2_trend_pullback {"trades": 205079, "avg_pct": -0.093, "win_pct": 58.4, "avg_win_usdt": 0.0, "avg_loss_usdt": -0.01, "trades_10plus": 0, "worst_usdt": -1.12, "best_usdt": 0.74, "final": 0.0, "max_dd_pct": -100.0, "by_year": {"2024": -300.0, "2025": -0.0, "2026": -0.0}, "long": [104156, -0.096], "short": [100923, -0.09], "exits": {"target": 123517, "stop": 79873, "time": 1689}, "report_only_fee_0.02pct": {"final": 0.0, "avg_pct": -0.033}, "signals": 541768}
+S3_vol_breakout {"trades": 83620, "avg_pct": -0.116, "win_pct": 38.7, "avg_win_usdt": 0.02, "avg_loss_usdt": -0.02, "trades_10plus": 0, "worst_usdt": -1.47, "best_usdt": 1.86, "final": 0.0, "max_dd_pct": -100.0, "by_year": {"2024": -298.3, "2025": -1.7, "2026": -0.0}, "long": [40984, -0.115], "short": [42636, -0.117], "exits": {"stop": 49691, "target": 31208, "time": 2721}, "report_only_fee_0.02pct": {"final": 0.11, "avg_pct": -0.056}, "signals": 118421}
+S4_spike_fade {"trades": 10278, "avg_pct": -0.102, "win_pct": 47.2, "avg_win_usdt": 0.1, "avg_loss_usdt": -0.13, "trades_10plus": 0, "worst_usdt": -1.37, "best_usdt": 1.47, "final": 51.9, "max_dd_pct": -82.9, "by_year": {"2024": -118.4, "2025": -80.3, "2026": -49.4}, "long": [5241, -0.095], "short": [5037, -0.109], "exits": {"stop": 5049, "target": 4812, "time": 417}, "report_only_fee_0.02pct": {"final": 145.09, "avg_pct": -0.042}, "signals": 13033}
+S5_vwap_fade {"trades": 135567, "avg_pct": -0.103, "win_pct": 31.9, "avg_win_usdt": 0.02, "avg_loss_usdt": -0.01, "trades_10plus": 0, "worst_usdt": -1.65, "best_usdt": 4.22, "final": 0.0, "max_dd_pct": -100.0, "by_year": {"2024": -299.9, "2025": -0.1, "2026": -0.0}, "long": [68184, -0.099], "short": [67383, -0.106], "exits": {"stop": 85187, "time": 38298, "target": 12082}, "report_only_fee_0.02pct": {"final": 0.01, "avg_pct": -0.043}, "signals": 3273059}

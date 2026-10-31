@@ -1,0 +1,49 @@
+# Lifecycle gates, version 1 (2026-10-04). Values are starting points; change them here.
+# A gate whose input is missing for a strategy is recorded as "n/a", never as a pass.
+version: 1
+
+statuses: [DISCOVERED, BACKTESTED, PROMISING, VALIDATED, FORWARD_TESTING, READY, LIVE, REJECTED]
+
+gates:
+  G1_sanity:
+    moves_to: BACKTESTED
+    min_trades: 300
+    delay_test: "PF > 1 when entries are delayed 1-2 bars (lookahead check)"
+  G2_edge:
+    moves_to: PROMISING
+    min_pf: 1.15            # after base costs, development data
+    min_t_stat: 3.0
+    random_baseline_pct: 95 # total result above this percentile of 200 random-entry replicas
+    min_dsr_probability: 0.95  # deflated Sharpe ratio (Bailey & Lopez de Prado)
+    dsr_blocking: false        # 2026-10-04 (Michael): recorded on every candidate, does not stop discovery
+    trials_offset: 8000     # configurations already mined on this data before the pipeline (tournament,
+                            # short sweep, desk, harvest, universe...) - counted in every DSR
+  G3_robustness:
+    min_pf_2x_costs: 1.05
+    min_neighbours_profitable: 0.75
+    min_coins_profitable: 0.55
+    max_single_coin_share: 0.20
+    min_regimes_positive: 3   # of the 4: bull 2021, bear 2022, recovery 2023-24, recent 2025-26
+    max_drawdown_pct: 40      # portfolio-level, where a portfolio simulation exists
+  G4_out_of_sample:
+    moves_to: VALIDATED
+    min_pf: 1.10
+    min_expectancy_ratio: 0.60   # of development expectancy
+    data: [time_holdout, delisted_coins, newly_listed_coins]
+    note: "The 63 legacy holdout coins are development data from 2026-10-04 (reused by 7+ sweeps)."
+  G5_walk_forward:
+    min_folds_positive: 5
+    of_folds: 8          # half-years 2022H2 .. 2026H1, development + out-of-sample trades together
+    min_trades_per_fold: 10   # a fold with fewer trades does not count as positive
+  diversity:
+    max_overlap: 0.70    # Jaccard overlap of (coin, entry day, side) with an existing survivor
+  G6_forward_test:
+    moves_to: READY
+    min_closed_trades: 150
+    or_min_days: 90
+    min_pf: 1.10
+  G7_risk_review:
+    max_corr_with_live: 0.6
+    checks: [portfolio_drawdown, min_notional, capacity]
+  LIVE:
+    manual_only: true

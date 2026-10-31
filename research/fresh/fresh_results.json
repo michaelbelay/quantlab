@@ -1,0 +1,108 @@
+{
+ "S1 hour of day": {
+  "fit_n": 1095,
+  "fit_avg": -0.155,
+  "test_n": 995,
+  "test_avg": -0.211,
+  "test_pf": 0.27,
+  "test_years_sum_pct": {
+   "2024": -86.6,
+   "2025": -81.0,
+   "2026": -42.7
+  },
+  "pass": false
+ },
+ "S2 weekend": {
+  "fit_n": 157,
+  "fit_avg": 0.061,
+  "test_n": 142,
+  "test_avg": -0.161,
+  "test_pf": 0.83,
+  "test_years_sum_pct": {
+   "2024": 1.2,
+   "2025": -14.5,
+   "2026": -9.6
+  },
+  "pass": false
+ },
+ "S4 CME gap": {
+  "fit_n": 92,
+  "fit_avg": -0.603,
+  "test_n": 71,
+  "test_avg": -0.095,
+  "test_pf": 0.93,
+  "test_years_sum_pct": {
+   "2024": -24.6,
+   "2025": 15.5,
+   "2026": 2.4
+  },
+  "pass": false
+ },
+ "S5 ETH/BTC spread": {
+  "fit_n": 128,
+  "fit_avg": -0.588,
+  "test_n": 128,
+  "test_avg": -0.354,
+  "test_pf": 0.58,
+  "test_years_sum_pct": {
+   "2024": -23.2,
+   "2025": -16.5,
+   "2026": -5.7
+  },
+  "pass": false
+ },
+ "S6 turn of month": {
+  "fit_n": 36,
+  "fit_avg": 0.521,
+  "test_n": 32,
+  "test_avg": -0.928,
+  "test_pf": 0.58,
+  "test_years_sum_pct": {
+   "2024": -29.8,
+   "2025": 11.0,
+   "2026": -10.9
+  },
+  "pass": false
+ },
+ "S7 dip in uptrend": {
+  "fit_n": 109,
+  "fit_avg": 2.283,
+  "test_n": 123,
+  "test_avg": 0.634,
+  "test_pf": 1.29,
+  "test_years_sum_pct": {
+   "2024": 93.0,
+   "2025": 20.3,
+   "2026": -35.3
+  },
+  "pass": true
+ },
+ "S8 BTC leads": {
+  "fit_n": 780,
+  "fit_avg": -0.127,
+  "test_n": 239,
+  "test_avg": -0.144,
+  "test_pf": 0.77,
+  "test_years_sum_pct": {
+   "2024": -22.6,
+   "2025": -13.2,
+   "2026": 1.4
+  },
+  "pass": false
+ },
+ "_notes": {
+  "S1_hours_fit": {
+   "2": -1
+  },
+  "S2_side": 1,
+  "S3_day_t": {
+   "0": -0.09,
+   "1": 0.53,
+   "2": 0.81,
+   "3": -0.94,
+   "4": 0.02,
+   "5": 0.05,
+   "6": 0.67
+  }
+ }
+}

@@ -1,0 +1,1105 @@
+{
+ "prereg": "PREREGISTRATION_2026-09-28_rotation.md",
+ "prereg_sha256": "1bd2aee3759fbbf8057bdbb60f879465d96b223946ebe89fea999a9336a0df6d",
+ "amendment": "AMENDMENT_2026-09-29_rotation_v3.md",
+ "amendment_sha256": "58d236807d6445044cac900a3375c1d44d2b49c9231a9dd79e24a013492a2004",
+ "exchangeinfo_snapshot_sha256": "a808644abb3c2c31f452c4c7db4a08350265b2c5f537ade40d91a142f19fd502",
+ "seed": 20260930,
+ "run_at": "2026-09-29T01:57:07+00:00",
+ "LO": {
+  "stage1": [
+   {
+    "id": "LO|L=14|K=3|filt=off",
+    "L": 14,
+    "K": 3,
+    "filt": false,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": 0.0033,
+    "sharpe": 0.1257,
+    "cagr_pct": -51.0209,
+    "total_pct": -97.6419,
+    "maxdd_pct": 98.9572,
+    "sharpe_2x": 0.0778,
+    "cagr_2x_pct": -54.2306,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.001,
+     "sharpe": -0.0641,
+     "cagr_pct": -34.5102,
+     "total_pct": -89.1629,
+     "maxdd_pct": 94.4907
+    },
+    "regimes_pct": {
+     "bull2021": 64.34,
+     "bear2022": -92.65,
+     "recovery2023_24": 14.27,
+     "recent2025_26": -82.91
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-02-14",
+      "symbol": "KEEPUSDT",
+      "side": "long",
+      "ret": -0.0421
+     },
+     {
+      "week": "2025-03-17",
+      "symbol": "BNXUSDT",
+      "side": "long",
+      "ret": 0.3833
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 1.2551371745710065,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr_edge",
+     "G4 sharpe_edge",
+     "G4 dd_vs_market",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LO|L=14|K=3|filt=on",
+    "L": 14,
+    "K": 3,
+    "filt": true,
+    "weeks": 273,
+    "traded_weeks": 161,
+    "mean_week": -0.0021,
+    "sharpe": -0.1052,
+    "cagr_pct": -46.298,
+    "total_pct": -96.1766,
+    "maxdd_pct": 98.064,
+    "sharpe_2x": -0.1464,
+    "cagr_2x_pct": -48.5953,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.001,
+     "sharpe": -0.0641,
+     "cagr_pct": -34.5102,
+     "total_pct": -89.1629,
+     "maxdd_pct": 94.4907
+    },
+    "regimes_pct": {
+     "bull2021": 4.86,
+     "bear2022": -6.85,
+     "recovery2023_24": -89.26,
+     "recent2025_26": -63.55
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 0.8047568077459275,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr_edge",
+     "G4 sharpe_edge",
+     "G4 dd_vs_market",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LO|L=14|K=5|filt=off",
+    "L": 14,
+    "K": 5,
+    "filt": false,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": -0.0005,
+    "sharpe": -0.0242,
+    "cagr_pct": -47.122,
+    "total_pct": -96.4747,
+    "maxdd_pct": 98.5926,
+    "sharpe_2x": -0.0805,
+    "cagr_2x_pct": -50.3734,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.001,
+     "sharpe": -0.0641,
+     "cagr_pct": -34.5102,
+     "total_pct": -89.1629,
+     "maxdd_pct": 94.4907
+    },
+    "regimes_pct": {
+     "bull2021": 7.4,
+     "bear2022": -89.15,
+     "recovery2023_24": 69.94,
+     "recent2025_26": -82.2
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-02-14",
+      "symbol": "KEEPUSDT",
+      "side": "long",
+      "ret": -0.0421
+     },
+     {
+      "week": "2025-03-17",
+      "symbol": "BNXUSDT",
+      "side": "long",
+      "ret": 0.3833
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 1.1876540830497022,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr_edge",
+     "G4 sharpe_edge",
+     "G4 dd_vs_market",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LO|L=14|K=5|filt=on",
+    "L": 14,
+    "K": 5,
+    "filt": true,
+    "weeks": 273,
+    "traded_weeks": 161,
+    "mean_week": -0.0026,
+    "sharpe": -0.1567,
+    "cagr_pct": -40.5476,
+    "total_pct": -93.4779,
+    "maxdd_pct": 96.2017,
+    "sharpe_2x": -0.202,
+    "cagr_2x_pct": -42.8962,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.001,
+     "sharpe": -0.0641,
+     "cagr_pct": -34.5102,
+     "total_pct": -89.1629,
+     "maxdd_pct": 94.4907
+    },
+    "regimes_pct": {
+     "bull2021": -5.7,
+     "bear2022": -11.85,
+     "recovery2023_24": -77.88,
+     "recent2025_26": -64.53
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 0.753128202271678,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr_edge",
+     "G4 sharpe_edge",
+     "G4 dd_vs_market",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LO|L=28|K=3|filt=off",
+    "L": 28,
+    "K": 3,
+    "filt": false,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": 0.0136,
+    "sharpe": 0.4757,
+    "cagr_pct": -22.883,
+    "total_pct": -74.4412,
+    "maxdd_pct": 93.8416,
+    "sharpe_2x": 0.4417,
+    "cagr_2x_pct": -26.766,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.0009,
+     "sharpe": -0.0557,
+     "cagr_pct": -34.1004,
+     "total_pct": -88.8021,
+     "maxdd_pct": 94.3072
+    },
+    "regimes_pct": {
+     "bull2021": 79.49,
+     "bear2022": -85.05,
+     "recovery2023_24": 19.78,
+     "recent2025_26": -20.47
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2025-03-17",
+      "symbol": "BNXUSDT",
+      "side": "long",
+      "ret": 0.3833
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 0.9699535567399505,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LO|L=28|K=3|filt=on",
+    "L": 28,
+    "K": 3,
+    "filt": true,
+    "weeks": 273,
+    "traded_weeks": 161,
+    "mean_week": 0.0043,
+    "sharpe": 0.2052,
+    "cagr_pct": -26.8501,
+    "total_pct": -80.6304,
+    "maxdd_pct": 97.4987,
+    "sharpe_2x": 0.1756,
+    "cagr_2x_pct": -29.2233,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.0009,
+     "sharpe": -0.0557,
+     "cagr_pct": -34.1004,
+     "total_pct": -88.8021,
+     "maxdd_pct": 94.3072
+    },
+    "regimes_pct": {
+     "bull2021": 44.24,
+     "bear2022": -23.99,
+     "recovery2023_24": -83.9,
+     "recent2025_26": 9.76
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 0.6181293615843182,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 sharpe_edge",
+     "G4 dd_vs_market",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LO|L=28|K=5|filt=off",
+    "L": 28,
+    "K": 5,
+    "filt": false,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": 0.0065,
+    "sharpe": 0.2949,
+    "cagr_pct": -25.3706,
+    "total_pct": -78.4832,
+    "maxdd_pct": 91.2445,
+    "sharpe_2x": 0.2555,
+    "cagr_2x_pct": -28.7317,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.0009,
+     "sharpe": -0.0557,
+     "cagr_pct": -34.1004,
+     "total_pct": -88.8021,
+     "maxdd_pct": 94.3072
+    },
+    "regimes_pct": {
+     "bull2021": 25.45,
+     "bear2022": -77.79,
+     "recovery2023_24": 18.32,
+     "recent2025_26": -34.72
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2025-03-17",
+      "symbol": "BNXUSDT",
+      "side": "long",
+      "ret": 0.3833
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 0.8699194234936719,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LO|L=28|K=5|filt=on",
+    "L": 28,
+    "K": 5,
+    "filt": true,
+    "weeks": 273,
+    "traded_weeks": 161,
+    "mean_week": -0.0014,
+    "sharpe": -0.0797,
+    "cagr_pct": -36.8763,
+    "total_pct": -91.0668,
+    "maxdd_pct": 96.8924,
+    "sharpe_2x": -0.1142,
+    "cagr_2x_pct": -38.8295,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.0009,
+     "sharpe": -0.0557,
+     "cagr_pct": -34.1004,
+     "total_pct": -88.8021,
+     "maxdd_pct": 94.3072
+    },
+    "regimes_pct": {
+     "bull2021": 5.21,
+     "bear2022": -18.33,
+     "recovery2023_24": -80.07,
+     "recent2025_26": -47.84
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 0.5892354624054027,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr_edge",
+     "G4 sharpe_edge",
+     "G4 dd_vs_market",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   }
+  ],
+  "candidate": null
+ },
+ "LS": {
+  "stage1": [
+   {
+    "id": "LS|L=14|K=3|filt=off",
+    "L": 14,
+    "K": 3,
+    "filt": false,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": 0.0,
+    "sharpe": 0.0008,
+    "cagr_pct": -21.0578,
+    "total_pct": -71.1016,
+    "maxdd_pct": 90.6184,
+    "sharpe_2x": -0.1046,
+    "cagr_2x_pct": -26.6281,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.001,
+     "sharpe": -0.0641,
+     "cagr_pct": -34.5102,
+     "total_pct": -89.1629,
+     "maxdd_pct": 94.4907
+    },
+    "regimes_pct": {
+     "bull2021": -18.24,
+     "bear2022": -70.8,
+     "recovery2023_24": -42.56,
+     "recent2025_26": 110.7
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-02-14",
+      "symbol": "KEEPUSDT",
+      "side": "long",
+      "ret": -0.0421
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "FTTUSDT",
+      "side": "short",
+      "ret": 0.1837
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "SRMUSDT",
+      "side": "short",
+      "ret": 1.3461
+     },
+     {
+      "week": "2024-06-10",
+      "symbol": "WAVESUSDT",
+      "side": "short",
+      "ret": 0.0416
+     },
+     {
+      "week": "2025-01-06",
+      "symbol": "FTMUSDT",
+      "side": "short",
+      "ret": -0.0266
+     },
+     {
+      "week": "2025-03-17",
+      "symbol": "BNXUSDT",
+      "side": "long",
+      "ret": 0.3833
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     },
+     {
+      "week": "2025-09-29",
+      "symbol": "HIFIUSDT",
+      "side": "short",
+      "ret": -0.3025
+     }
+    ],
+    "turnover": 1.392899922892737,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr",
+     "G4 sharpe",
+     "G4 maxdd",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LS|L=14|K=3|filt=on",
+    "L": 14,
+    "K": 3,
+    "filt": true,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": -0.0027,
+    "sharpe": -0.226,
+    "cagr_pct": -28.5073,
+    "total_pct": -82.8258,
+    "maxdd_pct": 95.472,
+    "sharpe_2x": -0.3249,
+    "cagr_2x_pct": -32.7415,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.001,
+     "sharpe": -0.0641,
+     "cagr_pct": -34.5102,
+     "total_pct": -89.1629,
+     "maxdd_pct": 94.4907
+    },
+    "regimes_pct": {
+     "bull2021": -43.41,
+     "bear2022": -22.81,
+     "recovery2023_24": -84.84,
+     "recent2025_26": 159.44
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-11-14",
+      "symbol": "FTTUSDT",
+      "side": "short",
+      "ret": 0.1837
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "SRMUSDT",
+      "side": "short",
+      "ret": 1.3461
+     },
+     {
+      "week": "2024-06-10",
+      "symbol": "WAVESUSDT",
+      "side": "short",
+      "ret": 0.0416
+     },
+     {
+      "week": "2025-01-06",
+      "symbol": "FTMUSDT",
+      "side": "short",
+      "ret": -0.0266
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     },
+     {
+      "week": "2025-09-29",
+      "symbol": "HIFIUSDT",
+      "side": "short",
+      "ret": -0.3025
+     }
+    ],
+    "turnover": 1.1618336227802468,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr",
+     "G4 sharpe",
+     "G4 maxdd",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LS|L=14|K=5|filt=off",
+    "L": 14,
+    "K": 5,
+    "filt": false,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": -0.0002,
+    "sharpe": -0.0191,
+    "cagr_pct": -11.4865,
+    "total_pct": -47.3014,
+    "maxdd_pct": 72.1318,
+    "sharpe_2x": -0.1615,
+    "cagr_2x_pct": -17.3058,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.001,
+     "sharpe": -0.0641,
+     "cagr_pct": -34.5102,
+     "total_pct": -89.1629,
+     "maxdd_pct": 94.4907
+    },
+    "regimes_pct": {
+     "bull2021": -19.78,
+     "bear2022": -45.68,
+     "recovery2023_24": -4.6,
+     "recent2025_26": 26.78
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-02-14",
+      "symbol": "KEEPUSDT",
+      "side": "long",
+      "ret": -0.0421
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "FTTUSDT",
+      "side": "short",
+      "ret": 0.1837
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "SRMUSDT",
+      "side": "short",
+      "ret": 1.3461
+     },
+     {
+      "week": "2024-06-10",
+      "symbol": "WAVESUSDT",
+      "side": "short",
+      "ret": 0.0416
+     },
+     {
+      "week": "2024-10-28",
+      "symbol": "UNFIUSDT",
+      "side": "short",
+      "ret": -0.1148
+     },
+     {
+      "week": "2025-01-06",
+      "symbol": "FTMUSDT",
+      "side": "short",
+      "ret": -0.0266
+     },
+     {
+      "week": "2025-03-17",
+      "symbol": "BNXUSDT",
+      "side": "long",
+      "ret": 0.3833
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     },
+     {
+      "week": "2025-09-29",
+      "symbol": "HIFIUSDT",
+      "side": "short",
+      "ret": -0.3025
+     }
+    ],
+    "turnover": 1.3015837247228195,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr",
+     "G4 sharpe",
+     "G4 maxdd",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LS|L=14|K=5|filt=on",
+    "L": 14,
+    "K": 5,
+    "filt": true,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": -0.0012,
+    "sharpe": -0.1307,
+    "cagr_pct": -16.6753,
+    "total_pct": -61.6239,
+    "maxdd_pct": 82.7674,
+    "sharpe_2x": -0.247,
+    "cagr_2x_pct": -21.2538,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.001,
+     "sharpe": -0.0641,
+     "cagr_pct": -34.5102,
+     "total_pct": -89.1629,
+     "maxdd_pct": 94.4907
+    },
+    "regimes_pct": {
+     "bull2021": -32.16,
+     "bear2022": 14.34,
+     "recovery2023_24": -69.5,
+     "recent2025_26": 62.23
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-11-14",
+      "symbol": "FTTUSDT",
+      "side": "short",
+      "ret": 0.1837
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "SRMUSDT",
+      "side": "short",
+      "ret": 1.3461
+     },
+     {
+      "week": "2024-06-10",
+      "symbol": "WAVESUSDT",
+      "side": "short",
+      "ret": 0.0416
+     },
+     {
+      "week": "2024-10-28",
+      "symbol": "UNFIUSDT",
+      "side": "short",
+      "ret": -0.1148
+     },
+     {
+      "week": "2025-01-06",
+      "symbol": "FTMUSDT",
+      "side": "short",
+      "ret": -0.0266
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     },
+     {
+      "week": "2025-09-29",
+      "symbol": "HIFIUSDT",
+      "side": "short",
+      "ret": -0.3025
+     }
+    ],
+    "turnover": 1.0811983463393187,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr",
+     "G4 sharpe",
+     "G4 maxdd",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LS|L=28|K=3|filt=off",
+    "L": 28,
+    "K": 3,
+    "filt": false,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": 0.0085,
+    "sharpe": 0.5716,
+    "cagr_pct": 15.6141,
+    "total_pct": 114.1936,
+    "maxdd_pct": 84.4639,
+    "sharpe_2x": 0.4969,
+    "cagr_2x_pct": 9.0916,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.0009,
+     "sharpe": -0.0557,
+     "cagr_pct": -34.1004,
+     "total_pct": -88.8021,
+     "maxdd_pct": 94.3072
+    },
+    "regimes_pct": {
+     "bull2021": 57.06,
+     "bear2022": -45.01,
+     "recovery2023_24": -44.71,
+     "recent2025_26": 348.55
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-11-14",
+      "symbol": "FTTUSDT",
+      "side": "short",
+      "ret": 0.1837
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "SRMUSDT",
+      "side": "short",
+      "ret": 1.3461
+     },
+     {
+      "week": "2024-06-10",
+      "symbol": "WAVESUSDT",
+      "side": "short",
+      "ret": 0.0416
+     },
+     {
+      "week": "2025-03-17",
+      "symbol": "BNXUSDT",
+      "side": "long",
+      "ret": 0.3833
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 1.1072347472249688,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 sharpe",
+     "G4 maxdd",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LS|L=28|K=3|filt=on",
+    "L": 28,
+    "K": 3,
+    "filt": true,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": 0.0039,
+    "sharpe": 0.3055,
+    "cagr_pct": -3.2087,
+    "total_pct": -15.7363,
+    "maxdd_pct": 89.7494,
+    "sharpe_2x": 0.2327,
+    "cagr_2x_pct": -7.7779,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.0009,
+     "sharpe": -0.0557,
+     "cagr_pct": -34.1004,
+     "total_pct": -88.8021,
+     "maxdd_pct": 94.3072
+    },
+    "regimes_pct": {
+     "bull2021": 27.44,
+     "bear2022": -6.29,
+     "recovery2023_24": -82.06,
+     "recent2025_26": 293.4
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-11-14",
+      "symbol": "FTTUSDT",
+      "side": "short",
+      "ret": 0.1837
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "SRMUSDT",
+      "side": "short",
+      "ret": 1.3461
+     },
+     {
+      "week": "2024-06-10",
+      "symbol": "WAVESUSDT",
+      "side": "short",
+      "ret": 0.0416
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 0.9219424216555914,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr",
+     "G4 sharpe",
+     "G4 maxdd",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LS|L=28|K=5|filt=off",
+    "L": 28,
+    "K": 5,
+    "filt": false,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": 0.0048,
+    "sharpe": 0.478,
+    "cagr_pct": 12.5057,
+    "total_pct": 85.6375,
+    "maxdd_pct": 66.7961,
+    "sharpe_2x": 0.3764,
+    "cagr_2x_pct": 6.6415,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.0009,
+     "sharpe": -0.0557,
+     "cagr_pct": -34.1004,
+     "total_pct": -88.8021,
+     "maxdd_pct": 94.3072
+    },
+    "regimes_pct": {
+     "bull2021": 21.47,
+     "bear2022": -23.0,
+     "recovery2023_24": -41.35,
+     "recent2025_26": 238.39
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-05-09",
+      "symbol": "ANCUSDT",
+      "side": "short",
+      "ret": -0.9644
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "FTTUSDT",
+      "side": "short",
+      "ret": 0.1837
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "SRMUSDT",
+      "side": "short",
+      "ret": 1.3461
+     },
+     {
+      "week": "2024-06-10",
+      "symbol": "WAVESUSDT",
+      "side": "short",
+      "ret": 0.0416
+     },
+     {
+      "week": "2024-10-28",
+      "symbol": "UNFIUSDT",
+      "side": "short",
+      "ret": -0.1148
+     },
+     {
+      "week": "2025-01-06",
+      "symbol": "FTMUSDT",
+      "side": "short",
+      "ret": -0.0266
+     },
+     {
+      "week": "2025-03-17",
+      "symbol": "BNXUSDT",
+      "side": "long",
+      "ret": 0.3833
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 1.0262745435348624,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 sharpe",
+     "G4 maxdd",
+     "G6 maxdd",
+     "G7 regimes"
+    ]
+   },
+   {
+    "id": "LS|L=28|K=5|filt=on",
+    "L": 28,
+    "K": 5,
+    "filt": true,
+    "weeks": 273,
+    "traded_weeks": 264,
+    "mean_week": 0.0009,
+    "sharpe": 0.0939,
+    "cagr_pct": -7.5207,
+    "total_pct": -33.6664,
+    "maxdd_pct": 82.6435,
+    "sharpe_2x": 0.0027,
+    "cagr_2x_pct": -11.6755,
+    "benchmark": {
+     "weeks": 273,
+     "traded_weeks": null,
+     "mean_week": -0.0009,
+     "sharpe": -0.0557,
+     "cagr_pct": -34.1004,
+     "total_pct": -88.8021,
+     "maxdd_pct": 94.3072
+    },
+    "regimes_pct": {
+     "bull2021": 1.6,
+     "bear2022": 13.37,
+     "recovery2023_24": -78.29,
+     "recent2025_26": 165.24
+    },
+    "substitutions": 0,
+    "delist_events": [
+     {
+      "week": "2022-05-09",
+      "symbol": "ANCUSDT",
+      "side": "short",
+      "ret": -0.9644
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "FTTUSDT",
+      "side": "short",
+      "ret": 0.1837
+     },
+     {
+      "week": "2022-11-14",
+      "symbol": "SRMUSDT",
+      "side": "short",
+      "ret": 1.3461
+     },
+     {
+      "week": "2024-06-10",
+      "symbol": "WAVESUSDT",
+      "side": "short",
+      "ret": 0.0416
+     },
+     {
+      "week": "2024-10-28",
+      "symbol": "UNFIUSDT",
+      "side": "short",
+      "ret": -0.1148
+     },
+     {
+      "week": "2025-01-06",
+      "symbol": "FTMUSDT",
+      "side": "short",
+      "ret": -0.0266
+     },
+     {
+      "week": "2025-08-11",
+      "symbol": "MEMEFIUSDT",
+      "side": "long",
+      "ret": -0.3131
+     }
+    ],
+    "turnover": 0.8799609254250556,
+    "fails": [
+     "G2 sharpe",
+     "G3 sharpe_2x",
+     "G4 cagr",
+     "G4 sharpe",
+     "G4 maxdd",
+     "G6 maxdd"
+    ]
+   }
+  ],
+  "candidate": null
+ }
+}

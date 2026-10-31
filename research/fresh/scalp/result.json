@@ -1,0 +1,177 @@
+{
+ "S1_bb_fade": {
+  "trades": 42724,
+  "avg_pct": -0.084,
+  "win_pct": 38.6,
+  "avg_win_usdt": 0.07,
+  "avg_loss_usdt": -0.05,
+  "trades_10plus": 0,
+  "worst_usdt": -2.13,
+  "best_usdt": 4.0,
+  "final": 0.64,
+  "max_dd_pct": -99.8,
+  "by_year": {
+   "2024": -268.2,
+   "2025": -27.9,
+   "2026": -3.3
+  },
+  "long": [
+   20340,
+   -0.063
+  ],
+  "short": [
+   22384,
+   -0.104
+  ],
+  "exits": {
+   "stop": 22848,
+   "time": 12713,
+   "target": 7163
+  },
+  "report_only_fee_0.02pct": {
+   "final": 45.62,
+   "avg_pct": -0.024
+  },
+  "signals": 58548
+ },
+ "S2_trend_pullback": {
+  "trades": 205079,
+  "avg_pct": -0.093,
+  "win_pct": 58.4,
+  "avg_win_usdt": 0.0,
+  "avg_loss_usdt": -0.01,
+  "trades_10plus": 0,
+  "worst_usdt": -1.12,
+  "best_usdt": 0.74,
+  "final": 0.0,
+  "max_dd_pct": -100.0,
+  "by_year": {
+   "2024": -300.0,
+   "2025": -0.0,
+   "2026": -0.0
+  },
+  "long": [
+   104156,
+   -0.096
+  ],
+  "short": [
+   100923,
+   -0.09
+  ],
+  "exits": {
+   "target": 123517,
+   "stop": 79873,
+   "time": 1689
+  },
+  "report_only_fee_0.02pct": {
+   "final": 0.0,
+   "avg_pct": -0.033
+  },
+  "signals": 541768
+ },
+ "S3_vol_breakout": {
+  "trades": 83620,
+  "avg_pct": -0.116,
+  "win_pct": 38.7,
+  "avg_win_usdt": 0.02,
+  "avg_loss_usdt": -0.02,
+  "trades_10plus": 0,
+  "worst_usdt": -1.47,
+  "best_usdt": 1.86,
+  "final": 0.0,
+  "max_dd_pct": -100.0,
+  "by_year": {
+   "2024": -298.3,
+   "2025": -1.7,
+   "2026": -0.0
+  },
+  "long": [
+   40984,
+   -0.115
+  ],
+  "short": [
+   42636,
+   -0.117
+  ],
+  "exits": {
+   "stop": 49691,
+   "target": 31208,
+   "time": 2721
+  },
+  "report_only_fee_0.02pct": {
+   "final": 0.11,
+   "avg_pct": -0.056
+  },
+  "signals": 118421
+ },
+ "S4_spike_fade": {
+  "trades": 10278,
+  "avg_pct": -0.102,
+  "win_pct": 47.2,
+  "avg_win_usdt": 0.1,
+  "avg_loss_usdt": -0.13,
+  "trades_10plus": 0,
+  "worst_usdt": -1.37,
+  "best_usdt": 1.47,
+  "final": 51.9,
+  "max_dd_pct": -82.9,
+  "by_year": {
+   "2024": -118.4,
+   "2025": -80.3,
+   "2026": -49.4
+  },
+  "long": [
+   5241,
+   -0.095
+  ],
+  "short": [
+   5037,
+   -0.109
+  ],
+  "exits": {
+   "stop": 5049,
+   "target": 4812,
+   "time": 417
+  },
+  "report_only_fee_0.02pct": {
+   "final": 145.09,
+   "avg_pct": -0.042
+  },
+  "signals": 13033
+ },
+ "S5_vwap_fade": {
+  "trades": 135567,
+  "avg_pct": -0.103,
+  "win_pct": 31.9,
+  "avg_win_usdt": 0.02,
+  "avg_loss_usdt": -0.01,
+  "trades_10plus": 0,
+  "worst_usdt": -1.65,
+  "best_usdt": 4.22,
+  "final": 0.0,
+  "max_dd_pct": -100.0,
+  "by_year": {
+   "2024": -299.9,
+   "2025": -0.1,
+   "2026": -0.0
+  },
+  "long": [
+   68184,
+   -0.099
+  ],
+  "short": [
+   67383,
+   -0.106
+  ],
+  "exits": {
+   "stop": 85187,
+   "time": 38298,
+   "target": 12082
+  },
+  "report_only_fee_0.02pct": {
+   "final": 0.01,
+   "avg_pct": -0.043
+  },
+  "signals": 3273059
+ }
+}

@@ -1,0 +1,4 @@
+{
+  "notify_all": false,
+  "_note": "false = Windows notification only for tradeable alerts (not RED). true = notify every new trigger, incl. RED rules that are only being forward-tested."
+}

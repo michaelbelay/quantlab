@@ -1,0 +1,77 @@
+{
+ "both": {
+  "fit_n": 1520,
+  "fit_avg_pct": -0.302,
+  "test_n": 448,
+  "test_avg_pct": -0.204,
+  "test_pf": 0.79,
+  "test_account_1pct": 209.8,
+  "test_drop_pct": 33.1,
+  "test_account_2pct": 144.4,
+  "years_sum_pct": {
+   "2022": -242.8,
+   "2023": -149.3,
+   "2024": -67.2,
+   "2025": -51.8,
+   "2026": -39.5
+  },
+  "pass": false,
+  "setting": [
+   30,
+   4,
+   2,
+   60
+  ],
+  "grid_positive_on_test": "0/16"
+ },
+ "long": {
+  "fit_n": 1039,
+  "fit_avg_pct": -0.242,
+  "test_n": 289,
+  "test_avg_pct": -0.259,
+  "test_pf": 0.72,
+  "test_account_1pct": 225.9,
+  "test_drop_pct": 26.9,
+  "test_account_2pct": 167.9,
+  "years_sum_pct": {
+   "2022": -105.9,
+   "2023": -94.5,
+   "2024": -51.5,
+   "2025": -44.8,
+   "2026": -30.1
+  },
+  "pass": false,
+  "setting": [
+   15,
+   4,
+   2,
+   60
+  ],
+  "grid_positive_on_test": "0/16"
+ },
+ "short": {
+  "fit_n": 487,
+  "fit_avg_pct": -0.448,
+  "test_n": 144,
+  "test_avg_pct": -0.403,
+  "test_pf": 0.67,
+  "test_account_1pct": 247.5,
+  "test_drop_pct": 19.8,
+  "test_account_2pct": 203.5,
+  "years_sum_pct": {
+   "2022": -116.5,
+   "2023": -82.4,
+   "2024": -19.5,
+   "2025": -53.7,
+   "2026": -4.3
+  },
+  "pass": false,
+  "setting": [
+   30,
+   4,
+   2,
+   60
+  ],
+  "grid_positive_on_test": "0/16"
+ }
+}

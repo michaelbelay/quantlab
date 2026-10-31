@@ -1,0 +1,1488 @@
+{
+  "stake": 15.0,
+  "rows": [
+    {
+      "pair": "BTC/USDT:USDT",
+      "cost_min": 50.0,
+      "notional_filter": 50.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "ETH/USDT:USDT",
+      "cost_min": 20.0,
+      "notional_filter": 20.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "BNB/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "XRP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "SOL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "TRX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ZEC/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "HYPE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "DOGE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "XMR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "LINK/USDT:USDT",
+      "cost_min": 20.0,
+      "notional_filter": 20.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "ADA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "XLM/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "UNI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BCH/USDT:USDT",
+      "cost_min": 20.0,
+      "notional_filter": 20.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "NEAR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "LTC/USDT:USDT",
+      "cost_min": 20.0,
+      "notional_filter": 20.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "AVAX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "CC/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SUI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "HBAR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "M/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "TAO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "AAVE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ONDO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ENA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "PUMP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "DOT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ASTER/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MORPHO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "PAXG/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "WLFI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SKY/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ICP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "WLD/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ARB/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "VVV/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "ETC/USDT:USDT",
+      "cost_min": 20.0,
+      "notional_filter": 20.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "AKE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "LIT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "POL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "KAS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ALGO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "JUP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "QNT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ATOM/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "JST/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "RENDER/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "CAKE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "FIL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "INJ/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "DASH/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "VET/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ETHFI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "STABLE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "APT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "TRUMP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "STX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "CRV/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "PENGU/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "\u5e01\u5b89\u4eba\u751f/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "PYTH/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "PIEVERSE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SPX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "FET/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "VIRTUAL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "PENDLE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "TIA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ZRO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "FF/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "NIGHT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SEI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "XTZ/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "LDO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "UB/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "STRK/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "MON/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "AR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "OP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "KITE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ENS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "USELESS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "CFX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "XPL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SYRUP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "JTO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "GRT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "GRASS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ZAMA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "TWT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "WIF/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "\u9f99\u867e/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "EIGEN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "IOTA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "THETA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "COMP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.001
+    },
+    {
+      "pair": "JASMY/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "EDGE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "RUNE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "KMNO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "FARTCOIN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "CVX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "AKT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "AXS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "2Z/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "NEO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "CHZ/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MANA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MINA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "A/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MET/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SKR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "S/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "APE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "HOOD/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "1INCH/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ZEN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "UAI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SNX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "SENT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "H/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "EGLD/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "IMX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SAND/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ZK/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "DYDX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "Q/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BULLA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "FORM/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ATH/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MELANIA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "GALA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "AGT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BTW/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "GTC/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "PHA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "APR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "AVA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "CTR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SIREN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ICNT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BAT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ERA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "NIL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ARIA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ALT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "AERO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "XNY/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "RLC/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "EPIC/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "RAYSOL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "LSK/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "W/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "CHIP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "WAL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "GRVT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "US/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ELSA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MAGMA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MAGIC/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ENSO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "RSR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "DUSK/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SOLV/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "OPG/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "JCT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ARC/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "CAP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "FOLKS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "HUMA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "GWEI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ORCA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "GRAM/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "OGN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SOPH/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "KAVA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "BEAMX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "LUMIA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "RIVER/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ORDI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ACE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "KAT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MOVR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "EDU/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "STBL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "TRUTH/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "NXPC/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "PROM/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "BERA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "KAITO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "LAB/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "NMR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ONE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BEAT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "RE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "KAIA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "METIS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "BILL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BANK/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "AIN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "COTI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "DATAIP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ZIL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BLUR/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "AXL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "DEXE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.01
+    },
+    {
+      "pair": "INIT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "DOS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MEGA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "IOTX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SOON/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "PLUME/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "LYN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "PARTI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SYN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SKL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "PRL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ALLO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "TAKE/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "COLLECT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BIO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ONG/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "RVN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MYX/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "MANTRA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "TAG/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "GPS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "TRB/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "HEMI/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "REZ/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "BASED/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SUPER/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "1000LUNC/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "IO/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "BMT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "PLAY/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "OPN/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "LPT/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "0G/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "ESP/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "SAGA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "EUL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "ESPORTS/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "KERNEL/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 1.0
+    },
+    {
+      "pair": "LA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    },
+    {
+      "pair": "MANTA/USDT:USDT",
+      "cost_min": 5.0,
+      "notional_filter": 5.0,
+      "amount_min": 0.1
+    }
+  ],
+  "missing": []
+}

@@ -1,0 +1,77 @@
+{
+ "B1 long-only top20": {
+  "end_equity": 445.9,
+  "cagr_pct": 7.1,
+  "sharpe": 0.89,
+  "max_dd_pct": -14.0,
+  "longest_under_high_days": 955,
+  "years_pct": {
+   "2021": 25.7,
+   "2022": -5.4,
+   "2023": 13.8,
+   "2024": 10.9,
+   "2025": -3.2,
+   "2026": 2.3
+  },
+  "last12_pct": 0.6,
+  "avg_gross_exposure": 0.08,
+  "positions": 7893,
+  "pos_red_pct": 64.3,
+  "avg_hold_days": 12.5,
+  "avg_win_usdt": 0.14,
+  "avg_loss_usdt": -0.05,
+  "median_days_red": 2.0,
+  "max_days_red": 118,
+  "verdict": "\ud83d\udd34"
+ },
+ "B2 long+short top20": {
+  "end_equity": 398.0,
+  "cagr_pct": 5.0,
+  "sharpe": 0.51,
+  "max_dd_pct": -14.5,
+  "longest_under_high_days": 685,
+  "years_pct": {
+   "2021": 20.9,
+   "2022": 5.9,
+   "2023": 1.5,
+   "2024": 5.9,
+   "2025": -6.6,
+   "2026": 3.2
+  },
+  "last12_pct": 4.9,
+  "avg_gross_exposure": 0.13,
+  "positions": 16228,
+  "pos_red_pct": 63.0,
+  "avg_hold_days": 14.6,
+  "avg_win_usdt": 0.1,
+  "avg_loss_usdt": -0.05,
+  "median_days_red": 2.0,
+  "max_days_red": 389,
+  "verdict": "\ud83d\udfe1 paper forward test"
+ },
+ "B3 long-only BTC+ETH": {
+  "end_equity": 503.6,
+  "cagr_pct": 9.3,
+  "sharpe": 0.8,
+  "max_dd_pct": -14.9,
+  "longest_under_high_days": 936,
+  "years_pct": {
+   "2021": 25.3,
+   "2022": -6.9,
+   "2023": 18.1,
+   "2024": 23.6,
+   "2025": -1.0,
+   "2026": -0.5
+  },
+  "last12_pct": -3.7,
+  "avg_gross_exposure": 0.17,
+  "positions": 828,
+  "pos_red_pct": 60.6,
+  "avg_hold_days": 17.8,
+  "avg_win_usdt": 1.43,
+  "avg_loss_usdt": -0.5,
+  "median_days_red": 1.0,
+  "max_days_red": 120,
+  "verdict": "\ud83d\udd34"
+ }
+}

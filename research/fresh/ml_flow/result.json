@@ -1,0 +1,29 @@
+{
+ "trades": 1845,
+ "avg_pct": -0.26,
+ "win_pct": 49.8,
+ "avg_win_usdt": 1.34,
+ "avg_loss_usdt": -1.55,
+ "trades_10plus": 3,
+ "worst_usdt": -9.67,
+ "best_usdt": 13.59,
+ "final": 100.46,
+ "max_dd_pct": -77.2,
+ "stops": 309,
+ "by_year": {
+  "2024": -115.1,
+  "2025": -85.0,
+  "2026": 0.6
+ },
+ "long": [
+  866,
+  -0.36
+ ],
+ "short": [
+  979,
+  -0.17
+ ],
+ "signals_p_ge_060": 5338,
+ "signals_p_le_040": 7358,
+ "rows_predicted": 54660
+}

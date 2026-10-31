@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quantlab Terminal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="today.css">
+<link rel="stylesheet" href="theme.css">
+</head>
+<body>
+<div class="td-sky" aria-hidden="true"><i></i><i></i><i></i></div>
+<header class="top">
+  <div class="brand"><span class="logo">◆</span> QUANTLAB <span class="sub">terminal</span></div>
+  <nav class="tabs" role="tablist">
+    <button class="tab" data-view="today">Today</button>
+    <button class="tab active" data-view="markets">Markets</button>
+    <button class="tab" data-view="strategies">Strategies</button>
+    <button class="tab" data-view="live">Trader</button>
+    <button class="tab" data-view="fit">Market fit</button>
+    <button class="tab" data-view="switcher">Switcher</button>
+    <button class="tab" data-view="research">Research</button>
+    <button class="tab" data-view="scanner">Scanner <span id="scanCount" class="count"></span></button>
+    <button class="tab" data-view="incubator">Incubator</button>
+  </nav>
+  <div class="top-right">
+    <span id="conn" class="conn"><i></i><b>connecting</b></span>
+    <span id="clock" class="mono muted"></span>
+    <button id="themeBtn" class="icon-btn" title="Toggle light / dark">◐</button>
+  </div>
+</header>
+
+<!-- ============================================================ TODAY -->
+<main id="view-today" class="view" data-cell="Bull-Calm">
+  <div class="td-tape" aria-label="Live prices"><div id="tdTape" class="td-tape-track"></div></div>
+  <div class="page td-page">
+    <section class="td-hero td-glass td-in">
+      <div>
+        <div id="tdGreet" class="td-greet">&nbsp;</div>
+        <div id="tdCell" class="td-cell">reading the market…</div>
+        <p id="tdCellText" class="td-cell-text"></p>
+        <div id="tdSince" class="td-since"></div>
+        <div id="tdGauges" class="td-gauges"></div>
+      </div>
+      <div class="td-map">
+        <div class="td-map-head"><span>Market map · last 90 days</span><span class="td-map-note">BTC trend → · volatility ↑</span></div>
+        <svg id="tdMap" role="img" aria-label="Market condition over the last 90 days"></svg>
+      </div>
+    </section>
+    <div class="td-cols">
+      <div class="td-col">
+      <section class="td-card td-glass td-in"><h3>Today's read</h3><ul id="tdSugs" class="td-sugs"></ul></section>
+      <section class="td-card td-glass td-in"><h3>Market feed</h3><div id="tdFeed" class="td-feed"></div></section>
+      </div>
+      <div class="td-col">
+      <section class="td-card td-glass td-in">
+        <div class="td-card-head"><h3>Strategy library · fit for today</h3><span class="small muted">from test results only</span></div>
+        <div id="tdStrats" class="td-strats"></div>
+      </section>
+      <section class="td-card td-glass td-in">
+        <div class="td-card-head"><h3>Journal</h3><span class="small muted">your notes + automatic market and bot events</span></div>
+        <div class="td-compose">
+          <textarea id="tdNote" placeholder="What do you see today? What will you do, and why?"></textarea>
+          <div class="td-compose-bar"><span class="small muted">Mood</span><span id="tdMoods" style="display:contents"></span>
+            <button id="tdSave" class="td-save" disabled>Save note</button></div>
+          <div id="tdJmsg" class="td-jmsg"></div>
+        </div>
+        <ul id="tdTl" class="td-tl"></ul>
+      </section>
+      </div>
+    </div>
+    <div class="td-foot"><span id="tdAt"></span> · <button id="tdRefresh" class="chip">↻ Refresh</button> · Information only: nothing on this page places an order.</div>
+  </div>
+</main>
+
+<!-- ============================================================ MARKETS -->
+<main id="view-markets" class="view active">
+  <aside class="watch">
+    <div class="watch-head">
+      <input id="search" placeholder="Search symbol…" autocomplete="off">
+      <div class="seg small" id="watchSort">
+        <button data-sort="qv" class="on">Vol</button><button data-sort="chg">24h %</button><button data-sort="funding">Fund</button>
+      </div>
+    </div>
+    <div class="watch-cols"><span>Symbol</span><span>Last</span><span>24h</span></div>
+    <div id="watchList" class="watch-list"></div>
+  </aside>
+
+  <section class="chart-col">
+    <div class="toolbar">
+      <div class="sym"><span id="symName">BTCUSDT</span><span class="tag">PERP</span></div>
+      <div class="seg" id="tfSeg">
+        <button data-tf="15m">15m</button><button data-tf="1h" class="on">1h</button><button data-tf="4h">4h</button><button data-tf="1d">1D</button>
+      </div>
+      <div class="dd-wrap">
+        <button id="indBtn" class="chip">ƒx Indicators <span id="indN" class="count"></span> ▾</button>
+        <div class="ind-toggles menu" id="indToggles">
+          <div class="menu-h">Overlays</div>
+          <label><input type="checkbox" data-ind="ema" data-short="EMA" checked><i class="sw s1"></i>EMA 20 / 50 / 200</label>
+          <label><input type="checkbox" data-ind="bb" data-short="BB"><i class="sw s4"></i>Bollinger Bands 20, 2</label>
+          <label><input type="checkbox" data-ind="vwap" data-short="VWAP"><i class="sw s5"></i>VWAP (daily reset)</label>
+          <label><input type="checkbox" data-ind="don" data-short="Donchian"><i class="sw s3"></i>Donchian channel 20</label>
+          <label><input type="checkbox" data-ind="trend" data-short="20d ref" checked><i class="sw s7"></i>20-day trend reference</label>
+          <div class="menu-h">Long / short signals</div>
+          <label><input type="checkbox" data-sig="tested" data-short="▲▼ Tested rules" checked><i class="mk up">▲</i>Tested rules 🟡🟠 (scanner playbook)</label>
+          <label><input type="checkbox" data-sig="red" data-short="+🔴"><i class="mk neu">▲</i>…also 🔴 rules that failed their test</label>
+          <label><input type="checkbox" data-sig="trend" data-short="Trend L/exit" checked><i class="mk s7">▲</i>20-day trend (MajorsTrend rule, long-only)</label>
+          <label><input type="checkbox" data-sig="ema" data-short="EMA×"><i class="mk s1">●</i>EMA 20/50 cross <em>untested</em></label>
+          <label><input type="checkbox" data-sig="macd" data-short="MACD×"><i class="mk s2">●</i>MACD signal cross <em>untested</em></label>
+          <div class="menu-h">Panes</div>
+          <label><input type="checkbox" data-pane="rsi" data-short="RSI" checked>RSI 14</label>
+          <label><input type="checkbox" data-pane="macd" data-short="MACD" checked>MACD 12, 26, 9</label>
+          <label><input type="checkbox" data-pane="fund" data-short="Funding" checked>Funding rate</label>
+        </div>
+      </div>
+      <div id="activeInd" class="active-ind"></div>
+      <button id="logBtn" class="chip push" title="Logarithmic price scale">LOG</button>
+    </div>
+    <div class="panes">
+      <div class="pane main"><div id="legend" class="legend"></div><div id="cMain" class="chart"></div></div>
+      <div class="pane sub" data-pane="rsi"><div class="pane-label">RSI 14 <b id="lgRsi"></b></div><div id="cRsi" class="chart"></div></div>
+      <div class="pane sub" data-pane="macd"><div class="pane-label">MACD 12,26,9 <b id="lgMacd"></b></div><div id="cMacd" class="chart"></div></div>
+      <div class="pane sub" data-pane="fund"><div class="pane-label">Funding rate % per 8h <b id="lgFund"></b></div><div id="cFund" class="chart"></div></div>
+    </div>
+  </section>
+
+  <aside class="side">
+    <section class="card">
+      <h3>Market</h3>
+      <div class="kv" id="mkt"></div>
+    </section>
+    <section class="card">
+      <h3>Indicator readout <span class="hint">facts, not advice</span></h3>
+      <div class="kv" id="readout"></div>
+    </section>
+    <section class="card">
+      <h3>Signals on this chart <span class="hint">1h rules, last ~187 days</span></h3>
+      <div id="sigSummary" class="small muted">Loading…</div>
+      <div id="sigList" class="sig-list"></div>
+    </section>
+    <section class="card">
+      <h3>Scanner on this coin</h3>
+      <div id="coinAlerts" class="muted small">No fresh scanner trigger.</div>
+    </section>
+  </aside>
+</main>
+
+<!-- ============================================================ STRATEGIES -->
+<main id="view-strategies" class="view">
+  <div class="page">
+    <div class="page-head"><div><h1>Strategies</h1>
+      <p class="muted">Research strategies that are not on the live account · click one to fold out its details</p></div></div>
+    <div class="pick-row" id="stratDrawers">
+      <div class="pick bot-card strat-card" data-id="v4">
+        <div class="pick-top" role="button" tabindex="0" aria-expanded="false"><h4>V4 complacency short</h4>
+          <span class="pill small">FORWARD TEST · PAPER</span><span class="strat-sum" id="v4Sum"></span><i class="chev">▾</i></div>
+        <div class="pick-body"><div id="v4Card" class="v4card"><div class="empty">Loading V4 forward test…</div></div></div>
+      </div>
+      <div class="pick bot-card strat-card" data-id="crashday">
+        <div class="pick-top" role="button" tabindex="0" aria-expanded="false"><h4>Crash-day log (Bear-Wild)</h4>
+          <span class="pill small">FORWARD LOG · PAPER</span><span class="strat-sum" id="crashSum"></span><i class="chev">▾</i></div>
+        <div class="pick-body"><div id="crashCard" class="v4card"><div class="empty">Loading crash-day log…</div></div></div>
+      </div>
+      <div class="pick bot-card strat-card" data-id="majors">
+        <div class="pick-top" role="button" tabindex="0" aria-expanded="false"><h4>MajorsTrend</h4>
+          <span class="pill small">BACKTEST</span><span class="strat-sum" id="majorsSum"></span><i class="chev">▾</i></div>
+        <div class="pick-body"><div>
+          <div class="card-head"><p class="muted small">Long BTC / ETH / BNB while each coin's 20-day return is positive · 40% volatility target · 1× cap · decided on the daily close</p>
+            <div class="muted small" id="majorsAsOf"></div></div>
+          <div class="grid3" id="majorsCards"></div>
+          <div class="kpis" id="eqKpis"></div>
+          <section class="card wide">
+            <div class="card-head">
+              <h3>Equity, 300 USDT start (2017-08 → 2026-09, research simulator, costs + funding)</h3>
+              <div class="legend-inline">
+                <span><i class="sw s1"></i>MajorsTrend</span><span><i class="sw neutral"></i>BTC buy &amp; hold</span>
+                <button id="eqLog" class="chip on">LOG</button>
+              </div>
+            </div>
+            <div id="cEquity" class="chart tall"></div>
+            <div class="pane-label rel">Drawdown from peak</div>
+            <div id="cDD" class="chart short"></div>
+          </section>
+          <div class="grid2">
+            <section class="card">
+              <h3>Return by calendar year</h3>
+              <div id="cYears" class="chart mid"></div>
+            </section>
+            <section class="card">
+              <h3>Market exposure (sum of the three weights)</h3>
+              <div id="cExpo" class="chart mid"></div>
+            </section>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ============================================================ RESEARCH -->
+<main id="view-research" class="view">
+  <div class="page">
+    <div class="page-head">
+      <div><h1>Research ledger</h1>
+        <p class="muted">Every quantlab run. Gates were fixed before each run; a strategy only counts after it passes data it has never seen.</p></div>
+    </div>
+    <div class="kpis" id="resKpis"></div>
+    <div class="grid2 r-top">
+      <section class="card">
+        <div class="card-head"><h3>Profit factor vs max drawdown</h3>
+          <div class="legend-inline small"><span><i class="dot good"></i>✓ passed stage</span><span><i class="dot crit"></i>✕ failed</span></div></div>
+        <div id="scatter" class="scatter"></div>
+        <p class="muted small">Upper-left is where a strategy needs to be: PF ≥ 1.15 and drawdown ≤ 35% (dashed lines).</p>
+      </section>
+      <section class="card">
+        <h3>What the research has learned</h3>
+        <ul class="lessons">
+          <li><b>15m / 30m:</b> fees (0.2% round trip) eat every edge found so far.</li>
+          <li><b>1h altcoin shorts:</b> profit was altcoins falling vs USDT (beta), not timing; it vanishes when hedged.</li>
+          <li><b>Funding crowding:</b> real timing edge 2021-24, failed after mid-2024 in every regime (C32, C39, C40).</li>
+          <li><b>Majors trend:</b> long-only works across 2017-26; adding shorts loses since 2021.</li>
+          <li><b>Pattern:</b> most ideas that pass in-sample break on the next unseen period, so forward tests decide.</li>
+        </ul>
+      </section>
+    </div>
+    <section class="card wide">
+      <div class="card-head">
+        <h3>All runs, by family</h3>
+        <div class="filters">
+          <input id="resSearch" placeholder="Filter family / verdict…">
+          <div class="seg small" id="resStage"><button data-st="" class="on">All</button><button data-st="dev">Dev</button><button data-st="valid">Valid</button><button data-st="final">Final</button></div>
+        </div>
+      </div>
+      <div class="pick-row" id="resCards"></div>
+    </section>
+  </div>
+</main>
+
+<!-- ============================================================ SCANNER -->
+<main id="view-scanner" class="view">
+  <div class="page">
+    <div class="page-head">
+      <div><h1>Opportunity scanner</h1>
+        <p class="muted">Top 200 USDT perpetuals · 13 fixed conditions · direction, target and stop come from past cases (fit 2021-24, tested 2025-26). You decide.</p></div>
+      <div class="scan-ctl"><span id="scanState" class="muted small"></span><button id="scanBtn" class="btn">Run scan</button></div>
+    </div>
+    <div id="fwdStrip" class="fwd-strip"></div>
+    <div id="scanList" class="scan-list"></div>
+    <div class="pick-row" id="scanDrawers">
+      <div class="pick-row" id="bookCards"></div>
+      <div class="pick bot-card strat-card" data-id="scan:f1">
+        <div class="pick-top" role="button" tabindex="0" aria-expanded="false"><h4>🟠 Crash bounce (F1)</h4><span class="strat-sum" id="f1Sum"></span><i class="chev">▾</i></div>
+        <div class="pick-body"><div>
+          <div id="f1State" class="small muted"></div>
+          <div id="f1Body"></div>
+        </div></div>
+      </div>
+      <div class="pick bot-card strat-card" data-id="scan:pm">
+        <div class="pick-top" role="button" tabindex="0" aria-expanded="false"><h4>Why signals passed or failed</h4><span class="strat-sum" id="pmSum"></span><i class="chev">▾</i></div>
+        <div class="pick-body"><div>
+          <div id="pmState" class="small muted"></div>
+          <div id="pmBody"><div class="empty">Not run yet.</div></div>
+        </div></div>
+      </div>
+      <div class="pick bot-card strat-card" data-id="scan:board">
+        <div class="pick-top" role="button" tabindex="0" aria-expanded="false"><h4>Forward scoreboard: every rule on live prices</h4><span class="strat-sum" id="boardSum"></span><i class="chev">▾</i></div>
+        <div class="pick-body"><div>
+          <div class="small muted">Kill rule: after ≥ 50 closed trades on ≥ 20 days, day-avg ≤ 0 → 🔴 · day-avg &gt; 0 and t ≥ 2 → 🟡</div>
+          <div class="table-wrap"><table id="fwdTable"></table></div>
+        </div></div>
+      </div>
+      <div class="pick bot-card strat-card" data-id="scan:log">
+        <div class="pick-top" role="button" tabindex="0" aria-expanded="false"><h4>Forward log (latest triggers, all rules)</h4><span class="strat-sum" id="logSum"></span><i class="chev">▾</i></div>
+        <div class="pick-body"><div>
+          <div class="seg small" id="fwdFilter"><button data-f="" class="on">All</button><button data-f="open">Open</button><button data-f="closed">Closed</button></div>
+          <div class="table-wrap"><table id="fwdLog"></table></div>
+        </div></div>
+      </div>
+      <div class="pick bot-card strat-card" data-id="scan:red">
+        <div class="pick-top" role="button" tabindex="0" aria-expanded="false"><h4>NO TRADE: rules that failed their test</h4><span class="strat-sum" id="redSum"></span><i class="chev">▾</i></div>
+        <div class="pick-body"><div>
+          <div id="scanRed" class="scan-red"></div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ============================================================ TRADER -->
+<main id="view-live" class="view">
+  <div class="page live">
+    <div class="live-head">
+      <div>
+        <div class="eyebrow">quantlab trader · FlowTrend · Binance USDT-M · 1x isolated</div>
+        <h1>Trader <span id="trBadge" class="live-badge idle"><i></i><span>reading</span></span></h1>
+        <p id="trSub" class="muted small">–</p>
+      </div>
+      <div class="live-head-r">
+        <div class="ctl-row ctl-top" title="each action asks you to type a word">
+          <button id="trPause" class="ctl pause" data-act="pause" disabled><b>❚❚ Pause</b><span>no new trades · open ones still managed</span></button>
+          <button id="trResume" class="ctl start" data-act="resume" disabled><b>▶ Resume</b><span>paper only</span></button>
+        </div>
+        <div class="live-head-meta"><span id="trAt" class="small muted mono"></span><button id="trRefresh" class="chip">↻ Refresh</button></div>
+      </div>
+    </div>
+    <div id="trMode" class="seg" hidden></div>
+    <div id="trMsg" class="job" hidden></div>
+    <div id="trKpis" class="kpis live-kpis"><div class="kpi hero"><div class="k">Equity</div><div class="v muted">reading…</div></div></div>
+    <div id="trMarket" class="card bots-market"></div>
+    <section class="card wide">
+      <div class="card-head"><h3>Open trades</h3><span class="small muted">worst first · marked at the last price, fees paid included</span></div>
+      <div class="table-wrap"><table id="trOpen"></table></div>
+    </section>
+    <section class="card wide">
+      <div class="card-head"><h3>Closed trades</h3><span id="trClosedNote" class="small muted"></span></div>
+      <div class="table-wrap"><table id="trClosed"></table></div>
+    </section>
+    <section class="card wide" id="decCard">
+      <div class="card-head"><h3>Decision log</h3><span id="decSum" class="small muted">your earlier calls vs the bot left alone · read-only</span></div>
+      <div class="table-wrap"><table id="decTable"></table></div>
+    </section>
+    <section class="card wide">
+      <div class="card-head"><h3>Activity</h3><span class="small muted">trader log, last lines</span></div>
+      <pre id="trLog" class="live-log"></pre>
+    </section>
+  </div>
+
+  <div id="liveModal" class="modal" hidden>
+    <div class="modal-box">
+      <h2 id="mTitle"></h2>
+      <div id="mBody" class="modal-body"></div>
+      <label class="small muted">Type <b id="mWord" class="mono"></b> to confirm</label>
+      <input id="mInput" autocomplete="off" spellcheck="false">
+      <div class="modal-actions"><button id="mCancel" class="chip">Cancel</button><button id="mGo" class="ctl-go" disabled>Confirm</button></div>
+    </div>
+  </div>
+</main>
+
+<main id="view-incubator" class="view">
+  <div class="page">
+    <div class="page-head">
+      <div><h1>Strategy incubator</h1>
+        <p class="muted">Discovery runs freely on old data · ideas incubate on paper from the hour they enter · only new data decides. Nothing is traded.</p></div>
+    </div>
+    <div id="incStrip" class="fwd-strip"></div>
+    <section class="card wide">
+      <div class="card-head"><h3>Ideas in the incubator</h3>
+        <span class="small muted">Verdict at the idea's own bar: day-avg ≤ 0 → 🔴 killed · day-avg &gt; 0, t ≥ 2, PF 2× costs ≥ 1 → 🟡 promoted · no verdict by the time limit → ⚪ expired</span></div>
+      <div class="pick-row" id="incCards"><div class="empty">Loading…</div></div>
+    </section>
+    <section class="card wide">
+      <div class="card-head"><h3>Pipeline</h3></div>
+      <div class="inc-flow"><div><b>1 · Discovery</b><span class="small muted">weekly agent, Monday 09:00 · light check on old data · every try counted</span></div>
+        <div><b>2 · Incubator</b><span class="small muted">daily 03:30 · paper trades on live data since entry</span></div>
+        <div><b>3 · Verdict</b><span class="small muted">🟡 → 300 USDT simulation → you decide · 🔴 dropped</span></div></div>
+    </section>
+    <details class="card" id="incDiscWrap"><summary>Discovery log (latest runs)</summary><pre id="incDisc" class="inc-log"></pre></details>
+  </div>
+</main>
+
+<main id="view-fit" class="view">
+  <div class="page">
+    <div class="page-head">
+      <div><div class="eyebrow">Information only · never switches, pauses or sizes a bot</div>
+        <h1>Market fit</h1>
+        <p class="muted">Today's market type, and how often each saved live strategy traded and what it earned in that type of market over its backtest (2024-04 → 2026-09, on its own coins).</p></div>
+      <div class="live-head-r"><span id="fitAt" class="small muted mono"></span><button id="fitRefresh" class="chip">↻ Refresh</button></div>
+    </div>
+    <div id="fitStrip" class="fwd-strip"><div class="empty">reading…</div></div>
+    <section class="card wide">
+      <div class="card-head"><h3>Every strategy in today's market</h3><span class="small muted">same days in its backtest vs its own normal · USDT a day at the live stake per trade, no compounding · ● = running live now</span></div>
+      <div class="table-wrap"><table id="fitAll"></table></div>
+    </section>
+    <section class="card wide">
+      <div class="card-head"><h3>One strategy, every market type</h3><span class="small muted">today's row ▶</span></div>
+      <div class="fit-seg" id="fitBots"></div>
+      <div class="fit-seg" id="fitSeg"><button data-k="combo" class="on">Trend × moves</button><button data-k="trend">Trend</button><button data-k="vol">Moves</button><button data-k="width">Breadth</button></div>
+      <div class="table-wrap"><table id="fitTable"></table></div>
+    </section>
+    <p class="small muted" id="fitNote"></p>
+  </div>
+</main>
+
+<main id="view-switcher" class="view">
+  <div class="page">
+    <div class="page-head">
+      <div><div class="eyebrow">Paper only · public Binance candles · no keys, no orders</div>
+        <h1>Switcher paper bot</h1>
+        <p class="muted">Every Monday it holds the book that earned more over the last 8 weeks: <b>R</b> reversal book (rally short + flush long, 50 USDT a trade, at most 6 open) or <b>M</b> momentum basket (long 10 strongest / short 10 weakest by 30-day change, 15 USDT each, 7 days), or cash when both are ≤ 0. Backtest 2022-02 → 2026-09 🟡.</p></div>
+      <div class="live-head-r"><span id="swAt" class="small muted mono"></span><button id="swRefresh" class="chip">↻ Refresh</button></div>
+    </div>
+    <div id="swStrip" class="fwd-strip"><div class="empty">reading…</div></div>
+    <section class="card wide">
+      <div class="card-head"><h3>Weeks</h3><span class="small muted">weekly net % · "R known" = R trades closed that week (what the Monday choice can see) · R / M = what holding that book earned · weeks before 2026-09-28 come from the backtest</span></div>
+      <div class="table-wrap"><table id="swWeeks"></table></div>
+    </section>
+    <section class="card wide">
+      <div class="card-head"><h3>Paper positions</h3><span class="small muted">counting from the forward start · USDT after 0.20% costs</span></div>
+      <div class="table-wrap"><table id="swPos"></table></div>
+    </section>
+    <details class="card"><summary>Bot log (last lines)</summary><pre id="swLog" class="inc-log"></pre></details>
+    <section class="card wide">
+      <div class="card-head"><h3>Delisting-short paper bot</h3><span class="small muted">paper only · when Binance announces a delisting, short 30 USDT at the next 5-minute close · out after 72 h or at +15% · backtest 2022-26: 136 events, +2.17% a trade, avg win +4.62 / loss −3.44 USDT, carried by a few big collapses 🟡</span></div>
+      <div id="dlStrip" class="fwd-strip"><div class="empty">reading…</div></div>
+      <div class="table-wrap"><table id="dlTable"></table></div>
+    </section>
+  </div>
+</main>
+
+<div id="tip" class="tip"></div>
+<script src="/vendor/lightweight-charts.js"></script>
+<script src="today.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

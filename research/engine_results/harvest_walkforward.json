@@ -1,0 +1,141 @@
+{
+ "folds": [
+  {
+   "train": "2021-01-01->2022-07-01",
+   "oos": "2022-07-01->2023-01-01",
+   "picked": "trend_resume|btc|long",
+   "train_ret": 132.38,
+   "oos_ret": -27.75,
+   "oos_trades": 187
+  },
+  {
+   "train": "2021-07-01->2023-01-01",
+   "oos": "2023-01-01->2023-07-01",
+   "picked": "rsi_reset|btc+vol|both",
+   "train_ret": 38.22,
+   "oos_ret": 6.02,
+   "oos_trades": 311
+  },
+  {
+   "train": "2022-01-01->2023-07-01",
+   "oos": "2023-07-01->2024-01-01",
+   "picked": "rsi_reset|notflat|both",
+   "train_ret": 22.27,
+   "oos_ret": 22.22,
+   "oos_trades": 572
+  },
+  {
+   "train": "2022-07-01->2024-01-01",
+   "oos": "2024-01-01->2024-07-01",
+   "picked": "trend_resume|btc|both",
+   "train_ret": 53.83,
+   "oos_ret": -22.44,
+   "oos_trades": 409
+  },
+  {
+   "train": "2023-01-01->2024-07-01",
+   "oos": "2024-07-01->2025-01-01",
+   "picked": "trend_resume|btc+vol|long",
+   "train_ret": 51.68,
+   "oos_ret": 52.82,
+   "oos_trades": 195
+  },
+  {
+   "train": "2023-07-01->2025-01-01",
+   "oos": "2025-01-01->2025-07-01",
+   "picked": "trend_resume|btc|long",
+   "train_ret": 88.1,
+   "oos_ret": -21.52,
+   "oos_trades": 246
+  },
+  {
+   "train": "2024-01-01->2025-07-01",
+   "oos": "2025-07-01->2026-01-01",
+   "picked": "band_fade_confirmed|nofilt|long",
+   "train_ret": 40.03,
+   "oos_ret": -12.25,
+   "oos_trades": 194
+  },
+  {
+   "train": "2024-07-01->2026-01-01",
+   "oos": "2026-01-01->2026-10-01",
+   "picked": "trend_resume|btc+vol|both",
+   "train_ret": 37.92,
+   "oos_ret": -14.46,
+   "oos_trades": 576
+  }
+ ],
+ "leader": {
+  "half_years": {
+   "2021H1": {
+    "ret": 80.63,
+    "trades": 172
+   },
+   "2021H2": {
+    "ret": 76.0,
+    "trades": 179
+   },
+   "2022H1": {
+    "ret": -24.25,
+    "trades": 190
+   },
+   "2022H2": {
+    "ret": -27.75,
+    "trades": 187
+   },
+   "2023H1": {
+    "ret": 15.83,
+    "trades": 242
+   },
+   "2023H2": {
+    "ret": 50.05,
+    "trades": 185
+   },
+   "2024H1": {
+    "ret": -16.05,
+    "trades": 199
+   },
+   "2024H2": {
+    "ret": 54.1,
+    "trades": 205
+   },
+   "2025H1": {
+    "ret": -21.52,
+    "trades": 246
+   },
+   "2025H2": {
+    "ret": 4.9,
+    "trades": 213
+   },
+   "2026H1": {
+    "ret": -25.45,
+    "trades": 171
+   },
+   "2026H2": {
+    "ret": 12.96,
+    "trades": 99
+   }
+  },
+  "regimes": {
+   "bull2021": {
+    "ret": 169.72,
+    "trades": 300
+   },
+   "bear2022": {
+    "ret": -65.09,
+    "trades": 428
+   },
+   "recovery2023_24": {
+    "ret": 103.93,
+    "trades": 831
+   },
+   "recent2025_26": {
+    "ret": -29.12,
+    "trades": 729
+   }
+  },
+  "cid": "trend_resume|btc|long"
+ },
+ "oos_sum": -17.35,
+ "folds_positive": "3/8"
+}

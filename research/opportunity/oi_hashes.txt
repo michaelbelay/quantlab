@@ -1,0 +1,5 @@
+# frozen before first run 2026-10-07T14:13:55Z
+3b08c81dac0145a9f0ae4b9c6a54c3085fc5645df365b9747cb45e2d10d66794 *PREREGISTRATION_2026-10-07_oi.md
+1f0bcb1f573fd3a58f94df577be4d78fff2df0aa031b69fe1555b950892dd4fd *oi_study.py
+b96f2c0445b3d9feab7cce0f3a2cad4d0cd02a0bb444daf70c2c78c6006689c4 *common.py
+635153dd2aab22489e02dd3fe4b60ffd859d483bcfa2add80d95bbe17007fc52 *build_playbook.py
