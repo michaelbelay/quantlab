@@ -24,6 +24,7 @@
     <button class="tab" data-view="research">Research</button>
     <button class="tab" data-view="scanner">Scanner <span id="scanCount" class="count"></span></button>
     <button class="tab" data-view="incubator">Incubator</button>
+    <button class="tab" data-view="bearlab">Bear lab</button>
   </nav>
   <div class="top-right">
     <span id="conn" class="conn"><i></i><b>connecting</b></span>
@@ -357,6 +358,28 @@
         <div><b>3 · Verdict</b><span class="small muted">🟡 → 300 USDT simulation → you decide · 🔴 dropped</span></div></div>
     </section>
     <details class="card" id="incDiscWrap"><summary>Discovery log (latest runs)</summary><pre id="incDisc" class="inc-log"></pre></details>
+  </div>
+</main>
+
+<main id="view-bearlab" class="view">
+  <div class="page">
+    <div class="page-head">
+      <div><h1>Bear lab</h1>
+        <p class="muted">Short ideas for the 19 coins, entered only on bear days (BTC 20-day return ≤ 0). Each idea passed a light check on 2022-01 → 2026-09, then paper-trades on live data from the hour it entered. Only live data decides. Nothing is traded.</p></div>
+    </div>
+    <div id="blStrip" class="fwd-strip"></div>
+    <section class="card wide">
+      <div class="card-head"><h3>Ideas on paper</h3>
+        <span class="small muted">Verdict after ≥ 40 closed trades on ≥ 12 days: day-avg ≤ 0 → 🔴 killed · day-avg &gt; 0, t ≥ 2.5, avg at 2× costs &gt; 0 → 🟡 pass (Windows toast) · 180 days without a verdict → ⚪ expired</span></div>
+      <div class="pick-row" id="blCards"><div class="empty">Loading…</div></div>
+    </section>
+    <section class="card wide">
+      <div class="card-head"><h3>Pipeline</h3></div>
+      <div class="inc-flow"><div><b>1 · Discovery</b><span class="small muted">daily agent 09:30 · up to 6 ideas · light check on 2022-26 · every screen counted</span></div>
+        <div><b>2 · Paper</b><span class="small muted">at most 3 new ideas a day · frozen by hash · live candles, funding and OI</span></div>
+        <div><b>3 · Verdict</b><span class="small muted">🟡 → 300 USDT simulation → you decide · 🔴 dropped</span></div></div>
+    </section>
+    <details class="card"><summary>Discovery log (latest runs)</summary><pre id="blDisc" class="inc-log"></pre></details>
   </div>
 </main>
 

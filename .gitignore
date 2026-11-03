@@ -24,3 +24,10 @@ runs/
 # hash-locked registration (rotation_run.py checks it); stays local
 research/PREREGISTRATION_2026-09-28_rotation.md
 research/AMENDMENT_2026-09-29_rotation_v3.md
+
+# local runtime files
+*.lock
+*.old
+*.tmp
+research/oi/logs/
+research/bear_lab/logs/

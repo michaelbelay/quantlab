@@ -1,0 +1,363 @@
+{
+ "coins_used": 118,
+ "ideas": {
+  "F1 covering_rally": {
+   "trades": 1005,
+   "trades_A": 206,
+   "trades_B": 799,
+   "win_pct": 48.2,
+   "avg_net": -0.533,
+   "avg_A": -0.864,
+   "avg_B": -0.447,
+   "avg_net_2x": -0.733,
+   "avg_funding": -0.032,
+   "months_pos": "18/46",
+   "months_pos_pct": 39.1,
+   "years": {
+    "2022": {
+     "trades": 148,
+     "avg_net": -1.381
+    },
+    "2023": {
+     "trades": 22,
+     "avg_net": 1.14
+    },
+    "2024": {
+     "trades": 214,
+     "avg_net": -0.465
+    },
+    "2025": {
+     "trades": 490,
+     "avg_net": -0.157
+    },
+    "2026": {
+     "trades": 131,
+     "avg_net": -1.37
+    }
+   },
+   "exits": {
+    "time": 708,
+    "stop": 296,
+    "data end": 1
+   },
+   "usdt_at_50": -267.7,
+   "worst": [
+    {
+     "coin": "SENT",
+     "entry": "2026-01-29 07:00",
+     "net_pct": -9.41
+    },
+    {
+     "coin": "M",
+     "entry": "2025-08-20 10:00",
+     "net_pct": -8.87
+    },
+    {
+     "coin": "AXS",
+     "entry": "2026-02-25 03:00",
+     "net_pct": -8.58
+    },
+    {
+     "coin": "MON",
+     "entry": "2025-11-23 21:00",
+     "net_pct": -8.57
+    },
+    {
+     "coin": "CVX",
+     "entry": "2022-11-23 02:00",
+     "net_pct": -8.49
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%",
+   "below_minus_100": 0,
+   "avg_net_capped": -0.533
+  },
+  "F2 absorbed_buying": {
+   "trades": 5648,
+   "trades_A": 2146,
+   "trades_B": 3502,
+   "win_pct": 41.9,
+   "avg_net": -0.557,
+   "avg_A": -0.511,
+   "avg_B": -0.585,
+   "avg_net_2x": -0.757,
+   "avg_funding": -0.008,
+   "months_pos": "15/53",
+   "months_pos_pct": 28.3,
+   "years": {
+    "2022": {
+     "trades": 974,
+     "avg_net": -0.62
+    },
+    "2023": {
+     "trades": 713,
+     "avg_net": 0.048
+    },
+    "2024": {
+     "trades": 1331,
+     "avg_net": -0.757
+    },
+    "2025": {
+     "trades": 1840,
+     "avg_net": -0.817
+    },
+    "2026": {
+     "trades": 790,
+     "avg_net": -0.083
+    }
+   },
+   "exits": {
+    "time": 3590,
+    "stop": 2058
+   },
+   "usdt_at_50": -1573.1,
+   "worst": [
+    {
+     "coin": "SOL",
+     "entry": "2022-11-10 05:00",
+     "net_pct": -10.2
+    },
+    {
+     "coin": "SOL",
+     "entry": "2022-11-10 11:00",
+     "net_pct": -8.2
+    },
+    {
+     "coin": "SOL",
+     "entry": "2022-11-10 09:00",
+     "net_pct": -8.2
+    },
+    {
+     "coin": "SOL",
+     "entry": "2022-11-10 02:00",
+     "net_pct": -8.2
+    },
+    {
+     "coin": "M",
+     "entry": "2025-09-10 13:00",
+     "net_pct": -7.99
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%",
+   "below_minus_100": 0,
+   "avg_net_capped": -0.557
+  },
+  "F3 delta_divergence": {
+   "trades": 11530,
+   "trades_A": 3767,
+   "trades_B": 7763,
+   "win_pct": 27.8,
+   "avg_net": -0.17,
+   "avg_A": -0.366,
+   "avg_B": -0.075,
+   "avg_net_2x": -0.37,
+   "avg_funding": 0.005,
+   "months_pos": "23/53",
+   "months_pos_pct": 43.4,
+   "years": {
+    "2022": {
+     "trades": 1767,
+     "avg_net": -0.438
+    },
+    "2023": {
+     "trades": 1285,
+     "avg_net": -0.202
+    },
+    "2024": {
+     "trades": 2397,
+     "avg_net": -0.474
+    },
+    "2025": {
+     "trades": 4019,
+     "avg_net": 0.122
+    },
+    "2026": {
+     "trades": 2062,
+     "avg_net": -0.139
+    }
+   },
+   "exits": {
+    "stop": 8041,
+    "time": 3488,
+    "data end": 1
+   },
+   "usdt_at_50": -982.5,
+   "worst": [
+    {
+     "coin": "FET",
+     "entry": "2025-11-07 16:00",
+     "net_pct": -16.34
+    },
+    {
+     "coin": "H",
+     "entry": "2026-06-06 15:00",
+     "net_pct": -15.54
+    },
+    {
+     "coin": "VIRTUAL",
+     "entry": "2025-04-11 13:00",
+     "net_pct": -15.23
+    },
+    {
+     "coin": "M",
+     "entry": "2026-07-01 11:00",
+     "net_pct": -14.86
+    },
+    {
+     "coin": "ADA",
+     "entry": "2025-03-02 20:00",
+     "net_pct": -13.09
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%",
+   "below_minus_100": 0,
+   "avg_net_capped": -0.17
+  },
+  "F4 market_euphoria": {
+   "trades": 2173,
+   "trades_A": 913,
+   "trades_B": 1260,
+   "win_pct": 44.3,
+   "avg_net": -0.803,
+   "avg_A": -0.888,
+   "avg_B": -0.741,
+   "avg_net_2x": -1.003,
+   "avg_funding": -0.006,
+   "months_pos": "15/50",
+   "months_pos_pct": 30.0,
+   "years": {
+    "2022": {
+     "trades": 477,
+     "avg_net": -1.233
+    },
+    "2023": {
+     "trades": 344,
+     "avg_net": -0.681
+    },
+    "2024": {
+     "trades": 416,
+     "avg_net": -0.723
+    },
+    "2025": {
+     "trades": 600,
+     "avg_net": -0.521
+    },
+    "2026": {
+     "trades": 336,
+     "avg_net": -0.919
+    }
+   },
+   "exits": {
+    "time": 1667,
+    "stop": 502,
+    "data end": 4
+   },
+   "usdt_at_50": -872.2,
+   "worst": [
+    {
+     "coin": "ZRO",
+     "entry": "2025-03-15 07:00",
+     "net_pct": -10.05
+    },
+    {
+     "coin": "M",
+     "entry": "2025-09-10 15:00",
+     "net_pct": -9.93
+    },
+    {
+     "coin": "ONDO",
+     "entry": "2025-01-14 15:00",
+     "net_pct": -9.09
+    },
+    {
+     "coin": "M",
+     "entry": "2025-09-05 07:00",
+     "net_pct": -9.07
+    },
+    {
+     "coin": "LDO",
+     "entry": "2023-01-02 08:00",
+     "net_pct": -9.03
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%",
+   "below_minus_100": 0,
+   "avg_net_capped": -0.803
+  },
+  "F5 persistent_selling": {
+   "trades": 4069,
+   "trades_A": 1556,
+   "trades_B": 2513,
+   "win_pct": 46.2,
+   "avg_net": -0.194,
+   "avg_A": 0.776,
+   "avg_B": -0.794,
+   "avg_net_2x": -0.394,
+   "avg_funding": -0.027,
+   "months_pos": "18/53",
+   "months_pos_pct": 34.0,
+   "years": {
+    "2022": {
+     "trades": 634,
+     "avg_net": 1.147
+    },
+    "2023": {
+     "trades": 706,
+     "avg_net": 1.174
+    },
+    "2024": {
+     "trades": 649,
+     "avg_net": -1.323
+    },
+    "2025": {
+     "trades": 1310,
+     "avg_net": -1.116
+    },
+    "2026": {
+     "trades": 770,
+     "avg_net": -0.033
+    }
+   },
+   "exits": {
+    "time": 2981,
+    "stop": 1088
+   },
+   "usdt_at_50": -394.7,
+   "worst": [
+    {
+     "coin": "AXS",
+     "entry": "2026-02-19 04:00",
+     "net_pct": -14.5
+    },
+    {
+     "coin": "SENT",
+     "entry": "2026-02-07 08:00",
+     "net_pct": -11.49
+    },
+    {
+     "coin": "H",
+     "entry": "2025-12-07 08:00",
+     "net_pct": -9.5
+    },
+    {
+     "coin": "VVV",
+     "entry": "2026-06-19 04:00",
+     "net_pct": -9.42
+    },
+    {
+     "coin": "SYRUP",
+     "entry": "2025-10-11 00:00",
+     "net_pct": -9.06
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%",
+   "below_minus_100": 0,
+   "avg_net_capped": -0.194
+  }
+ }
+}

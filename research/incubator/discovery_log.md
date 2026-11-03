@@ -106,3 +106,30 @@ market-wide crash aftermath, and ideas for today's market type (DN_LOVOL).
   a few rally days, the same weakness as most long-in-uptrend ideas before. Time-of-day ideas lost in both directions
   (US-session long t −2.3, US-open fade short t −2.0): after 0.2% costs there is no clock edge on 1h bars.
 - Nothing broke.
+
+## 2026-11-02 (weekly agent): 9 ideas screened, 1 passed, 1 added
+Screen trials #42–#50 (50 screens in total so far, 5 passed). Development coins, 2021-01..2026-09. PF / PF 2× / day t / years positive.
+New angles this run: funding vs price direction, correlation with BTC, funding relative to the whole market, market-wide
+calm, market-wide breadth washout, volume-filtered bounces/breakdowns, and a trend pullback for UP_HIVOL.
+
+| Idea | Reason | Trades | PF | PF 2× | Day t | Yrs + | Result |
+|---|---|---|---|---|---|---|---|
+| `funding_div_up` | rise with falling funding = spot buyers, no levered longs to flush | 3914 | 1.09 | 1.04 | 1.52 | 3/6 | fail |
+| `decorrelated_strength_up` | coin rising while ignoring BTC has its own buyer | 1341 | 1.37 | 1.32 | 1.99 | 5/6 | fail (t, just under 2.0) |
+| `lowvol_bounce_short_dn` | bounce on low volume in a bear = short covering, no buyers (short) | 1801 | 0.74 | 0.68 | −0.90 | 0/6 | fail |
+| `market_calm_leader_up` | whole market quiet → expansion breaks up first in the leaders | 2038 | 0.94 | 0.90 | −0.30 | 4/6 | fail |
+| `funding_flip_up` | funding negative → positive = short crowd covered, trend switches sides | 2855 | 1.24 | 1.15 | −0.64 | 4/6 | fail (t) |
+| `fund_spread_short_dn` | coin funding far above the market's = crowded dip longs (short) | 354 | 0.89 | 0.85 | −0.37 | 1/4 | fail |
+| `washout_leaders_up` | coins above their average when ≥70% are below have a committed buyer | 1686 | 0.98 | 0.93 | 0.51 | 3/6 | fail |
+| `trend_pullback_uphivol` | hot bull: resting trend bids at EMA100 hold, trend resumes | 4390 | **1.20** | **1.12** | **2.06** | **5/6** | **passed, added** |
+| `quiet_breakdown_dnlovol` | low-volume 20d-low break in a calm bear = slow bleed (short) | 1576 | 1.10 | 1.04 | −1.27 | 4/6 | fail (t) |
+
+- **Added:** `trend_pullback_uphivol` (source "discovery 2026-11-02"), forward start 2026-11-02 08:00 UTC, verdict at 50
+  trades on 20 days. Today's market type is DN_LOVOL, so it will not trade until BTC is in a wild uptrend (could be
+  months; 365-day limit). Caveats: day t 2.06 is only just over the line; 2022 was negative (−293); 2024 alone is
+  1449 of 4390 trades. 5 passes in 50 tries is about what luck gives; forward data decides.
+- `decorrelated_strength_up` failed at t 1.99 and 2026 carries most of its profit (+2017 of +2238). Not re-screened
+  with changed numbers: that would be tuning to the screen.
+- Information, not ideas: `funding_flip_up` and `quiet_breakdown_dnlovol` have PF > 1.1 but a negative day average —
+  profit comes from a few big days, most days lose. Shorting low-volume bounces in bears lost every year.
+- Nothing broke.

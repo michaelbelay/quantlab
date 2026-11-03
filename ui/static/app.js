@@ -867,6 +867,43 @@ function fitTable() {
 $$("#fitSeg button").forEach((b) => b.onclick = () => { $$("#fitSeg button").forEach((x) => x.classList.toggle("on", x === b)); FIT.k = b.dataset.k; fitTable(); });
 $("#fitRefresh").onclick = () => loadFit().catch((e) => $("#fitStrip").innerHTML = `<div class="empty">Could not load: ${e.message}</div>`);
 
+const BL_ICON = { PAPER: "🧪", PASS: "🟡", KILLED: "🔴", EXPIRED: "⚪", TAMPERED: "⛔" };
+async function loadBearLab() {
+  const d = await api("/api/bearlab"), ideas = d.ideas || [], st = d.state || {}, n = (x) => ideas.filter((i) => i.status === x).length;
+  const openNow = ideas.reduce((k, i) => k + ((i.live && i.live.open) || []).length, 0);
+  $("#blStrip").innerHTML = [
+    `Last evaluation <b>${lt(st.ts)}</b> · live data until <b>${lt(st.data_until)}</b>`,
+    `🧪 <b>${n("PAPER")}</b> on paper · 🟡 <b>${n("PASS")}</b> · 🔴 <b>${n("KILLED")}</b> · ⚪ <b>${n("EXPIRED")}</b>${n("TAMPERED") ? ` · ⛔ <b>${n("TAMPERED")}</b>` : ""}`,
+    `Open paper shorts now <b>${openNow}</b>`,
+    `Screens <b>${d.screens.total}</b> · passed light check <b>${d.screens.passed}</b>`,
+    d.passed_md ? `<span class="warn">🟡 an idea passed on live data – see PASSED.md</span>` : "",
+  ].filter(Boolean).map((x) => `<div class="chipbox">${x}</div>`).join("");
+  const f2 = (v) => pct(v);
+  $("#blCards").innerHTML = ideas.length ? ideas.map((v) => { const L = v.live || {}, S = v.screen || {}, id = "bl:" + v.id,
+      t = L.trades || 0, p = Math.min(t / 40, (L.days || 0) / 12, 1), op = L.open || [], wo = L.worst || [];
+    return `<div class="pick bot-card inc-card ${BOPEN.has(id) ? "open" : ""}" data-id="${id}">
+      <div class="pick-top" role="button" tabindex="0" aria-expanded="${BOPEN.has(id)}"><h4>${v.id}</h4>
+        <span class="pill small">${BL_ICON[v.status] || ""} ${v.status}</span>
+        <span class="strat-sum"><span class="pick-key"><span class="prog"><i style="width:${p * 100}%"></i></span></span>
+        <span class="pick-key k2"><small>trades / days</small> <b>${t} / ${L.days || 0}</b></span>
+        <span class="pick-key k2"><small>open</small> <b>${op.length}</b></span>
+        <span class="pick-key k2"><small>day-avg</small> <b class="${cls(L.day_avg)}">${t ? f2(L.day_avg) : "–"}</b></span></span><i class="chev">▾</i></div>
+      <div class="pick-body"><div>
+        <div class="small muted mono">since ${lt(v.start)} · ${v.source}</div>
+        ${v.why ? `<div class="small">${BL_ICON[v.status] || ""} ${v.why}</div>` : ""}
+        <div class="kpis bots-kpis">${[["Live: trades / days", `${t} / ${L.days || 0}`, "needs 40 trades on 12 days"],
+          ["Live: day-avg", t ? f2(L.day_avg) : "–", "per day, after costs and funding"],
+          ["Live: t", L.day_t == null ? "–" : L.day_t.toFixed(2), "needs ≥ 2.5"],
+          ["Live: avg 2× costs", t ? f2(L.avg_2x) : "–", "needs > 0"],
+          ["History 2022-01 → 2024-04", f2(S.avg_A), `${S.trades_A ?? "–"} trades, avg per trade`],
+          ["History 2024-05 → 2026-09", f2(S.avg_B), `${S.trades_B ?? "–"} trades · 2× costs ${f2(S.avg_2x)}`]]
+          .map(([a, b, c]) => `<div class="kpi"><div class="k">${a}</div><div class="v">${b}</div><div class="d">${c}</div></div>`).join("")}</div>
+        <p class="small"><b>Open now (paper):</b> ${op.length ? op.map((o) => `${o[0]} since ${lt(o[1])} <b class="${cls(o[2])}">${pct(o[2])}</b>`).join(" · ") : "none"}</p>
+        <p class="small"><b>Worst closed (live):</b> ${wo.length ? wo.map((o) => `${o[0]} ${lt(o[1])} <b class="${cls(o[2])}">${pct(o[2])}</b>`).join(" · ") : "none yet"}</p>
+        <p class="small"><b>Why it is here:</b> ${v.reason}</p>
+      </div></div></div>`; }).join("") : `<div class="empty">No ideas on paper yet.</div>`;
+  $("#blDisc").textContent = d.discovery || "No discovery run yet.";
+}
 async function loadIncubator() {
   const d = await api("/api/incubator"), s = d.state;
   if (!s) { $("#incCards").innerHTML = `<div class="empty">No evaluation yet.</div>`; return; }
@@ -1063,6 +1100,7 @@ function showView(v) {
   if (v === "strategies") loadStrategies().catch((e) => $("#majorsCards").innerHTML = `<div class="empty">Could not load: ${e.message}</div>`);
   if (v === "fit") loadFit().catch((e) => $("#fitStrip").innerHTML = `<div class="empty">Could not load: ${e.message}</div>`);
   if (v === "incubator") loadIncubator().catch((e) => $("#incCards").innerHTML = `<div class="empty">Could not load: ${e.message}</div>`);
+  if (v === "bearlab") loadBearLab().catch((e) => $("#blCards").innerHTML = `<div class="empty">Could not load: ${e.message}</div>`);
   if (v === "research") loadResearch().catch((e) => $("#resKpis").innerHTML = `<div class="empty">Could not load: ${e.message}</div>`);
 }
 function applyTheme() {

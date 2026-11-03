@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-31T02:30:03+00:00",
- "data_until": "2026-10-31 01:00:00+00:00",
+ "updated": "2026-11-03T02:31:28+00:00",
+ "data_until": "2026-11-03 01:00:00+00:00",
  "market_type_today": "DN_LOVOL",
  "ideas": {
   "flush_f1": {
@@ -15,25 +15,25 @@
     "min_days": 10,
     "max_days": 730
    },
-   "status": "TAMPERED",
-   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "status": "INCUBATING",
+   "why": "",
    "forward": {
-    "trades": 32,
-    "days": 6,
-    "pf": 1.8935293547767587,
-    "pf_2x": 1.8116174961514282,
-    "avg_pct": 3.1919820742189575,
-    "day_avg_pct": 10.911445851485992,
-    "day_t": 0.7763977721623588,
-    "win_pct": 43.75,
+    "trades": 83,
+    "days": 11,
+    "pf": 2.046341448799978,
+    "pf_2x": 1.9411581433638923,
+    "avg_pct": 2.9644947445355414,
+    "day_avg_pct": 7.978693795349324,
+    "day_t": 1.0974820096344402,
+    "win_pct": 49.39759036144578,
     "years": {
      "2026": {
-      "net": 102.14342637500664,
-      "trades": 32
+      "net": 246.05306379644992,
+      "trades": 83
      }
     },
     "first": "2026-10-23 20:00:00+00:00",
-    "last": "2026-10-28 02:00:00+00:00"
+    "last": "2026-11-02 01:00:00+00:00"
    }
   },
   "switch_book": {
@@ -48,21 +48,21 @@
     "min_days": 20,
     "max_days": 365
    },
-   "status": "TAMPERED",
-   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "status": "INCUBATING",
+   "why": "",
    "forward": {
-    "trades": 1744,
+    "trades": 1944,
     "days": 16,
-    "pf": 0.5163025144648389,
-    "pf_2x": 0.4809688523563393,
-    "avg_pct": -1.5347579103930844,
-    "day_avg_pct": -1.1770940080056107,
-    "day_t": -1.9673409121512897,
-    "win_pct": 15.424311926605505,
+    "pf": 0.5030147814159442,
+    "pf_2x": 0.46744683096585854,
+    "avg_pct": -1.5342105352379067,
+    "day_avg_pct": -1.2200378706303692,
+    "day_t": -2.114108054767345,
+    "win_pct": 15.432098765432098,
     "years": {
      "2026": {
-      "net": -2676.617795725539,
-      "trades": 1744
+      "net": -2982.5052805024907,
+      "trades": 1944
      }
     },
     "first": "2026-10-07 21:00:00+00:00",
@@ -81,21 +81,21 @@
     "min_days": 20,
     "max_days": 365
    },
-   "status": "TAMPERED",
-   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "status": "INCUBATING",
+   "why": "",
    "forward": {
-    "trades": 90,
+    "trades": 101,
     "days": 1,
-    "pf": 1.4252399035507808,
-    "pf_2x": 1.3705346297778942,
-    "avg_pct": 1.7146729562140481,
-    "day_avg_pct": 1.7146729562140481,
+    "pf": 1.4956479866215853,
+    "pf_2x": 1.4373829064714474,
+    "avg_pct": 1.9002847036893165,
+    "day_avg_pct": 1.9002847036893167,
     "day_t": null,
-    "win_pct": 72.22222222222221,
+    "win_pct": 73.26732673267327,
     "years": {
      "2026": {
-      "net": 154.32056605926434,
-      "trades": 90
+      "net": 191.928755072621,
+      "trades": 101
      }
     },
     "first": "2026-10-08 01:00:00+00:00",
@@ -114,24 +114,24 @@
     "min_days": 20,
     "max_days": 365
    },
-   "status": "TAMPERED",
-   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "status": "INCUBATING",
+   "why": "",
    "forward": {
-    "trades": 132,
-    "days": 15,
-    "pf": 0.7304906584213613,
-    "pf_2x": 0.7041141236156945,
-    "avg_pct": -1.612963520069047,
-    "day_avg_pct": -0.5438876877985327,
-    "day_t": -0.3136313077784179,
-    "win_pct": 28.78787878787879,
+    "trades": 134,
+    "days": 16,
+    "pf": 0.7219496539342789,
+    "pf_2x": 0.6957305421016741,
+    "avg_pct": -1.6586358531424663,
+    "day_avg_pct": -0.7767242811175328,
+    "day_t": -0.4753208183780302,
+    "win_pct": 28.35820895522388,
     "years": {
      "2026": {
-      "net": -212.91118464911423,
-      "trades": 132
+      "net": -222.25720432109048,
+      "trades": 134
      }
     },
-    "first": "2026-10-08 01:00:00+00:00",
+    "first": "2026-10-07 23:00:00+00:00",
     "last": "2026-10-22 21:00:00+00:00"
    }
   },
@@ -147,20 +147,20 @@
     "min_days": 20,
     "max_days": 365
    },
-   "status": "TAMPERED",
-   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "status": "INCUBATING",
+   "why": "",
    "forward": {
     "trades": 153,
     "days": 11,
     "pf": 0.4010057954024062,
-    "pf_2x": 0.38429156515821616,
-    "avg_pct": -3.763927528375896,
-    "day_avg_pct": -3.3217618342628317,
-    "day_t": -4.424391991547235,
+    "pf_2x": 0.3842915651582161,
+    "avg_pct": -3.7639275283758966,
+    "day_avg_pct": -3.3217618342628326,
+    "day_t": -4.424391991547241,
     "win_pct": 22.875816993464053,
     "years": {
      "2026": {
-      "net": -575.8809118415121,
+      "net": -575.8809118415122,
       "trades": 153
      }
     },
@@ -180,8 +180,8 @@
     "min_days": 10,
     "max_days": 365
    },
-   "status": "TAMPERED",
-   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "status": "INCUBATING",
+   "why": "",
    "forward": {
     "trades": 0,
     "days": 0
@@ -199,20 +199,20 @@
     "min_days": 20,
     "max_days": 365
    },
-   "status": "TAMPERED",
-   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "status": "INCUBATING",
+   "why": "",
    "forward": {
     "trades": 12,
     "days": 4,
-    "pf": 0.07234260612685188,
-    "pf_2x": 0.07032501546965833,
-    "avg_pct": -13.591046614010258,
-    "day_avg_pct": -18.588997081765676,
-    "day_t": -1.6105728447995993,
+    "pf": 0.07234260612685182,
+    "pf_2x": 0.0703250154696583,
+    "avg_pct": -13.591046614010267,
+    "day_avg_pct": -18.58899708176569,
+    "day_t": -1.6105728447996008,
     "win_pct": 8.333333333333332,
     "years": {
      "2026": {
-      "net": -163.0925593681231,
+      "net": -163.09255936812318,
       "trades": 12
      }
     },
@@ -232,32 +232,51 @@
     "min_days": 20,
     "max_days": 365
    },
-   "status": "TAMPERED",
-   "why": "idea file or incubator code changed after entry: research/incubator/incubator.py, research/downtrend.py",
+   "status": "INCUBATING",
+   "why": "",
    "forward": {
-    "trades": 62,
-    "days": 3,
-    "pf": 0.10093426927103451,
-    "pf_2x": 0.08837434244622215,
-    "avg_pct": -3.669379657000751,
-    "day_avg_pct": -5.083588017287262,
-    "day_t": -3.4569914067329375,
-    "win_pct": 19.35483870967742,
+    "trades": 280,
+    "days": 8,
+    "pf": 1.1300291324386684,
+    "pf_2x": 1.0326771099494245,
+    "avg_pct": 0.27155704727379326,
+    "day_avg_pct": -0.7756118055784282,
+    "day_t": -0.6375569329156231,
+    "win_pct": 50.357142857142854,
     "years": {
      "2026": {
-      "net": -227.5015387340466,
-      "trades": 62
+      "net": 76.03597323666214,
+      "trades": 280
      }
     },
     "first": "2026-10-26 08:00:00+00:00",
-    "last": "2026-10-28 15:00:00+00:00"
+    "last": "2026-11-02 11:00:00+00:00"
+   }
+  },
+  "trend_pullback_uphivol": {
+   "name": "EMA100 pullback (UP_HIVOL, long 48h)",
+   "kind": "rule",
+   "source": "discovery 2026-11-02",
+   "reason": "screen passed",
+   "entered": "2026-11-02T08:07:42+00:00",
+   "start": "2026-11-02T08:00:00+00:00",
+   "rule": {
+    "min_trades": 50,
+    "min_days": 20,
+    "max_days": 365
+   },
+   "status": "INCUBATING",
+   "why": "",
+   "forward": {
+    "trades": 0,
+    "days": 0
    }
   }
  },
  "screens": {
-  "total": 41,
-  "passed": 4
+  "total": 50,
+  "passed": 5
  },
- "code_ok": false,
+ "code_ok": true,
  "changes": []
 }

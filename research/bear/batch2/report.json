@@ -1,0 +1,353 @@
+{
+ "coins_used": 122,
+ "ideas": {
+  "C1 majors_trend_short": {
+   "trades": 326,
+   "trades_A": 160,
+   "trades_B": 166,
+   "win_pct": 31.9,
+   "avg_net": -0.645,
+   "avg_A": -0.813,
+   "avg_B": -0.482,
+   "avg_net_2x": -0.845,
+   "avg_funding": 0.012,
+   "months_pos": "14/51",
+   "months_pos_pct": 27.5,
+   "years": {
+    "2022": {
+     "trades": 89,
+     "avg_net": -0.628
+    },
+    "2023": {
+     "trades": 45,
+     "avg_net": -0.529
+    },
+    "2024": {
+     "trades": 65,
+     "avg_net": -1.746
+    },
+    "2025": {
+     "trades": 77,
+     "avg_net": -0.638
+    },
+    "2026": {
+     "trades": 50,
+     "avg_net": 0.642
+    }
+   },
+   "exits": {
+    "rule exit": 281,
+    "stop": 30,
+    "time": 15
+   },
+   "usdt_at_50": -105.1,
+   "worst": [
+    {
+     "coin": "BNB",
+     "entry": "2022-11-15 00:00",
+     "net_pct": -11.09
+    },
+    {
+     "coin": "BNB",
+     "entry": "2022-05-18 00:00",
+     "net_pct": -10.64
+    },
+    {
+     "coin": "BNB",
+     "entry": "2022-01-22 00:00",
+     "net_pct": -10.49
+    },
+    {
+     "coin": "BNB",
+     "entry": "2023-03-08 00:00",
+     "net_pct": -10.39
+    },
+    {
+     "coin": "ETH",
+     "entry": "2022-01-22 00:00",
+     "net_pct": -10.31
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%"
+  },
+  "C2 breakdown_trail": {
+   "trades": 2062,
+   "trades_A": 761,
+   "trades_B": 1301,
+   "win_pct": 34.5,
+   "avg_net": -2.378,
+   "avg_A": -0.668,
+   "avg_B": -3.378,
+   "avg_net_2x": -2.578,
+   "avg_funding": -0.086,
+   "months_pos": "11/50",
+   "months_pos_pct": 22.0,
+   "years": {
+    "2022": {
+     "trades": 410,
+     "avg_net": -0.04
+    },
+    "2023": {
+     "trades": 277,
+     "avg_net": 0.115
+    },
+    "2024": {
+     "trades": 344,
+     "avg_net": -3.558
+    },
+    "2025": {
+     "trades": 727,
+     "avg_net": -4.959
+    },
+    "2026": {
+     "trades": 304,
+     "avg_net": -0.294
+    }
+   },
+   "exits": {
+    "stop": 1817,
+    "time": 233,
+    "data end": 12
+   },
+   "usdt_at_50": -2451.6,
+   "worst": [
+    {
+     "coin": "H",
+     "entry": "2026-06-09 00:00",
+     "net_pct": -500.52
+    },
+    {
+     "coin": "Q",
+     "entry": "2025-10-11 00:00",
+     "net_pct": -77.77
+    },
+    {
+     "coin": "JASMY",
+     "entry": "2022-05-12 00:00",
+     "net_pct": -53.04
+    },
+    {
+     "coin": "UB",
+     "entry": "2026-06-20 00:00",
+     "net_pct": -49.15
+    },
+    {
+     "coin": "CHZ",
+     "entry": "2022-11-10 00:00",
+     "net_pct": -46.35
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%"
+  },
+  "C3 market_rally_fail": {
+   "trades": 500,
+   "trades_A": 210,
+   "trades_B": 290,
+   "win_pct": 43.4,
+   "avg_net": -0.717,
+   "avg_A": -1.99,
+   "avg_B": 0.205,
+   "avg_net_2x": -0.917,
+   "avg_funding": -0.042,
+   "months_pos": "11/30",
+   "months_pos_pct": 36.7,
+   "years": {
+    "2022": {
+     "trades": 150,
+     "avg_net": -1.927
+    },
+    "2023": {
+     "trades": 30,
+     "avg_net": -0.797
+    },
+    "2024": {
+     "trades": 130,
+     "avg_net": -2.364
+    },
+    "2025": {
+     "trades": 110,
+     "avg_net": 1.634
+    },
+    "2026": {
+     "trades": 80,
+     "avg_net": 1.029
+    }
+   },
+   "exits": {
+    "time": 282,
+    "stop": 215,
+    "data end": 3
+   },
+   "usdt_at_50": -179.2,
+   "worst": [
+    {
+     "coin": "H",
+     "entry": "2026-06-14 13:00",
+     "net_pct": -10.04
+    },
+    {
+     "coin": "PIEVERSE",
+     "entry": "2025-12-04 06:00",
+     "net_pct": -8.84
+    },
+    {
+     "coin": "VVV",
+     "entry": "2026-03-03 09:00",
+     "net_pct": -8.67
+    },
+    {
+     "coin": "VVV",
+     "entry": "2025-02-06 16:00",
+     "net_pct": -8.65
+    },
+    {
+     "coin": "ZRO",
+     "entry": "2024-07-08 15:00",
+     "net_pct": -8.63
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%"
+  },
+  "C4 weekend_pump_fade": {
+   "trades": 369,
+   "trades_A": 122,
+   "trades_B": 247,
+   "win_pct": 39.8,
+   "avg_net": -1.137,
+   "avg_A": -1.965,
+   "avg_B": -0.729,
+   "avg_net_2x": -1.337,
+   "avg_funding": -0.15,
+   "months_pos": "14/44",
+   "months_pos_pct": 31.8,
+   "years": {
+    "2022": {
+     "trades": 54,
+     "avg_net": -3.759
+    },
+    "2023": {
+     "trades": 20,
+     "avg_net": -4.837
+    },
+    "2024": {
+     "trades": 72,
+     "avg_net": 1.347
+    },
+    "2025": {
+     "trades": 141,
+     "avg_net": -0.693
+    },
+    "2026": {
+     "trades": 82,
+     "avg_net": -1.454
+    }
+   },
+   "exits": {
+    "stop": 191,
+    "time": 178
+   },
+   "usdt_at_50": -209.9,
+   "worst": [
+    {
+     "coin": "PIEVERSE",
+     "entry": "2025-12-08 00:00",
+     "net_pct": -10.49
+    },
+    {
+     "coin": "VVV",
+     "entry": "2026-02-16 00:00",
+     "net_pct": -9.82
+    },
+    {
+     "coin": "M",
+     "entry": "2025-09-01 00:00",
+     "net_pct": -9.5
+    },
+    {
+     "coin": "MINA",
+     "entry": "2025-11-03 00:00",
+     "net_pct": -9.43
+    },
+    {
+     "coin": "LIT",
+     "entry": "2022-10-03 00:00",
+     "net_pct": -8.95
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%"
+  },
+  "C5 session_short": {
+   "trades": 1642,
+   "trades_A": 762,
+   "trades_B": 880,
+   "win_pct": 42.0,
+   "avg_net": -0.141,
+   "avg_A": -0.207,
+   "avg_B": -0.085,
+   "avg_net_2x": -0.341,
+   "avg_funding": 0.004,
+   "months_pos": "16/54",
+   "months_pos_pct": 29.6,
+   "years": {
+    "2022": {
+     "trades": 408,
+     "avg_net": -0.186
+    },
+    "2023": {
+     "trades": 268,
+     "avg_net": -0.138
+    },
+    "2024": {
+     "trades": 286,
+     "avg_net": -0.29
+    },
+    "2025": {
+     "trades": 418,
+     "avg_net": 0.005
+    },
+    "2026": {
+     "trades": 262,
+     "avg_net": -0.148
+    }
+   },
+   "exits": {
+    "time": 1408,
+    "stop": 234
+   },
+   "usdt_at_50": -116.2,
+   "worst": [
+    {
+     "coin": "ETH",
+     "entry": "2022-04-25 13:00",
+     "net_pct": -3.22
+    },
+    {
+     "coin": "ETH",
+     "entry": "2022-09-07 13:00",
+     "net_pct": -3.22
+    },
+    {
+     "coin": "ETH",
+     "entry": "2022-05-26 13:00",
+     "net_pct": -3.21
+    },
+    {
+     "coin": "ETH",
+     "entry": "2022-04-18 13:00",
+     "net_pct": -3.21
+    },
+    {
+     "coin": "ETH",
+     "entry": "2026-02-02 13:00",
+     "net_pct": -3.21
+    }
+   ],
+   "verdict": "\ud83d\udd34",
+   "why": "avg net < +0.30% in a half, loses at 2x costs, bear months positive < 55%"
+  }
+ }
+}

@@ -55,3 +55,8 @@ continuously and freely; only promotion is strict, and promotion uses **new data
 | `flush_f1` | `FLUSH_RESULT_2026-10-07.md`: PF 2.54 in 2024-26 but 3 crash days carry it; needs new crash days |
 | `switch_book` | `REGIME_SWITCH_RESULT_2026-10-07.md`: failed, but the switch beat always-on |
 | `channel_uphivol` | same result: the one cell positive in the test window (post-hoc) |
+
+## 2026-11-01 hash lock re-set
+On 2026-10-31 all 8 ideas went TAMPERED because the data folders moved: incubator.py (BTC_1D path) and downtrend.py
+(FUT/OOS/split_140 paths) changed by file paths only, logic byte-identical to the locked copies (checked by diff).
+code_hashes.txt re-hashed, the 8 ideas set back to INCUBATING with their original forward start. Idea files unchanged.

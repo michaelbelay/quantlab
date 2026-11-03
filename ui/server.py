@@ -403,6 +403,33 @@ def incubator():
     return out
 
 
+def bear_lab():
+    """Bear lab (research/bear_lab/bear_lab.db, state.json, discovery_log.md), read-only: ideas on paper with their
+    history screen and latest live evaluation, screen counts, discovery log tail."""
+    import sqlite3
+    lab = RES / "bear_lab"
+    out = {"ideas": [], "screens": {"total": 0, "passed": 0}, "state": None, "discovery": None,
+           "passed_md": (lab / "PASSED.md").read_text(encoding="utf-8") if (lab / "PASSED.md").exists() else None}
+    if (lab / "state.json").exists():
+        out["state"] = json.loads((lab / "state.json").read_text(encoding="utf-8"))
+    if (lab / "discovery_log.md").exists():
+        out["discovery"] = (lab / "discovery_log.md").read_text(encoding="utf-8")[-8000:]
+    if not (lab / "bear_lab.db").exists():
+        return out
+    c = sqlite3.connect(f"file:{(lab / 'bear_lab.db').as_posix()}?mode=ro", uri=True, timeout=10)
+    try:
+        out["screens"] = dict(zip(("total", "passed"), c.execute("SELECT COUNT(*), COALESCE(SUM(passed), 0) FROM screens").fetchone()))
+        for iid, src, reason, start, status, why, screen in c.execute(
+                "SELECT id, source, reason, start_ts, status, status_why, screen FROM ideas ORDER BY start_ts"):
+            ev = c.execute("SELECT ts, stats FROM evals WHERE id=? ORDER BY ts DESC LIMIT 1", (iid,)).fetchone()
+            out["ideas"].append({"id": iid, "source": src, "reason": reason, "start": start, "status": status, "why": why,
+                                 "screen": json.loads(screen or "{}"), "eval_ts": ev[0] if ev else None,
+                                 "live": json.loads(ev[1]) if ev else {}})
+    finally:
+        c.close()
+    return out
+
+
 def v4_forward():
     """V4 complacency-short forward test (research/fresh/forward_v4/state.json, hourly task), read-only."""
     f = RES / "fresh" / "forward_v4" / "state.json"
@@ -564,6 +591,7 @@ class H(SimpleHTTPRequestHandler):
                 "/api/forward": lambda: swr("t:forward", forward, 20),
                 "/api/postmortem": lambda: postmortem(),
                 "/api/incubator": lambda: incubator(),
+                "/api/bearlab": lambda: bear_lab(),
                 "/api/v4": lambda: v4_forward(),
                 "/api/crashday": lambda: crashday_forward(),
                 "/api/switcher": lambda: switcher(),
