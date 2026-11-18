@@ -242,6 +242,19 @@ summary { cursor: pointer; color: var(--text-secondary); font-weight: 500; }
 .kv span:nth-child(odd) { white-space: nowrap; }
 .legend { background: color-mix(in srgb, var(--surface-1) 82%, transparent); padding: 4px 8px; border-radius: 6px; max-width: calc(100% - 90px); }
 /* forward test */
+.sp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(330px, 100%), 1fr)); gap: 12px; margin: 14px 0; }
+.sp-card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 14px; display: flex; flex-direction: column; gap: 8px; }
+.sp-card .sp-h { display: flex; align-items: baseline; gap: 10px; }
+.sp-card .sp-rank { font: 600 12px "JetBrains Mono", monospace; color: var(--text-secondary); }
+.sp-card .sp-coin { font-size: 18px; font-weight: 700; cursor: pointer; }
+.sp-card .sp-coin:hover { text-decoration: underline; }
+.sp-card .sp-score { margin-left: auto; font: 600 13px "JetBrains Mono", monospace; }
+.sp-bar { height: 4px; border-radius: 2px; background: var(--border); overflow: hidden; }
+.sp-bar i { display: block; height: 100%; background: var(--up); }
+.sp-lv { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; font-size: 11px; color: var(--text-secondary); }
+.sp-lv b { display: block; color: var(--text-primary); font: 600 12px "JetBrains Mono", monospace; }
+.sp-card ul { margin: 0; padding-left: 16px; font-size: 12px; line-height: 1.5; }
+.sp-card ul.sp-w { color: var(--warning); }
 .fwd-strip { display: flex; flex-wrap: wrap; gap: 10px; }
 .fwd-strip .chipbox { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; font-size: 12px; color: var(--text-secondary); }
 .fwd-strip .chipbox b { color: var(--text-primary); font-family: "JetBrains Mono", monospace; font-weight: 600; }
@@ -433,3 +446,41 @@ td.why { white-space: normal; max-width: 300px; color: var(--text-muted); font-s
 .v4card .grid2 { margin: 8px 0 12px; }
 .v4card .v4kpis { margin-bottom: 12px; }
 .v4card .mcard .row1 { margin-bottom: 8px; }
+
+/* ---------------------------------------------------------------- trade levels + position size (2026-11-14) */
+.bar-clock { position: absolute; top: 6px; left: 50%; transform: translateX(-50%); z-index: 3; pointer-events: none; font-size: 11px;
+  font-family: "JetBrains Mono", monospace; color: var(--text-muted); text-align: right; line-height: 1.5;
+  background: color-mix(in srgb, var(--bg) 72%, transparent); padding: 2px 6px; border-radius: 4px; }
+.bar-clock b { color: var(--text-secondary); font-weight: 600; margin-right: 5px; }
+.lv-list { display: flex; flex-direction: column; gap: 6px; }
+.lv { width: 100%; text-align: left; background: var(--surface-2); border: 1px solid var(--border); border-left-width: 3px;
+  border-radius: 6px; padding: 7px 9px; font-size: 12px; color: var(--text-primary); transition: border-color .15s, background .15s; }
+.lv:hover { background: var(--surface-3); }
+.lv.on { border-color: var(--accent); }
+.lv.long { border-left-color: var(--up); } .lv.short { border-left-color: var(--down); }
+.lv-h { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.lv-h b { font-weight: 600; } .lv-h .side { font-size: 10px; font-weight: 700; letter-spacing: .04em; }
+.lv-n { display: grid; grid-template-columns: repeat(auto-fit, minmax(58px, 1fr)); gap: 3px 8px; margin-top: 5px;
+  font-family: "JetBrains Mono", monospace; font-size: 11.5px; color: var(--text-primary); }
+.lv-n span { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
+.lv-n i { font-style: normal; color: var(--text-muted); font-size: 9.5px; letter-spacing: .05em; text-transform: uppercase; }
+.lv-x { margin-top: 2px; font-size: 10.5px; color: var(--text-muted); }
+.size-in { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 10px; }
+.size-in label { display: flex; flex-direction: column; gap: 3px; font-size: 10.5px; color: var(--text-secondary); }
+.size-in input { background: var(--surface-2); border: 1px solid var(--border); border-radius: 5px; padding: 4px 6px;
+  color: var(--text-primary); font-family: "JetBrains Mono", monospace; font-size: 12px; width: 100%; }
+.size-in input:focus { outline: 0; border-color: var(--accent); }
+.kv .big { font-size: 13px; font-weight: 600; color: var(--text-primary); }
+.vp-cv { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+.flow-kv { display: flex; gap: 10px; }
+
+/* on-chart trade readout: the numbers sit on the chart, not in a side panel */
+.trade-box { position: absolute; left: 46px; bottom: 8px; z-index: 3; pointer-events: none; display: none;
+  background: color-mix(in srgb, var(--surface-1) 88%, transparent); border: 1px solid var(--border);
+  border-left-width: 3px; border-radius: 6px; padding: 7px 10px; font-size: 11px; line-height: 1.5; }
+.trade-box.on { display: block; }
+.trade-box.long { border-left-color: var(--up); } .trade-box.short { border-left-color: var(--down); }
+.trade-box h5 { margin: 0 0 3px; font-size: 11px; font-weight: 600; letter-spacing: .02em; }
+.trade-box .row { display: flex; gap: 12px; font-family: "JetBrains Mono", monospace; }
+.trade-box .row i { font-style: normal; color: var(--text-muted); }
+.trade-box .sz { margin-top: 3px; color: var(--text-secondary); }

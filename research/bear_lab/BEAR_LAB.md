@@ -20,6 +20,9 @@ Daily loop, no human in it. Michael hears from it only when an idea passes on li
   day-weighted average > 0 **and** day t >= 2.5 **and** average > 0 at 2x costs → 🟡 PASS (toast + PASSED.md).
   No verdict after 180 days → ⚪ EXPIRED. t >= 2.5 (not 2.0) because many ideas run at once.
 - 🟡 PASS is not live: next is the 300 USDT replay, then Michael decides. Nothing in this lab trades.
+- **t (2026-11-13):** the reported `day_t` is the smaller of the usual t and the one-sided sign test on the daily
+  means. A fixed take-profit makes every win the same size, which collapsed the spread and sent t to 1713 on 7
+  trades; the cap bounds the claim by how many days were positive. `min_t` stays 2.5. See `discovery_log.md`.
 
 ## Files
 `bear_lab.py` (engine, commands) · `BEAR_DISCOVERY_PROMPT.md` (the agent's instructions) · `ideas/` · `bear_lab.db`

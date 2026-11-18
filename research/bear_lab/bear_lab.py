@@ -24,11 +24,13 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import math
 import importlib.util
 import json
 import sqlite3
 import sys
 from pathlib import Path
+from statistics import NormalDist
 
 import numpy as np
 import pandas as pd
@@ -229,11 +231,35 @@ def trades(m, P: dict, a: pd.Timestamp, b: pd.Timestamp, include_open=False) -> 
     return pd.DataFrame(rows, columns=["coin", "entry", "exit", "why", "net", "net2x"])
 
 
+
+def day_t(d: "pd.Series") -> float:
+    """t of the daily means against zero, capped by what the NUMBER of winning days alone can establish.
+
+    Why the cap (2026-11-13): an idea with a fixed take-profit returns the same percentage on every win, so while
+    a run has no losing trade yet the spread of the daily means is about zero and the plain t explodes.
+    cdeep_funding_take reached t = 1713 on 7 trades that were all exactly +4.8%, and t = 548 the next day - with
+    min_t = 2.5 the verdict gate would have waved it through on arithmetic, not on evidence. The sign test ignores
+    how big the wins are and asks only how many independent days came out positive, which is the most a sample
+    this size can prove when every trade pays the same. The reported t is the smaller of the two.
+    """
+    n = len(d)
+    if n < 2:
+        return 0.0
+    sd = float(d.std(ddof=1))
+    mean = float(d.mean())
+    t = (mean / sd * np.sqrt(n)) if sd > 0 else float("inf")
+    if mean <= 0:                                     # a losing idea: the plain t already fails the gate
+        return round(t, 2) if sd > 0 else 0.0
+    wins = int((d > 0).sum())
+    p = sum(math.comb(n, k) for k in range(wins, n + 1)) / 2 ** n       # one-sided sign test on the daily means
+    z = NormalDist().inv_cdf(1 - min(max(p, 1e-12), 1 - 1e-12))
+    return round(min(t, z), 2)
+
 def summarize(tr: pd.DataFrame) -> dict:
     if tr.empty:
         return {"trades": 0}
     d = tr.groupby(tr.entry.dt.normalize()).net.mean()
-    t = float(d.mean() / d.std(ddof=1) * np.sqrt(len(d))) if len(d) > 1 and d.std(ddof=1) > 0 else 0.0
+    t = day_t(d)
     a, b = tr[tr.entry < MID], tr[tr.entry >= MID]
     return {"trades": len(tr), "days": len(d), "avg": round(100 * tr.net.mean(), 3), "avg_2x": round(100 * tr.net2x.mean(), 3),
             "day_avg": round(100 * d.mean(), 3), "day_t": round(t, 2), "win": round(100 * (tr.net > 0).mean(), 1),

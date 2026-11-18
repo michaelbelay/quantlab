@@ -1,0 +1,98 @@
+{
+ "S7a": {
+  "name": "S7a",
+  "trades": 322,
+  "A": 141,
+  "B": 181,
+  "avg_net_pct": 1.015,
+  "avg_A_pct": 1.373,
+  "avg_B_pct": 0.736,
+  "avg_2x_pct": 0.815,
+  "avg_gross_pct": 1.242,
+  "avg_fund_pct": -0.028,
+  "win_pct": 50.9,
+  "stops_pct": 9.9,
+  "worst_pct": -25.4,
+  "best_pct": 68.4,
+  "entry_days": 189,
+  "bear_days_in_window": 821,
+  "entry_days_share_of_bear_days": 23.0,
+  "trades_per_year": 67.9,
+  "trades_per_week": 1.29,
+  "weeks_with_a_trade_pct": 49.8,
+  "months_positive_pct": 55.1,
+  "months": 49,
+  "by_year_sum_pct": {
+   "2022": -42.2,
+   "2023": 114.2,
+   "2024": 276.4,
+   "2025": -23.6,
+   "2026": 1.9
+  },
+  "years_positive": 3,
+  "years": 5,
+  "best3_days_share_of_profit_pct": 72.3,
+  "total_sum_pct": 326.7,
+  "gates": {
+   "trades >= 150": true,
+   "both halves >= 50": true,
+   "avg >= +0.30% in BOTH halves": "True",
+   "positive at 2x costs": "True",
+   "months positive >= 55%": "True",
+   "STEP 1": true
+  },
+  "orig_test_window_2024_01_to_2026_09": {
+   "trades": 200,
+   "avg_net_pct": 1.274,
+   "pf": 1.57
+  }
+ },
+ "S7b": {
+  "name": "S7b",
+  "trades": 3972,
+  "A": 1270,
+  "B": 2702,
+  "avg_net_pct": 1.109,
+  "avg_A_pct": 2.425,
+  "avg_B_pct": 0.49,
+  "avg_2x_pct": 0.909,
+  "avg_gross_pct": 1.296,
+  "avg_fund_pct": 0.013,
+  "win_pct": 48.4,
+  "stops_pct": 8.8,
+  "worst_pct": -57.5,
+  "best_pct": 578.4,
+  "entry_days": 766,
+  "bear_days_in_window": 821,
+  "entry_days_share_of_bear_days": 93.3,
+  "trades_per_year": 837.1,
+  "trades_per_week": 15.95,
+  "weeks_with_a_trade_pct": 85.5,
+  "months_positive_pct": 47.1,
+  "months": 51,
+  "by_year_sum_pct": {
+   "2022": -23.2,
+   "2023": 1819.8,
+   "2024": 2085.1,
+   "2025": 30.9,
+   "2026": 490.9
+  },
+  "years_positive": 4,
+  "years": 5,
+  "best3_days_share_of_profit_pct": 43.2,
+  "total_sum_pct": 4403.4,
+  "gates": {
+   "trades >= 150": true,
+   "both halves >= 50": true,
+   "avg >= +0.30% in BOTH halves": "True",
+   "positive at 2x costs": "True",
+   "months positive >= 55%": "False",
+   "STEP 1": false
+  },
+  "orig_test_window_2024_01_to_2026_09": {
+   "trades": 2948,
+   "avg_net_pct": 0.884,
+   "pf": 1.24
+  }
+ }
+}

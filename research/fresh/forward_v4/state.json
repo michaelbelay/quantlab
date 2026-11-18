@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-03T06:25:06+00:00",
+ "updated": "2026-11-18T21:25:25+00:00",
  "forward_start": "2026-10-15 00:00:00+00:00",
  "rule": "DVOL z90 <= -1.5 and 10d return < 0 -> short 7d, stop 3.0x sigma24; BTC+ETH",
  "latest_close": {
   "BTC": {
-   "day": "2026-11-02",
-   "dvol": 39.3,
-   "z": 0.77,
-   "r10_pct": -5.53,
+   "day": "2026-11-17",
+   "dvol": 43.29,
+   "z": 1.92,
+   "r10_pct": -15.54,
    "signal": false
   },
   "ETH": {
-   "day": "2026-11-02",
-   "dvol": 52.77,
-   "z": 0.4,
-   "r10_pct": -5.77,
+   "day": "2026-11-17",
+   "dvol": 58.13,
+   "z": 1.68,
+   "r10_pct": -20.48,
    "signal": false
   }
  },

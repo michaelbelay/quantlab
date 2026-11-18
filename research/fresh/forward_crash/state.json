@@ -1,29 +1,41 @@
 {
- "updated": "2026-11-03T06:30:04+00:00",
+ "updated": "2026-11-18T21:30:05+00:00",
  "forward_start": "2026-10-18",
  "register": "C:\\quantlab\\FORWARD_2026-10-17_crashday.md",
  "rule": "BTC day <= -2 sigma20 and <= -4%, cell Bear-Wild at the close -> L/S BTC+ETH 72h stop 3 sigma24; F = flush_f1 on D/D+1",
  "summary": {
-  "events": 0,
-  "events_closed": 0,
+  "events": 1,
+  "events_closed": 1,
   "L": {
-   "events": 0
+   "events": 1,
+   "avg_pct": -7.194,
+   "pf": 0.0,
+   "pos_share": 0.0,
+   "would_pass": false
   },
   "S": {
-   "events": 0
+   "events": 1,
+   "avg_pct": 5.159,
+   "pf": null,
+   "pos_share": 1.0,
+   "would_pass": true
   },
   "F": {
-   "events": 0
+   "events": 1,
+   "avg_pct": -0.388,
+   "pf": 0.0,
+   "pos_share": 0.0,
+   "would_pass": false
   },
-  "flush_trades": 0,
-  "stage": "running (0/10 events)"
+  "flush_trades": 20,
+  "stage": "running (1/10 events)"
  },
  "latest_close": {
-  "day": "2026-11-02",
-  "btc_ret_pct": -1.94,
-  "crash_line_pct": -4.0,
+  "day": "2026-11-17",
+  "btc_ret_pct": 0.1,
+  "crash_line_pct": -5.13,
   "crash": false,
-  "cell": "Bear-Calm"
+  "cell": "Bear-Wild"
  },
  "days": [
   {
@@ -32,6 +44,205 @@
    "sigma20_pct": 1.27,
    "cell": "Bear-Calm",
    "role": "context"
+  },
+  {
+   "day": "2026-11-05",
+   "btc_ret_pct": -5.49,
+   "sigma20_pct": 1.7,
+   "cell": "Bear-Calm",
+   "role": "context"
+  },
+  {
+   "day": "2026-11-13",
+   "btc_ret_pct": -4.4,
+   "sigma20_pct": 2.08,
+   "cell": "Bear-Wild",
+   "role": "event",
+   "legs": {
+    "L_BTC": {
+     "status": "closed",
+     "why": "stop",
+     "entry": 68279.9,
+     "stop": 64309.64570054447,
+     "exit": 64309.64570054447,
+     "t_out": "2026-11-14 21:00:00+00:00",
+     "ret_pct": -6.029
+    },
+    "S_BTC": {
+     "status": "closed",
+     "why": "72h",
+     "entry": 68279.9,
+     "stop": 72250.1542994555,
+     "exit": 64856.0,
+     "t_out": "2026-11-16 23:00:00+00:00",
+     "ret_pct": 4.841
+    },
+    "L_ETH": {
+     "status": "closed",
+     "why": "stop",
+     "entry": 1929.21,
+     "stop": 1771.8815893115932,
+     "exit": 1771.8815893115932,
+     "t_out": "2026-11-14 20:00:00+00:00",
+     "ret_pct": -8.359
+    },
+    "S_ETH": {
+     "status": "closed",
+     "why": "72h",
+     "entry": 1929.21,
+     "stop": 2086.538410688407,
+     "exit": 1819.64,
+     "t_out": "2026-11-16 23:00:00+00:00",
+     "ret_pct": 5.476
+    }
+   },
+   "raw": {
+    "BTC": {
+     "+24h": -6.08,
+     "+72h": -5.01,
+     "+168h": null
+    },
+    "ETH": {
+     "+24h": -8.34,
+     "+72h": -5.68,
+     "+168h": null
+    }
+   },
+   "L": -7.194,
+   "S": 5.159,
+   "flush": {
+    "trades": [
+     {
+      "coin": "ASTER",
+      "entry_t": "2026-11-14 20:00:00+00:00",
+      "pnl_pct": -3.811,
+      "stopped": true
+     },
+     {
+      "coin": "BERA",
+      "entry_t": "2026-11-14 20:00:00+00:00",
+      "pnl_pct": -3.229,
+      "stopped": false
+     },
+     {
+      "coin": "DYDX",
+      "entry_t": "2026-11-14 22:00:00+00:00",
+      "pnl_pct": 4.274,
+      "stopped": false
+     },
+     {
+      "coin": "GRAM",
+      "entry_t": "2026-11-13 16:00:00+00:00",
+      "pnl_pct": -5.989,
+      "stopped": true
+     },
+     {
+      "coin": "GUN",
+      "entry_t": "2026-11-14 20:00:00+00:00",
+      "pnl_pct": -3.47,
+      "stopped": false
+     },
+     {
+      "coin": "HOME",
+      "entry_t": "2026-11-14 22:00:00+00:00",
+      "pnl_pct": 2.925,
+      "stopped": false
+     },
+     {
+      "coin": "H",
+      "entry_t": "2026-11-14 21:00:00+00:00",
+      "pnl_pct": 0.378,
+      "stopped": false
+     },
+     {
+      "coin": "IMX",
+      "entry_t": "2026-11-14 02:00:00+00:00",
+      "pnl_pct": -6.103,
+      "stopped": true
+     },
+     {
+      "coin": "IMX",
+      "entry_t": "2026-11-14 21:00:00+00:00",
+      "pnl_pct": 2.557,
+      "stopped": false
+     },
+     {
+      "coin": "KAVA",
+      "entry_t": "2026-11-14 11:00:00+00:00",
+      "pnl_pct": -3.237,
+      "stopped": true
+     },
+     {
+      "coin": "KGEN",
+      "entry_t": "2026-11-13 07:00:00+00:00",
+      "pnl_pct": -1.317,
+      "stopped": false
+     },
+     {
+      "coin": "ORDI",
+      "entry_t": "2026-11-14 23:00:00+00:00",
+      "pnl_pct": 6.468,
+      "stopped": false
+     },
+     {
+      "coin": "PIPPIN",
+      "entry_t": "2026-11-14 22:00:00+00:00",
+      "pnl_pct": 3.353,
+      "stopped": false
+     },
+     {
+      "coin": "PRL",
+      "entry_t": "2026-11-13 05:00:00+00:00",
+      "pnl_pct": 7.9,
+      "stopped": false
+     },
+     {
+      "coin": "SHELL",
+      "entry_t": "2026-11-14 21:00:00+00:00",
+      "pnl_pct": 1.358,
+      "stopped": false
+     },
+     {
+      "coin": "SLX",
+      "entry_t": "2026-11-14 20:00:00+00:00",
+      "pnl_pct": -2.644,
+      "stopped": false
+     },
+     {
+      "coin": "STO",
+      "entry_t": "2026-11-14 18:00:00+00:00",
+      "pnl_pct": -6.329,
+      "stopped": true
+     },
+     {
+      "coin": "STO",
+      "entry_t": "2026-11-14 21:00:00+00:00",
+      "pnl_pct": -6.615,
+      "stopped": true
+     },
+     {
+      "coin": "TAIKO",
+      "entry_t": "2026-11-13 07:00:00+00:00",
+      "pnl_pct": -2.271,
+      "stopped": false
+     },
+     {
+      "coin": "\u5e01\u5b89\u4eba\u751f",
+      "entry_t": "2026-11-14 21:00:00+00:00",
+      "pnl_pct": 8.052,
+      "stopped": false
+     }
+    ],
+    "frozen_at": "2026-11-16T01:30:30+00:00"
+   },
+   "F": -0.388
+  },
+  {
+   "day": "2026-11-14",
+   "btc_ret_pct": -6.08,
+   "sigma20_pct": 2.24,
+   "cell": "Bear-Wild",
+   "role": "cluster"
   }
  ]
 }

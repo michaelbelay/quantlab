@@ -1,12 +1,905 @@
 {
- "ts": "2026-11-02T17:21:39+00:00",
- "data_until": "2026-11-02 17:00:00+00:00",
+ "ts": "2026-11-18T08:31:17+00:00",
+ "data_until": "2026-11-18 08:00:00+00:00",
  "ideas": [
   {
    "id": "deep_funding_carry",
    "status": "PAPER",
    "why": "",
-   "age_days": 0,
+   "age_days": 16,
+   "trades": 1,
+   "days": 1,
+   "avg": -8.182,
+   "avg_2x": -8.382,
+   "day_avg": -8.182,
+   "day_t": 0.0,
+   "win": 0.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 1,
+   "avg_B": -8.182,
+   "sum_pct": -8.2,
+   "worst": [
+    [
+     "NEAR",
+     "2026-11-16 23:00",
+     -8.18
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "funding_top3_deep",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 15,
+   "trades": 1,
+   "days": 1,
+   "avg": -8.182,
+   "avg_2x": -8.382,
+   "day_avg": -8.182,
+   "day_t": 0.0,
+   "win": 0.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 1,
+   "avg_B": -8.182,
+   "sum_pct": -8.2,
+   "worst": [
+    [
+     "ZEC",
+     "2026-11-16 07:00",
+     -8.18
+    ]
+   ],
+   "open": [
+    [
+     "HYPE",
+     "2026-11-15 23:00",
+     -1.5
+    ],
+    [
+     "NEAR",
+     "2026-11-15 23:00",
+     -4.98
+    ],
+    [
+     "UNI",
+     "2026-11-16 07:00",
+     -1.13
+    ],
+    [
+     "ENA",
+     "2026-11-15 23:00",
+     6.16
+    ],
+    [
+     "QNT",
+     "2026-11-16 15:00",
+     0.34
+    ],
+    [
+     "LINK",
+     "2026-11-16 23:00",
+     -1.79
+    ],
+    [
+     "ADA",
+     "2026-11-17 23:00",
+     0.32
+    ],
+    [
+     "TAO",
+     "2026-11-16 03:00",
+     -2.52
+    ]
+   ]
+  },
+  {
+   "id": "cdeep_funding",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 15,
+   "trades": 11,
+   "days": 7,
+   "avg": 5.355,
+   "avg_2x": 5.155,
+   "day_avg": 5.779,
+   "day_t": 2.42,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 11,
+   "avg_B": 5.355,
+   "sum_pct": 58.9,
+   "worst": [
+    [
+     "ADA",
+     "2026-11-03 07:00",
+     2.01
+    ],
+    [
+     "ADA",
+     "2026-11-06 15:00",
+     2.92
+    ],
+    [
+     "DOGE",
+     "2026-11-03 15:00",
+     3.06
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_persist",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 15,
+   "trades": 9,
+   "days": 7,
+   "avg": 5.118,
+   "avg_2x": 4.918,
+   "day_avg": 5.448,
+   "day_t": 2.42,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 9,
+   "avg_B": 5.118,
+   "sum_pct": 46.1,
+   "worst": [
+    [
+     "TAO",
+     "2026-11-03 11:00",
+     0.08
+    ],
+    [
+     "TAO",
+     "2026-11-06 15:00",
+     0.19
+    ],
+    [
+     "ADA",
+     "2026-11-07 07:00",
+     2.82
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_calm",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 14,
+   "trades": 10,
+   "days": 6,
+   "avg": 7.997,
+   "avg_2x": 7.797,
+   "day_avg": 8.264,
+   "day_t": 2.15,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 10,
+   "avg_B": 7.997,
+   "sum_pct": 80.0,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-09 23:00",
+     5.1
+    ],
+    [
+     "ADA",
+     "2026-11-09 15:00",
+     6.33
+    ],
+    [
+     "XRP",
+     "2026-11-13 15:00",
+     6.47
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_majors",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 13,
+   "trades": 9,
+   "days": 5,
+   "avg": 6.557,
+   "avg_2x": 6.357,
+   "day_avg": 6.513,
+   "day_t": 1.86,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 9,
+   "avg_B": 6.557,
+   "sum_pct": 59.0,
+   "worst": [
+    [
+     "DOGE",
+     "2026-11-05 15:00",
+     0.47
+    ],
+    [
+     "XRP",
+     "2026-11-09 23:00",
+     5.1
+    ],
+    [
+     "ADA",
+     "2026-11-06 07:00",
+     5.89
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_coin_calm",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 13,
+   "trades": 10,
+   "days": 6,
+   "avg": 7.092,
+   "avg_2x": 6.892,
+   "day_avg": 7.412,
+   "day_t": 2.15,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 10,
+   "avg_B": 7.092,
+   "sum_pct": 70.9,
+   "worst": [
+    [
+     "DOGE",
+     "2026-11-05 15:00",
+     0.47
+    ],
+    [
+     "XRP",
+     "2026-11-09 23:00",
+     5.1
+    ],
+    [
+     "ADA",
+     "2026-11-06 07:00",
+     5.89
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_no_squeeze",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 13,
+   "trades": 10,
+   "days": 6,
+   "avg": 7.092,
+   "avg_2x": 6.892,
+   "day_avg": 7.412,
+   "day_t": 2.15,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 10,
+   "avg_B": 7.092,
+   "sum_pct": 70.9,
+   "worst": [
+    [
+     "DOGE",
+     "2026-11-05 15:00",
+     0.47
+    ],
+    [
+     "XRP",
+     "2026-11-09 23:00",
+     5.1
+    ],
+    [
+     "ADA",
+     "2026-11-06 07:00",
+     5.89
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_breadth",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 12,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_weak_day",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 12,
+   "trades": 4,
+   "days": 3,
+   "avg": 7.021,
+   "avg_2x": 6.821,
+   "day_avg": 6.928,
+   "day_t": 1.15,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 4,
+   "avg_B": 7.021,
+   "sum_pct": 28.1,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-10 23:00",
+     4.16
+    ],
+    [
+     "ADA",
+     "2026-11-07 15:00",
+     4.62
+    ],
+    [
+     "SUI",
+     "2026-11-13 23:00",
+     9.33
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_btc_weak",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 12,
+   "trades": 7,
+   "days": 4,
+   "avg": 6.371,
+   "avg_2x": 6.171,
+   "day_avg": 7.614,
+   "day_t": 1.53,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 7,
+   "avg_B": 6.371,
+   "sum_pct": 44.6,
+   "worst": [
+    [
+     "ADA",
+     "2026-11-06 15:00",
+     2.92
+    ],
+    [
+     "DOGE",
+     "2026-11-06 23:00",
+     3.11
+    ],
+    [
+     "XRP",
+     "2026-11-10 23:00",
+     4.16
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_low_break_carry",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 11,
+   "trades": 4,
+   "days": 2,
+   "avg": 5.865,
+   "avg_2x": 5.665,
+   "day_avg": 5.0,
+   "day_t": 0.67,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 4,
+   "avg_B": 5.865,
+   "sum_pct": 23.5,
+   "worst": [
+    [
+     "ADA",
+     "2026-11-07 20:00",
+     3.27
+    ],
+    [
+     "XRP",
+     "2026-11-13 02:00",
+     5.1
+    ],
+    [
+     "DOGE",
+     "2026-11-13 03:00",
+     6.94
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_take",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 11,
+   "trades": 7,
+   "days": 5,
+   "avg": 4.815,
+   "avg_2x": 4.615,
+   "day_avg": 4.818,
+   "day_t": 1.86,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 7,
+   "avg_B": 4.815,
+   "sum_pct": 33.7,
+   "worst": [
+    [
+     "ADA",
+     "2026-11-11 15:00",
+     4.8
+    ],
+    [
+     "DOGE",
+     "2026-11-12 23:00",
+     4.8
+    ],
+    [
+     "SUI",
+     "2026-11-11 15:00",
+     4.8
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_young_bear_spell",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 10,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "cdeep_low_break_14d",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 10,
+   "trades": 3,
+   "days": 1,
+   "avg": 6.731,
+   "avg_2x": 6.531,
+   "day_avg": 6.731,
+   "day_t": 0.0,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 3,
+   "avg_B": 6.731,
+   "sum_pct": 20.2,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-13 02:00",
+     5.1
+    ],
+    [
+     "DOGE",
+     "2026-11-13 03:00",
+     6.94
+    ],
+    [
+     "ADA",
+     "2026-11-13 03:00",
+     8.16
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_majors_calm",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 9,
+   "trades": 6,
+   "days": 3,
+   "avg": 7.599,
+   "avg_2x": 7.399,
+   "day_avg": 7.636,
+   "day_t": 1.15,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 6,
+   "avg_B": 7.599,
+   "sum_pct": 45.6,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-09 23:00",
+     5.1
+    ],
+    [
+     "ADA",
+     "2026-11-09 15:00",
+     6.33
+    ],
+    [
+     "XRP",
+     "2026-11-13 15:00",
+     6.47
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_majors_take",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 9,
+   "trades": 6,
+   "days": 2,
+   "avg": 4.812,
+   "avg_2x": 4.612,
+   "day_avg": 4.812,
+   "day_t": 0.67,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 6,
+   "avg_B": 4.812,
+   "sum_pct": 28.9,
+   "worst": [
+    [
+     "ADA",
+     "2026-11-12 23:00",
+     4.8
+    ],
+    [
+     "DOGE",
+     "2026-11-12 23:00",
+     4.8
+    ],
+    [
+     "XRP",
+     "2026-11-09 23:00",
+     4.81
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_lower_high",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 9,
+   "trades": 7,
+   "days": 4,
+   "avg": 8.214,
+   "avg_2x": 8.014,
+   "day_avg": 8.703,
+   "day_t": 1.53,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 7,
+   "avg_B": 8.214,
+   "sum_pct": 57.5,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-09 23:00",
+     5.1
+    ],
+    [
+     "ADA",
+     "2026-11-09 15:00",
+     6.33
+    ],
+    [
+     "XRP",
+     "2026-11-13 15:00",
+     6.47
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_no_market_shorts",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 8,
+   "trades": 3,
+   "days": 1,
+   "avg": 8.901,
+   "avg_2x": 8.701,
+   "day_avg": 8.901,
+   "day_t": 0.0,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 3,
+   "avg_B": 8.901,
+   "sum_pct": 26.7,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-12 23:00",
+     6.29
+    ],
+    [
+     "DOGE",
+     "2026-11-12 23:00",
+     9.79
+    ],
+    [
+     "ADA",
+     "2026-11-12 23:00",
+     10.62
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_eth_bear",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 8,
+   "trades": 4,
+   "days": 2,
+   "avg": 10.676,
+   "avg_2x": 10.476,
+   "day_avg": 10.381,
+   "day_t": 0.67,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 4,
+   "avg_B": 10.676,
+   "sum_pct": 42.7,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-11 15:00",
+     9.26
+    ],
+    [
+     "DOGE",
+     "2026-11-12 23:00",
+     9.79
+    ],
+    [
+     "ADA",
+     "2026-11-11 15:00",
+     11.75
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_calm_shorts_trend",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 7,
+   "trades": 6,
+   "days": 1,
+   "avg": 8.628,
+   "avg_2x": 8.428,
+   "day_avg": 8.628,
+   "day_t": 0.0,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 6,
+   "avg_B": 8.628,
+   "sum_pct": 51.8,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-12 23:00",
+     6.29
+    ],
+    [
+     "TAO",
+     "2026-11-12 23:00",
+     7.89
+    ],
+    [
+     "SUI",
+     "2026-11-12 23:00",
+     8.23
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_funding_btc_default",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 7,
+   "trades": 3,
+   "days": 1,
+   "avg": 8.901,
+   "avg_2x": 8.701,
+   "day_avg": 8.901,
+   "day_t": 0.0,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 3,
+   "avg_B": 8.901,
+   "sum_pct": 26.7,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-12 23:00",
+     6.29
+    ],
+    [
+     "DOGE",
+     "2026-11-12 23:00",
+     9.79
+    ],
+    [
+     "ADA",
+     "2026-11-12 23:00",
+     10.62
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "cdeep_majors_no_shorts",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 7,
+   "trades": 3,
+   "days": 1,
+   "avg": 8.901,
+   "avg_2x": 8.701,
+   "day_avg": 8.901,
+   "day_t": 0.0,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 3,
+   "avg_B": 8.901,
+   "sum_pct": 26.7,
+   "worst": [
+    [
+     "XRP",
+     "2026-11-12 23:00",
+     6.29
+    ],
+    [
+     "DOGE",
+     "2026-11-12 23:00",
+     9.79
+    ],
+    [
+     "ADA",
+     "2026-11-12 23:00",
+     10.62
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "bear_carry_no_shorts",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 6,
+   "trades": 8,
+   "days": 1,
+   "avg": 7.463,
+   "avg_2x": 7.263,
+   "day_avg": 7.463,
+   "day_t": 0.0,
+   "win": 100.0,
+   "trades_A": 0,
+   "avg_A": null,
+   "trades_B": 8,
+   "avg_B": 7.463,
+   "sum_pct": 59.7,
+   "worst": [
+    [
+     "QNT",
+     "2026-11-12 23:00",
+     3.72
+    ],
+    [
+     "ZEC",
+     "2026-11-12 23:00",
+     4.18
+    ],
+    [
+     "NEAR",
+     "2026-11-12 23:00",
+     5.96
+    ]
+   ],
+   "open": []
+  },
+  {
+   "id": "bear_carry_no_shorts_hourly",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 5,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "bear_carry_btc_default",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 5,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "bear_carry_no_shorts_ema168",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 3,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "bear_carry_no_shorts_vs_btc",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 3,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "bear_carry_either_filter",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 3,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "bear_carry_no_shorts_ema72",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 3,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "bear_carry_no_shorts_vwap72",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 2,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "bear_carry_no_shorts_ema24",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 2,
+   "trades": 0,
+   "open": []
+  },
+  {
+   "id": "bear_carry_no_deep_shorts",
+   "status": "PAPER",
+   "why": "",
+   "age_days": 2,
    "trades": 0,
    "open": []
   }

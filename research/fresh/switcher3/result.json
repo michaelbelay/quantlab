@@ -1,0 +1,252 @@
+{
+ "R": {
+  "weeks": 238,
+  "sum_weekly_pct": 31.7,
+  "avg_week_pct": 0.133,
+  "per_year_avg_week_pct": {
+   "2022": 0.43,
+   "2023": -0.02,
+   "2024": 0.23,
+   "2025": 0.31,
+   "2026": -0.37
+  },
+  "per_year_sum_pct": {
+   "2022": 18.4,
+   "2023": -1.1,
+   "2024": 12.4,
+   "2025": 16.2,
+   "2026": -14.1
+  },
+  "weeks_pos_pct": 46.6,
+  "weeks_zero_pct": 10.9,
+  "months_pos": "31/56",
+  "months_pos_pct": 55.4,
+  "years_pos": "3/5",
+  "top3_weeks_share_pct": 69.0,
+  "longest_under_high_weeks": 48,
+  "longest_under_high_period": "2025-10-27 .. 2026-09-21",
+  "top3_weeks": [
+   [
+    "2022-10-31",
+    7.8
+   ],
+   [
+    "2024-03-04",
+    7.8
+   ],
+   [
+    "2023-03-20",
+    6.3
+   ]
+  ],
+  "worst_week_pct": -10.2,
+  "book300_final": 379.6,
+  "book300_worst_drop_pct": -24.4,
+  "consistency_rule": "fail"
+ },
+ "F": {
+  "weeks": 238,
+  "sum_weekly_pct": 88.6,
+  "avg_week_pct": 0.372,
+  "per_year_avg_week_pct": {
+   "2022": 0.53,
+   "2023": 0.09,
+   "2024": -0.07,
+   "2025": 1.01,
+   "2026": 0.33
+  },
+  "per_year_sum_pct": {
+   "2022": 22.7,
+   "2023": 4.5,
+   "2024": -3.9,
+   "2025": 52.7,
+   "2026": 12.6
+  },
+  "weeks_pos_pct": 47.9,
+  "weeks_zero_pct": 2.5,
+  "months_pos": "28/56",
+  "months_pos_pct": 50.0,
+  "years_pos": "4/5",
+  "top3_weeks_share_pct": 63.5,
+  "longest_under_high_weeks": 70,
+  "longest_under_high_period": "2023-10-30 .. 2025-02-24",
+  "top3_weeks": [
+   [
+    "2025-09-08",
+    24.72
+   ],
+   [
+    "2023-10-23",
+    17.72
+   ],
+   [
+    "2024-07-15",
+    13.83
+   ]
+  ],
+  "worst_week_pct": -14.06,
+  "book300_final": 593.3,
+  "book300_worst_drop_pct": -34.7,
+  "consistency_rule": "fail",
+  "trades": 1628,
+  "trades_per_week": 6.74,
+  "weeks_with_trade_pct": 97.5,
+  "avg_trade_pct": 0.443,
+  "win_pct": 48.2,
+  "long_short": {
+   "short": 962,
+   "long": 666
+  }
+ },
+ "M": {
+  "weeks": 238,
+  "sum_weekly_pct": 174.0,
+  "avg_week_pct": 0.731,
+  "per_year_avg_week_pct": {
+   "2022": -0.1,
+   "2023": 0.25,
+   "2024": 0.34,
+   "2025": 1.31,
+   "2026": 2.09
+  },
+  "per_year_sum_pct": {
+   "2022": -4.2,
+   "2023": 12.8,
+   "2024": 17.8,
+   "2025": 68.1,
+   "2026": 79.4
+  },
+  "weeks_pos_pct": 52.9,
+  "weeks_zero_pct": 0.0,
+  "months_pos": "32/56",
+  "months_pos_pct": 57.1,
+  "years_pos": "4/5",
+  "top3_weeks_share_pct": 45.2,
+  "longest_under_high_weeks": 87,
+  "longest_under_high_period": "2022-03-14 .. 2023-11-20",
+  "top3_weeks": [
+   [
+    "2025-08-04",
+    32.01
+   ],
+   [
+    "2026-03-16",
+    27.41
+   ],
+   [
+    "2026-02-16",
+    19.28
+   ]
+  ],
+  "worst_week_pct": -10.67,
+  "book300_final": 1281.2,
+  "book300_worst_drop_pct": -29.3,
+  "consistency_rule": "fail"
+ },
+ "switcher_RM": {
+  "weeks": 238,
+  "sum_weekly_pct": 194.1,
+  "avg_week_pct": 0.815,
+  "per_year_avg_week_pct": {
+   "2022": 0.41,
+   "2023": 0.47,
+   "2024": 0.1,
+   "2025": 1.9,
+   "2026": 1.26
+  },
+  "per_year_sum_pct": {
+   "2022": 17.6,
+   "2023": 24.3,
+   "2024": 5.1,
+   "2025": 99.0,
+   "2026": 48.0
+  },
+  "weeks_pos_pct": 45.8,
+  "weeks_zero_pct": 21.8,
+  "months_pos": "34/56",
+  "months_pos_pct": 60.7,
+  "years_pos": "5/5",
+  "top3_weeks_share_pct": 38.2,
+  "longest_under_high_weeks": 45,
+  "longest_under_high_period": "2024-01-08 .. 2024-11-11",
+  "top3_weeks": [
+   [
+    "2025-08-04",
+    32.01
+   ],
+   [
+    "2026-03-16",
+    27.41
+   ],
+   [
+    "2025-09-01",
+    14.81
+   ]
+  ],
+  "worst_week_pct": -8.66,
+  "book300_final": 1673.2,
+  "book300_worst_drop_pct": -23.6,
+  "consistency_rule": "fail",
+  "picked": {
+   "R": 103,
+   "M": 94,
+   "cash": 41
+  }
+ },
+ "switcher_RFM": {
+  "weeks": 238,
+  "sum_weekly_pct": 222.8,
+  "avg_week_pct": 0.936,
+  "per_year_avg_week_pct": {
+   "2022": 0.43,
+   "2023": 0.36,
+   "2024": 0.19,
+   "2025": 2.21,
+   "2026": 1.59
+  },
+  "per_year_sum_pct": {
+   "2022": 18.7,
+   "2023": 18.7,
+   "2024": 10.0,
+   "2025": 114.9,
+   "2026": 60.4
+  },
+  "weeks_pos_pct": 51.7,
+  "weeks_zero_pct": 13.4,
+  "months_pos": "35/56",
+  "months_pos_pct": 62.5,
+  "years_pos": "5/5",
+  "top3_weeks_share_pct": 33.3,
+  "longest_under_high_weeks": 41,
+  "longest_under_high_period": "2024-03-18 .. 2024-12-23",
+  "top3_weeks": [
+   [
+    "2025-08-04",
+    32.01
+   ],
+   [
+    "2026-03-16",
+    27.41
+   ],
+   [
+    "2025-09-01",
+    14.81
+   ]
+  ],
+  "worst_week_pct": -14.06,
+  "book300_final": 2145.1,
+  "book300_worst_drop_pct": -18.5,
+  "consistency_rule": "fail",
+  "picked": {
+   "R": 78,
+   "M": 74,
+   "F": 62,
+   "cash": 24
+  }
+ },
+ "verdict": "\ud83d\udd34",
+ "check_vs_1024_run": {
+  "sw2_sum_here": 194.1,
+  "sw_sum_1024": 194.1
+ }
+}

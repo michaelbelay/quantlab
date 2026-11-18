@@ -12,6 +12,9 @@ Steps
    deep bear 2022; shorts made money mainly in crash months; every idea that earned in 2022-23 lost in 2024-25.
    Good ideas therefore need a reason why THIS short works in the 2024-26 market too (e.g. who is trapped, who must
    sell, which leverage gets flushed). One-line economic reason in REASON.
+   Michael's rule (2026-11-11, research/CONSISTENCY_RULE_2026-11-11.md): an idea must trade OFTEN. On the screen it
+   needs entries on at least 25% of bear days and at least 40 trades per year of history. An idea that fires on a few
+   days a year is not entered even if its screen passes; write the numbers in discovery_log.md and move on.
 3. Inputs available in `P` (see `research/bear_lab/bear_lab.py` panels()): C O H L V QV (hours x coins), FUND (funding
    settled at the bar close), FUND_LAST, OI (open interest USDT), LS (all-account long/short ratio), TOP (top-trader
    position long/short ratio), TAKER (taker buy/sell volume ratio), ELIG, BEAR and DEEP (Series, next bar is a bear /

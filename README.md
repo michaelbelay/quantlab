@@ -20,6 +20,9 @@ Data (`data/`), results (`runs/`), secrets (`secrets/`) and databases stay local
 .venv\Scripts\python.exe -m trader status paper
 start_paper_bots.bat                              # paper trader + switcher + delisting paper bots
 start_ui.bat
+restart_trader_paper.bat                          # after a change in trader\: stop, start, show status
+install_watchdog.bat                              # once: Windows restarts dead paper bots every 5 minutes
+.venv\Scripts\python.exe -m pytest                # 36 tests, 17 of them on the trader's order path (no network)
 ```
 
 Live trading needs a key saved with `python -m trader.vault set binance` (withdrawals off, IP-locked).

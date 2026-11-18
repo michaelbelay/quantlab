@@ -1,17 +1,17 @@
 {
- "made": "2026-11-01T00:16:39+00:00",
- "day": "2026-11-01",
+ "made": "2026-11-15T23:36:48+00:00",
+ "day": "2026-11-15",
  "inputs": {
-  "btc_7d_pct": -4.11,
-  "btc_avg_move_pct": 1.07,
-  "breadth_pct": 17.4,
+  "btc_7d_pct": -15.44,
+  "btc_avg_move_pct": 2.28,
+  "breadth_pct": 4.2,
   "coins": 264
  },
  "labels": {
   "trend": "down",
-  "vol": "calm",
+  "vol": "wild",
   "width": "weak",
-  "combo": "down / calm"
+  "combo": "down / wild"
  },
  "cuts": {
   "trend": 0.03,
@@ -49,13 +49,13 @@
      "shorts_pct": 27
     },
     "vol": {
-     "label": "calm",
-     "days": 305,
-     "trades_per_day": 2.04,
-     "win_rate": 95.5,
-     "avg_trade_pct": 5.22,
-     "usdt_per_day": 3.55,
-     "shorts_pct": 29
+     "label": "wild",
+     "days": 304,
+     "trades_per_day": 1.99,
+     "win_rate": 97.7,
+     "avg_trade_pct": 6.1,
+     "usdt_per_day": 4.05,
+     "shorts_pct": 22
     },
     "width": {
      "label": "weak",
@@ -67,13 +67,13 @@
      "shorts_pct": 30
     },
     "combo": {
-     "label": "down / calm",
-     "days": 64,
-     "trades_per_day": 2.42,
-     "win_rate": 92.9,
-     "avg_trade_pct": 5.84,
-     "usdt_per_day": 4.71,
-     "shorts_pct": 37
+     "label": "down / wild",
+     "days": 97,
+     "trades_per_day": 2.69,
+     "win_rate": 99.2,
+     "avg_trade_pct": 6.87,
+     "usdt_per_day": 6.16,
+     "shorts_pct": 22
     }
    },
    "tables": {
@@ -269,11 +269,11 @@
      "shorts_pct": 0
     },
     "vol": {
-     "label": "calm",
-     "days": 305,
-     "trades_per_day": 3.55,
-     "win_rate": 72.0,
-     "avg_trade_pct": 0.64,
+     "label": "wild",
+     "days": 304,
+     "trades_per_day": 3.32,
+     "win_rate": 74.0,
+     "avg_trade_pct": 0.69,
      "usdt_per_day": 0.76,
      "shorts_pct": 0
     },
@@ -287,12 +287,12 @@
      "shorts_pct": 0
     },
     "combo": {
-     "label": "down / calm",
-     "days": 64,
-     "trades_per_day": 2.77,
-     "win_rate": 75.1,
-     "avg_trade_pct": 0.69,
-     "usdt_per_day": 0.64,
+     "label": "down / wild",
+     "days": 97,
+     "trades_per_day": 4.34,
+     "win_rate": 73.6,
+     "avg_trade_pct": 0.64,
+     "usdt_per_day": 0.92,
      "shorts_pct": 0
     }
    },
@@ -489,13 +489,13 @@
      "shorts_pct": 76
     },
     "vol": {
-     "label": "calm",
-     "days": 305,
-     "trades_per_day": 0.94,
-     "win_rate": 52.6,
-     "avg_trade_pct": 1.47,
-     "usdt_per_day": 0.69,
-     "shorts_pct": 58
+     "label": "wild",
+     "days": 304,
+     "trades_per_day": 0.8,
+     "win_rate": 42.2,
+     "avg_trade_pct": -0.19,
+     "usdt_per_day": -0.08,
+     "shorts_pct": 52
     },
     "width": {
      "label": "weak",
@@ -507,13 +507,13 @@
      "shorts_pct": 64
     },
     "combo": {
-     "label": "down / calm",
-     "days": 64,
-     "trades_per_day": 0.61,
-     "win_rate": 53.8,
-     "avg_trade_pct": 1.2,
-     "usdt_per_day": 0.37,
-     "shorts_pct": 82
+     "label": "down / wild",
+     "days": 97,
+     "trades_per_day": 0.37,
+     "win_rate": 36.1,
+     "avg_trade_pct": -1.56,
+     "usdt_per_day": -0.29,
+     "shorts_pct": 75
     }
    },
    "tables": {
@@ -709,13 +709,13 @@
      "shorts_pct": 73
     },
     "vol": {
-     "label": "calm",
-     "days": 305,
-     "trades_per_day": 0.98,
-     "win_rate": 51.7,
-     "avg_trade_pct": 1.32,
-     "usdt_per_day": 0.65,
-     "shorts_pct": 56
+     "label": "wild",
+     "days": 304,
+     "trades_per_day": 0.81,
+     "win_rate": 43.1,
+     "avg_trade_pct": -0.0,
+     "usdt_per_day": -0.0,
+     "shorts_pct": 52
     },
     "width": {
      "label": "weak",
@@ -727,13 +727,13 @@
      "shorts_pct": 61
     },
     "combo": {
-     "label": "down / calm",
-     "days": 64,
-     "trades_per_day": 0.58,
-     "win_rate": 37.8,
-     "avg_trade_pct": -1.18,
-     "usdt_per_day": -0.34,
-     "shorts_pct": 81
+     "label": "down / wild",
+     "days": 97,
+     "trades_per_day": 0.41,
+     "win_rate": 35.0,
+     "avg_trade_pct": -1.56,
+     "usdt_per_day": -0.32,
+     "shorts_pct": 70
     }
    },
    "tables": {
@@ -929,12 +929,12 @@
      "shorts_pct": 100
     },
     "vol": {
-     "label": "calm",
-     "days": 305,
-     "trades_per_day": 0.08,
-     "win_rate": 56.5,
-     "avg_trade_pct": 3.07,
-     "usdt_per_day": 0.35,
+     "label": "wild",
+     "days": 304,
+     "trades_per_day": 0.01,
+     "win_rate": 0.0,
+     "avg_trade_pct": -6.22,
+     "usdt_per_day": -0.06,
      "shorts_pct": 100
     },
     "width": {
@@ -947,13 +947,13 @@
      "shorts_pct": 100
     },
     "combo": {
-     "label": "down / calm",
-     "days": 64,
-     "trades_per_day": 0.16,
-     "win_rate": 80.0,
-     "avg_trade_pct": 7.03,
-     "usdt_per_day": 1.65,
-     "shorts_pct": 100
+     "label": "down / wild",
+     "days": 97,
+     "trades_per_day": 0.0,
+     "win_rate": null,
+     "avg_trade_pct": null,
+     "usdt_per_day": 0.0,
+     "shorts_pct": null
     }
    },
    "tables": {
@@ -1149,12 +1149,12 @@
      "shorts_pct": 0
     },
     "vol": {
-     "label": "calm",
-     "days": 305,
-     "trades_per_day": 0.19,
-     "win_rate": 38.6,
-     "avg_trade_pct": 1.76,
-     "usdt_per_day": 0.33,
+     "label": "wild",
+     "days": 304,
+     "trades_per_day": 0.16,
+     "win_rate": 20.8,
+     "avg_trade_pct": -1.37,
+     "usdt_per_day": -0.22,
      "shorts_pct": 0
     },
     "width": {
@@ -1167,12 +1167,12 @@
      "shorts_pct": 0
     },
     "combo": {
-     "label": "down / calm",
-     "days": 64,
-     "trades_per_day": 0.17,
-     "win_rate": 27.3,
-     "avg_trade_pct": -0.64,
-     "usdt_per_day": -0.11,
+     "label": "down / wild",
+     "days": 97,
+     "trades_per_day": 0.05,
+     "win_rate": 0.0,
+     "avg_trade_pct": -1.96,
+     "usdt_per_day": -0.1,
      "shorts_pct": 0
     }
    },
@@ -1369,13 +1369,13 @@
      "shorts_pct": 50
     },
     "vol": {
-     "label": "calm",
-     "days": 291,
-     "trades_per_day": 1.25,
-     "win_rate": 20.8,
-     "avg_trade_pct": 2.95,
-     "usdt_per_day": 0.55,
-     "shorts_pct": 28
+     "label": "wild",
+     "days": 300,
+     "trades_per_day": 0.1,
+     "win_rate": 30.0,
+     "avg_trade_pct": 0.84,
+     "usdt_per_day": 0.01,
+     "shorts_pct": 20
     },
     "width": {
      "label": "weak",
@@ -1387,13 +1387,13 @@
      "shorts_pct": 46
     },
     "combo": {
-     "label": "down / calm",
-     "days": 60,
-     "trades_per_day": 0.35,
-     "win_rate": 9.5,
-     "avg_trade_pct": -3.84,
-     "usdt_per_day": -0.2,
-     "shorts_pct": 43
+     "label": "down / wild",
+     "days": 97,
+     "trades_per_day": 0.0,
+     "win_rate": null,
+     "avg_trade_pct": null,
+     "usdt_per_day": 0.0,
+     "shorts_pct": null
     }
    },
    "tables": {
@@ -1589,12 +1589,12 @@
      "shorts_pct": 0
     },
     "vol": {
-     "label": "calm",
-     "days": 305,
-     "trades_per_day": 14.82,
-     "win_rate": 48.5,
-     "avg_trade_pct": -0.8,
-     "usdt_per_day": -5.92,
+     "label": "wild",
+     "days": 304,
+     "trades_per_day": 14.98,
+     "win_rate": 45.7,
+     "avg_trade_pct": -1.07,
+     "usdt_per_day": -8.01,
      "shorts_pct": 0
     },
     "width": {
@@ -1607,12 +1607,12 @@
      "shorts_pct": 0
     },
     "combo": {
-     "label": "down / calm",
-     "days": 64,
-     "trades_per_day": 13.97,
-     "win_rate": 47.9,
-     "avg_trade_pct": -0.78,
-     "usdt_per_day": -5.43,
+     "label": "down / wild",
+     "days": 97,
+     "trades_per_day": 15.79,
+     "win_rate": 45.3,
+     "avg_trade_pct": -1.15,
+     "usdt_per_day": -9.05,
      "shorts_pct": 0
     }
    },

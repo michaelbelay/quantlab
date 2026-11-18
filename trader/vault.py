@@ -17,11 +17,11 @@ from .settings import SECRETS
 _PS = Path(os.environ.get("SystemRoot", r"C:\Windows")) / "System32" / "WindowsPowerShell" / "v1.0"
 
 
-def _ps(script: str) -> str:
+def _ps(script: str, stdin: str | None = None) -> str:
     env = os.environ.copy()
     env["PSModulePath"] = str(_PS / "Modules")          # Windows PowerShell 5.1 modules, whatever shell started us
     r = subprocess.run([str(_PS / "powershell.exe"), "-NoProfile", "-NonInteractive", "-Command", script],
-                       capture_output=True, text=True, timeout=60, env=env,
+                       input=stdin, capture_output=True, text=True, timeout=60, env=env,
                        creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
     if r.returncode != 0:
         raise RuntimeError("DPAPI call failed")
@@ -29,6 +29,12 @@ def _ps(script: str) -> str:
 
 
 def encrypt(plain: str) -> str:
+    """The secret is handed to PowerShell on its input, not inside the command: a command line can be read by other
+    programs of this user and can end up in PowerShell's logs. (Keys and tokens are plain ASCII; anything else
+    takes the old route, because the input pipe's code page is not reliable for other characters.)"""
+    if plain.isascii() and "\n" not in plain and "\r" not in plain:
+        return _ps("ConvertFrom-SecureString (ConvertTo-SecureString ([Console]::In.ReadLine()) -AsPlainText -Force)",
+                   stdin=plain + "\n")
     esc = plain.replace("'", "''")
     return _ps(f"ConvertFrom-SecureString (ConvertTo-SecureString '{esc}' -AsPlainText -Force)")
 
@@ -55,7 +61,11 @@ def get(name: str) -> dict | None:
 
 def put(name: str, plain: dict, public: dict | None = None) -> None:
     SECRETS.mkdir(parents=True, exist_ok=True)
-    d = dict(public or {}) | {f"{k}_enc": encrypt(v) for k, v in plain.items()}
+    enc = {k: encrypt(v) for k, v in plain.items()}
+    for k, v in plain.items():                          # read every value back before anything is written
+        if not enc[k] or decrypt(enc[k]) != v:
+            raise RuntimeError(f"'{k}' did not survive encryption - nothing was saved, the old file is unchanged")
+    d = dict(public or {}) | {f"{k}_enc": v for k, v in enc.items()}
     _file(name).write_text(json.dumps(d, indent=1) + "\n", encoding="utf-8")
 
 

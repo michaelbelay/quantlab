@@ -8,8 +8,10 @@ Steps
 1. Read `research/incubator/state.json`, `research/incubator/REPORT_latest.md` and the idea files in
    `research/incubator/ideas/` (what is incubating, what died). Also skim the result files in `research/*RESULT*.md`
    and `research/incubator/discovery_log.md` (previous runs) so you do not repeat closed ideas.
-2. Prefer angles not yet covered. Ideas built FOR one market type are welcome (MARKET = "UP_LOVOL", "UP_HIVOL",
-   "DN_LOVOL", "DN_HIVOL", "UP", "DN"). Examples of angles: cross-coin lead/lag, time of day / weekday, funding across
+2. BEAR MARKET ONLY (Michael, 2026-11-06): every idea MUST set MARKET to "DN", "DN_LOVOL" or "DN_HIVOL" (never None,
+   "ALL" or an UP type). Long and short are both allowed; a long needs a stop and a reason why it is not plain
+   dip-buying into a real crash (who is forced to sell into it, why it snaps back). Prefer angles not yet covered,
+   and do not repeat the bear-short forms in `research/bear/REGISTER_*.md` or `research/bear_lab/ideas/`. Examples of angles: cross-coin lead/lag, time of day / weekday, funding across
    coins, volume regimes, market-wide events (many coins moving together), relative strength vs BTC, volatility
    compression before expansion. Each idea needs a one-line economic reason (who is forced to trade, why it repeats).
 3. Write each idea as `research/incubator/ideas/<short_snake_name>.py` in the format of the existing files

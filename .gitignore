@@ -31,3 +31,17 @@ research/AMENDMENT_2026-09-29_rotation_v3.md
 *.tmp
 research/oi/logs/
 research/bear_lab/logs/
+
+# runtime clutter (pids, run logs, test caches)
+.pytest_cache/
+*pid.txt
+*_pid.txt
+*log.txt
+*_log.txt
+research/loop_pid.txt
+
+# big generated backtest dumps (rebuildable, stay local)
+**/chain_1m.json
+research/engine_results/full_rank_dev.json
+research/opportunity/web3_baseline/sm_klines2.json
+research/opportunity/web3_baseline/market_now.json

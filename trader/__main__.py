@@ -6,6 +6,7 @@ r"""quantlab trader - FlowTrend on Binance USD-M.
     .venv\Scripts\python.exe -m trader pause paper      no new entries, open trades still managed
     .venv\Scripts\python.exe -m trader resume paper
     .venv\Scripts\python.exe -m trader replay           re-check the signal code on saved history
+    .venv\Scripts\python.exe -m trader repair paper     show paper exits that were written late (add --apply to fix them)
 """
 from __future__ import annotations
 
@@ -14,6 +15,7 @@ import sys
 import pandas as pd
 
 from .engine import Engine, get_state, set_state, setup_logging
+from .fsio import read_time
 from .market import exchange, last_prices
 from .settings import PAPER_WALLET, RUNTIME
 from .store import Store
@@ -28,8 +30,8 @@ def status(mode: str) -> None:
         p = px.get(t["coin"], t["open_price"])
         u = ((t["open_price"] - p) if t["short"] else (p - t["open_price"])) * t["amount"] - t["fees"]
         rows.append((u, t, p))
-    hb = RUNTIME / f"{mode}_heartbeat.txt"
-    print(f"{mode}: {get_state(mode)}, last heartbeat {hb.read_text() if hb.exists() else 'never'} UTC")
+    beat = read_time(RUNTIME / f"{mode}_heartbeat.txt")
+    print(f"{mode}: {get_state(mode)}, last heartbeat {beat.strftime('%Y-%m-%d %H:%M:%S') + ' UTC' if beat else 'never (or unreadable)'}")
     closed = sum(t["pnl"] for t in cl)
     print(f"closed: {len(cl)} trades, {closed:+.2f} USDT   open: {len(op)} trades, {sum(r[0] for r in rows):+.2f} USDT")
     for u, t, p in sorted(rows, key=lambda r: r[0]):                  # worst first
@@ -48,6 +50,9 @@ def main(a: list[str]) -> int:
     elif len(a) >= 2 and a[0] in ("pause", "resume"):
         set_state(a[1], "paused" if a[0] == "pause" else "running")
         print(a[1], get_state(a[1]))
+    elif a[:2] == ["repair", "paper"]:
+        from .repair import main as repair
+        return repair("paper", "--apply" in a)
     elif a[:1] == ["replay"]:
         from .replay import main as replay
         replay()

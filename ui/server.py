@@ -32,6 +32,7 @@ import today  # noqa: E402
 import decisions  # noqa: E402
 import insights  # noqa: E402
 import trader_view  # noqa: E402
+import support  # noqa: E402
 from trader.engine import get_state, set_state  # noqa: E402
 RES = ROOT / "research"
 PY = ROOT / ".venv" / "Scripts" / "python.exe"
@@ -42,6 +43,17 @@ PORT = 8500
 _cache: dict[str, tuple[float, object]] = {}
 _lock = threading.Lock()
 _scan = {"proc": None, "started": None}
+CACHE_MAX = 400           # every chart the user opens leaves a klines answer behind; without a bound the server
+                          # grows for as long as it runs. "t:" keys (the slow tab answers) are never evicted.
+
+
+def _put(key: str, val: object) -> None:
+    """Store under the lock and drop the oldest cheap entries once the cache is over its bound."""
+    _cache[key] = (time.time(), val)
+    if len(_cache) > CACHE_MAX:
+        cheap = sorted(((v[0], k) for k, v in _cache.items() if not k.startswith("t:")))
+        for _, k in cheap[:len(_cache) - CACHE_MAX]:
+            _cache.pop(k, None)
 
 
 def fetch(path: str, ttl: float = 5.0):
@@ -54,18 +66,24 @@ def fetch(path: str, ttl: float = 5.0):
     with urllib.request.urlopen(req, timeout=15) as r:
         data = json.load(r)
     with _lock:
-        _cache[path] = (now, data)
+        _put(path, data)
     return data
 
 
 _swr_busy: set[str] = set()
+_keylocks: dict[str, threading.Lock] = {}
+
+
+def _keylock(key: str) -> threading.Lock:
+    with _lock:
+        return _keylocks.setdefault(key, threading.Lock())
 
 
 def _swr_store(key: str, fn):
     try:
         val = fn()
         with _lock:
-            _cache[key] = (time.time(), val)
+            _put(key, val)
         return val
     finally:
         _swr_busy.discard(key)
@@ -86,17 +104,26 @@ def swr(key: str, fn, ttl: float, max_stale: float | None = None):
                 threading.Thread(target=lambda: _swr_store(key, fn), daemon=True).start()
             return hit[1]
         _swr_busy.add(key)
-    try:
-        return _swr_store(key, fn)
-    except Exception:  # noqa: BLE001 - a failed refresh of an old answer still shows the old answer
-        if hit:
-            return hit[1]
-        raise
+    # Cold cache (or past max_stale): this request waits. One key = one computation - without this every
+    # concurrent request for /api/support started its own 15-second scan.
+    with _keylock(key):
+        with _lock:
+            again = _cache.get(key)
+            if again and time.time() - again[0] < ttl:
+                _swr_busy.discard(key)
+                return again[1]
+        try:
+            return _swr_store(key, fn)
+        except Exception:  # noqa: BLE001 - a failed refresh of an old answer still shows the old answer
+            if hit:
+                return hit[1]
+            raise
 
 
 def warm():
     """Fill the slow answers right after start so the first tab click does not wait."""
-    for key, fn in (("t:today", _today), ("t:majors", majors), ("t:forward", forward)):
+    for key, fn in (("t:today", _today), ("t:majors", majors), ("t:forward", forward), ("t:support", support.build),
+                    ("t:fit", market_fit)):
         try:
             swr(key, fn, 0)
         except Exception:  # noqa: BLE001 - the request path reports errors
@@ -182,6 +209,21 @@ def oi(symbol: str):
     hist = fetch(f"/futures/data/openInterestHist?symbol={symbol}&period=1h&limit=200", ttl=120)
     return {"now": float(cur["openInterest"]),
             "hist": [{"time": int(r["timestamp"] // 1000), "value": float(r["sumOpenInterestValue"])} for r in hist]}
+
+
+def positioning(symbol: str):
+    """Who is on which side: top traders by margin balance (the big accounts), every account, and taker flow.
+    Binance public /futures/data endpoints keep about 30 days, hourly. A missing series comes back empty."""
+    def grab(path):
+        try:
+            return fetch(path, ttl=300)
+        except Exception:  # noqa: BLE001 - one missing series must not take the whole answer down
+            return []
+    pt = lambda r, k: {"time": int(r["timestamp"]) // 1000, "value": float(r[k])}      # noqa: E731
+    q = f"symbol={symbol}&period=1h&limit=200"
+    return {"top": [pt(r, "longShortRatio") for r in grab(f"/futures/data/topLongShortPositionRatio?{q}")],
+            "accounts": [pt(r, "longShortRatio") for r in grab(f"/futures/data/globalLongShortAccountRatio?{q}")],
+            "taker": [pt(r, "buySellRatio") for r in grab(f"/futures/data/takerlongshortRatio?{q}")]}
 
 
 # ------------------------------------------------------------------ strategy
@@ -382,7 +424,8 @@ def paper_books(c) -> list[dict]:
         n = lambda s: sum(r["status"] == s for r in closed)
         out.append({**b, "trades": rows[:100], "closed": len(closed), "open": sum(r["status"] in ("open", "pending") for r in rows),
                     "target": n("target"), "stop": n("stop"), "time": n("time"),
-                    "net_usdt": round(sum(r["usdt"] for r in closed), 2), "days": len({r["exit_time"] // 86400 for r in closed})})
+                    "net_usdt": round(sum(r["usdt"] or 0 for r in closed), 2),
+                    "days": len({r["exit_time"] // 86400 for r in closed if r["exit_time"] is not None})})
     return out
 
 
@@ -425,6 +468,32 @@ def bear_lab():
             out["ideas"].append({"id": iid, "source": src, "reason": reason, "start": start, "status": status, "why": why,
                                  "screen": json.loads(screen or "{}"), "eval_ts": ev[0] if ev else None,
                                  "live": json.loads(ev[1]) if ev else {}})
+    finally:
+        c.close()
+    return out
+
+
+def scalp_lab():
+    """Scalp lab (research/scalp_lab, 5-minute task), read-only: live scalps from latest_scalps.json, rules on paper with
+    their screen and live evaluation, and every screen (passed or not) with its numbers."""
+    import sqlite3
+    lab = RES / "scalp_lab"
+    out = {"latest": None, "ideas": [], "screens": [], "state": None,
+           "passed_md": (lab / "PASSED.md").read_text(encoding="utf-8") if (lab / "PASSED.md").exists() else None}
+    for k, f in (("latest", "latest_scalps.json"), ("state", "state.json")):
+        if (lab / f).exists():
+            out[k] = json.loads((lab / f).read_text(encoding="utf-8"))
+    if not (lab / "scalp_lab.db").exists():
+        return out
+    live = {x["id"]: x for x in (out["state"] or {}).get("ideas", [])}
+    c = sqlite3.connect(f"file:{(lab / 'scalp_lab.db').as_posix()}?mode=ro", uri=True, timeout=10)
+    try:
+        for iid, src, reason, start, status, why, screen in c.execute(
+                "SELECT id, source, reason, start_ts, status, status_why, screen FROM ideas ORDER BY start_ts"):
+            out["ideas"].append({"id": iid, "source": src, "reason": reason, "start": start, "status": status, "why": why,
+                                 "screen": json.loads(screen or "{}"), "live": live.get(iid, {})})
+        for ts, f, passed, res in c.execute("SELECT ts, file, passed, result FROM screens ORDER BY ts DESC"):
+            out["screens"].append({"ts": ts, "rule": Path(f).stem, "passed": bool(passed), **json.loads(res)})
     finally:
         c.close()
     return out
@@ -540,6 +609,14 @@ def scan_run():
     return {"running": True}
 
 
+def support_api(q: dict) -> dict:
+    """Spot support scanner (ui/support.py). Re-scans at most every 15 min; ?fresh=1 forces a new scan."""
+    if q.get("fresh") == "1":
+        with _lock:
+            _cache.pop("t:support", None)
+    return swr("t:support", support.build, 900, max_stale=3 * 3600)
+
+
 # ------------------------------------------------------------------ http
 class H(SimpleHTTPRequestHandler):
     def __init__(self, *a, **kw):
@@ -583,6 +660,7 @@ class H(SimpleHTTPRequestHandler):
                 "/api/klines": lambda: klines(sym, q.get("interval", "1h"), int(q.get("limit", 1000))),
                 "/api/funding": lambda: funding(sym),
                 "/api/oi": lambda: oi(sym),
+                "/api/positioning": lambda: swr(f"t:pos:{sym}", lambda: positioning(sym), 300),
                 "/api/majors": lambda: swr("t:majors", majors, 300),
                 "/api/majors_equity": lambda: json.loads((ROOT / "data" / "ui_majors_equity.json").read_text(encoding="utf-8")),
                 "/api/research": lambda: research(),
@@ -592,6 +670,7 @@ class H(SimpleHTTPRequestHandler):
                 "/api/postmortem": lambda: postmortem(),
                 "/api/incubator": lambda: incubator(),
                 "/api/bearlab": lambda: bear_lab(),
+                "/api/scalps": lambda: scalp_lab(),
                 "/api/v4": lambda: v4_forward(),
                 "/api/crashday": lambda: crashday_forward(),
                 "/api/switcher": lambda: switcher(),
@@ -601,6 +680,7 @@ class H(SimpleHTTPRequestHandler):
                 "/api/decisions": lambda: decisions.build(fetch),
                 "/api/insights": lambda: insights_api(q),
                 "/api/today": lambda: swr("t:today", _today, 30),
+                "/api/support": lambda: support_api(q),
             }
             if u.path in routes:
                 return self._json(routes[u.path]())
@@ -609,14 +689,14 @@ class H(SimpleHTTPRequestHandler):
         return super().do_GET()
 
     def do_POST(self):
-        if self.path == "/api/scan/run":
-            return self._json(scan_run())
-        if self.path in ("/api/trader/action", "/api/journal"):
+        if self.path in ("/api/scan/run", "/api/trader/action", "/api/journal"):
             # Only this page may write: same-origin request with the custom header (another website's
             # script cannot add it without a CORS pre-flight, which this server never approves).
             origin = self.headers.get("Origin", "")
             if origin not in (f"http://localhost:{PORT}", f"http://127.0.0.1:{PORT}") or self.headers.get("X-Quantlab") != "1":
                 return self._json({"error": "refused: not from the quantlab page"}, 403)
+            if self.path == "/api/scan/run":
+                return self._json(scan_run())
             n = int(self.headers.get("Content-Length") or 0)
             try:
                 body = json.loads(self.rfile.read(n) or b"{}")

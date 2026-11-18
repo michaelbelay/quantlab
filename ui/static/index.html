@@ -17,6 +17,7 @@
   <nav class="tabs" role="tablist">
     <button class="tab" data-view="today">Today</button>
     <button class="tab active" data-view="markets">Markets</button>
+    <button class="tab" data-view="support">Spot support</button>
     <button class="tab" data-view="strategies">Strategies</button>
     <button class="tab" data-view="live">Trader</button>
     <button class="tab" data-view="fit">Market fit</button>
@@ -25,6 +26,7 @@
     <button class="tab" data-view="scanner">Scanner <span id="scanCount" class="count"></span></button>
     <button class="tab" data-view="incubator">Incubator</button>
     <button class="tab" data-view="bearlab">Bear lab</button>
+    <button class="tab" data-view="scalps">Scalps</button>
   </nav>
   <div class="top-right">
     <span id="conn" class="conn"><i></i><b>connecting</b></span>
@@ -104,26 +106,32 @@
           <label><input type="checkbox" data-ind="vwap" data-short="VWAP"><i class="sw s5"></i>VWAP (daily reset)</label>
           <label><input type="checkbox" data-ind="don" data-short="Donchian"><i class="sw s3"></i>Donchian channel 20</label>
           <label><input type="checkbox" data-ind="trend" data-short="20d ref" checked><i class="sw s7"></i>20-day trend reference</label>
+          <label><input type="checkbox" data-ind="vp" data-short="Vol profile"><i class="sw s4"></i>Volume by price <em>where the trading happened</em></label>
           <div class="menu-h">Long / short signals</div>
           <label><input type="checkbox" data-sig="tested" data-short="▲▼ Tested rules" checked><i class="mk up">▲</i>Tested rules 🟡🟠 (scanner playbook)</label>
           <label><input type="checkbox" data-sig="red" data-short="+🔴"><i class="mk neu">▲</i>…also 🔴 rules that failed their test</label>
           <label><input type="checkbox" data-sig="trend" data-short="Trend L/exit" checked><i class="mk s7">▲</i>20-day trend (MajorsTrend rule, long-only)</label>
           <label><input type="checkbox" data-sig="ema" data-short="EMA×"><i class="mk s1">●</i>EMA 20/50 cross <em>untested</em></label>
           <label><input type="checkbox" data-sig="macd" data-short="MACD×"><i class="mk s2">●</i>MACD signal cross <em>untested</em></label>
+          <label><input type="checkbox" data-sig="whale" data-short="Big bars"><i class="mk s4">◆</i>Outsized bars <em>3× the 20-bar volume</em></label>
           <div class="menu-h">Panes</div>
-          <label><input type="checkbox" data-pane="rsi" data-short="RSI" checked>RSI 14</label>
-          <label><input type="checkbox" data-pane="macd" data-short="MACD" checked>MACD 12, 26, 9</label>
+          <label><input type="checkbox" data-pane="rsi" data-short="RSI">RSI 14</label>
+          <label><input type="checkbox" data-pane="macd" data-short="MACD">MACD 12, 26, 9</label>
           <label><input type="checkbox" data-pane="fund" data-short="Funding" checked>Funding rate</label>
+          <label><input type="checkbox" data-pane="flow" data-short="Taker flow" checked>Taker flow + cumulative delta</label>
         </div>
       </div>
       <div id="activeInd" class="active-ind"></div>
-      <button id="logBtn" class="chip push" title="Logarithmic price scale">LOG</button>
+      <button id="toolBtn" class="chip push" title="Place a trade by clicking the chart: entry, then stop (T)">⊹ Trade tool</button>
+      <button id="lvBtn" class="chip on" title="Draw entry / stop / target levels on the chart (L)">◈ Levels <span id="lvN" class="count"></span></button>
+      <button id="logBtn" class="chip" title="Logarithmic price scale">LOG</button>
     </div>
     <div class="panes">
-      <div class="pane main"><div id="legend" class="legend"></div><div id="cMain" class="chart"></div></div>
-      <div class="pane sub" data-pane="rsi"><div class="pane-label">RSI 14 <b id="lgRsi"></b></div><div id="cRsi" class="chart"></div></div>
-      <div class="pane sub" data-pane="macd"><div class="pane-label">MACD 12,26,9 <b id="lgMacd"></b></div><div id="cMacd" class="chart"></div></div>
+      <div class="pane main"><div id="legend" class="legend"></div><div id="barClock" class="bar-clock"></div><canvas id="vpCv" class="vp-cv"></canvas><div id="tradeBox" class="trade-box"></div><div id="cMain" class="chart"></div></div>
+      <div class="pane sub hidden" data-pane="rsi"><div class="pane-label">RSI 14 <b id="lgRsi"></b></div><div id="cRsi" class="chart"></div></div>
+      <div class="pane sub hidden" data-pane="macd"><div class="pane-label">MACD 12,26,9 <b id="lgMacd"></b></div><div id="cMacd" class="chart"></div></div>
       <div class="pane sub" data-pane="fund"><div class="pane-label">Funding rate % per 8h <b id="lgFund"></b></div><div id="cFund" class="chart"></div></div>
+      <div class="pane sub" data-pane="flow"><div class="pane-label">Taker flow · bars = net aggressive volume, line = cumulative delta <b id="lgFlow"></b></div><div id="cFlow" class="chart"></div></div>
     </div>
   </section>
 
@@ -135,6 +143,19 @@
     <section class="card">
       <h3>Indicator readout <span class="hint">facts, not advice</span></h3>
       <div class="kv" id="readout"></div>
+    </section>
+    <section class="card">
+      <div class="card-head"><h3>Trade levels</h3><span class="small muted">click one to draw it</span></div>
+      <div id="lvList" class="lv-list"></div>
+    </section>
+    <section class="card" id="sizeCard">
+      <div class="card-head"><h3>Position size</h3><span id="lvPickName" class="small muted"></span></div>
+      <div class="size-in">
+        <label>Account <input id="szEq" type="number" min="1" step="10" value="300"></label>
+        <label>Risk % <input id="szRisk" type="number" min="0.1" max="100" step="0.25" value="1"></label>
+        <label>Leverage <input id="szLev" type="number" min="1" max="20" step="1" value="1"></label>
+      </div>
+      <div class="kv" id="szOut"></div>
     </section>
     <section class="card">
       <h3>Signals on this chart <span class="hint">1h rules, last ~187 days</span></h3>
@@ -380,6 +401,51 @@
         <div><b>3 · Verdict</b><span class="small muted">🟡 → 300 USDT simulation → you decide · 🔴 dropped</span></div></div>
     </section>
     <details class="card"><summary>Discovery log (latest runs)</summary><pre id="blDisc" class="inc-log"></pre></details>
+  </div>
+</main>
+
+<main id="view-support" class="view">
+  <div class="page">
+    <div class="page-head">
+      <div><div class="eyebrow">Suggestions only · nothing is traded · you decide</div><h1>Spot support</h1>
+        <p class="muted">Scans every universe coin with a Binance spot /USDT pair (no memes except DOGE) and ranks the ones sitting just above a strong support: a level built from daily swing lows that held at least twice, at least 2 weeks apart. A pick needs the price within 1 daily ATR of that level, the next resistance at least 1.5× as far away as the stop, and enough volume. This is a ranking rule, <b>not a tested strategy</b>. Every pick is logged and scored afterwards (below), so its real record builds up here.</p></div>
+      <div class="live-head-r"><span id="spAt" class="small muted mono"></span><button id="spRefresh" class="chip">↻ Scan now</button></div>
+    </div>
+    <div id="spStrip" class="fwd-strip"><div class="empty">scanning…</div></div>
+    <div id="spTop" class="sp-grid"></div>
+    <section class="card wide">
+      <div class="card-head"><h3>Every coin at support now</h3><span class="small muted">within 1 ATR of a level that held twice · ✓ = passes every filter for the top list · click a coin for its chart</span></div>
+      <div class="table-wrap"><table id="spNear"></table></div>
+    </section>
+    <section class="card wide">
+      <div class="card-head"><h3>How past picks did</h3><span id="spLogHead" class="small muted"></span></div>
+      <div class="table-wrap"><table id="spLog"></table></div>
+    </section>
+    <p id="spSkipped" class="small muted"></p>
+  </div>
+</main>
+
+<main id="view-scalps" class="view">
+  <div class="page">
+    <div class="page-head">
+      <div><div class="eyebrow">Alerts only · nothing is traded · you decide</div><h1>Scalps</h1>
+        <p class="muted">Scalp rules on 5-minute candles for the 19 coins, long and short, only on bear days (BTC 20-day return ≤ 0). A rule alerts (Windows toast) only after it made money in both halves of 2024-02 → 2026-09 after 0.14% costs and stayed &gt; 0 at double costs. Every alert is also paper-traded, and only live data decides whether a rule stays.</p></div>
+      <div class="live-head-r"><button id="scRefresh" class="chip">↻ Refresh</button></div>
+    </div>
+    <div id="scStrip" class="fwd-strip"></div>
+    <section class="card wide">
+      <div class="card-head"><h3>Open scalps now (paper)</h3><span class="small muted">🧪 = rule not yet proven on live data · stop is checked before target inside a candle</span></div>
+      <div class="table-wrap"><table id="scOpen"></table></div>
+    </section>
+    <section class="card wide">
+      <div class="card-head"><h3>Rules sending alerts</h3>
+        <span class="small muted">Verdict after ≥ 60 closed trades on ≥ 10 days: day-avg ≤ 0 → 🔴 killed (alerts stop) · day-avg &gt; 0, t ≥ 2.5, 2× costs &gt; 0 → 🟡 pass · 120 days without a verdict → ⚪ expired</span></div>
+      <div class="table-wrap"><table id="scRules"></table></div>
+    </section>
+    <section class="card wide">
+      <div class="card-head"><h3>Every rule screened</h3><span class="small muted">history 2024-02 → 2026-09, bear days only, after costs · half A before 2025-06, half B after</span></div>
+      <div class="table-wrap"><table id="scScreens"></table></div>
+    </section>
   </div>
 </main>
 
